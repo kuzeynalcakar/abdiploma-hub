@@ -5,12 +5,15 @@ from __future__ import annotations
 import hashlib
 import hmac
 import json
+import logging
 import time
 from base64 import urlsafe_b64decode, urlsafe_b64encode
 
 from fastapi import HTTPException, Request, Response
 
 from app.core.config import settings
+
+logger = logging.getLogger("albertaprep")
 
 COOKIE_NAME = "albertaprep_guest_quiz"
 # Guest quizzes are short-lived practice sessions.
@@ -67,6 +70,14 @@ def parse_guest_quiz_token(token: str) -> set[int]:
 
 def set_guest_quiz_cookie(response: Response, question_ids: list[int]) -> None:
     token = issue_guest_quiz_token(question_ids)
+    logger.debug(
+        "Setting guest quiz cookie name=%s secure=%s samesite=%s path=%s max_age=%s",
+        COOKIE_NAME,
+        settings.cookie_secure,
+        settings.cookie_samesite,
+        "/",
+        DEFAULT_TTL_SECONDS,
+    )
     response.set_cookie(
         key=COOKIE_NAME,
         value=token,
@@ -79,6 +90,8 @@ def set_guest_quiz_cookie(response: Response, question_ids: list[int]) -> None:
 
 
 def require_guest_question(request: Request, question_id: int) -> None:
+    logger = logging.getLogger("albertaprep")
+    logger.debug("Guest quiz grading incoming request cookie names=%s", list(request.cookies.keys()))
     token = request.cookies.get(COOKIE_NAME)
     if not token:
         raise HTTPException(

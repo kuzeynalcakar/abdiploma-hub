@@ -1,6 +1,6 @@
 from datetime import timezone
 
-
+import logging
 
 from fastapi import Depends, HTTPException, Request
 
@@ -53,6 +53,9 @@ def extract_raw_session_token(
 ) -> str | None:
 
     """Prefer Authorization Bearer, then HttpOnly session cookie."""
+
+    logger = logging.getLogger("albertaprep")
+    logger.debug("Incoming request cookie names=%s", list(request.cookies.keys()))
 
     if credentials is not None and credentials.credentials:
 
