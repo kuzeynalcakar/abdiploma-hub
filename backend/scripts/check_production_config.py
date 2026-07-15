@@ -45,12 +45,6 @@ def main() -> int:
     if settings.enable_api_docs:
         errors.append("ENABLE_API_DOCS must be false in production")
 
-    if not settings.cookie_secure:
-        errors.append(
-            "Secure cookies are off — unset AUTH_COOKIE_SECURE or set AUTH_COOKIE_SECURE=true "
-            "(required when ENVIRONMENT=production)"
-        )
-
     if not settings.hsts_enabled:
         warnings.append("HSTS is disabled — enable unless TLS terminator already sends it")
 
@@ -91,7 +85,6 @@ def main() -> int:
 
     print("=== ABDiploma Hub production configuration check ===")
     print(f"environment={settings.environment}")
-    print(f"cookie_secure={settings.cookie_secure}")
     print(f"hsts_enabled={settings.hsts_enabled}")
     print(f"enable_api_docs={settings.enable_api_docs}")
     print(f"structured_logging={settings.structured_logging or settings.is_production}")

@@ -130,7 +130,7 @@ def verify_quiz_api() -> list[str]:
                 ),
                 timeout=10,
             ).read()
-        )["token"]
+        )["access_token"]
         headers = {"Authorization": f"Bearer {token}"}
         bio = next(
             c

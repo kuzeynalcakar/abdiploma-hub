@@ -108,11 +108,9 @@ class UserOut(BaseModel):
 
 class AuthResponse(BaseModel):
 
-    # Returned for API/script clients. Browser clients should rely on the
+    # Opaque session token — clients send it as Authorization: Bearer.
 
-    # HttpOnly cookie and must not persist this value in localStorage.
-
-    token: str
+    access_token: str
 
     user: UserOut
 

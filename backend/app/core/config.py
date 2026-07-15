@@ -39,12 +39,6 @@ class Settings(BaseSettings):
     # Session lifetime (hours). Expired sessions are rejected and deleted.
     session_ttl_hours: int = 168  # 7 days
 
-    # HttpOnly session cookie (same-origin SPA via reverse proxy / Vite proxy).
-    auth_cookie_name: str = "albertaprep_session"
-    # When None, Secure is True automatically if ENVIRONMENT=production.
-    auth_cookie_secure: bool | None = None
-    auth_cookie_samesite: str | None = None  # lax | strict | none; defaults to none in production, lax in development if unset
-
     # In-process rate limits (also configure at reverse proxy in production).
     rate_limit_enabled: bool = True
     rate_limit_auth_per_minute: int = 10
@@ -60,7 +54,7 @@ class Settings(BaseSettings):
     # Max JSON request body size in bytes (default 64 KiB).
     max_request_body_bytes: int = 65_536
 
-    # Optional HMAC secret for guest quiz binding cookies (falls back to SECRET_KEY).
+    # Optional HMAC secret for guest quiz tokens (falls back to SECRET_KEY).
     guest_quiz_signing_secret: str | None = None
 
     # Observability
@@ -84,7 +78,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    @field_validator("auth_cookie_secure", "enable_hsts", mode="before")
+    @field_validator("enable_hsts", mode="before")
     @classmethod
     def empty_optional_bool(cls, value):
         if value is None or value == "":
@@ -103,25 +97,6 @@ class Settings(BaseSettings):
     @classmethod
     def normalize_database_url(cls, value: str) -> str:
         return _resolve_sqlite_url(value)
-
-    @field_validator("auth_cookie_samesite", mode="before")
-    @classmethod
-    def normalize_samesite(cls, value: str | None) -> str | None:
-        if value is None:
-            return None
-        normalized = str(value).strip().lower()
-        if normalized in {"", "none", "null"}:
-            return None
-        allowed = {"lax", "strict", "none"}
-        if normalized not in allowed:
-            return "lax"
-        return normalized
-
-    @property
-    def cookie_samesite(self) -> str:
-        if self.auth_cookie_samesite is not None:
-            return self.auth_cookie_samesite
-        return "none" if self.is_production else "lax"
 
     @field_validator("session_ttl_hours", mode="before")
     @classmethod
@@ -170,13 +145,6 @@ class Settings(BaseSettings):
     @property
     def is_production(self) -> bool:
         return self.environment == "production"
-
-    @property
-    def cookie_secure(self) -> bool:
-        """Secure cookies: on in production unless AUTH_COOKIE_SECURE is explicitly false."""
-        if self.auth_cookie_secure is not None:
-            return bool(self.auth_cookie_secure)
-        return self.is_production
 
     @property
     def hsts_enabled(self) -> bool:

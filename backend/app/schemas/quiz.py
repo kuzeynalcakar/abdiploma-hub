@@ -53,3 +53,9 @@ class QuestionListResponse(BaseModel):
     partial_fulfillment: bool = False
     questions: list[QuestionOut]
 
+
+class GuestQuestionListResponse(QuestionListResponse):
+    """Guest quiz fetch includes a signed token for subsequent grading."""
+
+    guest_token: str
+

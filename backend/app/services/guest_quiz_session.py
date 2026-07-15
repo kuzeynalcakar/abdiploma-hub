@@ -5,17 +5,13 @@ from __future__ import annotations
 import hashlib
 import hmac
 import json
-import logging
 import time
 from base64 import urlsafe_b64decode, urlsafe_b64encode
 
-from fastapi import HTTPException, Request, Response
+from fastapi import HTTPException
 
 from app.core.config import settings
 
-logger = logging.getLogger("albertaprep")
-
-COOKIE_NAME = "albertaprep_guest_quiz"
 # Guest quizzes are short-lived practice sessions.
 DEFAULT_TTL_SECONDS = 2 * 60 * 60  # 2 hours
 
@@ -23,7 +19,7 @@ DEFAULT_TTL_SECONDS = 2 * 60 * 60  # 2 hours
 def _signing_key() -> bytes:
     secret = settings.signing_secret()
     if not secret:
-        # Deterministic fallback so single-process restarts keep cookies valid.
+        # Deterministic fallback so single-process restarts keep tokens valid.
         # Operators must set SECRET_KEY or GUEST_QUIZ_SIGNING_SECRET in production.
         material = f"{settings.app_name}:{settings.database_url}:guest-quiz"
         secret = hashlib.sha256(material.encode("utf-8")).hexdigest()
@@ -68,40 +64,15 @@ def parse_guest_quiz_token(token: str) -> set[int]:
         ) from exc
 
 
-def set_guest_quiz_cookie(response: Response, question_ids: list[int]) -> None:
-    token = issue_guest_quiz_token(question_ids)
-    logger.info(
-        "Setting guest quiz cookie name=%s secure=%s samesite=%s path=%s max_age=%s",
-        COOKIE_NAME,
-        settings.cookie_secure,
-        settings.cookie_samesite,
-        "/",
-        DEFAULT_TTL_SECONDS,
-    )
-    response.set_cookie(
-        key=COOKIE_NAME,
-        value=token,
-        httponly=True,
-        secure=settings.cookie_secure,
-        samesite=settings.cookie_samesite,
-        path="/",
-        max_age=DEFAULT_TTL_SECONDS,
-    )
-
-
-def require_guest_question(request: Request, question_id: int) -> None:
-    logger = logging.getLogger("albertaprep")
-    logger.info("Guest quiz grading incoming request cookie names=%s", list(request.cookies.keys()))
-    token = request.cookies.get(COOKIE_NAME)
-    if not token:
+def require_guest_question(guest_token: str | None, question_id: int) -> None:
+    if not guest_token:
         raise HTTPException(
             status_code=401,
             detail="Guest quiz session required. Start a quiz before grading.",
         )
-    allowed = parse_guest_quiz_token(token)
+    allowed = parse_guest_quiz_token(guest_token)
     if int(question_id) not in allowed:
         raise HTTPException(
             status_code=403,
             detail="That question is not part of your current guest quiz.",
         )
-

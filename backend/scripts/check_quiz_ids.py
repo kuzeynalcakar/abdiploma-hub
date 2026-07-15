@@ -13,7 +13,7 @@ token = json.loads(
             method="POST",
         )
     ).read()
-)["token"]
+)["access_token"]
 h = {"Authorization": f"Bearer {token}"}
 bio = next(
     c

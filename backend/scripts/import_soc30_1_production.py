@@ -233,14 +233,11 @@ def verify_soc30_1_counts(conn: sqlite3.Connection) -> list[str]:
 
 
 class _ApiClient:
-    """urllib client with optional bearer token + cookie jar (guest quiz)."""
+    """urllib client with optional bearer token (guest quiz uses guest_token in body)."""
 
     def __init__(self, token: str | None = None):
-        import http.cookiejar
-
         self.token = token
-        self.jar = http.cookiejar.CookieJar()
-        self.opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(self.jar))
+        self.opener = urllib.request.build_opener()
 
     def request(
         self,
@@ -283,7 +280,7 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> tuple[list[str], dict]:
                 "password": "testpass123",
             },
             use_token=False,
-        )["token"]
+        )["access_token"]
         client.token = token
         details["api_available"] = True
 
@@ -375,7 +372,7 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> tuple[list[str], dict]:
         except Exception as exc:
             issues.append(f"/weakness-map failed: {exc}")
 
-        # Guest grade requires cookie from /quiz/guest/questions
+        # Guest grade requires guest_token from /quiz/guest/questions
         try:
             details["guest_mc_grade"] = None
             details["guest_nr_grade"] = None
@@ -386,8 +383,9 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> tuple[list[str], dict]:
                     use_token=False,
                 )
                 guest_qs = guest_quiz.get("questions", [])
+                guest_token = guest_quiz.get("guest_token")
                 details["guest_questions_returned"] = len(guest_qs)
-                if not guest_qs:
+                if not guest_qs or not guest_token:
                     continue
                 guest_ids = {q["id"] for q in guest_qs}
 
@@ -409,6 +407,7 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> tuple[list[str], dict]:
                             "/quiz/guest/grade",
                             method="POST",
                             data={
+                                "guest_token": guest_token,
                                 "question_id": sample_mc[0],
                                 "answer_choice_id": sample_mc[1],
                             },
@@ -433,6 +432,7 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> tuple[list[str], dict]:
                             "/quiz/guest/grade",
                             method="POST",
                             data={
+                                "guest_token": guest_token,
                                 "question_id": sample_nr[0],
                                 "response_text": str(sample_nr[1]),
                             },

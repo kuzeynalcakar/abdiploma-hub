@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, Query, Request, Response
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session, selectinload
 
 from app.core.deps import get_current_user
@@ -6,8 +6,13 @@ from app.core.rate_limit import rate_limit_public
 from app.database.session import get_db
 from app.models import AnswerChoice, Question, QuizAttempt, User
 from app.schemas.guest import GuestGradeRequest, GuestGradeResult
-from app.schemas.quiz import AvailableCountResponse, QuestionListResponse, QuestionOut
-from app.services.guest_quiz_session import require_guest_question, set_guest_quiz_cookie
+from app.schemas.quiz import (
+    AvailableCountResponse,
+    GuestQuestionListResponse,
+    QuestionListResponse,
+    QuestionOut,
+)
+from app.services.guest_quiz_session import issue_guest_quiz_token, require_guest_question
 from app.services.quiz_questions import fetch_quiz_questions, count_matching_questions
 from app.services.quiz_serialize import safe_questions_out
 
@@ -110,9 +115,8 @@ def get_quiz_questions(
     )
 
 
-@router.get("/guest/questions", response_model=QuestionListResponse)
+@router.get("/guest/questions", response_model=GuestQuestionListResponse)
 def get_guest_quiz_questions(
-    response: Response,
     course_id: int,
     topic_ids: list[int] | None = Query(None),
     difficulty: str | None = None,
@@ -121,7 +125,7 @@ def get_guest_quiz_questions(
 ):
     """Public quiz questions for guests — no attempt persisted.
 
-    Issues an HttpOnly cookie binding /guest/grade to these question IDs.
+    Returns a signed guest_token binding /guest/grade to these question IDs.
     """
     course, questions, meta = fetch_quiz_questions(
         db,
@@ -132,9 +136,7 @@ def get_guest_quiz_questions(
     )
 
     safe = _safe_questions(questions)
-    set_guest_quiz_cookie(response, [q.id for q in safe])
-
-    return _quiz_response(
+    payload = _quiz_response(
         course,
         safe,
         meta,
@@ -142,19 +144,20 @@ def get_guest_quiz_questions(
         course_id=course_id,
         topic_id=None,
     )
+    payload["guest_token"] = issue_guest_quiz_token([q.id for q in safe])
+    return payload
 
 
 @router.post("/guest/grade", response_model=GuestGradeResult)
 def grade_guest_answer(
-    request: Request,
     submission: GuestGradeRequest,
     db: Session = Depends(get_db),
     _: None = Depends(rate_limit_public),
 ):
-    """Grade a guest answer. Requires cookie from /guest/questions."""
+    """Grade a guest answer. Requires guest_token from /guest/questions."""
     from app.services.answer_grading import grade_answer
 
-    require_guest_question(request, submission.question_id)
+    require_guest_question(submission.guest_token, submission.question_id)
 
     question = (
         db.query(Question)

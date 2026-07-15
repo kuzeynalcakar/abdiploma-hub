@@ -258,7 +258,7 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> list[str]:
             "/auth/register",
             method="POST",
             data={"name": "Chem30 Import Verify", "email": email, "password": "testpass123"},
-        )["token"]
+        )["access_token"]
         headers_token = token
 
         courses = api_request("/courses", token=headers_token)["courses"]

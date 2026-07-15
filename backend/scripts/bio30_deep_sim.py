@@ -35,7 +35,7 @@ token = api("POST", "/auth/register", body={
     "name": "Bio Deep Sim",
     "email": f"bio.deep.{random.randint(100000,999999)}@example.com",
     "password": "testpass123",
-})["token"]
+})["access_token"]
 
 courses = api("GET", "/courses", token=token)
 bio = next(c for c in courses["courses"] if c["code"] == "BIO30")

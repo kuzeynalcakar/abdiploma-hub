@@ -9,7 +9,7 @@ req = urllib.request.Request(
     headers={"Content-Type": "application/json"},
     method="POST",
 )
-token = json.loads(urllib.request.urlopen(req).read())["token"]
+token = json.loads(urllib.request.urlopen(req).read())["access_token"]
 h = {"Authorization": f"Bearer {token}"}
 
 courses = json.loads(urllib.request.urlopen(urllib.request.Request(BASE + "/courses", headers=h)).read())

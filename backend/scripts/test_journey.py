@@ -52,7 +52,7 @@ def main() -> int:
         "/auth/register",
         body={"name": "Journey Test", "email": email, "password": password},
     )
-    token = reg["token"]
+    token = reg["access_token"]
     print("1. Registered:", email)
 
     courses = req("GET", "/courses")["courses"]

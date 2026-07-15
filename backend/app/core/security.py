@@ -12,7 +12,7 @@ database so logout can revoke them immediately.
 
 Session secrets are never stored plaintext: only SHA-256 hashes are
 
-persisted. Clients hold the raw token (HttpOnly cookie and/or Bearer).
+persisted. Clients hold the raw token and send it as Authorization: Bearer.
 
 """
 

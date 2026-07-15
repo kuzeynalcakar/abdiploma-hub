@@ -229,7 +229,7 @@ def verify_api_endpoints(conn: sqlite3.Connection) -> tuple[list[str], dict]:
             "/auth/register",
             method="POST",
             data={"name": "SCI10 Import Verify", "email": email, "password": "testpass123"},
-        )["token"]
+        )["access_token"]
 
         courses = api_request("/courses", token=token)["courses"]
         sci = next((c for c in courses if c["code"] == "SCI10"), None)

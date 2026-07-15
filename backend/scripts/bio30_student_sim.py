@@ -42,7 +42,7 @@ def api(method: str, path: str, token: str | None = None, body=None):
 def register() -> str:
     email = f"bio.sim.{random.randint(100000, 999999)}@example.com"
     _, data = api("POST", "/auth/register", body={"name": "Bio Sim Student", "email": email, "password": "testpass123"})
-    return data["token"]
+    return data["access_token"]
 
 
 def verify_mc_keys(db):

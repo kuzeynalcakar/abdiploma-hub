@@ -106,6 +106,8 @@ class ApiSecurityTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200, response.text)
         body = response.json()
         self.assertIn("questions", body)
+        self.assertIn("guest_token", body)
+        self.assertTrue(body["guest_token"])
         self.assertGreater(len(body["questions"]), 0)
         _assert_no_answer_leak(body)
         for question in body["questions"]:
@@ -113,10 +115,10 @@ class ApiSecurityTests(unittest.TestCase):
                 self.assertEqual(set(choice.keys()), {"id", "label"})
 
     def test_guest_grade_without_session_rejected(self):
-        self.client.cookies.clear()
         response = self.client.post(
             "/api/v1/quiz/guest/grade",
             json={
+                "guest_token": "",
                 "question_id": self.question_id,
                 "response_text": "42",
             },
@@ -124,24 +126,40 @@ class ApiSecurityTests(unittest.TestCase):
         self.assertEqual(response.status_code, 401)
         self.assertNotIn("correct", response.json()["detail"].lower())
 
+    def test_guest_grade_without_token_rejected(self):
+        response = self.client.post(
+            "/api/v1/quiz/guest/grade",
+            json={
+                "question_id": self.question_id,
+                "response_text": "42",
+            },
+        )
+        self.assertEqual(response.status_code, 422)
+
     def test_guest_grade_after_fetch_returns_intended_feedback_only(self):
-        self.client.cookies.clear()
         fetch = self.client.get(
             f"/api/v1/quiz/guest/questions?course_id={self.course_id}&count=2"
         )
         self.assertEqual(fetch.status_code, 200)
-        question = fetch.json()["questions"][0]
+        fetch_body = fetch.json()
+        guest_token = fetch_body["guest_token"]
+        question = fetch_body["questions"][0]
         qid = question["id"]
 
         # Prefer MC choice if present; else textual answer
         body: dict
         if question.get("choices"):
             body = {
+                "guest_token": guest_token,
                 "question_id": qid,
                 "answer_choice_id": question["choices"][0]["id"],
             }
         else:
-            body = {"question_id": qid, "response_text": "1"}
+            body = {
+                "guest_token": guest_token,
+                "question_id": qid,
+                "response_text": "1",
+            }
 
         grade = self.client.post("/api/v1/quiz/guest/grade", json=body)
         self.assertEqual(grade.status_code, 200, grade.text)
@@ -152,12 +170,13 @@ class ApiSecurityTests(unittest.TestCase):
         self.assertNotIn("password_hash", str(payload))
 
     def test_guest_cannot_grade_foreign_question_id(self):
-        self.client.cookies.clear()
         fetch = self.client.get(
             f"/api/v1/quiz/guest/questions?course_id={self.course_id}&count=1"
         )
         self.assertEqual(fetch.status_code, 200)
-        issued = {q["id"] for q in fetch.json()["questions"]}
+        fetch_body = fetch.json()
+        guest_token = fetch_body["guest_token"]
+        issued = {q["id"] for q in fetch_body["questions"]}
         # Pick an active question not in the issued set if possible
         db = SessionLocal()
         try:
@@ -173,13 +192,17 @@ class ApiSecurityTests(unittest.TestCase):
 
         response = self.client.post(
             "/api/v1/quiz/guest/grade",
-            json={"question_id": foreign.id, "response_text": "x"},
+            json={
+                "guest_token": guest_token,
+                "question_id": foreign.id,
+                "response_text": "x",
+            },
         )
         self.assertEqual(response.status_code, 403)
 
     def test_authenticated_quiz_fetch_does_not_leak_answers(self):
         auth = self._register()
-        token = auth["token"]
+        token = auth["access_token"]
         response = self.client.get(
             f"/api/v1/quiz/questions?course_id={self.course_id}&count=3",
             headers={"Authorization": f"Bearer {token}"},
@@ -310,8 +333,8 @@ class ApiSecurityTests(unittest.TestCase):
     def test_cross_user_cannot_read_other_attempt_results(self):
         user_a = self._register(email=_email("a"))
         user_b = self._register(email=_email("b"))
-        token_a = user_a["token"]
-        token_b = user_b["token"]
+        token_a = user_a["access_token"]
+        token_b = user_b["access_token"]
 
         quiz = self.client.get(
             f"/api/v1/quiz/questions?course_id={self.course_id}&count=1",
@@ -337,13 +360,13 @@ class ApiSecurityTests(unittest.TestCase):
         user_b = self._register(email=_email("fb"))
         quiz = self.client.get(
             f"/api/v1/quiz/questions?course_id={self.course_id}&count=1",
-            headers={"Authorization": f"Bearer {user_a['token']}"},
+            headers={"Authorization": f"Bearer {user_a['access_token']}"},
         )
         attempt_id = quiz.json()["quiz_attempt_id"]
 
         response = self.client.post(
             "/api/v1/feedback",
-            headers={"Authorization": f"Bearer {user_b['token']}"},
+            headers={"Authorization": f"Bearer {user_b['access_token']}"},
             json={
                 "course_id": self.course_id,
                 "quiz_attempt_id": attempt_id,
@@ -356,7 +379,7 @@ class ApiSecurityTests(unittest.TestCase):
         user = self._register(email=_email("fg"))
         quiz = self.client.get(
             f"/api/v1/quiz/questions?course_id={self.course_id}&count=1",
-            headers={"Authorization": f"Bearer {user['token']}"},
+            headers={"Authorization": f"Bearer {user['access_token']}"},
         )
         attempt_id = quiz.json()["quiz_attempt_id"]
         self.client.cookies.clear()
@@ -394,7 +417,7 @@ class ApiSecurityTests(unittest.TestCase):
         student = self._register(email=_email("stu"))
         response = self.client.get(
             "/api/v1/admin/overview",
-            headers={"Authorization": f"Bearer {student['token']}"},
+            headers={"Authorization": f"Bearer {student['access_token']}"},
         )
         self.assertEqual(response.status_code, 403)
 

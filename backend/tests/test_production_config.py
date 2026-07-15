@@ -1,4 +1,4 @@
-"""Production defaults: secure cookies, HSTS, docs off."""
+"""Production defaults: HSTS, docs off, signing secret."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from app.main import app
 
 
 class ProductionConfigTests(unittest.TestCase):
-    def test_cookie_secure_auto_on_in_production(self):
+    def test_production_defaults(self):
         with mock.patch.dict(
             os.environ,
             {
@@ -24,45 +24,24 @@ class ProductionConfigTests(unittest.TestCase):
             },
             clear=False,
         ):
-            os.environ.pop("AUTH_COOKIE_SECURE", None)
             os.environ.pop("ENABLE_HSTS", None)
             from app.core.config import Settings
 
             s = Settings(_env_file=None)
             self.assertTrue(s.is_production)
-            self.assertTrue(s.cookie_secure)
             self.assertTrue(s.hsts_enabled)
             self.assertFalse(s.enable_api_docs)
 
-    def test_cookie_samesite_defaults_to_none_in_production(self):
+    def test_hsts_off_in_development(self):
         with mock.patch.dict(
             os.environ,
-            {
-                "ENVIRONMENT": "production",
-                "SECRET_KEY": "x" * 40,
-                "FRONTEND_URL": "https://abdiplomahub.com",
-                "ENABLE_API_DOCS": "false",
-            },
+            {"ENVIRONMENT": "development", "ENABLE_HSTS": "false"},
             clear=False,
         ):
-            os.environ.pop("AUTH_COOKIE_SAMESITE", None)
-            from app.core.config import Settings
-
-            s = Settings(_env_file=None)
-            self.assertEqual(s.cookie_samesite, "none")
-
-    def test_cookie_secure_off_in_development(self):
-        with mock.patch.dict(
-            os.environ,
-            {"ENVIRONMENT": "development", "AUTH_COOKIE_SECURE": "false"},
-            clear=False,
-        ):
-            os.environ.pop("ENABLE_HSTS", None)
             from app.core.config import Settings
 
             s = Settings(_env_file=None)
             self.assertFalse(s.is_production)
-            self.assertFalse(s.cookie_secure)
             self.assertFalse(s.hsts_enabled)
 
     def test_signing_secret_prefers_guest_then_secret_key(self):

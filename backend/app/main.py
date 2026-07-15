@@ -56,13 +56,10 @@ app.add_middleware(
 )
 
 logger.info(
-    "Runtime settings: environment=%s frontend_url=%s cors_origins=%s auth_cookie_name=%s cookie_secure=%s cookie_samesite=%s",
+    "Runtime settings: environment=%s frontend_url=%s cors_origins=%s",
     settings.environment,
     settings.frontend_url,
     _cors_origins,
-    settings.auth_cookie_name,
-    settings.cookie_secure,
-    settings.cookie_samesite,
 )
 
 app.add_middleware(RequestLoggingMiddleware)

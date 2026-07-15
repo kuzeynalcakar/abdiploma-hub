@@ -418,7 +418,10 @@ function Quiz() {
       if (isGuest) {
         const result = await api('/quiz/guest/grade', {
           method: 'POST',
-          body: payload,
+          body: {
+            guest_token: quiz.guest_token,
+            ...payload,
+          },
         })
         const answered = guestAnswers.length + 1
         const total = quiz.question_count ?? quiz.questions.length

@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, Request, Response
+from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
@@ -14,7 +14,6 @@ from app.core.security import (
     session_expiry,
     verify_password,
 )
-from app.core.session_cookie import clear_session_cookie, set_session_cookie
 from app.database.session import get_db
 from app.models import User, UserSession
 from app.schemas.auth import (
@@ -54,7 +53,6 @@ def _open_session(db: Session, user: User) -> str:
 @router.post("/register", response_model=AuthResponse, status_code=201)
 def register(
     payload: RegisterRequest,
-    response: Response,
     db: Session = Depends(get_db),
     _: None = Depends(rate_limit_auth),
 ):
@@ -83,14 +81,12 @@ def register(
             detail="An account with this email already exists. Try logging in.",
         )
     token = _open_session(db, user)
-    set_session_cookie(response, token)
-    return {"token": token, "user": _user_payload(user)}
+    return {"access_token": token, "user": _user_payload(user)}
 
 
 @router.post("/login", response_model=AuthResponse)
 def login(
     payload: LoginRequest,
-    response: Response,
     db: Session = Depends(get_db),
     _: None = Depends(rate_limit_auth),
 ):
@@ -104,14 +100,12 @@ def login(
         )
 
     token = _open_session(db, user)
-    set_session_cookie(response, token)
-    return {"token": token, "user": _user_payload(user)}
+    return {"access_token": token, "user": _user_payload(user)}
 
 
 @router.post("/logout", status_code=204)
 def logout(
     request: Request,
-    response: Response,
     credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),
     db: Session = Depends(get_db),
 ):
@@ -120,7 +114,6 @@ def logout(
         token_hash = hash_session_token(raw)
         db.query(UserSession).filter(UserSession.token == token_hash).delete()
         db.commit()
-    clear_session_cookie(response)
 
 
 @router.get("/me", response_model=UserOut)

@@ -4,6 +4,7 @@ MAX_RESPONSE_TEXT_LENGTH = 2000
 
 
 class GuestGradeRequest(BaseModel):
+    guest_token: str
     question_id: int
     answer_choice_id: int | None = None
     response_text: str | None = Field(None, max_length=MAX_RESPONSE_TEXT_LENGTH)
