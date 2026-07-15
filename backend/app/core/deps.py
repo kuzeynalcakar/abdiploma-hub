@@ -55,7 +55,7 @@ def extract_raw_session_token(
     """Prefer Authorization Bearer, then HttpOnly session cookie."""
 
     logger = logging.getLogger("albertaprep")
-    logger.debug("Incoming request cookie names=%s", list(request.cookies.keys()))
+    logger.info("Incoming request cookie names=%s", list(request.cookies.keys()))
 
     if credentials is not None and credentials.credentials:
 

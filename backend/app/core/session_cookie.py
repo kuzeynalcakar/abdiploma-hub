@@ -12,7 +12,7 @@ logger = logging.getLogger("albertaprep")
 
 
 def set_session_cookie(response: Response, raw_token: str) -> None:
-    logger.debug(
+    logger.info(
         "Setting session cookie name=%s secure=%s samesite=%s path=%s max_age=%s",
         settings.auth_cookie_name,
         settings.cookie_secure,
@@ -32,7 +32,7 @@ def set_session_cookie(response: Response, raw_token: str) -> None:
 
 
 def clear_session_cookie(response: Response) -> None:
-    logger.debug(
+    logger.info(
         "Clearing session cookie name=%s secure=%s samesite=%s path=%s",
         settings.auth_cookie_name,
         settings.cookie_secure,

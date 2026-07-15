@@ -70,7 +70,7 @@ def parse_guest_quiz_token(token: str) -> set[int]:
 
 def set_guest_quiz_cookie(response: Response, question_ids: list[int]) -> None:
     token = issue_guest_quiz_token(question_ids)
-    logger.debug(
+    logger.info(
         "Setting guest quiz cookie name=%s secure=%s samesite=%s path=%s max_age=%s",
         COOKIE_NAME,
         settings.cookie_secure,
@@ -91,7 +91,7 @@ def set_guest_quiz_cookie(response: Response, question_ids: list[int]) -> None:
 
 def require_guest_question(request: Request, question_id: int) -> None:
     logger = logging.getLogger("albertaprep")
-    logger.debug("Guest quiz grading incoming request cookie names=%s", list(request.cookies.keys()))
+    logger.info("Guest quiz grading incoming request cookie names=%s", list(request.cookies.keys()))
     token = request.cookies.get(COOKIE_NAME)
     if not token:
         raise HTTPException(
