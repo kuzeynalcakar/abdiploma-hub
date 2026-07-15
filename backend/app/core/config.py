@@ -43,7 +43,7 @@ class Settings(BaseSettings):
     auth_cookie_name: str = "albertaprep_session"
     # When None, Secure is True automatically if ENVIRONMENT=production.
     auth_cookie_secure: bool | None = None
-    auth_cookie_samesite: str = "lax"  # lax | strict | none
+    auth_cookie_samesite: str | None = None  # lax | strict | none; defaults to none in production, lax in development if unset
 
     # In-process rate limits (also configure at reverse proxy in production).
     rate_limit_enabled: bool = True
@@ -106,12 +106,22 @@ class Settings(BaseSettings):
 
     @field_validator("auth_cookie_samesite", mode="before")
     @classmethod
-    def normalize_samesite(cls, value: str) -> str:
+    def normalize_samesite(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        normalized = str(value).strip().lower()
+        if normalized in {"", "none", "null"}:
+            return None
         allowed = {"lax", "strict", "none"}
-        normalized = str(value or "lax").strip().lower()
         if normalized not in allowed:
             return "lax"
         return normalized
+
+    @property
+    def cookie_samesite(self) -> str:
+        if self.auth_cookie_samesite is not None:
+            return self.auth_cookie_samesite
+        return "none" if self.is_production else "lax"
 
     @field_validator("session_ttl_hours", mode="before")
     @classmethod

@@ -13,7 +13,7 @@ def set_session_cookie(response: Response, raw_token: str) -> None:
         value=raw_token,
         httponly=True,
         secure=settings.cookie_secure,
-        samesite=settings.auth_cookie_samesite,
+        samesite=settings.cookie_samesite,
         path="/",
         max_age=int(settings.session_ttl_hours * 3600),
     )
@@ -25,6 +25,6 @@ def clear_session_cookie(response: Response) -> None:
         path="/",
         httponly=True,
         secure=settings.cookie_secure,
-        samesite=settings.auth_cookie_samesite,
+        samesite=settings.cookie_samesite,
     )
 

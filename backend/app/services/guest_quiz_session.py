@@ -72,7 +72,7 @@ def set_guest_quiz_cookie(response: Response, question_ids: list[int]) -> None:
         value=token,
         httponly=True,
         secure=settings.cookie_secure,
-        samesite=settings.auth_cookie_samesite,
+        samesite=settings.cookie_samesite,
         path="/",
         max_age=DEFAULT_TTL_SECONDS,
     )
