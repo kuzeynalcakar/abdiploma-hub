@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-07-14T05:22:51.804850+00:00",
+  "verdict": "TRUSTWORTHY",
+  "course_complete": true,
+  "final_issues": 0,
+  "passes": 2,
+  "total": 300,
+  "mc_total": 211,
+  "nr_total": 89,
+  "mc_ok": 211,
+  "nr_ok": 89,
+  "db_active": 300,
+  "first_pass_total": 126,
+  "first_pass_counts": {
+    "ai_generated_feel": 125,
+    "weak_distractors": 1
+  },
+  "fix_stats": {
+    "explanations_improved": 84,
+    "skill_tags_removed": 37,
+    "prefixes_removed": 4,
+    "distractors_fixed": 1,
+    "explanations_deduped": 4,
+    "generic_nr_explanations_rewritten": 63
+  },
+  "trust_gate": {
+    "No confirmed answer key errors": "PASS",
+    "No NR calculation errors": "PASS",
+    "No duplicate stems within SCI30": "PASS",
+    "No repeated calculation templates (>2)": "PASS",
+    "No grading ambiguity": "PASS",
+    "No DB grading failures": "PASS",
+    "No weak distractors": "PASS",
+    "No AI-generated feel": "PASS",
+    "No factual errors": "PASS",
+    "No curriculum inconsistencies": "PASS",
+    "JSON/DB count match (300)": "PASS",
+    "All topics student-trustworthy": "PASS"
+  }
+}

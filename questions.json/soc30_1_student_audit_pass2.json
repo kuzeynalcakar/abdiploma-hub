@@ -1,0 +1,44 @@
+{
+  "ai_tells": {
+    "distractor_overuse_gt2": 21,
+    "answer_overuse_gt3": 2
+  },
+  "stem_families": {
+    "stem_prefix::A student summary stating that": 4,
+    "stem_prefix::Which label best fits": 6,
+    "stem_prefix::Measured against liberal principles": 1,
+    "stem_prefix::Against liberal criteria of rights": 1,
+    "stem_prefix::An editorial claims that": 1,
+    "stem_prefix::Compared with liberal market principles": 1,
+    "stem_prefix::Relative to principles of liberalism,": 1
+  },
+  "solve_sample_n": 45,
+  "solve_sample_bad": [],
+  "distractor_overuse_gt2": [
+    "52\u00d7 that liberalism is irrelevant to the issue raised in 3.5k",
+    "36\u00d7 that liberalism is irrelevant to the issue raised in 2.9k",
+    "28\u00d7 that liberalism is irrelevant to the issue raised in 3.8k",
+    "27\u00d7 that liberalism is irrelevant to the issue raised in 2.10k",
+    "19\u00d7 that liberalism is irrelevant to the issue raised in 3.6k",
+    "19\u00d7 that liberalism is irrelevant to the issue raised in 2.5k",
+    "16\u00d7 that liberalism is irrelevant to the issue raised in 2.11k",
+    "16\u00d7 that liberalism is irrelevant to the issue raised in 3.3k",
+    "13\u00d7 that liberalism is irrelevant to the issue raised in 3.9k",
+    "13\u00d7 that liberalism is irrelevant to the issue raised in 2.7k",
+    "11\u00d7 that liberalism is irrelevant to the issue raised in 2.12k",
+    "10\u00d7 that liberalism is irrelevant to the issue raised in 3.4k",
+    "10\u00d7 that liberalism is irrelevant to the issue raised in 4.7k",
+    "10\u00d7 that liberalism is irrelevant to the issue raised in 1.7k",
+    "10\u00d7 that liberalism is irrelevant to the issue raised in 1.6k",
+    "7\u00d7 that liberalism is irrelevant to the issue raised in 2.13k",
+    "4\u00d7 that liberalism is irrelevant to the issue raised in 3.7k",
+    "4\u00d7 that liberalism is irrelevant to the issue raised in 1.8k",
+    "4\u00d7 that liberalism is irrelevant to the issue raised in 1.9k",
+    "4\u00d7 that liberalism is irrelevant to the issue raised in 4.9k",
+    "3\u00d7 that liberalism is irrelevant to the issue raised in 2.8k"
+  ],
+  "answer_overuse_gt3": [
+    "4\u00d7 consistent with classical liberal origins in the program of studies",
+    "4\u00d7 a characteristic component of an ideology"
+  ]
+}

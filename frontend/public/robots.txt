@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /welcome
+Allow: /about
+Allow: /login
+Allow: /register
+
+# Private / authenticated product surfaces
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /quiz
+Disallow: /profile
+Disallow: /daily-practice
+Disallow: /weakness-map
+
+Sitemap: https://abdiplomahub.com/sitemap.xml

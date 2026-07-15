@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-07-15T01:34:10.877249+00:00",
+  "auditor_persona": "Alberta Grade 12 student preparing for Social Studies 30-1 diploma (Part B style MC/NR practice)",
+  "bank_size": 300,
+  "topics": {
+    "Citizenship and Ideology": 40,
+    "The Viability of Contemporary Liberalism": 92,
+    "Resistance to Liberalism": 70,
+    "Ideology and Identity": 48,
+    "Origins of Liberalism": 50
+  },
+  "types": {
+    "Multiple Choice": 277,
+    "Numerical Response": 23
+  },
+  "difficulty": {
+    "Hard": 80,
+    "Medium": 115,
+    "Easy": 105
+  },
+  "gates": {
+    "confirmed_answer_key_errors": 0,
+    "grading_ambiguity": 0,
+    "exact_duplicates": 0,
+    "near_duplicates_jaccard_ge_0_92": 0,
+    "qa_residue_distractors": 0,
+    "distractor_reuse_gt_2": 0,
+    "max_distractor_reuse": 2,
+    "max_mc_answer_reuse": 3
+  },
+  "stratified_solve_n": 15,
+  "stratified_rejects": [],
+  "issue_sample": [],
+  "production_complete": true,
+  "student_trust": true,
+  "remaining_nonblocking_notes": [
+    "Some NR items are source-table value lookups (valid diploma skill; thinner ideology content).",
+    "A minority of stems use fictional classroom labels (Harbourview-style); common in Alberta practice materials.",
+    "Distractors remain patterned misconception statements; stronger than prior QA-residue, still not hand-authored Castor/ADLC quality on every item.",
+    "Bank is MC/NR only \u2014 Part A written response is out of scope."
+  ]
+}

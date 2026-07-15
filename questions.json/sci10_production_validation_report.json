@@ -1,0 +1,43 @@
+{
+  "total": 300,
+  "blocking_before": 4,
+  "blocking_after": 0,
+  "per_question_errors": 0,
+  "iterations": 2,
+  "before": {
+    "schema_errors": 0,
+    "missing_metadata": 0,
+    "duplicate_texts": 0,
+    "duplicate_explanations": 0,
+    "duplicate_calculations": 0,
+    "duplicate_distractors": 0,
+    "duplicate_answer_patterns": 2,
+    "invalid_outcome_codes": 0,
+    "invalid_skills": 0,
+    "invalid_explanations": 0,
+    "mc_key_errors": 0,
+    "mc_duplicate_choices": 0,
+    "nr_numeric_errors": 0,
+    "nr_calc_errors": 0,
+    "duplicate_templates": 0,
+    "repeated_skills": 2
+  },
+  "after": {
+    "schema_errors": 0,
+    "missing_metadata": 0,
+    "duplicate_texts": 0,
+    "duplicate_explanations": 0,
+    "duplicate_calculations": 0,
+    "duplicate_distractors": 0,
+    "duplicate_answer_patterns": 0,
+    "invalid_outcome_codes": 0,
+    "invalid_skills": 0,
+    "invalid_explanations": 0,
+    "mc_key_errors": 0,
+    "mc_duplicate_choices": 0,
+    "nr_numeric_errors": 0,
+    "nr_calc_errors": 0,
+    "duplicate_templates": 0,
+    "repeated_skills": 0
+  }
+}

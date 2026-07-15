@@ -1,0 +1,523 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF11",
+    "skill_tested": "Determine the degree and leading coefficient of a polynomial function from its equation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Determine the degree and the leading coefficient of the polynomial function $P(x) = 5x^2 - 2x^4 + 7x - 3$.",
+    "answer": "Degree: 4, Leading Coefficient: -2",
+    "choices": [
+      {
+        "text": "Degree: 4, Leading Coefficient: -2",
+        "is_correct": true
+      },
+      {
+        "text": "Degree: 2, Leading Coefficient: 5",
+        "is_correct": false
+      },
+      {
+        "text": "Degree: 4, Leading Coefficient: 5",
+        "is_correct": false
+      },
+      {
+        "text": "Degree: 3, Leading Coefficient: 7",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The degree of a polynomial is determined by its highest exponent, which is 4 in the term $-2x^4$. The leading coefficient is the coefficient of this highest-degree term, which is $-2$.",
+    "common_mistake": "Students often assume the first term written in the expression is the leading term, mistakenly choosing a degree of 2 and leading coefficient of 5.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF11",
+    "skill_tested": "Determine end behavior based on degree and leading coefficient",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Which of the following describes the end behavior of the graph of the polynomial function $f(x) = -3x^5 + 2x^3 - x + 4$?",
+    "answer": "The graph extends up into Quadrant II and down into Quadrant IV.",
+    "choices": [
+      {
+        "text": "The graph extends up into Quadrant II and down into Quadrant IV.",
+        "is_correct": true
+      },
+      {
+        "text": "The graph extends down into Quadrant III and up into Quadrant I.",
+        "is_correct": false
+      },
+      {
+        "text": "The graph extends up into Quadrant II and up into Quadrant I.",
+        "is_correct": false
+      },
+      {
+        "text": "The graph extends down into Quadrant III and down into Quadrant IV.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The polynomial has an odd degree (5) and a negative leading coefficient (-3). Therefore, as $x \\rightarrow \\infty$, $y \\rightarrow -\\infty$ (Quadrant IV), and as $x \\rightarrow -\\infty$, $y \\rightarrow \\infty$ (Quadrant II).",
+    "common_mistake": "Students often confuse the behavior of odd-degree polynomials with negative leading coefficients with those having positive leading coefficients, which rise from Quadrant III to Quadrant I.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF11",
+    "skill_tested": "Identify the maximum number of x-intercepts for a given degree",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "What is the maximum number of $x$-intercepts that the graph of a cubic polynomial function can possess?",
+    "answer": "3",
+    "choices": [
+      {
+        "text": "3",
+        "is_correct": true
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "4",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A polynomial function of degree $n$ has a maximum of $n$ distinct real roots, which correspond to a maximum of $n$ $x$-intercepts. Since a cubic function has a degree of 3, it can have at most 3 $x$-intercepts.",
+    "common_mistake": "Students sometimes confuse the number of turning points (which is at most $n-1 = 2$) with the maximum number of $x$-intercepts.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Apply the Remainder Theorem directly",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "When the polynomial $P(x) = x^3 - 3x^2 + 5x - 7$ is divided by $x - 2$, what is the remainder?",
+    "answer": "$-1$",
+    "choices": [
+      {
+        "text": "$-1$",
+        "is_correct": true
+      },
+      {
+        "text": "$-33$",
+        "is_correct": false
+      },
+      {
+        "text": "$15$",
+        "is_correct": false
+      },
+      {
+        "text": "$3$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "According to the Remainder Theorem, when a polynomial $P(x)$ is divided by $x - c$, the remainder is equal to $P(c)$. Here, $c = 2$. Evaluating $P(2) = (2)^3 - 3(2)^2 + 5(2) - 7 = 8 - 12 + 10 - 7 = -1$.",
+    "common_mistake": "Students frequently substitute $x = -2$ instead of $x = 2$ into the polynomial expression.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Apply the Factor Theorem to identify a factor",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 75,
+    "question_text": "Given that $P(-3) = 0$ for a polynomial function $P(x)$, which of the following must be a factor of $P(x)$?",
+    "answer": "$x + 3$",
+    "choices": [
+      {
+        "text": "$x + 3$",
+        "is_correct": true
+      },
+      {
+        "text": "$x - 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$x + 0$",
+        "is_correct": false
+      },
+      {
+        "text": "There is insufficient information to determine a factor.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The Factor Theorem states that a polynomial $P(x)$ has a binomial factor $(x - c)$ if and only if $P(c) = 0$. Since $P(-3) = 0$, the corresponding factor is $x - (-3) = x + 3$.",
+    "common_mistake": "Students often swap the sign in the binomial, incorrectly choosing $x - 3$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Determine the y-intercept from a factored polynomial equation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "What is the $y$-intercept of the graph of the polynomial function $f(x) = -2(x - 1)(x + 3)^2$?",
+    "answer": "$18$",
+    "choices": [
+      {
+        "text": "$18$",
+        "is_correct": true
+      },
+      {
+        "text": "$-18$",
+        "is_correct": false
+      },
+      {
+        "text": "$6$",
+        "is_correct": false
+      },
+      {
+        "text": "$0$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the $y$-intercept, evaluate the function at $x = 0$: $f(0) = -2(0 - 1)(0 + 3)^2 = -2(-1)(3)^2 = 2(9) = 18$.",
+    "common_mistake": "Students often fail to square the 3 or forget to distribute the negative sign on the leading coefficient, obtaining $-18$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Identify multiplicity behavior at an x-intercept",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "If the graph of a polynomial function turns around at the $x$-axis at the point $(4, 0)$ (tangent to the axis), which of the following expressions could represent a factor of the polynomial?",
+    "answer": "$(x - 4)^2$",
+    "choices": [
+      {
+        "text": "$(x - 4)^2$",
+        "is_correct": true
+      },
+      {
+        "text": "$(x - 4)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(x + 4)^2$",
+        "is_correct": false
+      },
+      {
+        "text": "$(x - 4)^3$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "When a graph is tangent to and turns around at the $x$-axis, the root has an even multiplicity (e.g., multiplicity 2). Since the intercept is at $x = 4$, the factor is $(x - 4)^n$ where $n$ is even. Thus, $(x - 4)^2$ is a possible factor.",
+    "common_mistake": "Students sometimes confuse the crossing behavior of odd multiplicities (multiplicity 1 or 3) with the bouncing/turning behavior of even multiplicities.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solve for an unknown parameter using the Remainder Theorem",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "When the polynomial $f(x) = 2x^3 + kx^2 - 4x + 7$ is divided by $x + 2$, the remainder is $15$. Determine the value of the constant $k$.",
+    "answer": "6",
+    "choices": [],
+    "explanation": "According to the Remainder Theorem, $f(-2) = 15$. Substitute $x = -2$ into the expression: \n$2(-2)^3 + k(-2)^2 - 4(-2) + 7 = 15$\n$2(-8) + 4k + 8 + 7 = 15$\n$-16 + 4k + 15 = 15$\n$-1 + 4k = 15$\n$4k = 16 \\Rightarrow k = 4$. Wait, let me recalculate. \n$-16 + 8 + 7 = -1$. $-1 + 4k = 15 \\Rightarrow 4k = 16 \\Rightarrow k = 4$. Let me check if my initial code math was wrong. Ah, $4k = 16 \\rightarrow k = 4$. Let me update the answer field to 4.",
+    "question_text": "When the polynomial $f(x) = 2x^3 + kx^2 - 4x + 7$ is divided by $x + 2$, the remainder is $15$. Determine the value of the constant $k$.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "By the Remainder Theorem, $f(-2) = 15$. Evaluating gives: $2(-2)^3 + k(-2)^2 - 4(-2) + 7 = 15 \\Rightarrow 2(-8) + k(4) + 8 + 7 = 15 \\Rightarrow -16 + 4k + 15 = 15 \\Rightarrow 4k - 1 = 15 \\Rightarrow 4k = 16 \\Rightarrow k = 4$.",
+    "common_mistake": "Students frequently miscalculate powers of negative numbers, such as writing $(-2)^2 = -4$ or $(-2)^3 = -6$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Perform synthetic division to find a quotient coefficient",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "The polynomial $P(x) = x^3 - 5x^2 + 2x + 8$ is divided by $x - 4$ to yield a quotient in the form $x^2 + ax + b$. Determine the value of the coefficient $a$.",
+    "answer": "-1",
+    "choices": [],
+    "explanation": "Using synthetic division with a root of 4:\n4 |  1   -5    2    8\n  |       4   -4   -8\n---------------------\n     1   -1   -2    0\nThe coefficients of the quotient are $1$, $-1$, and $-2$, meaning the quotient is $x^2 - x - 2$. Comparing this to $x^2 + ax + b$, we find $a = -1$.",
+    "common_mistake": "Students sometimes switch signs during synthetic addition steps or use $-4$ as the divisor value.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Determine an integer root of a cubic polynomial using integral zero theorem",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Determine the largest integer root of the polynomial equation $x^3 - 6x^2 + 11x - 6 = 0$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "By testing the factors of the constant term (-6), we can evaluate the polynomial. $P(1) = 1 - 6 + 11 - 6 = 0$, so $x = 1$ is a root. Dividing $x^3 - 6x^2 + 11x - 6$ by $(x - 1)$ leaves the quadratic $x^2 - 5x + 6 = 0$. Factoring this quadratic gives $(x - 2)(x - 3) = 0$. Thus, the roots are $x = 1, 2, 3$. The largest integer root is 3.",
+    "common_mistake": "Students may find the first root ($x=1$) and assume it is the only root, failing to check for larger factors.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Identify a parameter given multiple factor properties",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "The polynomial $P(x) = 3x^3 + hx^2 - x - 4$ has a factor of $3x + 4$. Determine the value of the integer constant $h$.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "By the Factor Theorem, if $3x + 4$ is a factor, then $P\\left(-\\frac{4}{3}\\right) = 0$. Substituting gives:\n$3\\left(-\\frac{4}{3}\\right)^3 + h\\left(-\\frac{4}{3}\\right)^2 - \\left(-\\frac{4}{3}\\right) - 4 = 0$\n$3\\left(-\\frac{64}{27}\\right) + h\\left(\\frac{16}{9}\\right) + \\frac{4}{3} - 4 = 0$\n$-\\frac{64}{9} + \\frac{16h}{9} + \\frac{12}{9} - \\frac{36}{9} = 0$\n$\\frac{16h - 88}{9} = 0 \\Rightarrow 16h = 88 \\Rightarrow h = 5.5$. Wait! Let me re-verify my math. \n$-64 + 12 - 36 = -88$. Yes. Let me change the question coefficients to make $h$ an integer.\nLet's test $P(x) = 3x^3 + 4x^2 - x - 4$. If $h=4$, let's check $P(-4/3) = 3(-64/27) + 4(16/9) - (-4/3) - 4 = -64/9 + 64/9 + 4/3 - 4 = 4/3 - 12/3 = -8/3 \\neq 0$. \nLet's design a polynomial: $(3x+4)(x^2 - 1) = 3x^3 + 4x^2 - 3x - 4$. Let's use this polynomial instead.",
+    "question_text": "The polynomial $P(x) = 3x^3 + hx^2 - 3x - 4$ has a factor of $3x + 4$. Determine the value of the integer constant $h$.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "If $(3x + 4)$ is a factor, then $P\\left(-\\frac{4}{3}\\right) = 0$. Using the formula for the designed polynomial $3x^3 + 4x^2 - 3x - 4$, we see that $h = 4$. Let's verify: $3\\left(-\\frac{64}{27}\\right) + h\\left(\\frac{16}{9}\\right) - 3\\left(-\\frac{4}{3}\\right) - 4 = -\\frac{64}{9} + \\frac{16h}{9} + 4 - 4 = 0 \\Rightarrow 16h = 64 \\Rightarrow h = 4$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Extract a polynomial function formula from its graph",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "A cubic polynomial graph has $x$-intercepts at $x = -2, 1, 3$ and passes through the vertical intercept $(0, 12)$. The function can be written as $f(x) = a(x+2)(x-1)(x-3)$. Determine the value of the vertical stretch parameter $a$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "Substitute the point $(0, 12)$ into the given template equation to solve for $a$: \n12 = a(0 + 2)(0 - 1)(0 - 3)\n12 = a(2)(-1)(-3)\n12 = 6a $\\Rightarrow a = 2$.",
+    "common_mistake": "Students often add the values inside the parentheses instead of multiplying them, or neglect the signs of the binomial roots.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF11",
+    "skill_tested": "Analyze turning points of a polynomial function graph",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "Which of the following functions could have a graph with exactly 3 turning points?",
+    "answer": "$y = x^4 - 2x^2 + 1$",
+    "choices": [
+      {
+        "text": "$y = x^4 - 2x^2 + 1$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = 2x^3 - x^2 + 5$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = -x^5 + 4x^3$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = x^2 + 4x - 2$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A polynomial graph can have a maximum of $n-1$ turning points, where $n$ is the degree of the polynomial. For a graph to exhibit exactly 3 turning points, it must have a minimum degree of 4. Among the choices, $y = x^4 - 2x^2 + 1$ is a degree 4 (quartic) polynomial, which can satisfy this property.",
+    "common_mistake": "Students often correlate the number of turning points directly with the degree $n$, rather than $n-1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Sketch and identify graph based on multi-root multiplicities",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "The polynomial function $g(x) = (x - 2)^3(x + 1)^2$ has which behavior at its intercepts?",
+    "answer": "It crosses the $x$-axis flattening at $x = 2$, and turns around (bounces) at $x = -1$.",
+    "choices": [
+      {
+        "text": "It crosses the $x$-axis flattening at $x = 2$, and turns around (bounces) at $x = -1$.",
+        "is_correct": true
+      },
+      {
+        "text": "It turns around at $x = 2$, and crosses straight through at $x = -1$.",
+        "is_correct": false
+      },
+      {
+        "text": "It turns around at both $x = 2$ and $x = -1$.",
+        "is_correct": false
+      },
+      {
+        "text": "It crosses straight through at both $x = 2$ and $x = -1$.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The factor $(x - 2)$ has a multiplicity of 3 (odd, greater than 1), meaning the graph crosses the axis but flattens out as it passes through $x = 2$. The factor $(x + 1)$ has a multiplicity of 2 (even), meaning the graph is tangent to and turns around at $x = -1$.",
+    "common_mistake": "Students often treat any odd multiplicity as a straight crossing, missing the 'flattening' effect caused by multiplicities higher than 1.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Deconstruct domain properties under transformations",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "If a polynomial function $y = P(x)$ has an $x$-intercept at $(-4, 0)$, what is the corresponding $x$-intercept of the transformed function $y = P(2x - 6)$?",
+    "answer": "$(1, 0)$",
+    "choices": [
+      {
+        "text": "$(1, 0)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(-14, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(-2, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(5, 0)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the new intercept, look at the arguments. We know the original function evaluates to zero when the input is $-4$, so set $2x - 6 = -4$. Solving for $x$: $2x = 2 \\Rightarrow x = 1$. Thus, the new intercept is $(1, 0)$.",
+    "common_mistake": "Students often apply transformations to the coordinate in the wrong operational order, multiplying by $\\frac{1}{2}$ and subtracting/adding incorrectly.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solve system of variables using the Remainder and Factor theorems combined",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The polynomial function $P(x) = 2x^3 + ax^2 + bx - 6$ is exactly divisible by $x - 2$. When $P(x)$ is divided by $x + 1$, the remainder is $-12$. Determine the value of the coefficient $a$.",
+    "answer": "-1",
+    "choices": [],
+    "explanation": "From the first clue, $x - 2$ is a factor, so $P(2) = 0$:\n$2(2)^3 + a(2)^2 + b(2) - 6 = 0 \\Rightarrow 16 + 4a + 2b - 6 = 0 \\Rightarrow 4a + 2b = -10 \\Rightarrow 2a + b = -5$.\nFrom the second clue, $P(-1) = -12$:\n$2(-1)^3 + a(-1)^2 + b(-1) - 6 = -12 \\Rightarrow -2 + a - b - 6 = -12 \\Rightarrow a - b = -4$.\nNow solve the system of linear equations:\n1) $2a + b = -5$\n2) $a - b = -4$\nAdd the equations together: $3a = -9 \\Rightarrow a = -3$. Let me re-verify my math steps.\nWait, let's recalculate: $2a + b = -5$ and $a - b = -4$. Adding them gives $3a = -9 \\rightarrow a = -3$. Let me update the answer to -3.",
+    "question_text": "The polynomial function $P(x) = 2x^3 + ax^2 + bx - 6$ is exactly divisible by $x - 2$. When $P(x)$ is divided by $x + 1$, the remainder is $-12$. Determine the value of the coefficient $a$.",
+    "answer": "-3",
+    "choices": [],
+    "explanation": "From the given info, $P(2) = 0 \\Rightarrow 16 + 4a + 2b - 6 = 0 \\Rightarrow 4a + 2b = -10 \\Rightarrow 2a + b = -5$. Also, $P(-1) = -12 \\Rightarrow -2 + a - b - 6 = -12 \\Rightarrow a - b = -4$. Adding the equations $2a + b = -5$ and $a - b = -4$ results in $3a = -9$, which yields $a = -3$.",
+    "common_mistake": "Students often struggle to set up or solve the simultaneous linear equation system correctly, or drop signs when substituting negative values.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Factor a higher-degree polynomial completely to locate non-integer parameters",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The polynomial function $f(x) = x^4 - 2x^3 - 3x^2 + 8x - 4$ has a root at $x = 1$ with a multiplicity of $m$. Determine the value of $m$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Let's perform synthetic division by 1:\n1 |  1   -2   -3    8   -4\n  |       1   -1   -4    4\n--------------------------\n     1   -1   -4    4    0  -> $(x-1)$ is a factor.\nDivide the quotient $x^3 - x^2 - 4x + 4$ by 1 again:\n1 |  1   -1   -4    4\n  |       1    0   -4\n--------------------\n     1    0   -4    0  -> $(x-1)^2$ is a factor.\nThe remaining quotient is $x^2 - 4$, which factors as $(x-2)(x+2)$. Wait! Let me check the roots of $x^2-4$. The roots are 2 and -2. So 1 does not appear as a root again. Therefore, the multiplicity is 2. Let me fix my answer field.",
+    "question_text": "The polynomial function $f(x) = x^4 - 2x^3 - 3x^2 + 8x - 4$ has a root at $x = 1$ with a multiplicity of $m$. Determine the value of $m$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "Performing synthetic division of $f(x)$ by $(x-1)$ gives a quotient of $x^3 - x^2 - 4x + 4$. Dividing this new quotient by $(x-1)$ again yields $x^2 - 4$. Since $x^2 - 4 = (x-2)(x+2)$, $x=1$ is not a root of the remaining quadratic piece. Thus, $(x-1)$ appears exactly twice, meaning the multiplicity $m = 2$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Identify constraints on real factors for high degree bounds",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Determine the total number of distinct real solutions to the polynomial equation $(x^2 - 4x + 5)(x^2 - 9) = 0$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "Set each factor equal to zero:\n1) $x^2 - 9 = 0 \\Rightarrow x = \\pm 3$ (This gives 2 distinct real solutions).\n2) $x^2 - 4x + 5 = 0$. Calculate the discriminant $\\Delta = b^2 - 4ac = (-4)^2 - 4(1)(5) = 16 - 20 = -4$. Since the discriminant is negative, this quadratic has no real solutions.\nTherefore, the total number of distinct real solutions is 2.",
+    "common_mistake": "Students often assume every quadratic factor yields real roots, incorrectly counting 4 total solutions.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Maximize contextual polynomial volume word problems",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "An open-top box is constructed from a square piece of cardboard measuring 12 cm on each side by cutting out a square of side length $x$ cm from each of the four corners and folding up the flaps. Which polynomial function models the volume $V(x)$ of the box, and what is its contextual domain restriction?",
+    "answer": "$V(x) = x(12 - 2x)^2$, where $0 < x < 6$",
+    "choices": [
+      {
+        "text": "$V(x) = x(12 - 2x)^2$, where $0 < x < 6$",
+        "is_correct": true
+      },
+      {
+        "text": "$V(x) = x(12 - x)^2$, where $0 < x < 12$",
+        "is_correct": false
+      },
+      {
+        "text": "$V(x) = 4x^3 - 48x^2 + 144x$, where $x \\in \\mathbb{R}$",
+        "is_correct": false
+      },
+      {
+        "text": "$V(x) = x(12 - 2x)^2$, where $0 < x < 12$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The dimensions of the box base will be $(12 - 2x)$ by $(12 - 2x)$, and the height will be $x$. Therefore, the volume formula is $V(x) = x(12 - 2x)^2$. For a physical box to exist, all dimensions must be positive: $x > 0$ and $12 - 2x > 0 \\Rightarrow 2x < 12 \\Rightarrow x < 6$. Thus, the contextual domain constraint is $0 < x < 6$.",
+    "common_mistake": "Students often forget that two corners are cut along each edge (subtracting $2x$ instead of $x$) or fail to apply real-world physical constraints to the domain boundaries.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Factor a quartic equation using grouping or substitution to solve a multi-part algebraic proof",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "Consider the quartic polynomial function $P(x) = x^4 - 5x^2 + 4$.\n\na) Show algebraically that both $(x - 1)$ and $(x + 2)$ are valid factors of $P(x)$.\n\nb) Factor $P(x)$ completely into linear factors and state all of its exact $x$-intercepts.",
+    "answer": "a) $P(1) = 0$ and $P(-2) = 0$; b) $P(x) = (x-1)(x+1)(x-2)(x+2)$, with intercepts at $x = 1, -1, 2, -2$.",
+    "choices": [],
+    "explanation": "a) Apply the Factor Theorem by evaluating the polynomial at the respective roots:\n$P(1) = (1)^4 - 5(1)^2 + 4 = 1 - 5 + 4 = 0$, so $(x - 1)$ is a factor.\n$P(-2) = (-2)^4 - 5(-2)^2 + 4 = 16 - 5(4) + 4 = 16 - 20 + 4 = 0$, so $(x + 2)$ is a factor.\n\nb) We can factor this expression by treating it as a quadratic in form (let $u = x^2$):\n$P(x) = (x^2)^2 - 5(x^2) + 4 = (x^2 - 4)(x^2 - 1)$.\nBoth resulting binomial factors are differences of squares. Factoring completely yields:\n$P(x) = (x - 2)(x + 2)(x - 1)(x + 1)$.\nThe exact $x$-intercepts are located at $x = 2, -2, 1, -1$.",
+    "common_mistake": "Students often stop factoring once they reach the quadratic components $(x^2 - 4)(x^2 - 1)$, failing to realize they can be broken down further using the difference of squares rule.",
+    "source": "ai"
+  }
+]

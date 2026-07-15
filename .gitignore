@@ -1,0 +1,31 @@
+# Root ignores — keep secrets and local runtime out of git.
+.env
+.env.*
+!.env.example
+!.env.production.example
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Local databases and backups
+*.db
+backend/backups/
+backups/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+!.vscode/extensions.json

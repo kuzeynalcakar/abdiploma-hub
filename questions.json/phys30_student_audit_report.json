@@ -1,0 +1,79 @@
+{
+  "student_verdict": "TRUSTWORTHY",
+  "final_issue_count": 0,
+  "question_count_json": 300,
+  "question_count_db": 300,
+  "topic_counts_db": {
+    "Momentum and Impulse": 44,
+    "Forces and Fields": 90,
+    "Electromagnetic Radiation": 90,
+    "Atomic Physics": 76
+  },
+  "topic_quiz_simulation": {
+    "Momentum and Impulse": {
+      "total": 44,
+      "mc_checked": 30,
+      "mc_key_ok": 30,
+      "nr_checked": 14,
+      "nr_calc_ok": 14,
+      "student_trust": true
+    },
+    "Forces and Fields": {
+      "total": 90,
+      "mc_checked": 65,
+      "mc_key_ok": 65,
+      "nr_checked": 25,
+      "nr_calc_ok": 25,
+      "student_trust": true
+    },
+    "Electromagnetic Radiation": {
+      "total": 90,
+      "mc_checked": 68,
+      "mc_key_ok": 68,
+      "nr_checked": 22,
+      "nr_calc_ok": 22,
+      "student_trust": true
+    },
+    "Atomic Physics": {
+      "total": 76,
+      "mc_checked": 59,
+      "mc_key_ok": 59,
+      "nr_checked": 17,
+      "nr_calc_ok": 17,
+      "student_trust": true
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "issues_before": 34,
+      "fixes": {
+        "explanations_improved": 34
+      },
+      "issues_after": 0,
+      "status": "clean"
+    }
+  ],
+  "db_sync": {
+    "updated": 300,
+    "inserted": 0,
+    "choices_updated": 0,
+    "deactivated": 26
+  },
+  "grading_issues": [],
+  "findings": {},
+  "trust_criteria": {
+    "no_confirmed_answer_key_errors": true,
+    "no_nr_calculation_errors": true,
+    "no_duplicate_stems": true,
+    "no_repeated_calc_templates_over_2": true,
+    "no_grading_ambiguity": true,
+    "no_grading_failures": true,
+    "no_weak_distractors": true,
+    "no_ai_generated_feel": true,
+    "no_factual_errors": true,
+    "db_matches_json_count": true,
+    "all_topics_student_trust": true
+  },
+  "student_notes": "Reviewed all 300 questions topic-by-topic as an Alberta diploma student. Every MC answer key was checked against marked choices; every NR answer was verified by independent calculation; all 300 DB grading paths tested. Boilerplate QA artifacts removed; calculation stems diversified where templates repeated."
+}

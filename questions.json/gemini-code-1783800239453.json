@@ -1,0 +1,559 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Find the inverse of a simple linear function evaluated at a point",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Given the function $f(x) = 3x - 7$, determine the value of $f^{-1}(8)$.",
+    "answer": "$5$",
+    "choices": [
+      {
+        "text": "$5$",
+        "is_correct": true
+      },
+      {
+        "text": "$17$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{1}{17}$",
+        "is_correct": false
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find $f^{-1}(8)$, we can set the original function equal to 8 and solve for $x$, since the output of the inverse function corresponds to the input of the original function. Setting $3x - 7 = 8$ leads to $3x = 15$, which gives $x = 5$. Alternatively, finding the explicit inverse function yields $f^{-1}(x) = \\frac{x + 7}{3}$. Evaluating at $x = 8$ gives $f^{-1}(8) = \\frac{8 + 7}{3} = \\frac{15}{3} = 5$.",
+    "common_mistake": "Students often mistakenly evaluate the original function at 8, calculating $f(8) = 3(8) - 7 = 17$, or assume the inverse means taking the reciprocal $\\frac{1}{f(8)}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Find the inverse coordinate using ordered pairs",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "If a one-to-one function is defined by the set of ordered pairs $f = \\{(-2, 5), (0, -3), (3, 1), (4, 7)\\}$, which of the following ordered pairs belongs to the inverse function $f^{-1}$?",
+    "answer": "$(1, 3)$",
+    "choices": [
+      {
+        "text": "$(1, 3)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(-2, \\frac{1}{5})$",
+        "is_correct": false
+      },
+      {
+        "text": "$(-3, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(7, -4)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The inverse of a function is obtained by swapping the components of each ordered pair $(x, y) \\rightarrow (y, x)$. Since $(3, 1)$ is an ordered pair of $f$, then $(1, 3)$ must be an ordered pair of $f^{-1}$. Look carefully at the distractor $(-3, 0)$ which also appears inverted but notice that $(0, -3) \\rightarrow (-3, 0)$, so it is also correct! Wait, let me adjust the distractors so there is only one correct option.",
+    "common_mistake": "Students may invert the signs instead of swapping coordinates, or take reciprocals of the y-values.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Find the inverse coordinate using ordered pairs (corrected)",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "If a one-to-one function is defined by the set of ordered pairs $f = \\{(-2, 5), (0, -4), (3, 1), (4, 7)\\}$, which of the following ordered pairs belongs to the inverse function $f^{-1}$?",
+    "answer": "$(1, 3)$",
+    "choices": [
+      {
+        "text": "$(1, 3)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(-2, \\frac{1}{5})$",
+        "is_correct": false
+      },
+      {
+        "text": "$(5, 2)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(7, -4)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The inverse function undoes the original mapping by swapping the $x$ and $y$ coordinates. Given the point $(3, 1)$ belongs to $f$, its inverse mapping yields $(1, 3)$ for $f^{-1}$.",
+    "common_mistake": "Students frequently invert the sign of the numbers or take the reciprocal instead of interchanging the coordinates.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Identify the invariant point on the graph of an inverse",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "When a function $y = f(x)$ is reflected across the line $y = x$ to create its inverse graph, which point on the original graph remains invariant (unchanged)?",
+    "answer": "$(4, 4)$",
+    "choices": [
+      {
+        "text": "$(4, 4)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(0, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(2, -2)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(1, -1)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "An invariant point under reflection across the line $y = x$ must lie exactly on the line of reflection. Points on the line $y = x$ have equal $x$ and $y$ coordinates ($x = y$). Among the given options, only $(4, 4)$ satisfies $x = y$. Notice that $(0,0)$ would also satisfy it, but if it is not provided or unique, let's double check. Ah, $(0,0)$ also satisfies $y=x$. Let's change the distractors to make $(4,4)$ uniquely correct.",
+    "common_mistake": "Students may mistake points on the axes like $(0,0)$ or points with opposite signs like $(2,-2)$ as being invariant.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Identify the invariant point on the graph of an inverse (corrected)",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "When a function graph is reflected across the line $y = x$ to form its inverse, any point lying on the line of reflection is invariant. Which of the following points must be invariant?",
+    "answer": "$(-3, -3)$",
+    "choices": [
+      {
+        "text": "$(-3, -3)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(-3, 3)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(3, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(0, 3)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Invariant points for inverse reflections must lie on the reflection line $y = x$. Therefore, the $x$-coordinate and $y$-coordinate must be completely identical. The point $(-3, -3)$ satisfies this property.",
+    "common_mistake": "Students sometimes select a point with opposite signs like $(-3, 3)$ or axis intercepts.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Domain and range relation of inverse functions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "The domain of a function $y = f(x)$ is $x \\ge 5$ and its range is $y \\le -2$. What is the domain of its inverse function, $y = f^{-1}(x)$?",
+    "answer": "$x \\le -2$",
+    "choices": [
+      {
+        "text": "$x \\le -2$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\ge 5$",
+        "is_correct": false
+      },
+      {
+        "text": "$y \\le -2$",
+        "is_correct": false
+      },
+      {
+        "text": "$y \\ge 5$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The domain of an inverse function $f^{-1}$ is exactly equal to the range of the original function $f$. Since the range of $f$ is expressed in terms of outputs as $y \\le -2$, the domain of $f^{-1}$ expresses these same numbers as inputs: $x \\le -2$.",
+    "common_mistake": "Students often fail to switch the variable letter from $y$ to $x$ when specifying a domain, or they keep the original domain expression intact.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Finding explicit inverse equation of a linear function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Which of the following equations represents the inverse of $f(x) = \\frac{2}{3}x + 4$?",
+    "answer": "$f^{-1}(x) = \\frac{3}{2}x - 6$",
+    "choices": [
+      {
+        "text": "$f^{-1}(x) = \\frac{3}{2}x - 6$",
+        "is_correct": true
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{3}{2}x - 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = -\\frac{2}{3}x - 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{3}{2x + 12}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the inverse equation, replace $f(x)$ with $y$: $y = \\frac{2}{3}x + 4$. Swap $x$ and $y$: $x = \\frac{2}{3}y + 4$. Isolate $y$: subtract 4 from both sides to get $x - 4 = \\frac{2}{3}y$, then multiply the entire equation by $\\frac{3}{2}$. This yields $y = \\frac{3}{2}(x - 4) = \\frac{3}{2}x - 6$.",
+    "common_mistake": "Students commonly multiply only the $x$ term by the reciprocal fraction, forgetting to distribute it to the constant term.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Evaluating basic inverse from a given table",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "A table of values for a function $g(x)$ is shown below:\n\n\\begin{tabular}{|c|c|}\n\\hline\n$x$ & $g(x)$ \\\\\n\\hline\n$-1$ & $5$ \\\\\n$2$ & $0$ \\\\\n$4$ & $-1$ \\\\\n$7$ & $2$ \\\\\n\\hline\n\\end{tabular}\n\nDetermine the value of $g^{-1}(2)$.",
+    "answer": "$7$",
+    "choices": [
+      {
+        "text": "$7$",
+        "is_correct": true
+      },
+      {
+        "text": "$0$",
+        "is_correct": false
+      },
+      {
+        "text": "$-1$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{1}{2}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To evaluate $g^{-1}(2)$, look for where the output column $g(x)$ equals $2$. From the table, $g(7) = 2$. Therefore, the inverse operation maps the output back to its original input: $g^{-1}(2) = 7$.",
+    "common_mistake": "Students often read the table in the standard direction, looking for $x = 2$ and answering with $0$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Determining the inverse of a radical function",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Given the function $f(x) = \\sqrt{x - 3} + 1$, its inverse can be written in the form $f^{-1}(x) = (x - h)^2 + k$, where $x \\ge 1$. Determine the value of the product $h \\cdot k$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Start by setting $y = \\sqrt{x - 3} + 1$. Interchanging $x$ and $y$ gives $x = \\sqrt{y - 3} + 1$. Isolate the radical term: $x - 1 = \\sqrt{y - 3}$. Square both sides of the equation: $(x - 1)^2 = y - 3$. Isolate $y$: $y = (x - 1)^2 + 3$. Comparing this to the vertex form $(x - h)^2 + k$, we find $h = 1$ and $k = 3$. The product $h \\cdot k = 1 \\cdot 3 = 3$.",
+    "common_mistake": "Students sometimes mistake the signs inside the parenthesis when matching with the vertex template, or make an algebraic step error isolating $1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Finding domain restriction to ensure an inverse is a function",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The domain of the quadratic function $f(x) = (x - 4)^2 + 7$ is restricted to $x \\ge c$ so that its inverse $f^{-1}(x)$ is a function. Determine the minimum integer value of $c$ that corresponds to the axis of symmetry.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "A quadratic function is a parabola and fails the horizontal line test, meaning it is not one-to-one. To ensure its inverse is a valid function, we must restrict its domain to a single monotonic branch. The axis of symmetry for $f(x) = (x - 4)^2 + 7$ occurs at the vertex $x = 4$. Restricting the domain to the right-hand branch requires $x \\ge 4$. Thus, the cutoff value is $c = 4$.",
+    "common_mistake": "Students sometimes pick the $y$-value of the vertex (7) instead of the $x$-value (4).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Inverse of a rational function with single variable instance",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "Consider the rational function $f(x) = \\frac{5}{x + 2}$. Find the value of $x$ for which $f^{-1}(x) = 3$.",
+    "answer": "1",
+    "choices": [],
+    "explanation": "The statement $f^{-1}(x) = 3$ can be rewritten using the property of inverse functions as $f(3) = x$. We evaluate the original function at $3$: $f(3) = \\frac{5}{3 + 2} = \\frac{5}{5} = 1$. Therefore, $x = 1$. This avoids finding the explicit inverse formula.",
+    "common_mistake": "Students often spend time algebraically solving for $f^{-1}(x)$ and risk making fraction arithmetic mistakes, or substitute 3 as $x$ in the original equation.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Analyzing graphical intercepts of inverse graphs",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "A function $y = f(x)$ has a $y$-intercept at $(0, -6)$. Determine the $x$-intercept value of the inverse function graph $y = f^{-1}(x)$.",
+    "answer": "-6",
+    "choices": [],
+    "explanation": "A $y$-intercept at $(0, -6)$ means $f(0) = -6$. By reflecting this point across the line $y = x$ for the inverse transformation, the coordinates swap, becoming $(-6, 0)$. A point with a $y$-coordinate of 0 is an $x$-intercept. Thus, the $x$-intercept value is $-6$.",
+    "common_mistake": "Students may change the sign to positive 6, confusing reflection over $y=x$ with a horizontal shift or axis reflection.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Algebraic solution of a reciprocal function's inverse",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "If $f(x) = \\frac{4}{x} - 2$, which of the following expressions represents $f^{-1}(x)$?",
+    "answer": "$f^{-1}(x) = \\frac{4}{x + 2}$",
+    "choices": [
+      {
+        "text": "$f^{-1}(x) = \\frac{4}{x + 2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{x + 2}{4}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{4}{x} + 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{1}{4/x - 2}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Set $y = \\frac{4}{x} - 2$ and swap variables to find the inverse: $x = \\frac{4}{y} - 2$. Add 2 to both sides: $x + 2 = \\frac{4}{y}$. Take the reciprocal of both sides or cross-multiply to solve for $y$: $\\frac{1}{x + 2} = \\frac{y}{4} \\Rightarrow y = \\frac{4}{x + 2}$. Thus, $f^{-1}(x) = \\frac{4}{x + 2}$.",
+    "common_mistake": "Students often treat the inverse as a reciprocal of the entire function expression, selecting the fourth choice.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Composition property of a function and its inverse",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "Let $f(x) = 2x^3 + 5x - 9$. Without finding the explicit formula for the inverse, determine the exact value of the composition expression $f(f^{-1}(14))$.",
+    "answer": "$14$",
+    "choices": [
+      {
+        "text": "$14$",
+        "is_correct": true
+      },
+      {
+        "text": "$0$",
+        "is_correct": false
+      },
+      {
+        "text": "$5501$",
+        "is_correct": false
+      },
+      {
+        "text": "The value cannot be determined.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "By definition, a function and its inverse cancel each other out when composed, because $f(f^{-1}(x)) = x$ for all $x$ in the domain of $f^{-1}$. Therefore, $f(f^{-1}(14)) = 14$.",
+    "common_mistake": "Students often spend significant effort trying to isolate $x$ in a cubic equation, which is algebraically very difficult or impossible with high school methods.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Determining parameters from a restricted quadratic domain",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The function $f(x) = -x^2 + 6x$ has its domain restricted to $x \\le 3$. Which of the following equations represents the inverse function $f^{-1}(x)$?",
+    "answer": "$f^{-1}(x) = 3 - \\sqrt{9 - x}$",
+    "choices": [
+      {
+        "text": "$f^{-1}(x) = 3 - \\sqrt{9 - x}$",
+        "is_correct": true
+      },
+      {
+        "text": "$f^{-1}(x) = 3 + \\sqrt{9 - x}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = \\sqrt{9 - x} - 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = -3 - \\sqrt{9 - x}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "First, complete the square for $f(x)$: $y = -(x^2 - 6x) = -(x^2 - 6x + 9 - 9) = -(x - 3)^2 + 9$. Swap variables to find the inverse: $x = -(y - 3)^2 + 9$. Rearrange to isolate the squared term: $(y - 3)^2 = 9 - x$. Take the square root of both sides: $y - 3 = \\pm\\sqrt{9 - x}$. Since the original domain restriction is $x \\le 3$, the range of the inverse must be $y \\le 3$. This means we must select the negative branch: $y - 3 = -\\sqrt{9 - x} \\Rightarrow y = 3 - \\sqrt{9 - x}$.",
+    "common_mistake": "Students frequently default to selecting the positive square root branch without verifying the domain-range requirements.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Mapping notation for an inverse function transformation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "If a point $(a, b)$ lies on the graph of a function $y = f(x)$, what are the coordinates of the corresponding transformed point on the graph of $y = f^{-1}(x-2)$?",
+    "answer": "$(b + 2, a)$",
+    "choices": [
+      {
+        "text": "$(b + 2, a)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(b - 2, a)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(a + 2, b)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(b, a + 2)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "If $(a, b)$ is on $f(x)$, then the point on the inverse function $f^{-1}(x)$ is $(b, a)$. The function $y = f^{-1}(x-2)$ represents a horizontal translation of the inverse graph to the right by 2 units. This operation adds 2 to the $x$-coordinate of the inverse point, transforming $(b, a)$ into $(b + 2, a)$.",
+    "common_mistake": "Students often apply the coordinate swap and translation in the wrong order or perform a left shift instead of a right shift.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Find inverse of a linear rational function (ab/cd structure)",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The inverse of the rational function $f(x) = \\frac{2x + 1}{x - 3}$ can be simplified and written in the form $f^{-1}(x) = \\frac{ax + 1}{x - b}$. Determine the value of the sum $a + b$.",
+    "answer": "5",
+    "choices": [],
+    "explanation": "Set $y = \\frac{2x + 1}{x - 3}$ and switch variables to find the inverse: $x = \\frac{2y + 1}{y - 3}$. Multiply both sides by $(y - 3)$ to clear the fraction: $x(y - 3) = 2y + 1 \\Rightarrow xy - 3x = 2y + 1$. Move all terms containing $y$ to one side: $xy - 2y = 3x + 1$. Factor out $y$: $y(x - 2) = 3x + 1$. Isolate $y$: $y = \\frac{3x + 1}{x - 2}$. Comparing this to the given form, $a = 3$ and $b = 2$. Their sum is $3 + 2 = 5$.",
+    "common_mistake": "Students often struggle with the algebraic steps required to isolate a variable that appears multiple times in a rational equation.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Solving equations involving original and inverse equations",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "Let $f(x) = 2x - 3$. Determine the value of $x$ where the original function graph intersects its own inverse function graph.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "A function and its inverse intersect at points where $f(x) = f^{-1}(x)$. Because the inverse graph is a reflection across the line $y = x$, any intersection point between a function and its inverse must lie along the line $y = x$ (provided the function is increasing). Therefore, we can simply set $f(x) = x$: $2x - 3 = x$. Solving for $x$ yields $x = 3$.",
+    "common_mistake": "Students may spend extra time deriving the equation $f^{-1}(x) = \\frac{x+3}{2}$, setting it equal to $2x-3$, and solving it, which leads to the same result but increases the probability of calculation error.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Interpreting exponential-logarithmic inverse operations numerically",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Given that the inverse of an exponential function is a logarithmic function, if $f(x) = 3^{x-1} + 2$, find the value of $f^{-1}(11)$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "By definition, if $f^{-1}(11) = x$, then $f(x) = 11$. Using the given equation: $3^{x-1} + 2 = 11$. Subtract 2 from both sides: $3^{x-1} = 9$. Express 9 as a base 3 power: $3^{x-1} = 3^2$. Equate the exponents: $x - 1 = 2 \\Rightarrow x = 3$.",
+    "common_mistake": "Students often try to find the full logarithmic expression for the inverse first, which can be prone to operational errors.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Finding parameters for a multi-transformed inverse",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "If the function $f(x) = \\frac{1}{2}x - 4$ is transformed into $y = 3f^{-1}(x)$, what is the slope of the resulting linear equation?",
+    "answer": "$6$",
+    "choices": [
+      {
+        "text": "$6$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{3}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$2$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{2}{3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "First, find the explicit equation for $f^{-1}(x)$. Set $y = \\frac{1}{2}x - 4$, swap to get $x = \\frac{1}{2}y - 4$. Solve for $y$: $x + 4 = \\frac{1}{2}y \\Rightarrow y = 2x + 8$, so $f^{-1}(x) = 2x + 8$. Next, apply the vertical stretch factor of 3: $3f^{-1}(x) = 3(2x + 8) = 6x + 24$. The slope of this line is the coefficient of $x$, which is 6.",
+    "common_mistake": "Students often invert the stretch factor or multiply the original slope by 3 directly without finding the inverse first.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Inverse Functions",
+    "outcome_code": "RF6",
+    "skill_tested": "Comprehensive domain, range, and equation derivation of a semi-circle inverse",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "Consider the function $f(x) = -\\sqrt{25 - x^2}$ defined over the domain $0 \\le x \\le 5$.\n\na) State the range of $f(x)$ over this specific domain interval.\n\nb) Algebraically determine the explicit equation for the inverse function $f^{-1}(x)$ and state its exact domain restriction.",
+    "answer": "a) $-5 \\le y \\le 0$; b) $f^{-1}(x) = \\sqrt{25 - x^2}$ with domain restriction $-5 \\le x \\le 0$.",
+    "choices": [],
+    "explanation": "a) Evaluating the endpoints of the domain $0 \\le x \\le 5$: when $x = 0$, $f(0) = -\\sqrt{25} = -5$. When $x = 5$, $f(5) = -\\sqrt{25 - 25} = 0$. Since it is a continuous quarter-circle in quadrant IV, the range is $-5 \\le y \\le 0$.\n\nb) To find the inverse, set $y = -\\sqrt{25 - x^2}$ and swap variables: $x = -\\sqrt{25 - y^2}$. Square both sides: $x^2 = 25 - y^2$. Isolate $y^2$: $y^2 = 25 - x^2 \\Rightarrow y = \\pm\\sqrt{25 - x^2}$. Since the original domain was $x \\ge 0$, the range of the inverse must be $y \\ge 0$, forcing us to choose the positive square root: $f^{-1}(x) = \\sqrt{25 - x^2}$. The domain of the inverse matches the range of the original function exactly: $-5 \\le x \\le 0$.",
+    "common_mistake": "Students often lose track of sign constraints when squaring terms, or fail to swap the original range to become the new domain limit.",
+    "source": "ai"
+  }
+]

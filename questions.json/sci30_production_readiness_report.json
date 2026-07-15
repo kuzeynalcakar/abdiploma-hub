@@ -1,0 +1,108 @@
+{
+  "timestamp_utc": "2026-07-14T05:13:54.663026+00:00",
+  "status": "READY",
+  "backup": "C:\\AlbertaPrep\\backend\\backups\\albertaprep_pre_sci30_import_20260714_051354.db",
+  "json_source": "C:\\AlbertaPrep\\questions.json\\science30_questions_final.json",
+  "import_summary": {
+    "sci30_before": 300,
+    "sci30_after": 300,
+    "imported_new": 0
+  },
+  "data_preservation": {
+    "production_ids_preserved": true,
+    "preserved_courses": [
+      "BIO30",
+      "MATH30-1",
+      "CHEM30",
+      "PHYS30",
+      "MATH30-2",
+      "MATH20-1"
+    ],
+    "user_answers": {
+      "before": 451,
+      "after": 451
+    },
+    "question_history": {
+      "before": 288,
+      "after": 288
+    },
+    "quiz_attempts": {
+      "before": 115,
+      "after": 115
+    },
+    "topic_performance": {
+      "before": 86,
+      "after": 86
+    },
+    "course_counts": {
+      "BIO30": {
+        "before": 300,
+        "after": 300
+      },
+      "MATH30-1": {
+        "before": 293,
+        "after": 293
+      },
+      "CHEM30": {
+        "before": 300,
+        "after": 300
+      },
+      "PHYS30": {
+        "before": 300,
+        "after": 300
+      },
+      "MATH30-2": {
+        "before": 300,
+        "after": 300
+      },
+      "MATH20-1": {
+        "before": 300,
+        "after": 300
+      }
+    }
+  },
+  "sci30_counts": {
+    "total": 300,
+    "target": 300,
+    "by_topic": {
+      "Circulatory and Immune Systems": 38,
+      "Genetics and Molecular Biology": 38,
+      "Environmental Chemistry": 75,
+      "Field Theory and Electrical Energy": 46,
+      "Electromagnetic Spectrum": 29,
+      "Energy and the Environment": 74
+    },
+    "topic_targets": {
+      "Circulatory and Immune Systems": 38,
+      "Genetics and Molecular Biology": 38,
+      "Environmental Chemistry": 75,
+      "Field Theory and Electrical Energy": 46,
+      "Electromagnetic Spectrum": 29,
+      "Energy and the Environment": 74
+    },
+    "by_type": {
+      "multiple_choice": 211,
+      "numerical_response": 89
+    },
+    "type_targets": {
+      "multiple_choice": 211,
+      "numerical_response": 89
+    }
+  },
+  "api_verification": {
+    "courses_listed": true,
+    "course_question_count": 300,
+    "topic_count": 6,
+    "quiz_available_count": 300,
+    "quiz_questions_returned": 10,
+    "progress_courses": 0,
+    "progress_has_practice_streak": true,
+    "daily_practice_total": 10,
+    "daily_practice_started": 10,
+    "weakness_map_topics": 6,
+    "guest_mc_grade": true,
+    "guest_nr_grade": true,
+    "api_available": true
+  },
+  "issues": []
+}

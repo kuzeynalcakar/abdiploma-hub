@@ -1,0 +1,941 @@
+[
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.7k",
+    "skill_tested": "Counting conflict contexts from a supplied list",
+    "question_type": "Numerical Response",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 40,
+    "question_text": "Conflict-context cards list: humanitarian crises; civil rights movements; antiwar movements; McCarthyism; pro-democracy movements; contemporary examples. How many cards are in the set?",
+    "answer": "6",
+    "choices": [],
+    "explanation": "Outcome 4.7k lists six conflict contexts in the stem enumeration.",
+    "common_mistake": "Students omit contemporary examples.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.6k",
+    "skill_tested": "Identifying democratic civic roles: Civility is not the same as silence becaus",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "Civility is not the same as silence because",
+    "answer": "citizens can disagree forcefully while still refusing dehumanization",
+    "choices": [
+      {
+        "text": "that dissent requires violent disruption of urgent medical access",
+        "is_correct": false
+      },
+      {
+        "text": "citizens can disagree forcefully while still refusing dehumanization",
+        "is_correct": true
+      },
+      {
+        "text": "that McCarthyism expanded open debate without chilling cultural dissent",
+        "is_correct": false
+      },
+      {
+        "text": "that advocacy letters to representatives abandon democratic process",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Civility regulates form of disagreement, not the existence of dissent.",
+    "common_mistake": "Students equate civility with obedience.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.9k",
+    "skill_tested": "Recognizing civic leadership strategies: A youth council co-designs a heat-alert pl",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 120,
+    "question_text": "A youth council co-designs a heat-alert plan with elders. This best models",
+    "answer": "collective leadership strategy across generations on a public issue",
+    "choices": [
+      {
+        "text": "that citizenship outcomes reject peaceful petition and advocacy tools in citizenship analysis example 17",
+        "is_correct": false
+      },
+      {
+        "text": "that economic systems labels are interchangeable without criteria in citizenship analysis example 18",
+        "is_correct": false
+      },
+      {
+        "text": "collective leadership strategy across generations on a public issue",
+        "is_correct": true
+      },
+      {
+        "text": "that Cold War concepts apply only to municipal recycling controversies in citizenship analysis example 16",
+        "is_correct": false
+      }
+    ],
+    "explanation": "4.9k highlights leadership strategies for issues.",
+    "common_mistake": "Students overlook youth civic leadership.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.5k",
+    "skill_tested": "Explaining ideological shaping of citizenship — 4.5k / When citizenship rituals emphasize military remembrance",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 95,
+    "question_text": "When citizenship rituals emphasize military remembrance and language purity, the example most clearly shows",
+    "answer": "how nationalist ideology can shape individual or collective citizenship action",
+    "choices": [
+      {
+        "text": "that source analysis should ignore ideology when rights language appears in citizenship analysis example 2",
+        "is_correct": false
+      },
+      {
+        "text": "that diploma preparation excludes multiple perspectives on liberalism in citizenship analysis example 3",
+        "is_correct": false
+      },
+      {
+        "text": "how nationalist ideology can shape individual or collective citizenship action",
+        "is_correct": true
+      },
+      {
+        "text": "that related-issue principles are suspended for fictional classroom towns in citizenship analysis example 1",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 4.5k explores how ideologies shape citizenship (Applied here to outcome 4.5k: When citizenship rituals emphasize military remembrance and language.)",
+    "common_mistake": "Students describe the action without naming ideological shaping In items like this one, that error usually appears when students ignore When citizenship rituals emphasize military remembrance and language.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.10k",
+    "skill_tested": "Recognizing active citizenship opportunities: Citizen science water sampling shared with",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Citizen science water sampling shared with indigenous guardians. This example best fits",
+    "answer": "collaborative leadership across knowledge traditions",
+    "choices": [
+      {
+        "text": "collaborative leadership across knowledge traditions",
+        "is_correct": true
+      },
+      {
+        "text": "that identity and ideology never meet in citizenship practices",
+        "is_correct": false
+      },
+      {
+        "text": "that McCarthy-era blacklists strengthened liberal free association",
+        "is_correct": false
+      },
+      {
+        "text": "that responsible citizenship ignores global humanitarian consciousness",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcomes 4.9k and 4.10k emphasize strategies and opportunities for active, responsible citizenship (Applied here to outcome 4.10k: Citizen science water sampling shared with indigenous guardians.)",
+    "common_mistake": "Students dismiss local actions as unrelated to ideology/citizenship study In items like this one, that error usually appears when students ignore Citizen science water sampling shared with indigenous guardians.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.5k",
+    "skill_tested": "Explaining how ideology shapes citizenship: When citizens boycott high-emission firms ",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 95,
+    "question_text": "When citizens boycott high-emission firms and lobby for carbon caps, the example most clearly shows",
+    "answer": "how environmentalist ideology can shape individual or collective citizenship action",
+    "choices": [
+      {
+        "text": "that classical and modern liberalism cannot be distinguished in any case in citizenship analysis example 4",
+        "is_correct": false
+      },
+      {
+        "text": "that collectivism forbids examining individual rights in civic scenarios in citizenship analysis example 5",
+        "is_correct": false
+      },
+      {
+        "text": "that Cold War concepts apply only to municipal recycling controversies in citizenship analysis example 6",
+        "is_correct": false
+      },
+      {
+        "text": "how environmentalist ideology can shape individual or collective citizenship action",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Outcome 4.5k explores how ideologies shape citizenship (Applied here to outcome 4.5k: When citizens boycott high-emission firms and lobby for.)",
+    "common_mistake": "Students describe the action without naming ideological shaping In items like this one, that error usually appears when students ignore When citizens boycott high-emission firms and lobby for.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.5k",
+    "skill_tested": "Identifying system: representative democracy",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 120,
+    "question_text": "Elected legislators debate and pass laws on voters’ behalf. This description best matches",
+    "answer": "representative democracy",
+    "choices": [
+      {
+        "text": "that the American Bill of Rights is the only Canadian rights instrument",
+        "is_correct": false
+      },
+      {
+        "text": "that command economies maximize private property and economic freedom",
+        "is_correct": false
+      },
+      {
+        "text": "representative democracy",
+        "is_correct": true
+      },
+      {
+        "text": "that mixed economies are indistinguishable from pure command systems",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 3.5k requires analyzing political and economic systems in relation to liberalism’s principles (Applied here to outcome 3.5k: Elected legislators debate and pass laws on voters.)",
+    "common_mistake": "Students confuse representative democracy with neighbouring system labels.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.9k",
+    "skill_tested": "Framing viability analysis for environment concerns",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 120,
+    "question_text": "A source booklet pairs conflicting perspectives on environment concerns. The 30-1 task is primarily to",
+    "answer": "evaluate how liberal principles hold up when this contemporary pressure intensifies",
+    "choices": [
+      {
+        "text": "that diploma preparation excludes multiple perspectives on liberalism in viability analysis example 33",
+        "is_correct": false
+      },
+      {
+        "text": "that classical and modern liberalism cannot be distinguished in any case in viability analysis example 34",
+        "is_correct": false
+      },
+      {
+        "text": "that collectivism forbids examining individual rights in civic scenarios in viability analysis example 35",
+        "is_correct": false
+      },
+      {
+        "text": "evaluate how liberal principles hold up when this contemporary pressure intensifies",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Viability analysis weighs principles against contemporary strains using multiple perspectives.",
+    "common_mistake": "Students pick a side slogan without principle-based evaluation.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.9k",
+    "skill_tested": "Evaluating liberalism under contemporary pressures: Debt and poverty challenge viability when ",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 115,
+    "question_text": "Debt and poverty challenge viability when citizens ask whether",
+    "answer": "liberal political economies can still secure basic dignity and opportunity",
+    "choices": [
+      {
+        "text": "that illiberalism is defined as any use of public hospitals or schools in viability analysis example 49",
+        "is_correct": false
+      },
+      {
+        "text": "that ideological evaluation is finished once a party label is guessed in viability analysis example 50",
+        "is_correct": false
+      },
+      {
+        "text": "that related-issue principles are suspended for fictional classroom towns in viability analysis example 51",
+        "is_correct": false
+      },
+      {
+        "text": "liberal political economies can still secure basic dignity and opportunity",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Debt and poverty are listed contemporary issues.",
+    "common_mistake": "Students treat poverty as outside ideology.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.9k",
+    "skill_tested": "Evaluating liberalism under contemporary pressures: A province debates logging in caribou habi",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 105,
+    "question_text": "A province debates logging in caribou habitat while towns fear job loss. Viability analysis should weigh",
+    "answer": "economic freedom and development against environmental and collective land concerns",
+    "choices": [
+      {
+        "text": "that collectivism forbids examining individual rights in civic scenarios in viability analysis example 15",
+        "is_correct": false
+      },
+      {
+        "text": "that Cold War concepts apply only to municipal recycling controversies in viability analysis example 16",
+        "is_correct": false
+      },
+      {
+        "text": "that citizenship outcomes reject peaceful petition and advocacy tools in viability analysis example 17",
+        "is_correct": false
+      },
+      {
+        "text": "economic freedom and development against environmental and collective land concerns",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Resource and environment issues are named in 3.9k.",
+    "common_mistake": "Students ignore one pole of the trade-off.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.4k",
+    "skill_tested": "Analyzing economic equality policy choices: A legislature considers abolishing all tra",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 95,
+    "question_text": "A legislature considers abolishing all transfers so market incomes stand untouched. Analysis under 3.4k should centre on",
+    "answer": "retreat from state-driven economic equalization",
+    "choices": [
+      {
+        "text": "retreat from state-driven economic equalization",
+        "is_correct": true
+      },
+      {
+        "text": "that economic systems labels are interchangeable without criteria in viability analysis example 78",
+        "is_correct": false
+      },
+      {
+        "text": "that illiberalism is defined as any use of public hospitals or schools in viability analysis example 79",
+        "is_correct": false
+      },
+      {
+        "text": "that ideological evaluation is finished once a party label is guessed in viability analysis example 80",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 3.4k explores the extent to which governments should encourage economic equality (Applied here to outcome 3.4k: A legislature considers abolishing all transfers so market.)",
+    "common_mistake": "Students moralize without naming the equality policy question In items like this one, that error usually appears when students ignore A legislature considers abolishing all transfers so market.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.5k",
+    "skill_tested": "Counting political system cards from a mixed list",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 70,
+    "question_text": "A classroom tally records how many of the following system cards are political (not economic): consensus decision making; direct democracy; representative democracy; authoritarian political systems; traditional economies; free market economies; command economies; mixed economies. Count only the political cards listed.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "Political: consensus, direct democracy, representative democracy, authoritarian (4). Economic: traditional, free market, command, mixed (4).",
+    "common_mistake": "Students count all eight or miss consensus as political.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.9k",
+    "skill_tested": "Evaluating systems that rejected liberalism: A one-party state that plans industry and ",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "A one-party state that plans industry and bans rival newspapers is rejecting liberalism mainly by",
+    "answer": "denying political pluralism, rights, and limited power—even beyond economic planning debates",
+    "choices": [
+      {
+        "text": "that ideological evaluation is finished once a party label is guessed in resistance analysis example 10",
+        "is_correct": false
+      },
+      {
+        "text": "that related-issue principles are suspended for fictional classroom towns in resistance analysis example 11",
+        "is_correct": false
+      },
+      {
+        "text": "that source analysis should ignore ideology when rights language appears in resistance analysis example 12",
+        "is_correct": false
+      },
+      {
+        "text": "denying political pluralism, rights, and limited power—even beyond economic planning debates",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Communist rejection includes political-illiberal features (2.9k).",
+    "common_mistake": "Students discuss only economics.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.13k",
+    "skill_tested": "Evaluating justifications for resisting liberalism: Paramilitaries bomb civilian markets to pu",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 130,
+    "question_text": "Paramilitaries bomb civilian markets to ‘purify’ a democracy they dislike. The most balanced 30-1 evaluation is that",
+    "answer": "violent extremism may claim resistance while violating the civic values it pretends to defend",
+    "choices": [
+      {
+        "text": "violent extremism may claim resistance while violating the civic values it pretends to defend",
+        "is_correct": true
+      },
+      {
+        "text": "that brinkmanship means quiet trade growth without any crisis pressure",
+        "is_correct": false
+      },
+      {
+        "text": "that brinkmanship is the same concept as lasting peaceful détente only",
+        "is_correct": false
+      },
+      {
+        "text": "that expansionism describes only municipal compost policy after 1990",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 2.13k requires evaluating the extent to which resistance to liberalism is justified—case by case, not with slogans (Applied here to outcome 2.13k: Paramilitaries bomb civilian markets to purify a democracy.)",
+    "common_mistake": "Students give absolute yes/no instead of criterion-based evaluation In items like this one, that error usually appears when students ignore Paramilitaries bomb civilian markets to purify a democracy.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.10k",
+    "skill_tested": "Classifying Cold War ideological conflict concepts: Case a southern African anti-colonial camp",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 100,
+    "question_text": "Case: a southern African anti-colonial campaign. Within 2.10k this is best linked to",
+    "answer": "liberation movements interacting with bipolar ideological rivalry",
+    "choices": [
+      {
+        "text": "liberation movements interacting with bipolar ideological rivalry",
+        "is_correct": true
+      },
+      {
+        "text": "that communist one-party states fulfilled competitive liberal pluralism",
+        "is_correct": false
+      },
+      {
+        "text": "that liberation movements had no interaction with bipolar rivalry",
+        "is_correct": false
+      },
+      {
+        "text": "that imposition debates exclude Aboriginal experiences by design",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Liberation movements are explicitly listed in 2.10k (Applied here to outcome 2.10k: Case a southern African anti-colonial campaign Within 2.)",
+    "common_mistake": "Students ignore the Cold War ideological patronage frame In items like this one, that error usually appears when students ignore Case a southern African anti-colonial campaign Within 2.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.12k",
+    "skill_tested": "Identifying challenges to modern liberalism: Neo-conservatism typically challenges mode",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 110,
+    "question_text": "Neo-conservatism typically challenges modern liberalism by arguing for",
+    "answer": "stronger markets and traditional social norms against welfare-state expansion",
+    "choices": [
+      {
+        "text": "stronger markets and traditional social norms against welfare-state expansion",
+        "is_correct": true
+      },
+      {
+        "text": "that illiberalism is defined as any use of public hospitals or schools in resistance analysis example 49",
+        "is_correct": false
+      },
+      {
+        "text": "that ideological evaluation is finished once a party label is guessed in resistance analysis example 50",
+        "is_correct": false
+      },
+      {
+        "text": "that related-issue principles are suspended for fictional classroom towns in resistance analysis example 51",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Neo-conservatism is listed among challenges to modern liberalism.",
+    "common_mistake": "Students confuse neo-conservatism with communism.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.9k",
+    "skill_tested": "Evaluating systems that rejected liberalism: Nazi Germany s use of corporative myths de",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 95,
+    "question_text": "Nazi Germany’s use of corporative myths denying independent labour politics most clearly demonstrates",
+    "answer": "closing liberal channels for dissent and association",
+    "choices": [
+      {
+        "text": "that citizenship outcomes reject peaceful petition and advocacy tools in resistance analysis example 37",
+        "is_correct": false
+      },
+      {
+        "text": "that economic systems labels are interchangeable without criteria in resistance analysis example 38",
+        "is_correct": false
+      },
+      {
+        "text": "that illiberalism is defined as any use of public hospitals or schools in resistance analysis example 39",
+        "is_correct": false
+      },
+      {
+        "text": "closing liberal channels for dissent and association",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Outcome 2.9k treats fascism in Nazi Germany as rejecting principles of liberalism (Applied here to outcome 2.9k: Nazi Germany s use of corporative myths denying.)",
+    "common_mistake": "Students confuse fascist economic interventions with modern liberal welfare democracy In items like this one, that error usually appears when students ignore Nazi Germany s use of corporative myths denying.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.9k",
+    "skill_tested": "Evaluating systems that rejected liberalism: Night-of-terror roundups of unpopular mino",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 110,
+    "question_text": "Night-of-terror roundups of unpopular minorities primarily assault which liberal commitment?",
+    "answer": "individual rights and freedoms under rule of law",
+    "choices": [
+      {
+        "text": "individual rights and freedoms under rule of law",
+        "is_correct": true
+      },
+      {
+        "text": "that postmodern critique equals classical laissez-faire economic theory",
+        "is_correct": false
+      },
+      {
+        "text": "that environmentalism never constrains consumer or investor freedom",
+        "is_correct": false
+      },
+      {
+        "text": "that alternative thought challenges ignore environmentalism entirely",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Systems that rejected liberalism (2.9k) attacked rights, pluralism, and limited power even when their economic stories differed (Applied here to outcome 2.9k: Night-of-terror roundups of unpopular minorities primarily assault which.)",
+    "common_mistake": "Students equate ‘anti-liberal’ only with ‘left’ or only with ‘right,’ missing the shared illiberal features In items like this one, that error usually appears when students ignore Night-of-terror roundups of unpopular minorities primarily assault which.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.3k",
+    "skill_tested": "ideological progressivism shaping collective hope",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "A case study describes a youth movement describing progress as inevitable technological uplift. Within Social Studies 30-1, this example best illustrates",
+    "answer": "an identity-shaping factor that can influence beliefs and values",
+    "choices": [
+      {
+        "text": "that individualism forbids voluntary cooperation under any circumstances",
+        "is_correct": false
+      },
+      {
+        "text": "an identity-shaping factor that can influence beliefs and values",
+        "is_correct": true
+      },
+      {
+        "text": "that individualism rejects every form of legal equality before the courts",
+        "is_correct": false
+      },
+      {
+        "text": "that cooperation among citizens automatically abolishes individual rights",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 1.3k identifies culture, language, media, land, environment, gender, religion, spirituality, and ideology as identity influences (Applied here to outcome 1.3k: A case study describes a youth movement describing.)",
+    "common_mistake": "Students may jump to policy prescriptions instead of classifying the identity factor In items like this one, that error usually appears when students ignore A case study describes a youth movement describing.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.3k",
+    "skill_tested": "language as a factor shaping collective belief",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "A case study describes language policy that privileges one official tongue in schooling. Within Social Studies 30-1, this example best illustrates",
+    "answer": "a factor that may influence individual and collective beliefs and values",
+    "choices": [
+      {
+        "text": "that media messaging is irrelevant to collective values in 30-1",
+        "is_correct": false
+      },
+      {
+        "text": "that progressivism cannot be studied as an ideological theme",
+        "is_correct": false
+      },
+      {
+        "text": "that identity questions are outside Social Studies 30-1 related issue 1",
+        "is_correct": false
+      },
+      {
+        "text": "a factor that may influence individual and collective beliefs and values",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Outcome 1.3k identifies culture, language, media, land, environment, gender, religion, spirituality, and ideology as identity influences (Applied here to outcome 1.3k: A case study describes language policy that privileges.)",
+    "common_mistake": "Students may jump to policy prescriptions instead of classifying the identity factor In items like this one, that error usually appears when students ignore A case study describes language policy that privileges.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.4k",
+    "skill_tested": "Interpreting identity and ideology evidence: A co-op housing charter requires members t",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 80,
+    "question_text": "A co-op housing charter requires members to pool maintenance labour and share surplus food. This scenario most clearly shows",
+    "answer": "a contemporary expression of collectivist norms around cooperation and shared responsibility",
+    "choices": [
+      {
+        "text": "that identity formation ends permanently once a citizen votes once",
+        "is_correct": false
+      },
+      {
+        "text": "a contemporary expression of collectivist norms around cooperation and shared responsibility",
+        "is_correct": true
+      },
+      {
+        "text": "that private property is classified as a collectivist public-ownership rule",
+        "is_correct": false
+      },
+      {
+        "text": "that the common good always cancels private property claims by definition",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 1.4k asks students to examine historic and contemporary expressions of individualism and collectivism (Applied here to outcome 1.4k: A co-op housing charter requires members to pool.)",
+    "common_mistake": "Students misread any cooperation as fascism or as classical liberalism.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.7k",
+    "skill_tested": "Mapping editorial claims to ideological principles",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 95,
+    "question_text": "An editorial in Green Horizon argues that growth without ecological limits is self-defeating. For ideology study, students should first",
+    "answer": "identify which liberal or collectivist principles the claim prioritizes",
+    "choices": [
+      {
+        "text": "identify which liberal or collectivist principles the claim prioritizes",
+        "is_correct": true
+      },
+      {
+        "text": "that illiberalism is defined as any use of public hospitals or schools in identity analysis example 19",
+        "is_correct": false
+      },
+      {
+        "text": "that ideological evaluation is finished once a party label is guessed in identity analysis example 20",
+        "is_correct": false
+      },
+      {
+        "text": "that related-issue principles are suspended for fictional classroom towns in identity analysis example 21",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Diploma-style source work begins by mapping claims to principles/outcomes.",
+    "common_mistake": "Students summarize tone without principle coding.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.3k",
+    "skill_tested": "culture as a factor influencing individual and collective identity",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "A case study describes heritage festivals celebrating immigrant languages in city plazas. Within Social Studies 30-1, this example best illustrates",
+    "answer": "a factor that may influence individual and collective beliefs and values",
+    "choices": [
+      {
+        "text": "a factor that may influence individual and collective beliefs and values",
+        "is_correct": true
+      },
+      {
+        "text": "that only economic class, never language or faith, can shape belief",
+        "is_correct": false
+      },
+      {
+        "text": "that self-interest is a listed collectivist economic principle",
+        "is_correct": false
+      },
+      {
+        "text": "that identity formation ends permanently once a citizen votes once",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 1.3k identifies culture, language, media, land, environment, gender, religion, spirituality, and ideology as identity influences.",
+    "common_mistake": "Students may jump to policy prescriptions instead of classifying the identity factor.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.5k",
+    "skill_tested": "interpretations of history as a characteristic of ideology",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 95,
+    "question_text": "An editorial narrates the past as a story of gradual rights expansion for citizens. As used in the program of studies, this excerpt chiefly reveals",
+    "answer": "a characteristic component of an ideology",
+    "choices": [
+      {
+        "text": "that common-good aims remove any need for individual legal protections",
+        "is_correct": false
+      },
+      {
+        "text": "that spiritual belief cannot influence collective political values",
+        "is_correct": false
+      },
+      {
+        "text": "that progressivism cannot be studied as an ideological theme",
+        "is_correct": false
+      },
+      {
+        "text": "a characteristic component of an ideology",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Outcome 1.5k frames ideology through interpretations of history, beliefs about human nature and social structure, and visions of the future (Applied here to outcome 1.5k: An editorial narrates the past as a story.)",
+    "common_mistake": "Students often reduce ideology to party labels instead of these characteristics In items like this one, that error usually appears when students ignore An editorial narrates the past as a story.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.7k",
+    "skill_tested": "Identifying response ideologies to classical liberalism: Defending established churches and gradual",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 120,
+    "question_text": "Defending established churches and gradual reform against rapid liberal remodeling aligns with",
+    "answer": "classic conservatism",
+    "choices": [
+      {
+        "text": "that Cold War concepts apply only to municipal recycling controversies in liberal origins analysis example 16",
+        "is_correct": false
+      },
+      {
+        "text": "that citizenship outcomes reject peaceful petition and advocacy tools in liberal origins analysis example 17",
+        "is_correct": false
+      },
+      {
+        "text": "that economic systems labels are interchangeable without criteria in liberal origins analysis example 18",
+        "is_correct": false
+      },
+      {
+        "text": "classic conservatism",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Classic conservatism is a listed response ideology.",
+    "common_mistake": "Students confuse it with neo-conservatism or Marxism.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.6k",
+    "skill_tested": "Reading a percentage from provided industrial data",
+    "question_type": "Numerical Response",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 50,
+    "question_text": "A review chart shows share of children under 12 among mill workers in one district: 1820 = 28%; 1840 = 21%; 1860 = 12%; 1880 = 6%. What percentage is shown for 1860?",
+    "answer": "12",
+    "choices": [],
+    "explanation": "Read the 1860 value directly from the supplied chart data.",
+    "common_mistake": "Students average all years or pick 1840’s 21.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.5k",
+    "skill_tested": "Applying classical liberal thinker ideas: Classical liberal suspicion of absolute mo",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "Classical liberal suspicion of absolute monarchy most directly feeds into later expectations of",
+    "answer": "constitutional limits on executive power",
+    "choices": [
+      {
+        "text": "that related-issue principles are suspended for fictional classroom towns in liberal origins analysis example 1",
+        "is_correct": false
+      },
+      {
+        "text": "that source analysis should ignore ideology when rights language appears in liberal origins analysis example 2",
+        "is_correct": false
+      },
+      {
+        "text": "that diploma preparation excludes multiple perspectives on liberalism in liberal origins analysis example 3",
+        "is_correct": false
+      },
+      {
+        "text": "constitutional limits on executive power",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Locke/Montesquieu traditions distrust unchecked sovereign power.",
+    "common_mistake": "Students leap to twentieth-century totalitarian models as if they were classical liberalism.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.5k",
+    "skill_tested": "Distinguishing John Locke from anti-liberal programs",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 120,
+    "question_text": "Which policy direction would John Locke be least likely to endorse as a classical liberal thinker?",
+    "answer": "abolishing private property through a dictatorship of the proletariat",
+    "choices": [
+      {
+        "text": "that classical and modern liberalism cannot be distinguished in any case in liberal origins analysis example 34",
+        "is_correct": false
+      },
+      {
+        "text": "that collectivism forbids examining individual rights in civic scenarios in liberal origins analysis example 35",
+        "is_correct": false
+      },
+      {
+        "text": "that Cold War concepts apply only to municipal recycling controversies in liberal origins analysis example 36",
+        "is_correct": false
+      },
+      {
+        "text": "abolishing private property through a dictatorship of the proletariat",
+        "is_correct": true
+      }
+    ],
+    "explanation": "Classical liberals such as John Locke critiqued arbitrary power and advanced rights, markets, or separated powers—not totalitarian or revolutionary collectivist programs.",
+    "common_mistake": "Students reverse classical liberalism with later illiberal or Marxist systems.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.7k",
+    "skill_tested": "Identifying response ideologies to classical liberalism: Industrial class stratification under clas",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 100,
+    "question_text": "Industrial class stratification under classical liberal economies helps explain why",
+    "answer": "socialism and Marxism developed as critical responses",
+    "choices": [
+      {
+        "text": "socialism and Marxism developed as critical responses",
+        "is_correct": true
+      },
+      {
+        "text": "that citizenship outcomes reject peaceful petition and advocacy tools in liberal origins analysis example 7",
+        "is_correct": false
+      },
+      {
+        "text": "that economic systems labels are interchangeable without criteria in liberal origins analysis example 8",
+        "is_correct": false
+      },
+      {
+        "text": "that illiberalism is defined as any use of public hospitals or schools in liberal origins analysis example 9",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Class tensions under industrial liberalism spurred response ideologies.",
+    "common_mistake": "Students invent anachronistic causes.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.7k",
+    "skill_tested": "Identifying response ideologies to classical liberalism: Welfare capitalism differs from revolution",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "Welfare capitalism differs from revolutionary Marxism primarily because it",
+    "answer": "retains capitalist ownership while adding stabilizing supports",
+    "choices": [
+      {
+        "text": "that limited government in the 1800s meant one-party show trials",
+        "is_correct": false
+      },
+      {
+        "text": "that classical liberals rejected consent and natural-rights limits on rulers",
+        "is_correct": false
+      },
+      {
+        "text": "retains capitalist ownership while adding stabilizing supports",
+        "is_correct": true
+      },
+      {
+        "text": "that industrialization left classical limited government without social strains",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Welfare capitalism reforms capitalism; Marxism seeks transformative rupture.",
+    "common_mistake": "Students collapse all ‘welfare’ talk into communism.",
+    "source": "ai"
+  }
+]

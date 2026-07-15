@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "2026-07-14T00:14:13.793092+00:00",
+  "status": "READY",
+  "backup": "C:\\AlbertaPrep\\backend\\backups\\albertaprep_pre_math20_1_import_20260714_001413.db",
+  "json_source": "C:\\AlbertaPrep\\questions.json\\math20-1_questions_final.json",
+  "import_summary": {
+    "math20_1_before": 300,
+    "math20_1_after": 300,
+    "imported_new": 0
+  },
+  "data_preservation": {
+    "production_ids_preserved": true,
+    "preserved_courses": [
+      "BIO30",
+      "MATH30-1",
+      "CHEM30",
+      "PHYS30"
+    ],
+    "user_answers": {
+      "before": 451,
+      "after": 451
+    },
+    "question_history": {
+      "before": 288,
+      "after": 288
+    },
+    "quiz_attempts": {
+      "before": 107,
+      "after": 107
+    },
+    "topic_performance": {
+      "before": 86,
+      "after": 86
+    },
+    "bio30_count": {
+      "before": 300,
+      "after": 300
+    },
+    "math30_1_count": {
+      "before": 293,
+      "after": 293
+    },
+    "chem30_count": {
+      "before": 300,
+      "after": 300
+    },
+    "phys30_count": {
+      "before": 300,
+      "after": 300
+    }
+  },
+  "math20_1_counts": {
+    "total": 300,
+    "target": 300,
+    "by_topic": {
+      "Sequences and Series": 23,
+      "Trigonometry": 45,
+      "Quadratic Functions": 36,
+      "Quadratic Equations": 52,
+      "Radical Expressions and Equations": 30,
+      "Rational Expressions and Equations": 45,
+      "Absolute Value and Reciprocal Functions": 36,
+      "Systems of Equations": 15,
+      "Linear and Quadratic Inequalities": 18
+    },
+    "topic_targets": {
+      "Quadratic Equations": 52,
+      "Rational Expressions and Equations": 45,
+      "Trigonometry": 45,
+      "Quadratic Functions": 36,
+      "Absolute Value and Reciprocal Functions": 36,
+      "Radical Expressions and Equations": 30,
+      "Sequences and Series": 23,
+      "Linear and Quadratic Inequalities": 18,
+      "Systems of Equations": 15
+    },
+    "by_type": {
+      "multiple_choice": 139,
+      "numerical_response": 161
+    },
+    "type_targets": {
+      "multiple_choice": 139,
+      "numerical_response": 161
+    }
+  },
+  "api_verification": {
+    "courses_listed": true,
+    "course_question_count": 300,
+    "topic_count": 9,
+    "quiz_available_count": 300,
+    "quiz_questions_returned": 10,
+    "progress_courses": 0,
+    "progress_has_practice_streak": true,
+    "daily_practice_total": 10,
+    "daily_practice_started": 10,
+    "weakness_map_topics": 9,
+    "guest_mc_grade": true,
+    "guest_nr_grade": true,
+    "api_available": true
+  },
+  "issues": []
+}

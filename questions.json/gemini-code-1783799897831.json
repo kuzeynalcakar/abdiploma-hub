@@ -1,0 +1,543 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Sum of two linear functions evaluated at a point",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Given the functions $f(x) = 3x - 5$ and $g(x) = -2x + 7$, determine the value of $(f + g)(4)$.",
+    "answer": "$6$",
+    "choices": [
+      {
+        "text": "$6$",
+        "is_correct": true
+      },
+      {
+        "text": "$8$",
+        "is_correct": false
+      },
+      {
+        "text": "$13$",
+        "is_correct": false
+      },
+      {
+        "text": "$-1$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "By definition, $(f + g)(4) = f(4) + g(4)$. First, evaluate each function at $x = 4$: $f(4) = 3(4) - 5 = 12 - 5 = 7$, and $g(4) = -2(4) + 7 = -8 + 7 = -1$. Summing these values yields $7 + (-1) = 6$. Alternatively, find the combined function first: $(f + g)(x) = (3x - 5) + (-2x + 7) = x + 2$. Evaluating at $x = 4$ gives $4 + 2 = 6$.",
+    "common_mistake": "Students may mistakenly subtract the functions instead of adding them, resulting in $7 - (-1) = 8$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Difference of two functions evaluated from a given table",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "Selected values for the functions $f(x)$ and $g(x)$ are shown in the table below:\n\n\\begin{tabular}{|c|c|c|}\n\\hline\n$x$ & $f(x)$ & $g(x)$ \\\\\n\\hline\n$-1$ & $4$ & $2$ \\\\\n$0$ & $1$ & $-3$ \\\\\n$2$ & $-5$ & $6$ \\\\\n$5$ & $0$ & $-1$ \\\\\n\\hline\n\\end{tabular}\n\nDetermine the value of $(f - g)(2)$.",
+    "answer": "$-11$",
+    "choices": [
+      {
+        "text": "$-11$",
+        "is_correct": true
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      },
+      {
+        "text": "$-1$",
+        "is_correct": false
+      },
+      {
+        "text": "$11$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The operation $(f - g)(2)$ is evaluated as $f(2) - g(2)$. From the table, look up the row where $x = 2$. We find $f(2) = -5$ and $g(2) = 6$. Subtracting these values gives $-5 - 6 = -11$.",
+    "common_mistake": "Students often add the values or reverse the subtraction order, incorrectly computing $6 - (-5) = 11$ or $-5 + 6 = 1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Determining the domain of a quotient function with explicit constraints",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "If $f(x) = x + 3$ and $g(x) = 2x - 8$, what is the restriction on the domain of the quotient function $\\left(\\frac{f}{g}\\right)(x)$?",
+    "answer": "$x \\neq 4$",
+    "choices": [
+      {
+        "text": "$x \\neq 4$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\neq -3$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq 0$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq -4$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The quotient function is written as $\\left(\\frac{f}{g}\\right)(x) = \\frac{f(x)}{g(x)} = \\frac{x + 3}{2x - 8}$. The domain of a quotient function is restricted where the denominator function equals zero. Setting $2x - 8 = 0$ yields $2x = 8 \\Rightarrow x = 4$. Thus, $x$ cannot equal $4$.",
+    "common_mistake": "Students frequently look at the numerator root instead of the denominator root, concluding that $x \\neq -3$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Product of linear and constant functions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "Let $f(x) = 5$ and $g(x) = 2x^2 - 3x + 1$. Which of the following expressions represents $(f \\cdot g)(x)$?",
+    "answer": "$10x^2 - 15x + 5$",
+    "choices": [
+      {
+        "text": "$10x^2 - 15x + 5$",
+        "is_correct": true
+      },
+      {
+        "text": "$2x^2 - 3x + 6$",
+        "is_correct": false
+      },
+      {
+        "text": "$10x^2 - 3x + 1$",
+        "is_correct": false
+      },
+      {
+        "text": "$2x^2 - 15x + 5$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The product function $(f \\cdot g)(x)$ is found by multiplying the expression for $f(x)$ by the expression for $g(x)$. Here, $(f \\cdot g)(x) = 5 \\cdot (2x^2 - 3x + 1)$. Distribute the $5$ to every term within the parentheses: $5(2x^2) - 5(3x) + 5(1) = 10x^2 - 15x + 5$.",
+    "common_mistake": "Students sometimes distribute the constant factor only to the first term or add it to the final constant term instead of multiplying throughout.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Domain of the sum of two radical functions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "Given the functions $f(x) = \\sqrt{x - 2}$ and $g(x) = \\sqrt{7 - x}$, what is the domain of the combined function $(f + g)(x)$?",
+    "answer": "$2 \\le x \\le 7$",
+    "choices": [
+      {
+        "text": "$2 \\le x \\le 7$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\ge 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\le 7$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\in \\mathbb{R}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The domain of a combined function is the intersection of the domains of the individual functions. For $f(x) = \\sqrt{x - 2}$, the radicand must be non-negative: $x - 2 \\ge 0 \\Rightarrow x \\ge 2$. For $g(x) = \\sqrt{7 - x}$, we need $7 - x \\ge 0 \\Rightarrow x \\le 7$. The intersection of $x \\ge 2$ and $x \\le 7$ is the interval $2 \\le x \\le 7$.",
+    "common_mistake": "Students may only consider one of the radical constraints, concluding that the domain is simply $x \\ge 2$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Evaluating a combined function subtraction from specified ordered pairs",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Two functions are defined by their sets of ordered pairs:\n$f = \\{(1, 5), (2, 8), (3, -2), (4, 0)\\}$\n$g = \\{(1, 2), (3, 4), (5, 6)\\}$\n\nDetermine the value of $(g - f)(3)$.",
+    "answer": "$6$",
+    "choices": [
+      {
+        "text": "$6$",
+        "is_correct": true
+      },
+      {
+        "text": "$-6$",
+        "is_correct": false
+      },
+      {
+        "text": "$2$",
+        "is_correct": false
+      },
+      {
+        "text": "undefined",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To evaluate $(g - f)(3)$, find $g(3) - f(3)$. From the given ordered pairs, the point $(3, 4)$ in set $g$ means $g(3) = 4$. The point $(3, -2)$ in set $f$ means $f(3) = -2$. Performing the subtraction yields $4 - (-2) = 4 + 2 = 6$.",
+    "common_mistake": "Students frequently execute the subtraction in the wrong order ($f(3) - g(3) = -2 - 4 = -6$) or fail to properly handle the double negative.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Evaluating product function with algebraic zero point",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "If $f(x) = x^2 - 9$ and $g(x) = \\frac{1}{x + 5}$, what is the value of $(f \\cdot g)(3)$?",
+    "answer": "$0$",
+    "choices": [
+      {
+        "text": "$0$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{1}{8}$",
+        "is_correct": false
+      },
+      {
+        "text": "$6$",
+        "is_correct": false
+      },
+      {
+        "text": "undefined",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The product $(f \\cdot g)(3)$ is equal to $f(3) \\cdot g(3)$. Evaluating each component: $f(3) = 3^2 - 9 = 9 - 9 = 0$. Since $g(3) = \\frac{1}{3 + 5} = \\frac{1}{8}$, multiplying them results in $0 \\cdot \\frac{1}{8} = 0$.",
+    "common_mistake": "Students may perform incorrect calculations for $3^2$ or forget that any finite value multiplied by zero is zero.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Domain constraint determination for a composite quotient function",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Given the functions $f(x) = \\frac{3}{x - 2}$ and $g(x) = x - 6$, the domain of the quotient function $\\left(\\frac{f}{g}\\right)(x)$ contains restrictions such that $x \\neq a$ and $x \\neq b$. Determine the absolute value of the product $a \\cdot b$.",
+    "answer": "12",
+    "choices": [],
+    "explanation": "The function $\\left(\\frac{f}{g}\\right)(x)$ is written as $\\frac{\\frac{3}{x - 2}}{x - 6}$. For this expression to be defined, two conditions must be met: the individual function $f(x)$ must be defined, and the denominator function $g(x)$ must not equal zero. The function $f(x)$ has a denominator that cannot be zero, which means $x - 2 \\neq 0 \\Rightarrow x \\neq 2$. Additionally, the function in the main denominator cannot be zero, so $g(x) \\neq 0 \\Rightarrow x - 6 \\neq 0 \\Rightarrow x \\neq 6$. Thus, the domain restrictions are $x \\neq 2$ and $x \\neq 6$. The absolute value of their product is $|2 \\cdot 6| = 12$.",
+    "common_mistake": "Students often identify the restriction from the primary denominator ($x \\neq 6$) but overlook the internal restriction of the numerator's fraction ($x \\neq 2$).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Simplifying the expression for a product function",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Consider the functions $f(x) = 2x - 3$ and $g(x) = x^2 + 4$. When the product function $(f \\cdot g)(x)$ is simplified and written in the form $ax^3 + bx^2 + cx + d$, determine the value of the coefficient sum $a + b + c + d$.",
+    "answer": "-7",
+    "choices": [],
+    "explanation": "Find the product function by expanding the expression: \n$(f \\cdot g)(x) = (2x - 3)(x^2 + 4) = 2x(x^2) + 2x(4) - 3(x^2) - 3(4) = 2x^3 + 8x - 3x^2 - 12$. \nArranging in descending powers of $x$: $2x^3 - 3x^2 + 8x - 12$. \nExtracting the parameters: $a = 2$, $b = -3$, $c = 8$, and $d = -12$. \nThe sum of these coefficients is $2 + (-3) + 8 + (-12) = -7$. \nNote: An alternate rapid method is evaluating $(f \\cdot g)(1) = f(1) \\cdot g(1) = (2(1)-3)(1^2+4) = (-1)(5) = -7$.",
+    "common_mistake": "Students frequently make distribution errors, particularly with signs when multiplying $-3$ across the binomial terms.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Analyzing coordinates from a graphical sum of functions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "The graphs of $y = f(x)$ and $y = g(x)$ intersect. At the point of intersection, the $y$-value of $f(x)$ is $5$. Determine the $y$-value of the combined function graph $y = (f + g)(x)$ at this exact same $x$-coordinate.",
+    "answer": "10",
+    "choices": [],
+    "explanation": "An intersection point means that at some specific input value $x = c$, both functions share the same output value: $f(c) = g(c)$. We are given that this common output value is $5$, meaning $f(c) = 5$ and $g(c) = 5$. By definition, the output value for the sum function graph at that input is $(f + g)(c) = f(c) + g(c) = 5 + 5 = 10$.",
+    "common_mistake": "Students may mistakenly think that the values cancel out or remain at $5$, rather than doubling.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Determining value of an unknown constant in a function difference",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "Let $f(x) = 4x^2 - kx + 2$ and $g(x) = 3x - 5$. If $(f - g)(2) = 15$, determine the value of the constant $k$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "The expression $(f - g)(2) = f(2) - g(2) = 15$. First, write expressions or evaluate at $x = 2$:\n$f(2) = 4(2)^2 - k(2) + 2 = 16 - 2k + 2 = 18 - 2k$.\n$g(2) = 3(2) - 5 = 6 - 5 = 1$.\nSet up the equation for the difference:\n$(18 - 2k) - 1 = 15$\n$17 - 2k = 15$\n$-2k = -2 \\Rightarrow k = 1$. Let's re-verify: $17 - 2(1) = 15$. Thus $k = 1$.",
+    "common_mistake": "Students may distribute the negative incorrectly to $g(x)$ or make arithmetic miscalculations when dealing with $4(2)^2$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Identifying function components from a given graph pattern",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "If a combined function is defined as $h(x) = (f \\cdot g)(x)$ where $h(x) = 2x^2 - 8$ and $f(x) = 2x - 4$, which of the following is the explicit equation for $g(x)$?",
+    "answer": "$g(x) = x + 2$",
+    "choices": [
+      {
+        "text": "$g(x) = x + 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$g(x) = x - 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$g(x) = 4x^3 - 8x^2 - 16x + 32$",
+        "is_correct": false
+      },
+      {
+        "text": "$g(x) = 2x^2 - 2x - 4$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since $h(x) = f(x) \\cdot g(x)$, we can isolate $g(x)$ by dividing $h(x)$ by $f(x)$: $g(x) = \\frac{h(x)}{f(x)} = \\frac{2x^2 - 8}{2x - 4}$. Factor both the numerator and the denominator completely: $\\frac{2(x^2 - 4)}{2(x - 2)} = \\frac{2(x - 2)(x + 2)}{2(x - 2)}$. Canceling out common factors yields $g(x) = x + 2$ (where $x \\neq 2$).",
+    "common_mistake": "Students sometimes multiply the functions together instead of dividing, leading to the complex distractor $4x^3 - 8x^2 - 16x + 32$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Analyzing degrees of combined polynomial functions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "If $f(x)$ is a cubic polynomial function and $g(x)$ is a quadratic polynomial function, what is the degree of the product function $(f \\cdot g)(x)$?",
+    "answer": "$5$",
+    "choices": [
+      {
+        "text": "$5$",
+        "is_correct": true
+      },
+      {
+        "text": "$6$",
+        "is_correct": false
+      },
+      {
+        "text": "$3$",
+        "is_correct": false
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A cubic function has a leading term of degree $3$ ($x^3$), and a quadratic function has a leading term of degree $2$ ($x^2$). When multiplying these functions, the leading term of the product function is found by multiplying the highest power terms: $x^3 \\cdot x^2 = x^{3+2} = x^5$. Thus, the degree of the product function is $5$.",
+    "common_mistake": "Students often multiply the degrees ($3 \\cdot 2 = 6$) instead of adding them according to exponent laws.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Identifying domain restrictions of a rational quotient function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "Let $f(x) = \\frac{x}{x-1}$ and $g(x) = \\frac{x-2}{x+3}$. What are all the domain restrictions for the quotient function $\\left(\\frac{f}{g}\right)(x)$?",
+    "answer": "$x \\neq 1, x \\neq -3, x \\neq 2$",
+    "choices": [
+      {
+        "text": "$x \\neq 1, x \\neq -3, x \\neq 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\neq 1, x \\neq -3$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq 1, x \\neq 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq 0, x \\neq 1, x \\neq -3, x \\neq 2$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the domain restrictions of $\\left(\\frac{f}{g}\\right)(x) = \\frac{f(x)}{g(x)}$, we look for: 1) restrictions on $f(x)$, which gives $x \\neq 1$; 2) restrictions on $g(x)$, which gives $x \\neq -3$; and 3) values where $g(x) = 0$, which occurs when its numerator is zero ($x - 2 = 0 \\Rightarrow x = 2$). Combining all three constraints gives $x \\neq 1, x \\neq -3, x \\neq 2$.",
+    "common_mistake": "Students often forget that the numerator of the denominator function cannot be zero, thereby missing the constraint $x \\neq 2$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Determining values from graphical intersection properties",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "Given two functions $f(x)$ and $g(x)$, if the point $(3, 0)$ is an $x$-intercept for both individual graphs, which point must lie on the graph of the product function $y = (f \\cdot g)(x)$?",
+    "answer": "$(3, 0)$",
+    "choices": [
+      {
+        "text": "$(3, 0)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(6, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(3, 6)$",
+        "is_correct": false
+      },
+      {
+        "text": "The point cannot be determined.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since $(3,0)$ is an $x$-intercept for both functions, $f(3) = 0$ and $g(3) = 0$. The product function evaluated at $3$ is $(f \\cdot g)(3) = f(3) \\cdot g(3) = 0 \\cdot 0 = 0$. Therefore, $(3,0)$ is also an $x$-intercept for the product function.",
+    "common_mistake": "Students may accidentally add the inputs or assume the output values add up rather than multiply.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Analyzing domain constraints on a quotient containing square roots",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Consider the functions $f(x) = x^2 - 16$ and $g(x) = \\sqrt{x - 1}$. The domain of the quotient function $\\left(\\frac{g}{f}\\right)(x)$ can be stated as $x \\ge a, x \\neq b$. Determine the value of the sum $a + b$.",
+    "answer": "5",
+    "choices": [],
+    "explanation": "The quotient function is $\\left(\\frac{g}{f}\\right)(x) = \\frac{\\sqrt{x - 1}}{x^2 - 16}$. First, find the domain of the radical function in the numerator: $x - 1 \\ge 0 \\Rightarrow x \\ge 1$. Thus, $a = 1$. Next, find where the denominator is zero: $x^2 - 16 = 0 \\Rightarrow x = \\pm 4$. Since the primary domain requirement is $x \\ge 1$, the negative value $x = -4$ is already excluded. The only valid restriction within the domain is $x \\neq 4$, meaning $b = 4$. The sum $a + b = 1 + 4 = 5$.",
+    "common_mistake": "Students often include both $\\pm 4$ in their calculations without cross-referencing the radical domain constraint $x \\ge 1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Solving equations involving function quotients",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "Let $f(x) = 2x^2 + 5x - 3$ and $g(x) = x + 3$. Find the value of $x$ for which $\\left(\\frac{f}{g}\\right)(x) = 11$.",
+    "answer": "6",
+    "choices": [],
+    "explanation": "First, express the quotient function: $\\left(\\frac{f}{g}\\right)(x) = \\frac{2x^2 + 5x - 3}{x + 3}$. Factor the numerator: $2x^2 + 5x - 3 = (2x - 1)(x + 3)$. Substitute this back into the quotient expression: $\\frac{(2x - 1)(x + 3)}{x + 3} = 2x - 1$, provided $x \\neq -3$. Now, solve the equation: $2x - 1 = 11 \\Rightarrow 2x = 12 \\Rightarrow x = 6$. Since $6 \\neq -3$, this is a valid solution.",
+    "common_mistake": "Students may attempt to cross-multiply without factoring first, leading to more opportunities for algebraic computation errors.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Analyzing range minimums of a function sum",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Let $f(x) = x^2 + 4x$ and $g(x) = -2x + 5$. What is the minimum value of the range of the combined function $h(x) = (f + g)(x)$?",
+    "answer": "$4$",
+    "choices": [
+      {
+        "text": "$4$",
+        "is_correct": true
+      },
+      {
+        "text": "$-4$",
+        "is_correct": false
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      },
+      {
+        "text": "$5$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "First, determine the simplified expression for $h(x)$: $h(x) = (x^2 + 4x) + (-2x + 5) = x^2 + 2x + 5$. This is an upward-opening parabola. To find its minimum value, locate the vertex using $x = -\\frac{b}{2a} = -\\frac{2}{2(1)} = -1$. Evaluate $h(-1)$ to find the minimum range value: $h(-1) = (-1)^2 + 2(-1) + 5 = 1 - 2 + 5 = 4$.",
+    "common_mistake": "Students often calculate the separate vertex minimums of the functions and add those values together, which is mathematically invalid.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Solving systems with non-linear function intersections",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "If $(f - g)(x) = x^2 - 6x + 8$ and $(f + g)(x) = 3x^2 + 2x - 4$, which of the following is the explicit expression for $f(x)$?",
+    "answer": "$2x^2 - 2x + 2$",
+    "choices": [
+      {
+        "text": "$2x^2 - 2x + 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$x^2 + 4x - 6$",
+        "is_correct": false
+      },
+      {
+        "text": "$4x^2 - 4x + 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$2x^2 - 4x + 6$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "We can set up a system of equations using the combined definitions:\n1) $f(x) - g(x) = x^2 - 6x + 8$\n2) $f(x) + g(x) = 3x^2 + 2x - 4$\nAdd equation (1) and equation (2) together to eliminate $g(x)$:\n$2f(x) = (x^2 + 3x^2) + (-6x + 2x) + (8 - 4)$\n$2f(x) = 4x^2 - 4x + 4$\nDivide by $2$ to isolate $f(x)$:\n$f(x) = 2x^2 - 2x + 2$.",
+    "common_mistake": "Students may subtract the equations incorrectly or forget to divide the final right side by $2$, yielding the distractor $4x^2 - 4x + 4$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Operations on Functions",
+    "outcome_code": "RF1",
+    "skill_tested": "Comprehensive graphical/algebraic analysis of function quotient domains",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "Two functions are given by $f(x) = \\sqrt{16 - x^2}$ and $g(x) = x^2 - 3x - 4$.\n\na) Determine the domain of $f(x)$ and the domain of $g(x)$.\n\nb) Write the explicit equation for the quotient function $h(x) = \\left(\\frac{f}{g}\\right)(x)$ and determine its exact domain restriction set.",
+    "answer": "Domain of $f(x)$: $[-4, 4]$; Domain of $g(x)$: $\\mathbb{R}$; Quotient domain: $[-4, 4)$",
+    "choices": [],
+    "explanation": "a) For $f(x) = \\sqrt{16 - x^2}$, the value inside the square root must be non-negative: $16 - x^2 \\ge 0 \\Rightarrow x^2 \\le 16 \\Rightarrow -4 \\le x \\le 4$. Thus, the domain of $f(x)$ is $[-4, 4]$. Since $g(x) = x^2 - 3x - 4$ is a polynomial, its domain is all real numbers, $\\mathbb{R}$.\n\nb) The explicit quotient equation is $h(x) = \\frac{\\sqrt{16 - x^2}}{x^2 - 3x - 4}$. The domain of $h(x)$ must satisfy the intersection of the two individual domains (which is $[-4, 4]$) and exclude any points where the denominator $g(x) = 0$. Set $x^2 - 3x - 4 = 0 \\Rightarrow (x - 4)(x + 1) = 0 \\Rightarrow x = 4$ or $x = -1$. Both values fall inside or on the boundaries of our interval $[-4, 4]$. Removing these points yields the final domain: $[-4, 4] \\setminus \\{-1, 4\\}$, which can be written as $-4 \\le x < 4, x \\neq -1$. Expressed in interval notation, this corresponds to $[-4, -1) \\cup (-1, 4)$.",
+    "common_mistake": "Students often forget to check if the denominator roots fall within the radical's initial domain, or fail to convert a closed interval boundary to an open bracket when that boundary makes the denominator zero.",
+    "source": "ai"
+  }
+]

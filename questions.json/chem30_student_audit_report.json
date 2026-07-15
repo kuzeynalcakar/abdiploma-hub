@@ -1,0 +1,83 @@
+{
+  "student_verdict": "TRUSTWORTHY",
+  "final_issue_count": 0,
+  "question_count_json": 300,
+  "question_count_db": 300,
+  "topic_counts_db": {
+    "Chemical Changes of Organic Compounds": 70,
+    "Chemical Equilibrium Focusing on Acid-Base Systems": 77,
+    "Electrochemical Changes": 83,
+    "Thermochemical Changes": 70
+  },
+  "topic_quiz_simulation": {
+    "Thermochemical Changes": {
+      "mc_checked": 46,
+      "mc_key_ok": 46,
+      "nr_checked": 24,
+      "nr_calc_ok": 24
+    },
+    "Electrochemical Changes": {
+      "mc_checked": 49,
+      "mc_key_ok": 49,
+      "nr_checked": 34,
+      "nr_calc_ok": 34
+    },
+    "Chemical Changes of Organic Compounds": {
+      "mc_checked": 56,
+      "mc_key_ok": 56,
+      "nr_checked": 14,
+      "nr_calc_ok": 14
+    },
+    "Chemical Equilibrium Focusing on Acid-Base Systems": {
+      "mc_checked": 50,
+      "mc_key_ok": 50,
+      "nr_checked": 27,
+      "nr_calc_ok": 27
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "issues_before": 89,
+      "fixes": {
+        "prefixes_removed": 21,
+        "distractors_fixed": 27,
+        "explanations_improved": 31,
+        "calc_stems_diversified": 18
+      },
+      "issues_after": 0,
+      "status": "clean"
+    }
+  ],
+  "db_sync": {
+    "updated": 300,
+    "inserted": 0,
+    "deactivated": 0,
+    "choices_updated": 34
+  },
+  "grading_issues": [],
+  "findings": {
+    "confirmed_answer_key_errors": [],
+    "nr_calculation_errors": [],
+    "grading_failures": [],
+    "duplicate_stems": [],
+    "duplicate_calculations": [],
+    "repeated_templates": [],
+    "weak_distractors": [],
+    "misleading_wording": [],
+    "ai_generated_feel": [],
+    "factual_errors": [],
+    "curriculum_issues": [],
+    "schema_errors": []
+  },
+  "trust_criteria": {
+    "no_confirmed_answer_key_errors": true,
+    "no_duplicate_stems": true,
+    "no_repeated_calc_templates_over_2": true,
+    "no_grading_failures": true,
+    "no_weak_distractors": true,
+    "no_ai_generated_feel": true,
+    "db_matches_json_count": true
+  },
+  "student_notes": "Bank reviewed topic-by-topic as a diploma student. MC answer keys checked against marked choices; NR keys verified by calculation patterns; grading paths tested in DB."
+}

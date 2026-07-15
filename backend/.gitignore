@@ -1,0 +1,11 @@
+# Local secrets and runtime DB — do not commit.
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.db
+backups/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/

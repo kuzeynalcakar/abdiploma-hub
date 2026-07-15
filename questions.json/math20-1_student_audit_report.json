@@ -1,0 +1,127 @@
+{
+  "student_verdict": "TRUSTWORTHY",
+  "final_issue_count": 0,
+  "question_count_json": 300,
+  "question_count_db": 300,
+  "topic_counts_db": {
+    "Sequences and Series": 23,
+    "Trigonometry": 45,
+    "Quadratic Functions": 36,
+    "Quadratic Equations": 52,
+    "Radical Expressions and Equations": 30,
+    "Rational Expressions and Equations": 45,
+    "Absolute Value and Reciprocal Functions": 36,
+    "Systems of Equations": 15,
+    "Linear and Quadratic Inequalities": 18
+  },
+  "topic_quiz_simulation": {
+    "Absolute Value and Reciprocal Functions": {
+      "total": 36,
+      "mc_checked": 29,
+      "mc_key_ok": 29,
+      "nr_checked": 7,
+      "nr_calc_ok": 7,
+      "student_trust": true
+    },
+    "Linear and Quadratic Inequalities": {
+      "total": 18,
+      "mc_checked": 13,
+      "mc_key_ok": 13,
+      "nr_checked": 5,
+      "nr_calc_ok": 5,
+      "student_trust": true
+    },
+    "Quadratic Equations": {
+      "total": 52,
+      "mc_checked": 24,
+      "mc_key_ok": 24,
+      "nr_checked": 28,
+      "nr_calc_ok": 28,
+      "student_trust": true
+    },
+    "Quadratic Functions": {
+      "total": 36,
+      "mc_checked": 28,
+      "mc_key_ok": 28,
+      "nr_checked": 8,
+      "nr_calc_ok": 8,
+      "student_trust": true
+    },
+    "Radical Expressions and Equations": {
+      "total": 30,
+      "mc_checked": 4,
+      "mc_key_ok": 4,
+      "nr_checked": 26,
+      "nr_calc_ok": 26,
+      "student_trust": true
+    },
+    "Rational Expressions and Equations": {
+      "total": 45,
+      "mc_checked": 9,
+      "mc_key_ok": 9,
+      "nr_checked": 36,
+      "nr_calc_ok": 36,
+      "student_trust": true
+    },
+    "Sequences and Series": {
+      "total": 23,
+      "mc_checked": 9,
+      "mc_key_ok": 9,
+      "nr_checked": 14,
+      "nr_calc_ok": 14,
+      "student_trust": true
+    },
+    "Systems of Equations": {
+      "total": 15,
+      "mc_checked": 4,
+      "mc_key_ok": 4,
+      "nr_checked": 11,
+      "nr_calc_ok": 11,
+      "student_trust": true
+    },
+    "Trigonometry": {
+      "total": 45,
+      "mc_checked": 19,
+      "mc_key_ok": 19,
+      "nr_checked": 26,
+      "nr_calc_ok": 26,
+      "student_trust": true
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "issues_before": 382,
+      "fixes": {
+        "mc_choices_synced": 139,
+        "artifacts_cleaned": 225,
+        "distractors_fixed": 83,
+        "nr_keys_fixed": 0
+      },
+      "issues_after": 0,
+      "status": "clean"
+    }
+  ],
+  "db_sync": {
+    "updated": 300,
+    "inserted": 0,
+    "choices_updated": 556,
+    "deactivated": 235
+  },
+  "grading_issues": [],
+  "findings": {},
+  "trust_criteria": {
+    "no_confirmed_answer_key_errors": true,
+    "no_nr_calculation_errors": true,
+    "no_duplicate_stems": true,
+    "no_repeated_calc_templates_over_3": true,
+    "no_grading_ambiguity": true,
+    "no_grading_failures": true,
+    "no_weak_distractors": true,
+    "no_ai_generated_feel": true,
+    "no_factual_errors": true,
+    "db_matches_json_count": true,
+    "all_topics_student_trust": true
+  },
+  "student_notes": "Reviewed all 300 Mathematics 20-1 questions topic-by-topic as an Alberta diploma-prep student. Every MC answer key was checked against marked choices; every NR answer was verified by independent calculation; all active DB grading paths were tested. QA pipeline artifacts (item tags, outcome distractors, boilerplate explanations) were removed and calculation stems diversified where templates repeated."
+}

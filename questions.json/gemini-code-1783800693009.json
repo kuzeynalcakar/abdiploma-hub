@@ -1,0 +1,530 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Determining the period of a transformed sine function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "What is the period of the trigonometric function $y = 4\\sin\\left(3x - \\frac{\\pi}{2}\\right) + 1$?",
+    "answer": "$\\frac{2\\pi}{3}$",
+    "choices": [
+      {
+        "text": "$\\frac{2\\pi}{3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$2\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$6\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\pi}{3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The period of a transformed sine function $y = a\\sin(b(x-c)) + d$ is determined by the formula $\\text{Period} = \\frac{2\\pi}{|b|}$. Here, $b = 3$, so the period is $\\frac{2\\pi}{3}$.",
+    "common_mistake": "Students often assume the period is $2\\pi$ regardless of horizontal stretching, or multiply by 3 instead of dividing.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Determining the amplitude of a cosine function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "Determine the amplitude of the function $y = -5\\cos\\left(2x + \\pi\\right) - 3$.",
+    "answer": "5",
+    "choices": [
+      {
+        "text": "5",
+        "is_correct": true
+      },
+      {
+        "text": "-5",
+        "is_correct": false
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "8",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The amplitude is defined as the absolute value of the vertical stretch factor $a$. For $y = -5\\cos(2x+\\pi)-3$, $a = -5$. Thus, the amplitude is $|-5| = 5$.",
+    "common_mistake": "Students often include the negative sign when stating amplitude, forgetting that amplitude represents a non-negative distance metric.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Identifying the range of a sinusoidal graph",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Which of the following inequalities represents the range of the function $y = 3\\sin(x) - 4$?",
+    "answer": "$-7 \\le y \\le -1$",
+    "choices": [
+      {
+        "text": "$-7 \\le y \\le -1$",
+        "is_correct": true
+      },
+      {
+        "text": "$-3 \\le y \\le 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$-1 \\le y \\le 7$",
+        "is_correct": false
+      },
+      {
+        "text": "$-4 \\le y \\le 3$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The baseline (vertical displacement) is at $d = -4$, and the amplitude is $a = 3$. The minimum value is $d - a = -4 - 3 = -7$, and the maximum value is $d + a = -4 + 3 = -1$. Thus, the range is $[-7, -1]$.",
+    "common_mistake": "Students sometimes apply the amplitude directly to zero or confuse vertical displacement with the amplitude parameter boundaries.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T3",
+    "skill_tested": "Identifying vertical asymptotes of a tangent function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 75,
+    "question_text": "Which of the following locations is a vertical asymptote for the basic tangent function $y = \\tan(x)$?",
+    "answer": "$x = \\frac{\\pi}{2}$",
+    "choices": [
+      {
+        "text": "$x = \\frac{\\pi}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = 0$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 2\\pi$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since $\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}$, the function has vertical asymptotes wherever $\\cos(x) = 0$. In the standard interval, $\\cos(x) = 0$ at $x = \\frac{\\pi}{2}$ (and odd multiples of $\\frac{\\pi}{2}$).",
+    "common_mistake": "Students often confuse the properties of tangent and cotangent, thinking tangent is undefined at 0 or $\\pi$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Solving a basic trigonometric equation on a finite domain",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Solve the equation $2\\cos(x) + 1 = 0$ within the domain $0 \\le x < 2\\pi$.",
+    "answer": "$x = \\frac{2\\pi}{3}$ and $x = \\frac{4\\pi}{3}$",
+    "choices": [
+      {
+        "text": "$x = \\frac{2\\pi}{3}$ and $x = \\frac{4\\pi}{3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = \\frac{\\pi}{3}$ and $x = \\frac{5\\pi}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{5\\pi}{6}$ and $x = \\frac{7\\pi}{6}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{2\\pi}{3}$ and $x = \\frac{5\\pi}{3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Isolate the trigonometric term: $2\\cos(x) = -1 \\Rightarrow \\cos(x) = -\\frac{1}{2}$. The reference angle where $\\cos(\\theta_r) = \\frac{1}{2}$ is $\\frac{\\pi}{3}$. Cosine is negative in Quadrants II and III, so $x = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$ and $x = \\pi + \\frac{\\pi}{3} = \\frac{4\\pi}{3}$.",
+    "common_mistake": "Students often identify angles where $\\cos(x) = \\frac{1}{2}$ (Quadrant I and IV solutions) instead of managing the negative ratio correctly.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Determining the general solution of a basic sine equation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "Determine the general solution for the equation $\\sin(x) = 0$.",
+    "answer": "$x = n\\pi$, where $n \\in \\mathbb{Z}$",
+    "choices": [
+      {
+        "text": "$x = n\\pi$, where $n \\in \\mathbb{Z}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = 2n\\pi$, where $n \\in \\mathbb{Z}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{\\pi}{2} + n\\pi$, where $n \\in \\mathbb{Z}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{\\pi}{2} + 2n\\pi$, where $n \\in \\mathbb{Z}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The sine function equals zero at $x = 0, \\pi, 2\\pi, 3\\pi, \\dots$ as well as negative integer multiples. These values repeat every $\\pi$ radians, so the general solution is $x = n\\pi$, where $n$ is any integer.",
+    "common_mistake": "Students often assume general solutions must always contain a $2n\\pi$ term, failing to condense solutions that occur exactly half a period apart.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Calculating horizontal phase shift from a function equation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Determine the phase shift of the function $y = \\sin\\left(2x - \\frac{\\pi}{3}\\right)$.",
+    "answer": "$\\frac{\\pi}{6}$ units to the right",
+    "choices": [
+      {
+        "text": "$\\frac{\\pi}{6}$ units to the right",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{\\pi}{3}$ units to the right",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\pi}{3}$ units to the left",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\pi}{6}$ units to the left",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the correct phase shift, factor out the horizontal coefficient $b = 2$ from the argument: $y = \\sin\\left(2\\left(x - \\frac{\\pi}{6}\\right)\\right)$. The expression shows a horizontal translation of $\\frac{\\pi}{6}$ units to the right.",
+    "common_mistake": "Students often pick the value $\\frac{\\pi}{3}$ directly without factoring out the horizontal coefficient first.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Extracting sinusoidal parameters from a contextual problem",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "A Ferris wheel with a maximum height of 45 meters and a minimum height of 5 meters rotates at a constant speed. Determine the value of the amplitude, in meters, for the sinusoidal equation that models the height of a passenger over time.",
+    "answer": "20",
+    "choices": [],
+    "explanation": "The amplitude is calculated as half the difference between the maximum and minimum values: $\\text{Amplitude} = \\frac{\\text{Max} - \\text{Min}}{2} = \\frac{45 - 5}{2} = \\frac{40}{2} = 20$ meters.",
+    "common_mistake": "Students often confuse amplitude with vertical displacement, providing the midline value (25) as the answer.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Determining the frequency coefficient from a given period length",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "A sinusoidal function has a period of $8\\pi$. If its equation is written in the form $y = a\\cos(b(x-c)) + d$, where $b > 0$, determine the value of the coefficient $b$. Express your answer as a decimal fraction.",
+    "answer": "0.25",
+    "choices": [],
+    "explanation": "The relationship between period and the horizontal stretching frequency coefficient $b$ is given by $\\text{Period} = \\frac{2\\pi}{b}$. Substituting the given period: $8\\pi = \\frac{2\\pi}{b} \\Rightarrow b = \\frac{2\\pi}{8\\pi} = \\frac{1}{4} = 0.25$.",
+    "common_mistake": "Students often invert the relationship, calculating $b = \\frac{8\\pi}{2\\pi} = 4$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T3",
+    "skill_tested": "Determining the period of a transformed tangent graph",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "Determine the exact period of the transformed tangent function $y = 3\\tan\\left(\\frac{1}{4}x\\right) - 2$.",
+    "answer": "12.57",
+    "choices": [],
+    "explanation": "The base period of a standard tangent function is $\\pi$. For a transformed tangent function $y = a\\tan(bx)$, the period is calculated as $\\frac{\\pi}{|b|}$. Substituting $b = \\frac{1}{4}$ gives $\\text{Period} = \\frac{\\pi}{1/4} = 4\\pi$. Evaluating $4\\pi \\approx 12.56637$. Rounded to two decimal places, the answer is 12.57.",
+    "question_text": "Determine the exact period of the transformed tangent function $y = 3\\tan\\left(\\frac{1}{4}x\\right) - 2$. Express your answer as a multiple of $\\pi$ by entering the integer coefficient before $\\pi$ (e.g., if the answer is $5\\pi$, enter 5).",
+    "answer": "4",
+    "choices": [],
+    "explanation": "The standard period of $y = \\tan(x)$ is $\\pi$. The period of $y = a\\tan(bx)$ is $\\frac{\\pi}{|b|}$. Here, $b = \\frac{1}{4}$, so the period is $\\frac{\\pi}{1/4} = 4\\pi$. The integer coefficient is 4.",
+    "common_mistake": "Students often use $2\\pi$ as the base period for tangent, incorrectly calculating the period as $8\\pi$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Solving quadratic-form trigonometric equations by factoring",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "Determine the total number of solutions for the equation $2\\sin^2(x) - \\sin(x) - 1 = 0$ within the restricted domain $0 \\le x < 2\\pi$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Factor the quadratic equation by treating it as an algebraic polynomial: $(2\\sin(x) + 1)(\\sin(x) - 1) = 0$.\nCase 1: $2\\sin(x) + 1 = 0 \\Rightarrow \\sin(x) = -\\frac{1}{2}$. In $[0, 2\\pi)$, this yields 2 solutions ($x = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$).\nCase 2: $\\sin(x) - 1 = 0 \\Rightarrow \\sin(x) = 1$. In $[0, 2\\pi)$, this yields 1 solution ($x = \\frac{\\pi}{2}$).\nCombining both cases, there are $2 + 1 = 3$ total valid solutions.",
+    "common_mistake": "Students often overlook the root at $\\sin(x) = 1$ because it lands on a quadrantal boundary, or miscount solutions due to sign errors during factoring.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Solving horizontal multiple-angle trigonometric equations",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "Determine the smallest positive solution, in radians, to the equation $\\tan(2x) = 1$. Round your answer to the nearest hundredth of a radian.",
+    "answer": "0.39",
+    "choices": [],
+    "explanation": "Let $\\theta = 2x$. The equation becomes $\\tan(\\theta) = 1$. The smallest positive angle where tangent is 1 is $\\theta = \\frac{\\pi}{4}$. Substitute back to solve for $x$: $2x = \\frac{\\pi}{4} \\Rightarrow x = \\frac{\\pi}{8}$. Evaluating this value yields $\\frac{\\pi}{8} \\approx 0.39269$ radians. Rounded to the nearest hundredth, the answer is 0.39.",
+    "common_mistake": "Students often solve $\\tan(x) = 1$ to get $\\frac{\\pi}{4}$ and then multiply by 2 instead of dividing by 2.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Formulating a sinusoidal function from critical coordinate points",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "A cosine function of the form $y = a\\cos(b(x-c)) + d$ ($a > 0$) has a maximum point at $(0, 5)$ and its nearest consecutive minimum point at $(\\pi, -1)$. Which equation represents this function?",
+    "answer": "$y = 3\\cos(x) + 2$",
+    "choices": [
+      {
+        "text": "$y = 3\\cos(x) + 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = 6\\cos(x) - 1$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 3\\cos(2x) + 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 2\\cos(x) + 3$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "1. Find amplitude $a$: $\\frac{5 - (-1)}{2} = 3$.\n2. Find midline vertical displacement $d$: $\\frac{5 + (-1)}{2} = 2$.\n3. Find period: The horizontal distance from a maximum to the consecutive minimum represents half a period. So, $\\frac{1}{2}\\text{Period} = \\pi - 0 = \\pi \\Rightarrow \\text{Period} = 2\\pi$. This means $b = \\frac{2\\pi}{2\\pi} = 1$.\n4. Phase shift: Since a standard positive cosine function starts at a maximum at $x=0$, there is no phase shift ($c=0$). Combining these values yields $y = 3\\cos(x) + 2$.",
+    "common_mistake": "Students often treat the distance from a max to a min as a full period length, leading to an incorrect $b = 2$ coefficient.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T3",
+    "skill_tested": "Analyzing asymptote tracking under horizontal phase shifts",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The graph of $y = \\text{csc}(x)$ is shifted horizontally to the right by $\\frac{\\pi}{3}$ units. Which of the following general formulas defines the vertical asymptotes of the transformed function, where $n \\in \\mathbb{Z}$?",
+    "answer": "$x = \\frac{\\pi}{3} + n\\pi$",
+    "choices": [
+      {
+        "text": "$x = \\frac{\\pi}{3} + n\\pi$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = n\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{\\pi}{3} + 2n\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{\\pi}{2} + n\\pi$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The standard function $y = \\text{csc}(x) = \\frac{1}{\\sin(x)}$ has vertical asymptotes wherever $\\sin(x) = 0$, which occurs at $x = n\\pi$. When the graph is translated horizontally to the right by $\\frac{\\pi}{3}$ units, every point—including the asymptotes—shifts by that amount. Therefore, the new asymptotes are located at $x = n\\pi + \\frac{\\pi}{3}$.",
+    "common_mistake": "Students often apply the shift in the wrong direction, or base their calculation on the asymptotes of secant instead of cosecant.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Identifying solution intervals using a graphic calculator perspective",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "How many intersection points occur between the graphs of $y = 3\\cos(x)$ and $y = x^2 - 2$?",
+    "answer": "2",
+    "choices": [
+      {
+        "text": "2",
+        "is_correct": true
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      },
+      {
+        "text": "4",
+        "is_correct": false
+      },
+      {
+        "text": "0",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Analyze the behavior of both curves. At $x = 0$, $y = 3\\cos(0) = 3$ and $y = 0^2 - 2 = -2$. The cosine graph lies above the parabola. As $x$ increases or decreases, the parabola $y = x^2 - 2$ grows rapidly toward infinity, while the cosine function remains bounded between $-3$ and $3$. Consequently, the parabola must cross the upper cosine curve exactly once on the positive $x$-axis and exactly once on the negative $x$-axis due to symmetry, resulting in 2 total intersection points.",
+    "common_mistake": "Students often guess 0 because the equations belong to different functional families, or guess more intersections because they expect the waves to loop back.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Solving trigonometric equations requiring reciprocal isolation",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Determine the largest solution to the equation $\\sqrt{3}\\csc(x) + 2 = 0$ within the domain interval $0 \\le x < 2\\pi$. Express your answer as a multiple of $\\pi$ in decimal form (e.g., if the answer is $\\frac{3\\pi}{2}$, enter 1.5).",
+    "answer": "1.67",
+    "choices": [],
+    "explanation": "Isolate the reciprocal function term: $\\sqrt{3}\\csc(x) = -2 \\Rightarrow \\csc(x) = -\\frac{2}{\\sqrt{3}}$. Convert to its equivalent primary identity form: $\\sin(x) = -\\frac{\\sqrt{3}}{2}$. The reference angle is $\\theta_r = \\frac{\\pi}{3}$. Sine is negative in Quadrants III and IV. The largest solution is the Quadrant IV root: $x = 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}$. Expressed as a multiple of $\\pi$, this is $\\frac{5}{3} \\approx 1.67$.",
+    "common_mistake": "Students often provide the smaller solution from Quadrant III ($\\frac{4\\pi}{3}$) or miscalculate the reciprocal identity conversion.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Solving complex multi-angle general solutions with constraints",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The general solution to the equation $\\sin(3x) = \\frac{1}{2}$ can be expressed in the form $x = \\frac{\\pi}{18} + \\frac{2n\\pi}{k}$ and $x = \\frac{5\\pi}{18} + \\frac{2n\\pi}{k}$, where $n \\in \\mathbb{Z}$. Determine the value of the integer constant denominator $k$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Let $\\theta = 3x$. The solutions for $\\sin(\\theta) = \\frac{1}{2}$ are $\\theta = \\frac{\\pi}{6} + 2n\\pi$ and \\(\\theta = \\frac{5\\pi}{6} + 2n\\pi\\). To solve for $x$, divide the entire general expression by 3:\n$$x = \\frac{\\frac{\\pi}{6} + 2n\\pi}{3} = \\frac{\\pi}{18} + \\frac{2n\\pi}{3}$$\n$$x = \\frac{\\frac{5\\pi}{6} + 2n\\pi}{3} = \\frac{5\\pi}{18} + \\frac{2n\\pi}{3}$$\nComparing this to the given template reveals that $k = 3$.",
+    "common_mistake": "Students often forget to divide the periodic component ($2n\\pi$) by 3, which would incorrectly leave $k = 1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Analyzing domain limitations on combined functions containing secant",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "What is the domain restriction for the combined function $y = \\frac{\\sin(x)}{1 - \\sec(x)}$ within the interval $0 \\le x < 2\\pi$?",
+    "answer": "$x \\neq 0, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$",
+    "choices": [
+      {
+        "text": "$x \\neq 0, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\neq \\frac{\\pi}{2}, \\frac{3\\pi}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq 0, \\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq 0$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "1. The function contains $\\sec(x) = \\frac{1}{\\cos(x)}$, which is undefined where $\\cos(x) = 0$. In the given interval, this excludes $x = \\frac{\\pi}{2}$ and $x = \\frac{3\\pi}{2}$.\n2. The denominator of the fraction cannot equal zero: $1 - \\sec(x) \\neq 0 \\Rightarrow \\sec(x) \\neq 1 \\Rightarrow \\cos(x) \\neq 1$. In the given interval, this excludes $x = 0$.\nCombining both constraints, the excluded values are $x = 0, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$.",
+    "common_mistake": "Students often check only the main fraction denominator, missing the implicit restrictions introduced by the reciprocal secant function itself.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Solving quadratic trigonometric equations with non-standard factor values",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Determine the total number of real solutions to the equation $3\\cos^2(x) - 4\\cos(x) - 2 = 0$ within the interval $0 \\le x \\le 2\\pi$.",
+    "answer": "2",
+    "choices": [
+      {
+        "text": "2",
+        "is_correct": true
+      },
+      {
+        "text": "4",
+        "is_correct": false
+      },
+      {
+        "text": "0",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The quadratic expression cannot be factored easily over the integers, so apply the quadratic formula to solve for $\\cos(x)$:\n$$\\cos(x) = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(3)(-2)}}{2(3)} = \\frac{4 \\pm \\sqrt{16 + 24}}{6} = \\frac{4 \\pm \\sqrt{40}}{6}$$\nCalculating the two root options:\n1) $\\cos(x) = \\frac{4 + 6.324}{6} = 1.72$ (This equation has no real solutions because $\\cos(x)$ cannot exceed 1).\n2) $\\cos(x) = \\frac{4 - 6.324}{6} = -0.387$ (Since $-1 \\le -0.387 \\le 1$, this equation yields exactly 2 valid solutions within a single $2\\pi$ period, one in Quadrant II and one in Quadrant III).\nThus, the equation has 2 total solutions.",
+    "common_mistake": "Students often assume that because the quadratic formula yields two roots, the trigonometric equation must have four solutions, forgetting to check the range of the cosine function.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T2",
+    "skill_tested": "Modeling a physical context using transformed sinusoidal modeling equations",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "The depth of water, $d$ meters, at a seaport harbor varies sinusoidally with time, $t$ hours after midnight. At high tide ($t=2$), the water depth reaches its maximum of 16 meters. At the next low tide ($t=8$), the depth drops to its minimum of 4 meters.\n\na) Formulate a cosine function in the form $d(t) = a\\cos(b(t-c)) + d$ to model this behavior.\n\nb) Algebraically calculate the water depth at 5:00 AM ($t=5$).",
+    "answer": "a) $d(t) = 6\\cos\\left(\\frac{\\pi}{6}(t - 2)\\right) + 10$; b) 10 meters",
+    "choices": [],
+    "explanation": "a) Find the parameters:\n- Amplitude $a = \\frac{16 - 4}{2} = 6$.\n- Midline $d = \\frac{16 + 4}{2} = 10$.\n- Period: The time from a maximum to the next minimum is half a period: $\\frac{1}{2}\\text{Period} = 8 - 2 = 6 \\Rightarrow \\text{Period} = 12$ hours. Thus, $b = \\frac{2\\pi}{12} = \\frac{\\pi}{6}$.\n- Phase shift: The first maximum occurs at $t = 2$, so for a positive cosine curve, $c = 2$.\nCombining these values gives the model: $d(t) = 6\\cos\\left(\\frac{\\pi}{6}(t - 2)\\right) + 10$.\n\nb) Substitute $t = 5$ into the model equation:\n$$d(5) = 6\\cos\\left(\\frac{\\pi}{6}(5 - 2)\\right) + 10 = 6\\cos\\left(\\frac{\\pi}{6}(3)\\right) + 10$$\n$$d(5) = 6\\cos\\left(\\frac{\\pi}{2}\\right) + 10$$\nSince $\\cos\\left(\\frac{\\pi}{2}\\right) = 0$, the expression simplifies to:\n$$d(5) = 6(0) + 10 = 10\\text{ meters}$$",
+    "common_mistake": "Students often miscalculate the period by using the 6-hour difference as a full period instead of half a period, or use degree mode on their calculator when evaluating the final radian-based expression.",
+    "source": "ai"
+  }
+]

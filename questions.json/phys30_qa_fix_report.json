@@ -1,0 +1,43 @@
+{
+  "pool_size": 320,
+  "schema_errors": 0,
+  "blocking_after": 0,
+  "before": {
+    "schema_errors": 0,
+    "mc_key_errors": 0,
+    "mc_duplicate_choices": 0,
+    "nr_numeric_errors": 0,
+    "nr_calc_errors": 0,
+    "duplicate_stems": 0,
+    "duplicate_templates": 22,
+    "invalid_outcomes": 0,
+    "weak_distractors": 24,
+    "implausible_distractors": 0,
+    "boilerplate_explanations": 46,
+    "repeated_common_mistakes": 22,
+    "repeated_skills": 2,
+    "repeated_explanations": 1,
+    "ambiguous_wording": 0,
+    "curriculum_flags": 0,
+    "grading_ambiguity": 0
+  },
+  "after": {
+    "schema_errors": 0,
+    "mc_key_errors": 0,
+    "mc_duplicate_choices": 0,
+    "nr_numeric_errors": 0,
+    "nr_calc_errors": 0,
+    "duplicate_stems": 0,
+    "duplicate_templates": 0,
+    "invalid_outcomes": 0,
+    "weak_distractors": 0,
+    "implausible_distractors": 0,
+    "boilerplate_explanations": 0,
+    "repeated_common_mistakes": 0,
+    "repeated_skills": 0,
+    "repeated_explanations": 0,
+    "ambiguous_wording": 0,
+    "curriculum_flags": 0,
+    "grading_ambiguity": 0
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "student_verdict": "TRUSTWORTHY",
+  "final_issue_count": 0,
+  "question_count_json": 300,
+  "question_count_db": 300,
+  "topic_counts_db": {
+    "Set Theory and Logic": 43,
+    "Counting Methods": 50,
+    "Probability": 56,
+    "Rational Expressions and Equations": 43,
+    "Polynomial Functions": 30,
+    "Exponential and Logarithmic Functions": 42,
+    "Sinusoidal Functions": 36
+  },
+  "topic_quiz_simulation": {
+    "Counting Methods": {
+      "total": 50,
+      "mc_checked": 6,
+      "mc_key_ok": 6,
+      "nr_checked": 44,
+      "nr_calc_ok": 44,
+      "student_trust": true
+    },
+    "Exponential and Logarithmic Functions": {
+      "total": 42,
+      "mc_checked": 9,
+      "mc_key_ok": 9,
+      "nr_checked": 33,
+      "nr_calc_ok": 33,
+      "student_trust": true
+    },
+    "Polynomial Functions": {
+      "total": 30,
+      "mc_checked": 12,
+      "mc_key_ok": 12,
+      "nr_checked": 18,
+      "nr_calc_ok": 18,
+      "student_trust": true
+    },
+    "Probability": {
+      "total": 56,
+      "mc_checked": 14,
+      "mc_key_ok": 14,
+      "nr_checked": 42,
+      "nr_calc_ok": 42,
+      "student_trust": true
+    },
+    "Rational Expressions and Equations": {
+      "total": 43,
+      "mc_checked": 7,
+      "mc_key_ok": 7,
+      "nr_checked": 36,
+      "nr_calc_ok": 36,
+      "student_trust": true
+    },
+    "Set Theory and Logic": {
+      "total": 43,
+      "mc_checked": 13,
+      "mc_key_ok": 13,
+      "nr_checked": 30,
+      "nr_calc_ok": 30,
+      "student_trust": true
+    },
+    "Sinusoidal Functions": {
+      "total": 36,
+      "mc_checked": 3,
+      "mc_key_ok": 3,
+      "nr_checked": 33,
+      "nr_calc_ok": 33,
+      "student_trust": true
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "issues_before": 190,
+      "fixes": {
+        "artifacts_cleaned": 117,
+        "distractors_fixed": 34,
+        "explanations_improved": 9
+      },
+      "issues_after": 0,
+      "status": "clean"
+    }
+  ],
+  "fixes_summary": {
+    "artifacts_cleaned": 117,
+    "distractors_fixed": 34,
+    "explanations_improved": 9
+  },
+  "db_sync": {
+    "updated": 300,
+    "inserted": 0,
+    "choices_updated": 256,
+    "deactivated": 22
+  },
+  "grading_issues": [],
+  "findings": {},
+  "trust_criteria": {
+    "no_confirmed_answer_key_errors": true,
+    "no_nr_calculation_errors": true,
+    "no_duplicate_stems": true,
+    "no_repeated_calc_templates_over_3": true,
+    "no_grading_ambiguity": true,
+    "no_grading_failures": true,
+    "no_weak_distractors": true,
+    "no_ai_generated_feel": true,
+    "no_factual_errors": true,
+    "no_curriculum_issues": true,
+    "db_matches_json_count": true,
+    "all_topics_student_trust": true
+  },
+  "student_notes": "Reviewed all 300 Mathematics 30-2 questions topic-by-topic as an Alberta diploma-prep student. Every MC answer key was checked against marked choices; every NR answer was verified by independent calculation; all active DB grading paths were tested. Production-validation artifacts (item tags, outcome-labelled distractors, boilerplate suffixes) were removed and replaced with diploma-style wording and plausible math distractors."
+}

@@ -1,0 +1,262 @@
+{
+  "total": 300,
+  "counts_after": {
+    "Multiple Choice": 176,
+    "Written Response": 55,
+    "Numerical Response": 69
+  },
+  "changes": [
+    {
+      "index": 37,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.1k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "concatenated digit encoding is not a valid numerical response",
+      "question_text": "A resting neuron has membrane potential $-70$ mV and peaks at $+40$ mV during depolarization. Record resting as two digi"
+    },
+    {
+      "index": 38,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A2.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "concatenated digit encoding is not a valid numerical response",
+      "question_text": "A patient has a resting heart rate of $68$ beats/min before exercise and $142$ beats/min immediately after sprinting. Re"
+    },
+    {
+      "index": 41,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.3k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "During a knee-jerk reflex, place the following events in the correct chronological order: (1) motor neuron fires, (2) mu"
+    },
+    {
+      "index": 42,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.5k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order sound processing: (1) cochlear transduction, (2) auditory canal entry, (3) ossicle vibration, (4) tympanic membran"
+    },
+    {
+      "index": 43,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.1k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "concatenated digit encoding is not a valid numerical response",
+      "question_text": "A neuron has a resting membrane potential of $-72$ mV and reaches a peak depolarization of $+35$ mV during an action pot"
+    },
+    {
+      "index": 44,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.6k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "single-label digit code is not an objective NR value",
+      "question_text": "Match receptor type to stimulus: (1) photoreceptor, (2) mechanoreceptor in cochlea, (3) chemoreceptor for taste, (4) noc"
+    },
+    {
+      "index": 46,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.4k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order light pathway: (1) optic nerve, (2) photoreceptor, (3) occipital cortex, (4) bipolar cell. Record all four digits."
+    },
+    {
+      "index": 49,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.5k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Place the following auditory pathway structures in the order sound travels through them from the environment to the coch"
+    },
+    {
+      "index": 50,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A2.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order insulin response to high blood glucose: (1) beta cells secrete insulin, (2) glucose enters cells, (3) blood glucos"
+    },
+    {
+      "index": 51,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.3k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "During the pupillary light reflex, order these events: (1) pupil diameter changes, (2) motor neuron depolarizes, (3) lig"
+    },
+    {
+      "index": 54,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A2.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order HPA axis: (1) cortisol release, (2) CRH release, (3) ACTH release, (4) hypothalamus detects stress. Record all fou"
+    },
+    {
+      "index": 58,
+      "topic": "Nervous and Endocrine Systems",
+      "outcome_code": "A1.3k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order reflex arc signal: (1) effector response, (2) sensory neuron activation, (3) receptor stimulation, (4) motor neuro"
+    },
+    {
+      "index": 76,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B3.5k",
+      "from": "Multiple Choice",
+      "to": "Written Response",
+      "reason": "STS concern requires discussion/evaluation — not multiple choice selection",
+      "question_text": "Somatic cell nuclear transfer (cloning) raises STS concerns because"
+    },
+    {
+      "index": 106,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B2.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order menstrual cycle phases: (1) follicular, (2) ovulation, (3) luteal, (4) menstruation (if no pregnancy). Record all "
+    },
+    {
+      "index": 108,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B2.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order ovarian cycle: (1) ovulation, (2) follicular phase, (3) menstruation, (4) luteal phase. Record all four digits."
+    },
+    {
+      "index": 109,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B1.1k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order fertilization events: (1) cortical reaction, (2) sperm penetrates zona pellucida, (3) fusion of pronuclei, (4) acr"
+    },
+    {
+      "index": 110,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B2.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order implantation events: (1) blastocyst hatches, (2) fertilization, (3) implantation, (4) cleavage to morula. Record a"
+    },
+    {
+      "index": 113,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B1.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order sperm pathway structures after production: (1) epididymis, (2) seminiferous tubule, (3) vas deferens, (4) urethra."
+    },
+    {
+      "index": 116,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B3.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "germ-layer identification requires constructed response, not a label digit",
+      "question_text": "Order embryonic layers use: (1) mesoderm—muscle, (2) ectoderm—nervous tissue, (3) endoderm—gut lining. Which layer forms"
+    },
+    {
+      "index": 118,
+      "topic": "Reproduction and Development",
+      "outcome_code": "B1.1k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order spermatogenesis: (1) spermiogenesis, (2) meiosis II, (3) primary spermatocyte, (4) spermatid. Record all four digi"
+    },
+    {
+      "index": 158,
+      "topic": "Cell Division",
+      "outcome_code": "C1.1k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order meiosis II stages: (1) anaphase II, (2) metaphase II, (3) prophase II, (4) telophase II. Record all four digits."
+    },
+    {
+      "index": 162,
+      "topic": "Cell Division",
+      "outcome_code": "C1.1k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order meiosis I stages: (1) telophase I, (2) metaphase I, (3) prophase I, (4) anaphase I. Record all four digits."
+    },
+    {
+      "index": 173,
+      "topic": "Genetics and Molecular Biology",
+      "outcome_code": "C3.1k",
+      "from": "Multiple Choice",
+      "to": "Numerical Response",
+      "reason": "objective probability/percentage has a single numeric answer — NR format appropriate",
+      "question_text": "A double helix has 30% adenine. What percent is guanine?"
+    },
+    {
+      "index": 180,
+      "topic": "Genetics and Molecular Biology",
+      "outcome_code": "C2.2k",
+      "from": "Multiple Choice",
+      "to": "Numerical Response",
+      "reason": "objective probability/percentage has a single numeric answer — NR format appropriate",
+      "question_text": "Cystic fibrosis is autosomal recessive. Two carrier parents (Cc × Cc) have affected child probability"
+    },
+    {
+      "index": 191,
+      "topic": "Genetics and Molecular Biology",
+      "outcome_code": "C2.2k",
+      "from": "Multiple Choice",
+      "to": "Numerical Response",
+      "reason": "objective probability/percentage has a single numeric answer — NR format appropriate",
+      "question_text": "A dihybrid testcross AaBb × aabb yields expected proportion of aabb offspring of"
+    },
+    {
+      "index": 229,
+      "topic": "Genetics and Molecular Biology",
+      "outcome_code": "C3.3k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order protein synthesis steps: (1) tRNA delivers amino acids, (2) mRNA exits nucleus, (3) transcription, (4) ribosome as"
+    },
+    {
+      "index": 235,
+      "topic": "Genetics and Molecular Biology",
+      "outcome_code": "C3.2k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Place DNA replication events in order: (1) ligase joins fragments, (2) helicase unwinds DNA, (3) polymerase extends stra"
+    },
+    {
+      "index": 237,
+      "topic": "Genetics and Molecular Biology",
+      "outcome_code": "C3.3k",
+      "from": "Numerical Response",
+      "to": "Written Response",
+      "reason": "sequencing cannot be assessed as a numeric code — requires written sequence",
+      "question_text": "Order mRNA processing: (1) splicing introns, (2) transcription, (3) 5' cap addition, (4) nuclear export. Record all four"
+    }
+  ]
+}

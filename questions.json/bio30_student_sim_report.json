@@ -1,0 +1,324 @@
+[
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: are always lipid-insoluble and cannot enter cells",
+    "question_id": 24,
+    "topic": "Nervous and Endocrine Systems"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: neurotransmitters are always excitatory",
+    "question_id": 34,
+    "topic": "Nervous and Endocrine Systems"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always remain totipotent in adult tissues",
+    "question_id": 69,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: 100% genetically identical always",
+    "question_id": 74,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: the placenta blocks all chemicals without exception always",
+    "question_id": 82,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: meiosis never happens in any animal",
+    "question_id": 97,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: mitosis produces four haploid sperm always",
+    "question_id": 97,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "medium",
+    "category": "Explanation",
+    "detail": "Missing or very short explanation",
+    "question_id": 120,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always produces four haploid cells",
+    "question_id": 128,
+    "topic": "Cell Division"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: the cell has perfect DNA always skipping G1",
+    "question_id": 129,
+    "topic": "Cell Division"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always perfect haploid sets",
+    "question_id": 134,
+    "topic": "Cell Division"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always ZZ like males",
+    "question_id": 141,
+    "topic": "Cell Division"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: haploid with half the chromosome number always",
+    "question_id": 152,
+    "topic": "Cell Division"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: introduces a premature stop codon always",
+    "question_id": 179,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: convergent evolution with no common origin always",
+    "question_id": 189,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: glucose binds the operator directly always",
+    "question_id": 190,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: all genes are always transcribed at maximum rate",
+    "question_id": 190,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: duplication of an entire chromosome always",
+    "question_id": 194,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: deletion of an entire chromosome always",
+    "question_id": 195,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: 1:1:1:1 always for every dihybrid",
+    "question_id": 200,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: thymine equals cytosine always",
+    "question_id": 202,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: the phenotype is always intermediate like pink flowers",
+    "question_id": 204,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always improve protein function",
+    "question_id": 206,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: 50% always like unlinked genes",
+    "question_id": 207,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always produce only homozygous dominant offspring",
+    "question_id": 213,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always changes protein folding catastrophically",
+    "question_id": 216,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: prevents RNA polymerase from binding always",
+    "question_id": 216,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: environment fluctuates wildly with unlimited resources alway",
+    "question_id": 251,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: sexual selection for extreme tail length always",
+    "question_id": 254,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: directional selection increasing fitness always",
+    "question_id": 255,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: fixing atmospheric nitrogen without any plant involvement al",
+    "question_id": 256,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: immediate population crash to extinction always",
+    "question_id": 258,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: it is always the most abundant species numerically",
+    "question_id": 262,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: it never interacts with other trophic levels",
+    "question_id": 262,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: negative always leading to immediate extinction",
+    "question_id": 263,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: guarantee competitive exclusion of all but one species alway",
+    "question_id": 267,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: competitive exclusion is impossible in all ecosystems always",
+    "question_id": 268,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: predation never affects community composition",
+    "question_id": 268,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "low",
+    "category": "Distractor",
+    "detail": "Implausible distractor: always increase biodiversity in every ecosystem",
+    "question_id": 274,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for Nervous and Endocrine Systems",
+    "question_id": null,
+    "topic": "Nervous and Endocrine Systems"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for Reproduction and Development",
+    "question_id": null,
+    "topic": "Reproduction and Development"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for Cell Division",
+    "question_id": null,
+    "topic": "Cell Division"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for Genetics and Molecular Biology",
+    "question_id": null,
+    "topic": "Genetics and Molecular Biology"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for Population and Community Dynamics",
+    "question_id": null,
+    "topic": "Population and Community Dynamics"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for All topics",
+    "question_id": null,
+    "topic": "All topics"
+  },
+  {
+    "severity": "high",
+    "category": "Results",
+    "detail": "Empty results for All topics",
+    "question_id": null,
+    "topic": "All topics"
+  }
+]

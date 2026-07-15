@@ -1,0 +1,67 @@
+﻿=== DB ONLY (8) ===
+
+Q332 [numerical_response] ans='7040'
+  A resting neuron has membrane potential $-70$ mV and peaks at $+40$ mV during depolarization. Record resting as two digi
+  expl: The correct answer is 7040.
+
+Q333 [numerical_response] ans='68142'
+  A patient has a resting heart rate of $68$ beats/min before exercise and $142$ beats/min immediately after sprinting. Re
+  expl: Resting rate $68$ is recorded as $68$. Exercise rate $142$ is recorded as $142$.
+
+Q338 [numerical_response] ans='7235'
+  A neuron has a resting membrane potential of $-72$ mV and reaches a peak depolarization of $+35$ mV during an action pot
+  expl: Resting potential $-72$ mV gives digits $72$. Peak depolarization $+35$ mV gives
+
+Q339 [numerical_response] ans='1'
+  Match receptor type to stimulus: (1) photoreceptor, (2) mechanoreceptor in cochlea, (3) chemoreceptor for taste, (4) noc
+  expl: Photoreceptors (1) in the retina detect light energy.
+
+Q371 [multiple_choice] ans='it may blur ethical boundaries about personhood and identity'
+  Somatic cell nuclear transfer (cloning) raises STS concerns because
+  expl: Cloning debates involve identity, consent, and societal implications beyond pure
+
+Q411 [numerical_response] ans='2'
+  Order embryonic layers use: (1) mesodermùmuscle, (2) ectodermùnervous tissue, (3) endodermùgut lining. Which layer forms
+  expl: The correct answer is 2.
+
+Q475 [multiple_choice] ans='25%'
+  Cystic fibrosis is autosomal recessive. Two carrier parents (Cc ╫ Cc) have affected child probability
+  expl: Cc ╫ Cc yields 1/4 cc affected.
+
+Q486 [multiple_choice] ans='0.25'
+  A dihybrid testcross AaBb ╫ aabb yields expected proportion of aabb offspring of
+  expl: Each gene segregates 1/2 recessive: 1/2 ╫ 1/2 = 1/4.
+
+=== JSON ONLY (8) ===
+
+[Numerical Response] ans='110'
+  A resting neuron has membrane potential $-70$ mV and peaks at $+40$ mV during depolarization. What is the magnitude of t
+  expl: Change = peak minus resting = $+40 - (-70) = 110$ mV magnitude of depolarization
+
+[Numerical Response] ans='74'
+  A patient has a resting heart rate of $68$ beats/min before exercise and $142$ beats/min immediately after sprinting. Wh
+  expl: Increase = $142 - 68 = 74$ beats/min.
+
+[Numerical Response] ans='107'
+  A neuron has a resting membrane potential of $-72$ mV and reaches a peak depolarization of $+35$ mV during an action pot
+  expl: Change = $+35 - (-72) = 107$ mV.
+
+[Multiple Choice] ans='photoreceptor'
+  Which sensory receptor type detects light?
+  expl: Photoreceptors in the retina transduce light energy into neural signals.
+
+[Written Response] ans='it may blur ethical boundaries about personhood and identity Additional valid concerns include impacts on genetic diversity, commercialization of human tissues, and uncertainty about long-term health outcomes.'
+  Discuss one significant science-technology-society (STS) concern raised by somatic cell nuclear transfer (reproductive c
+  expl: Marking guide: (1) Identifies a valid STS concern ù 2 marks. (2) Explains why it
+
+[Multiple Choice] ans='ectoderm'
+  Which embryonic germ layer gives rise to nervous tissue?
+  expl: Ectoderm differentiates into the nervous system and epidermis.
+
+[Numerical Response] ans='25'
+  Cystic fibrosis is autosomal recessive. Two carrier parents (Cc ╫ Cc) have affected child probability.
+  expl: Cc ╫ Cc yields 1/4 cc affected.
+
+[Numerical Response] ans='0.25'
+  A dihybrid testcross AaBb ╫ aabb yields expected proportion of aabb offspring of.
+  expl: Each gene segregates 1/2 recessive: 1/2 ╫ 1/2 = 1/4.

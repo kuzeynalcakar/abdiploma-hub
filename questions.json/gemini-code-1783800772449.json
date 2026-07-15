@@ -1,0 +1,532 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Reciprocal identity substitution to simplify an expression",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "The trigonometric expression $\\cot(x)\\cdot\\sin(x)$ can be simplified to which of the following primary functions?",
+    "answer": "$\\cos(x)$",
+    "choices": [
+      {
+        "text": "$\\cos(x)$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\sin(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\tan(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\sec(x)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since $\\cot(x) = \\frac{\\cos(x)}{\\sin(x)}$, substituting this into the expression gives $\\frac{\\cos(x)}{\\sin(x)} \\cdot \\sin(x) = \\cos(x)$.",
+    "common_mistake": "Students sometimes confuse the definitions of tangent and cotangent, incorrectly writing $\\cot(x) = \\frac{\\sin(x)}{\\cos(x)}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Using Pythagorean identity to substitute values",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Simplify the expression $3 - 3\\sin^2(\\theta)$ completely.",
+    "answer": "$3\\cos^2(\\theta)$",
+    "choices": [
+      {
+        "text": "$3\\cos^2(\\theta)$",
+        "is_correct": true
+      },
+      {
+        "text": "$3\\cos(\\theta)$",
+        "is_correct": false
+      },
+      {
+        "text": "$1 - \\sin^2(\\theta)$",
+        "is_correct": false
+      },
+      {
+        "text": "$3\\tan^2(\\theta)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Factor out the constant: $3(1 - \\sin^2(\\theta))$. Using the Pythagorean identity $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$, we can substitute $1 - \\sin^2(\\theta) = \\cos^2(\\theta)$, resulting in $3\\cos^2(\\theta)$.",
+    "common_mistake": "Students often lose the exponent or try to take a square root improperly, choosing $3\\cos(\\theta)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Direct recognition of the cosine sum/difference identity",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 50,
+    "question_text": "The expression $\\cos(50^\\circ)\\cos(10^\\circ) - \\sin(50^\\circ)\\sin(10^\\circ)$ is equivalent to which of the following exact numerical values?",
+    "answer": "$\\frac{1}{2}$",
+    "choices": [
+      {
+        "text": "$\\frac{1}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\cos(40^\\circ)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "This matches the identity $\\cos(A + B) = \\cos(A)\\cos(B) - \\sin(A)\\sin(B)$. Thus, $\\cos(50^\\circ + 10^\\circ) = \\cos(60^\\circ) = \\frac{1}{2}$.",
+    "common_mistake": "Students often assume that a minus sign in the expanded expression means subtraction of angles, leading to an incorrect calculation of $\\cos(40^\\circ)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Direct recognition of the double-angle sine identity",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "Simplify the trigonometric expression $8\\sin(2x)\\cos(2x)$ using a double-angle identity.",
+    "answer": "$4\\sin(4x)$",
+    "choices": [
+      {
+        "text": "$4\\sin(4x)$",
+        "is_correct": true
+      },
+      {
+        "text": "$4\\sin(2x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$8\\sin(4x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$2\\sin(8x)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The double-angle identity for sine is $2\\sin(\\theta)\\cos(\\theta) = \\sin(2\\theta)$. Rewrite the given expression as $4 \\cdot [2\\sin(2x)\\cos(2x)]$. Letting $\\theta = 2x$, this simplifies to $4\\sin(2(2x)) = 4\\sin(4x)$.",
+    "common_mistake": "Students often double the coefficient outside or fail to double the inner angle correctly.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Determining non-permissible values from a basic trigonometric identity fraction",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "For the identity $\\frac{\\sin(x)}{\\tan(x)} = \\cos(x)$, which of the following lists all the non-permissible values of $x$ in the domain $0 \\le x < 2\\pi$?",
+    "answer": "$x \\neq 0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$",
+    "choices": [
+      {
+        "text": "$x \\neq 0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\neq 0, \\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq \\frac{\\pi}{2}, \\frac{3\\pi}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\neq 0, \\frac{\\pi}{2}, \\pi$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Non-permissible values occur where the expression is undefined. First, $\\tan(x)$ is undefined where $\\cos(x) = 0$, which gives $x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$. Second, the denominator $\\tan(x)$ cannot equal 0, which occurs where $\\sin(x) = 0$, giving $x = 0, \\pi$. Combining both sets of constraints yields $x \\neq 0, \\frac{\\pi}{2}, \\pi, \\frac{3\\pi}{2}$.",
+    "common_mistake": "Students often only check where the main fraction denominator equals zero, forgetting that the internal component functions may have their own vertical asymptotes.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Simplification using quotient identities and reciprocal identities combined",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "The expression $\\frac{\\sec(\\theta)}{\\csc(\\theta)}$ is equivalent to which of the following?",
+    "answer": "$\\tan(\\theta)$",
+    "choices": [
+      {
+        "text": "$\\tan(\\theta)$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\cot(\\theta)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\cos(\\theta)\\sin(\\theta)$",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Convert to primary identities: $\\sec(\\theta) = \\frac{1}{\\cos(\\theta)}$ and $\\csc(\\theta) = \\frac{1}{\\sin(\\theta)}$. Therefore, $\\frac{1/\\cos(\\theta)}{1/\\sin(\\theta)} = \\frac{1}{\\cos(\\theta)} \\cdot \\frac{\\sin(\\theta)}{1} = \\frac{\\sin(\\theta)}{\\cos(\\theta)} = \\tan(\\theta)$.",
+    "common_mistake": "Students commonly swap the reciprocal relationships, assuming $\\sec$ matches $\\sin$ and $\\csc$ matches $\\cos$, leading to an answer of $\\cot(\\theta)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Direct recognition of the cosine double angle identity format",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "The expression $1 - 2\\sin^2(15^\\circ)$ is equal to which exact value?",
+    "answer": "$\\frac{\\sqrt{3}}{2}$",
+    "choices": [
+      {
+        "text": "$\\frac{\\sqrt{3}}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{1}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\sqrt{2}}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      }
+    ],
+    "explanation": "This matches the double-angle identity for cosine: $\\cos(2\\theta) = 1 - 2\\sin^2(\\theta)$. Here, $\\theta = 15^\\circ$, so the expression evaluates to $\\cos(2 \\cdot 15^\\circ) = \\cos(30^\\circ) = \\frac{\\sqrt{3}}{2}$.",
+    "common_mistake": "Students may treat the calculation as algebraic order-of-operations on a non-special angle rather than looking for a trigonometric identity simplification.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Solving equations requiring double-angle identity substitution to factor",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "Determine the total number of solutions for the equation $\\sin(2x) - \\cos(x) = 0$ within the domain interval $0 \\le x < 2\\pi$.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "Substitute the identity $\\sin(2x) = 2\\sin(x)\\cos(x)$ into the equation: $2\\sin(x)\\cos(x) - \\cos(x) = 0$. Factor out $\\cos(x)$: $\\cos(x)(2\\sin(x) - 1) = 0$.\nCase 1: $\\cos(x) = 0 \\Rightarrow x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$ (2 solutions).\nCase 2: $2\\sin(x) - 1 = 0 \\Rightarrow \\sin(x) = \\frac{1}{2} \\Rightarrow x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$ (2 solutions).\nTotal number of distinct solutions is $2 + 2 = 4$.",
+    "common_mistake": "Students often divide both sides by $\\cos(x)$ early in the solution process, which incorrectly eliminates two valid solutions on the quadrantal boundaries.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Applying sum identities to find exact values using quadrants",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "If $\\sin(A) = \\frac{3}{5}$ and $\\cos(B) = \\frac{5}{13}$, where angle $A$ is in Quadrant I and angle $B$ is in Quadrant I, determine the exact value of $\\sin(A + B)$. Express your answer as a simplified decimal fraction value.",
+    "answer": "0.96",
+    "choices": [],
+    "explanation": "1. Find $\\cos(A)$: Since $A$ is in Quadrant I, $\\cos(A) = \\sqrt{1 - \\sin^2(A)} = \\sqrt{1 - \\frac{9}{25}} = \\frac{4}{5}$.\n2. Find $\\sin(B)$: Since $B$ is in Quadrant I, $\\sin(B) = \\sqrt{1 - \\cos^2(B)} = \\sqrt{1 - \\frac{25}{169}} = \\frac{12}{13}$.\n3. Apply identity: $\\sin(A + B) = \\sin(A)\\cos(B) + \\cos(A)\\sin(B) = \\left(\\frac{3}{5}\\right)\\left(\frac{5}{13}\\right) + \\left(\\frac{4}{5}\\right)\\left(\\frac{12}{13}\\right) = \\frac{15}{65} + \\frac{48}{65} = \\frac{63}{65}$. Evaluating $\\frac{63}{65} \\approx 0.9692$. Wait, let's look at the fraction math: $15 + 48 = 63$. Let me rewrite the question text to use a friendlier set of fractions that yield an exact stopping decimal to match standard automatic numeric assessment limits.\nLet's test if $\\sin(A)=\\frac{3}{5}$ and $\\sin(B)=\\frac{3}{5}$? No, let's keep $\\frac{63}{65}$ but ask for the numerator instead.",
+    "question_text": "If $\\sin(A) = \\frac{3}{5}$ and $\\cos(B) = \\frac{5}{13}$, where angle $A$ and angle $B$ both lie in Quadrant I, the exact value of $\\sin(A + B)$ can be written as the simplified fraction $\\frac{p}{q}$. Determine the integer value of the numerator $p$.",
+    "answer": "63",
+    "choices": [],
+    "explanation": "Using Pythagorean triangles, we find $\\cos(A) = \\frac{4}{5}$ and $\\sin(B) = \\frac{12}{13}$. Expanding via identity: $\\sin(A + B) = \\sin(A)\\cos(B) + \\cos(A)\\sin(B) = \\left(\\frac{3}{5}\\right)\\left(\\frac{5}{13}\\right) + \\left(\\frac{4}{5}\\right)\\left(\\frac{12}{13}\\right) = \\frac{15}{65} + \\frac{48}{65} = \\frac{63}{65}$. The numerator value is 63.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Simplifying expressions using Pythagorean and factoring techniques together",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "Simplify the expression $\\frac{\\cos^2(x) - 1}{\\sin^2(x) - 1}$ to a single squared trigonometric function in the form $\\tan^2(x)$, $\\cot^2(x)$, or similar. If the simplified form is $\\tan^k(x)$, determine the value of the exponent $k$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "Use Pythagorean identities: $\\cos^2(x) - 1 = -\\sin^2(x)$ and $\\sin^2(x) - 1 = -\\cos^2(x)$. Substituting these into the fraction gives $\\frac{-\\sin^2(x)}{-\\cos^2(x)} = \\frac{\\sin^2(x)}{\\cos^2(x)} = \\tan^2(x)$. Comparing this to $\\tan^k(x)$ reveals $k = 2$.",
+    "common_mistake": "Students often forget to track the negative signs when flipping the Pythagorean identity elements, although they cancel out in this particular question.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Identifying non-permissible values for secondary trigonometric fractions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Determine the number of non-permissible values for the expression $\\frac{1}{1 - \\cos(x)}$ within the domain interval $0 \\le x \\le 4\\pi$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Non-permissible values occur when the denominator equals 0: $1 - \\cos(x) = 0 \\Rightarrow \\cos(x) = 1$. Within the specified domain $[0, 4\\pi]$, $\\cos(x) = 1$ at $x = 0, 2\\pi, 4\\pi$. Counting these points gives a total of 3 non-permissible values.",
+    "common_mistake": "Students frequently fail to include the upper boundary value ($4\\pi$) or the lower boundary value ($0$) due to overlooking brackets vs. parentheses notation on domain intervals.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Using cosine double angle identity to solve quadratic style equations",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "Determine the number of solutions to the equation $\\cos(2x) + 3\\cos(x) + 2 = 0$ inside the domain interval $0 \\le x < 2\\pi$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "Substitute the double-angle identity $\\cos(2x) = 2\\cos^2(x) - 1$: $(2\\cos^2(x) - 1) + 3\\cos(x) + 2 = 0 \\Rightarrow 2\\cos^2(x) + 3\\cos(x) + 1 = 0$. Factor the quadratic expression: $(2\\cos(x) + 1)(\\cos(x) + 1) = 0$.\nCase 1: $2\\cos(x) + 1 = 0 \\Rightarrow \\cos(x) = -\\frac{1}{2} \\Rightarrow x = \\frac{2\\pi}{3}, \\frac{4\\pi}{3}$ (2 solutions).\nCase 2: \\(\\cos(x) + 1 = 0 \\Rightarrow \\cos(x) = -1 \\Rightarrow x = \\pi\\) (1 solution). Total solution count is $2 + 1 = 3$. Let me correct the answer field to 3.",
+    "question_text": "Determine the number of solutions to the equation $\\cos(2x) + 3\\cos(x) + 2 = 0$ inside the domain interval $0 \\le x < 2\\pi$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Substitute the double-angle identity $\\cos(2x) = 2\\cos^2(x) - 1$: $2\\cos^2(x) + 3\\cos(x) + 1 = 0$. Factor to find $(2\\cos(x) + 1)(\\cos(x) + 1) = 0$. This leaves roots at $\\cos(x) = -\\frac{1}{2}$ (which gives 2 solutions) and $\\cos(x) = -1$ (which gives 1 solution), totaling 3 solutions.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Evaluating difference tangent identities with special angles",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "The expression $\\frac{\\tan(70^\\circ) - \\tan(10^\\circ)}{1 + \\tan(70^\\circ)\\tan(10^\\circ)}$ simplifies to which exact radical value?",
+    "answer": "$\\sqrt{3}$",
+    "choices": [
+      {
+        "text": "$\\sqrt{3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{\\sqrt{3}}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      },
+      {
+        "text": "0",
+        "is_correct": false
+      }
+    ],
+    "explanation": "This matches the identity $\\tan(A - B) = \\frac{\\tan(A) - \\tan(B)}{1 + \\tan(A)\\tan(B)}$. Substituting the angles: $\\tan(70^\\circ - 10^\\circ) = \\tan(60^\\circ) = \\sqrt{3}$.",
+    "common_mistake": "Students sometimes add the angles inside the tangent function instead of subtracting them, incorrectly arriving at $\\tan(80^\\circ)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Verify identity equality dynamically via matching expressions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The expression $\\sin(\\theta) + \\cos(\\theta)\\cot(\\theta)$ is identical to which of the following?",
+    "answer": "$\\csc(\\theta)$",
+    "choices": [
+      {
+        "text": "$\\csc(\\theta)$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\sec(\\theta)$",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      },
+      {
+        "text": "$\\tan(\\theta)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Convert to primary identities: $\\sin(\\theta) + \\cos(\\theta)\\left(\\frac{\\cos(\\theta)}{\\sin(\\theta)}\right) = \\sin(\\theta) + \\frac{\\cos^2(\\theta)}{\\sin(\\theta)}$. Find a common denominator: $\\frac{\\sin^2(\\theta) + \\cos^2(\\theta)}{\\sin(\\theta)} = \\frac{1}{\\sin(\\theta)} = \\csc(\\theta)$.",
+    "common_mistake": "Students often add the components incorrectly without setting up a common denominator first, mistakenly arriving at an answer of 1.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Verifying structural properties of complex fractions with conjugates",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "Simplify the expression $\\frac{1}{1 - \\sin(x)} + \\frac{1}{1 + \\sin(x)}$ completely.",
+    "answer": "$2\\sec^2(x)$",
+    "choices": [
+      {
+        "text": "$2\\sec^2(x)$",
+        "is_correct": true
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "$2\\csc^2(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\sec^2(x)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Combine fractions using a common denominator: $\\frac{(1 + \\sin(x)) + (1 - \\sin(x))}{(1 - \\sin(x))(1 + \\sin(x))} = \\frac{2}{1 - \\sin^2(x)}$. Applying the Pythagorean identity simplifies this to $\\frac{2}{\\cos^2(x)} = 2\\sec^2(x)$.",
+    "common_mistake": "Students often miscalculate the denominator subtraction steps or incorrectly cross-cancel elements before finding a common denominator.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Combining multiple identity expansions to track exact solution systems",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Determine the smallest positive solution, in radians, to the equation $\\cos(3x)\\cos(x) + \\sin(3x)\\sin(x) = \\frac{\\sqrt{3}}{2}$. Round your answer to the nearest hundredth of a radian.",
+    "answer": "0.26",
+    "choices": [],
+    "explanation": "Recognize the cosine difference identity $\\cos(A - B) = \\cos(A)\\cos(B) + \\sin(A)\\sin(B)$. Let $A = 3x$ and $B = x$. The expression simplifies to $\\cos(3x - x) = \\cos(2x) = \\frac{\\sqrt{3}}{2}$. The smallest positive angle where cosine equals $\\frac{\\sqrt{3}}{2}$ is $2x = \\frac{\\pi}{6}$. Solving for $x$ gives $x = \\frac{\\pi}{12}$. Evaluating this fraction yields $\\frac{\\pi}{12} \\approx 0.2618$. Rounded to two decimal places, the answer is 0.26.",
+    "common_mistake": "Students often add the arguments ($4x$) instead of subtracting them, missing the structure of the cosine identity.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Complex algebraic substitution involving double angle variants",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "The expression $\\frac{\\sin(4\\theta)}{4\\sin(\\theta)\\cos(\\theta)}$ can be simplified to $\\cos(k\\theta)$. Determine the integer value of $k$.",
+    "answer": "2",
+    "choices": [],
+    "explanation": "First, expand the numerator using the double-angle identity: $\\sin(4\\theta) = 2\\sin(2\\theta)\\cos(2\\theta)$. Substitute this back into the fraction: $\\frac{2\\sin(2\\theta)\\cos(2\\theta)}{2(2\\sin(\\theta)\\cos(\\theta))} = \\frac{2\\sin(2\\theta)\\cos(2\\theta)}{2\\sin(2\\theta)} = \\cos(2\\theta)$. Comparing this to $\\cos(k\\theta)$ gives $k = 2$.",
+    "common_mistake": "Students often incorrectly cancel out coefficients across different angle multipliers (e.g., trying to divide $\\sin(4\\theta)$ by $\\sin(\\theta)$ to get 4).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Algebraic proof structure optimization using complex factoring and identities",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The expression $\\frac{\\tan^2(x) - \\sin^2(x)}{\\tan^2(x)\\sin^2(x)}$ simplifies to which constant integer value?",
+    "answer": "1",
+    "choices": [
+      {
+        "text": "1",
+        "is_correct": true
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "0",
+        "is_correct": false
+      },
+      {
+        "text": "-1",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Rewrite the numerator: $\\tan^2(x) - \\sin^2(x) = \\frac{\\sin^2(x)}{\\cos^2(x)} - \\sin^2(x) = \\sin^2(x)\\left(\\frac{1}{\\cos^2(x)} - 1\\right) = \\sin^2(x)(\\sec^2(x) - 1) = \\sin^2(x)\\tan^2(x)$. Thus, the fraction becomes $\\frac{\\sin^2(x)\\tan^2(x)}{\\tan^2(x)\\sin^2(x)} = 1$.",
+    "common_mistake": "Students often make incorrect cancellation assumptions when dealing with minus signs in fractions, incorrectly reducing the terms to 0 or $-1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Solving equations containing mismatching sum parameters and multi-step factoring checks",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 190,
+    "question_text": "Determine the exact general solution to the equation $\\sin\\left(x + \\frac{\\pi}{4}\\right) + \\sin\\left(x - \\frac{\\pi}{4}\\right) = \\sqrt{2}$, where $n \\in \\mathbb{Z}$.",
+    "answer": "$x = \\frac{\\pi}{2} + 2n\\pi$",
+    "choices": [
+      {
+        "text": "$x = \\frac{\\pi}{2} + 2n\\pi$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = \\frac{\\pi}{4} + 2n\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = n\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{\\pi}{2} + n\\pi$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Expand both terms using the sum and difference identities for sine:\n$$\\left(\\sin(x)\\cos\\left(\\frac{\\pi}{4}\\right) + \\cos(x)\\sin\\left(\\frac{\\pi}{4}\\right)\\right) + \\left(\\sin(x)\\cos\\left(\\frac{\\pi}{4}\\right) - \\cos(x)\\sin\\left(\\frac{\\pi}{4}\\right)\\right) = \\sqrt{2}$$\nThe cosine terms cancel out, leaving:\n$$2\\sin(x)\\cos\\left(\\frac{\\pi}{4}\\right) = \\sqrt{2} \\Rightarrow 2\\sin(x)\\left(\\frac{\\sqrt{2}}{2}\\right) = \\sqrt{2} \\Rightarrow \\sqrt{2}\\sin(x) = \\sqrt{2} \\Rightarrow \\sin(x) = 1$$\nIn standard positioning, $\\sin(x) = 1$ at $x = \\frac{\\pi}{2}$. Adding full period rotations gives the general solution $x = \\frac{\\pi}{2} + 2n\\pi$.",
+    "common_mistake": "Students sometimes try to combine the angle arguments directly without expanding via identities first.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Equations and Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Proving a complex rational trigonometric identity",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "Consider the equation $\\frac{\\sin(2x)}{1 + \\cos(2x)} = \\tan(x)$.\n\na) State all non-permissible values for this equation within the interval $0 \\le x < 2\\pi$.\n\nb) Algebraically prove that this equation is an identity for all permissible values.",
+    "answer": "a) $x \\neq \\frac{\\pi}{2}, \\frac{3\\pi}{2}$; b) LHS simplifies to $\\tan(x)$ using double angle formulas.",
+    "choices": [],
+    "explanation": "a) Non-permissible values occur where $\\tan(x)$ is undefined, meaning $x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$. They also occur where the denominator on the left side is zero: $1 + \\cos(2x) = 0 \\Rightarrow \\cos(2x) = -1 \\Rightarrow 2x = \\pi, 3\pi \\Rightarrow x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$. Thus, the restrictions are $x \\neq \\frac{\\pi}{2}, \\frac{3\\pi}{2}$.\n\nb) Start with the Left Hand Side (LHS) and substitute the double-angle identities:\n$$\\text{LHS} = \\frac{2\\sin(x)\\cos(x)}{1 + (2\\cos^2(x) - 1)}$$\n$$\\text{LHS} = \\frac{2\\sin(x)\\cos(x)}{2\\cos^2(x)}$$\nCancel out common factors of 2 and $\\cos(x)$:\n$$\\text{LHS} = \\frac{\\sin(x)}{\\cos(x)} = \\tan(x)$$\nSince LHS = RHS, the identity is proven.",
+    "common_mistake": "Students often pick the incorrect version of the $\\cos(2x)$ identity, which makes it harder to cancel the constant 1 in the denominator.",
+    "source": "ai"
+  }
+]

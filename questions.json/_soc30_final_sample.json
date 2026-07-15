@@ -1,0 +1,150 @@
+[
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 4",
+    "topic": "Citizenship and Ideology",
+    "outcome_code": "4.7k",
+    "skill_tested": "Analyzing citizenship in conflict contexts",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "Antiwar movements test citizenship by asking",
+    "answer": "when dissent against state violence is a responsibility rather than disloyalty",
+    "choices": [
+      {
+        "text": "that antiwar and civil-rights movements never illustrate civic ideology as a general historical claim",
+        "is_correct": false
+      },
+      {
+        "text": "that collaborative civic projects cannot cross knowledge traditions in this reading of the source",
+        "is_correct": false
+      },
+      {
+        "text": "when dissent against state violence is a responsibility rather than disloyalty",
+        "is_correct": true
+      },
+      {
+        "text": "that it follows responsible citizenship ignores global humanitarian concerns",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Antiwar movements are a listed conflict context.",
+    "common_mistake": "Students brand all antiwar dissent as treason automatically.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 3",
+    "topic": "The Viability of Contemporary Liberalism",
+    "outcome_code": "3.5k",
+    "skill_tested": "Reading an unemployment figure from a comparative table",
+    "question_type": "Numerical Response",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 40,
+    "question_text": "An economic-system chart in the stem shows unemployment rates: Marketland 6%; Mixland 7%; Commandland 4% (official); Tradland not reported. What unemployment percentage is shown for Mixland?",
+    "answer": "7",
+    "choices": [],
+    "explanation": "Read Mixland = 7 from the stem",
+    "common_mistake": "Students average the numbers or pick Marketland.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (resistance)",
+    "topic": "Resistance to Liberalism",
+    "outcome_code": "2.12k",
+    "skill_tested": "Identifying alternative thought: neo-conservatism",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "A movement argues that modern welfare liberalism should be rolled back toward stronger markets and traditional social norms. The challenge to modern liberalism most accurately labelled is",
+    "answer": "neo-conservatism",
+    "choices": [
+      {
+        "text": "that Stalin-era planning abolished unchecked political authority as a general historical claim",
+        "is_correct": false
+      },
+      {
+        "text": "that class analysis has no place in resistance-to-liberalism debates as a general historical claim",
+        "is_correct": false
+      },
+      {
+        "text": "neo-conservatism",
+        "is_correct": true
+      },
+      {
+        "text": "that it follows command economies maximize private property and free enterprise",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 2.12k lists Aboriginal collective thought, environmentalism, religious perspectives, neo-conservatism, postmodernism, and extremism",
+    "common_mistake": "Students confuse neo-conservatism with classical liberalism or with Soviet communism automatically.",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 1",
+    "topic": "Ideology and Identity",
+    "outcome_code": "1.8k",
+    "skill_tested": "Identifying collectivist principle: collective interest",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 95,
+    "question_text": "A fishery council sets catch limits so the stock survives for the whole community. This practice most directly reflects which principle of collectivism?",
+    "answer": "collective interest",
+    "choices": [
+      {
+        "text": "collective interest",
+        "is_correct": true
+      },
+      {
+        "text": "that one must conclude ideology is only empty slogans with no effect on choices",
+        "is_correct": false
+      },
+      {
+        "text": "that it follows personal identity and political ideology never interact",
+        "is_correct": false
+      },
+      {
+        "text": "that examining spectrum positions is useless for source analysis across every liberal democracy",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 1.8k lists collective responsibility, collective interest, cooperation, economic equality, adherence to collective norms, and public property.",
+    "common_mistake": "Students confuse collective interest (shared benefit) with economic equality (narrowed material gaps).",
+    "source": "ai"
+  },
+  {
+    "course_code": "SOC30-1",
+    "unit": "Related Issue 2 (origins)",
+    "topic": "Origins of Liberalism",
+    "outcome_code": "2.6k",
+    "skill_tested": "Identifying nineteenth-century impacts: laissez-faire capitalism",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "Factory owners resist safety rules as interference with market self-regulation. This development is best labelled as connected to",
+    "answer": "laissez-faire capitalism",
+    "choices": [
+      {
+        "text": "laissez-faire capitalism",
+        "is_correct": true
+      },
+      {
+        "text": "that the Invisible Hand metaphor endorses central price controls across every liberal democracy",
+        "is_correct": false
+      },
+      {
+        "text": "that industrial capitalism played no role in liberal critiques of tradition",
+        "is_correct": false
+      },
+      {
+        "text": "that one must conclude free markets require the abolition of all contracts and property",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Outcome 2.6k examines laissez-faire capitalism, industrialization, class system, and limited government as impacts of classical liberal thought",
+    "common_mistake": "Students misapply Cold War or contemporary Canadian labels to nineteenth-century laissez-faire capitalism.",
+    "source": "ai"
+  }
+]

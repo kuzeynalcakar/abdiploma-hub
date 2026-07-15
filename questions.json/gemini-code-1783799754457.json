@@ -1,0 +1,560 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Mapping notation and coordinate changes under transformations",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "The graph of $y = f(x)$ contains the point $P(4, -8)$. If the function undergoes a transformation described by $y = f(-2x)$, what are the coordinates of the corresponding point $P'$ on the transformed graph?",
+    "answer": "$( -2, -8 )$",
+    "choices": [
+      {
+        "text": "$( -2, -8 )$",
+        "is_correct": true
+      },
+      {
+        "text": "$( -8, -8 )$",
+        "is_correct": false
+      },
+      {
+        "text": "$( 4, 16 )$",
+        "is_correct": false
+      },
+      {
+        "text": "$( 4, 4 )$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The transformation $y = f(-2x)$ represents a horizontal reflection across the $y$-axis and a horizontal stretch by a factor of $\\frac{1}{2}$. The corresponding mapping notation is $(x, y) \\rightarrow (-\\frac{1}{2}x, y)$. Applying this to the point $P(4, -8)$ gives $P'(-\\frac{1}{2}(4), -8) = (-2, -8)$.",
+    "common_mistake": "Students frequently multiply the $x$-coordinate by the parameter value $-2$ instead of its reciprocal $-\\frac{1}{2}$, leading to the incorrect distractor $(-8, -8)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Identifying successive reflections and stretches",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Which of the following statements correctly describes the transformation required to obtain the graph of $y = -\\frac{1}{3}f(x)$ from the graph of $y = f(x)$?",
+    "answer": "A vertical reflection in the $x$-axis and a vertical stretch by a factor of $\\frac{1}{3}$.",
+    "choices": [
+      {
+        "text": "A vertical reflection in the $x$-axis and a vertical stretch by a factor of $\\frac{1}{3}$.",
+        "is_correct": true
+      },
+      {
+        "text": "A horizontal reflection in the $y$-axis and a horizontal stretch by a factor of $3$.",
+        "is_correct": false
+      },
+      {
+        "text": "A vertical reflection in the $x$-axis and a vertical stretch by a factor of $3$.",
+        "is_correct": false
+      },
+      {
+        "text": "A horizontal reflection in the $y$-axis and a horizontal stretch by a factor of $\\frac{1}{3}$.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "In the equation $y = a \\cdot f(x)$, the parameter $a = -\\frac{1}{3}$ modifies the outputs ($y$-values). The negative sign indicates a vertical reflection across the $x$-axis, and the absolute value $|a| = \\frac{1}{3}$ indicates a vertical stretch by a factor of $\\frac{1}{3}$.",
+    "common_mistake": "Students often confuse vertical parameters with horizontal parameters or mistake a stretch factor of $\\frac{1}{3}$ for $3$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Applying stretches to key points",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "If the point $(6, 12)$ lies on the graph of $y = f(x)$, which point must lie on the graph of $y = 4f(3x)$?",
+    "answer": "$(2, 48)$",
+    "choices": [
+      {
+        "text": "$(2, 48)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(18, 48)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(2, 3)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(18, 3)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The transformation equation $y = 4f(3x)$ implies a vertical stretch factor of $4$ and a horizontal stretch factor of $\\frac{1}{3}$. The mapping notation is $(x, y) \\rightarrow (\\frac{1}{3}x, 4y)$. Transforming the original point: $(\\frac{1}{3} \\cdot 6, 4 \\cdot 12) = (2, 48)$.",
+    "common_mistake": "Students may multiply the $x$-coordinate by $3$ instead of $\\frac{1}{3}$, leading to the distractor $(18, 48)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Determining horizontal stretch factor from description",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "The graph of $y = f(x)$ is compressed horizontally about the $y$-axis by a factor of $\\frac{2}{5}$. Which of the following is the equation of the transformed graph?",
+    "answer": "$y = f\\left(\\frac{5}{2}x\\right)$",
+    "choices": [
+      {
+        "text": "$y = f\\left(\\frac{5}{2}x\\right)$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = f\\left(\\frac{2}{5}x\\right)$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\frac{2}{5}f(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\frac{5}{2}f(x)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A horizontal stretch/compression by a factor of $k$ corresponds to an equation parameter $b = \\frac{1}{k}$ inside the function argument as $f(bx)$. Given $k = \\frac{2}{5}$, the parameter $b = \\frac{1}{2/5} = \\frac{5}{2}$. Thus, the equation is $y = f\\left(\\frac{5}{2}x\\right)$.",
+    "common_mistake": "Students often directly put the stretch factor into the equation without taking its reciprocal, choosing $y = f\\left(\\frac{2}{5}x\\right)$, or confuse horizontal with vertical modifications.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Analyzing invariant points during reflections",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "When a function $y = f(x)$ undergoes a horizontal reflection across the $y$-axis, which points on the graph will remain invariant?",
+    "answer": "All points where $x = 0$",
+    "choices": [
+      {
+        "text": "All points where $x = 0$",
+        "is_correct": true
+      },
+      {
+        "text": "All points where $y = 0$",
+        "is_correct": false
+      },
+      {
+        "text": "The origin $(0,0)$ only",
+        "is_correct": false
+      },
+      {
+        "text": "There are no invariant points",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A horizontal reflection across the $y$-axis maps $(x, y) \\rightarrow (-x, y)$. Invariant points are points that do not change position under the transformation, meaning $(-x, y) = (x, y)$. This requires $-x = x$, which is only true when $x = 0$ (the $y$-intercepts).",
+    "common_mistake": "Students commonly confuse horizontal reflections with vertical reflections, incorrectly identifying $y = 0$ ($x$-intercepts) as the invariant set.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Domain and range changes under simple stretches",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100,
+    "question_text": "A function $y = f(x)$ has a domain of $[-4, 8]$ and a range of $[2, 10]$. If the graph is transformed to $y = 3f(x)$, what is the range of the new function?",
+    "answer": "$[6, 30]$",
+    "choices": [
+      {
+        "text": "$[6, 30]$",
+        "is_correct": true
+      },
+      {
+        "text": "$[2, 10]$",
+        "is_correct": false
+      },
+      {
+        "text": "$[-12, 24]$",
+        "is_correct": false
+      },
+      {
+        "text": "$[5, 13]$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The transformation $y = 3f(x)$ represents a vertical stretch by a factor of $3$. A vertical stretch scales all $y$-values by $3$ but leaves $x$-values unchanged. Therefore, the domain remains $[-4, 8]$, while the range boundaries are multiplied by $3$: $[2 \\cdot 3, 10 \\cdot 3] = [6, 30]$.",
+    "common_mistake": "Students may apply the vertical stretch parameter to the domain instead of the range, leading to the distractor $[-12, 24]$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Determining parameters from original and transformed points",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 120,
+    "question_text": "The point $A(-3, 4)$ on the graph of $y = f(x)$ maps to the point $A'(-3, -12)$ on the transformed graph $y = a\\cdot f(x)$. What is the value of $a$?",
+    "answer": "$-3$",
+    "choices": [
+      {
+        "text": "$-3$",
+        "is_correct": true
+      },
+      {
+        "text": "$3$",
+        "is_correct": false
+      },
+      {
+        "text": "$-\\frac{1}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$16$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The transformation $y = a\\cdot f(x)$ affects only the vertical coordinates via the mapping $(x, y) \\rightarrow (x, ay)$. Looking at the coordinates: $4a = -12 \\Rightarrow a = -3$.",
+    "common_mistake": "Students sometimes lose track of signs or subtract coordinates rather than finding their quotient, leading to distractors like $3$ or $16$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Applying combined vertical and horizontal reflections",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "If the point $(-6, 15)$ lies on the graph of $y = f(x)$, and the point $(m, n)$ lies on the transformed graph $y = -f(-x)$, determine the value of the sum $m + n$.",
+    "answer": "-9",
+    "choices": [],
+    "explanation": "The transformation $y = -f(-x)$ involves both a horizontal reflection across the $y$-axis and a vertical reflection across the $x$-axis. The mapping notation is $(x, y) \\rightarrow (-x, -y)$. Applying this to the original point $(-6, 15)$ results in the new coordinates: $m = -(-6) = 6$ and $n = -(15) = -15$. The sum $m + n = 6 + (-15) = -9$.",
+    "common_mistake": "Students may forget to apply the negative sign to both coordinates, changing only one, which results in calculating $6+15=21$ or $-6-15=-21$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Determining equation parameter from graph properties",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "A function $y = f(x)$ has a domain of $-8 \\le x \\le 12$. The transformed function $y = f(bx)$, where $b > 0$, has a domain of $-2 \\le x \\le 3$. Determine the value of $b$.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "The original domain has a width of $12 - (-8) = 20$. The transformed domain has a width of $3 - (-2) = 5$. The horizontal stretch factor is $\\frac{\\text{new width}}{\\text{old width}} = \\frac{5}{20} = \\frac{1}{4}$. Since the horizontal stretch factor is equal to $\\frac{1}{b}$, we set $\\frac{1}{b} = \\frac{1}{4}$, which yields $b = 4$. This is confirmed by verifying the boundaries: $-8 \\cdot \\frac{1}{4} = -2$ and $12 \\cdot \\frac{1}{4} = 3$.",
+    "common_mistake": "Students often invert the relationship, setting $b$ equal to the stretch factor directly, leading to an incorrect response of $0.25$ or $\\frac{1}{4}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Extracting horizontal stretch factor from nested fractions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "The graph of $y = f(x)$ is transformed into the graph of $y = f\\left(\\frac{2}{3}x\\right)$. If the point $(4, 7)$ on the original graph maps to the point $(h, 7)$ on the new graph, determine the value of $h$.",
+    "answer": "6",
+    "choices": [],
+    "explanation": "In the equation $y = f(bx)$, $b = \\frac{2}{3}$. The horizontal stretch factor is the reciprocal of $b$, which is $\\frac{1}{b} = \\frac{3}{2}$. The mapping notation for this transformation is $(x, y) \\rightarrow (\\frac{3}{2}x, y)$. Applying this to the $x$-coordinate gives $h = 4 \\cdot \\frac{3}{2} = 6$.",
+    "common_mistake": "Students often multiply by the parameter $b$ directly ($4 \\cdot \\frac{2}{3} = \\frac{8}{3}$) instead of multiplying by its reciprocal.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Analyzing effects of multiple reflections on domain/range",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "The function $y = g(x)$ is defined only in Quadrant III, meaning all its points have negative $x$-coordinates and negative $y$-coordinates. In which quadrant will the graph of $y = -g(-x)$ exist entirely?",
+    "answer": "Quadrant I",
+    "choices": [
+      {
+        "text": "Quadrant I",
+        "is_correct": true
+      },
+      {
+        "text": "Quadrant II",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant III",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant IV",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Every point in Quadrant III has the sign pattern $(-x, -y)$. The transformation $y = -g(-x)$ uses the mapping $(x, y) \\rightarrow (-x, -y)$. If we apply this mapping to points that are already negative, we get: $(-(\\text{negative}), -(\\text{negative})) = (\\text{positive}, \\text{positive})$. Points with positive $x$ and positive $y$ coordinates exist entirely in Quadrant I.",
+    "common_mistake": "Students often think that the two negative signs cancel each other out algebraically in a way that leaves the graph in its original quadrant (Quadrant III).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Interpreting transformations given in $b \\cdot y = f(x)$ format",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The graph of a function is given by the equation $2y = f(-3x)$. Which statement correctly summarizes the stretches applied to the graph of $y = f(x)$?",
+    "answer": "A vertical stretch by a factor of $\\frac{1}{2}$ and a horizontal stretch by a factor of $\\frac{1}{3}$.",
+    "choices": [
+      {
+        "text": "A vertical stretch by a factor of $\\frac{1}{2}$ and a horizontal stretch by a factor of $\\frac{1}{3}$.",
+        "is_correct": true
+      },
+      {
+        "text": "A vertical stretch by a factor of $2$ and a horizontal stretch by a factor of $3$.",
+        "is_correct": false
+      },
+      {
+        "text": "A vertical stretch by a factor of $\\frac{1}{2}$ and a horizontal stretch by a factor of $3$.",
+        "is_correct": false
+      },
+      {
+        "text": "A vertical stretch by a factor of $2$ and a horizontal stretch by a factor of $\\frac{1}{3}$.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "First, isolate $y$ to rewrite the equation in standard transformation form: $y = \\frac{1}{2}f(-3x)$. The vertical parameter is $a = \\frac{1}{2}$, yielding a vertical stretch factor of $\\frac{1}{2}$. The horizontal parameter is $b = -3$. The stretch factor is the absolute reciprocal $\\frac{1}{|-3|} = \\frac{1}{3}$.",
+    "common_mistake": "Students may treat the coefficient directly attached to $y$ as a vertical stretch factor of $2$ rather than isolating $y$ first.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Analyzing invariant points of multiple transformations",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "If the function $y = f(x)$ represents a line with an $x$-intercept at $(4, 0)$ and a $y$-intercept at $(0, -6)$, which of these intercepts remains invariant under the transformation $y = -5f(x)$?",
+    "answer": "The $x$-intercept only",
+    "choices": [
+      {
+        "text": "The $x$-intercept only",
+        "is_correct": true
+      },
+      {
+        "text": "The $y$-intercept only",
+        "is_correct": false
+      },
+      {
+        "text": "Both intercepts",
+        "is_correct": false
+      },
+      {
+        "text": "Neither intercept",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The transformation $y = -5f(x)$ corresponds to the mapping notation $(x, y) \\rightarrow (x, -5y)$. For a point to remain invariant, its coordinates must not change under the mapping. Checking the $x$-intercept: $(4, 0) \\rightarrow (4, -5(0)) = (4, 0)$, so it is invariant. Checking the $y$-intercept: $(0, -6) \\rightarrow (0, -5(-6)) = (0, 30)$, so it changes.",
+    "common_mistake": "Students often assume that because $x=0$ at the $y$-intercept, it will remain invariant under any vertical transformation, failing to see that the non-zero $y$-value is multiplied by $-5$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Transformations of explicit quadratic functions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "The graph of $y = x^2$ is transformed into the graph of $y = g(x)$ by a vertical stretch by a factor of $2$ followed by a horizontal reflection across the $y$-axis. Which of the following is the simplified explicit equation of $g(x)$?",
+    "answer": "$g(x) = 2x^2$",
+    "choices": [
+      {
+        "text": "$g(x) = 2x^2$",
+        "is_correct": true
+      },
+      {
+        "text": "$g(x) = -2x^2$",
+        "is_correct": false
+      },
+      {
+        "text": "$g(x) = 4x^2$",
+        "is_correct": false
+      },
+      {
+        "text": "$g(x) = -4x^2$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Applying a vertical stretch by a factor of $2$ changes the equation to $y = 2x^2$. A subsequent horizontal reflection replaces $x$ with $(-x)$, giving $y = 2(-x)^2$. Because $(-x)^2 = x^2$, the simplified equation remains $g(x) = 2x^2$.",
+    "common_mistake": "Students often confuse a horizontal reflection (replacing $x$ with $-x$) with a vertical reflection (multiplying the whole function by $-1$), leading to $g(x) = -2x^2$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Determining parameters from a graph description",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "The graph of $y = f(x)$ is vertically compressed by a factor of $\\frac{1}{4}$ and horizontally stretched by a factor of $5$. If the transformed function is written in the form $y = a\\cdot f(bx)$, what is the value of the quotient $\\frac{a}{b}$?",
+    "answer": "$\\frac{5}{4}$",
+    "choices": [
+      {
+        "text": "$\\frac{5}{4}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{1}{20}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{4}{5}$",
+        "is_correct": false
+      },
+      {
+        "text": "$20$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A vertical compression by a factor of $\\frac{1}{4}$ means $a = \\frac{1}{4}$. A horizontal stretch by a factor of $5$ means the parameter $b$ is the reciprocal of the stretch factor, so $b = \\frac{1}{5}$. We then find the quotient $\\frac{a}{b} = \\frac{1/4}{1/5} = \\frac{1}{4} \\cdot 5 = \\frac{5}{4}$.",
+    "common_mistake": "Students often set $b = 5$ instead of $\\frac{1}{5}$, yielding $\\frac{1/4}{5} = \\frac{1}{20}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Solving for stretch values using arbitrary point substitutions",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The point $(3, -4)$ lies on the graph of $y = f(x)$. The graph is transformed into $y = a\\cdot f(2x)$. If the corresponding point on the transformed graph has a $y$-coordinate of $10$, determine the exact value of $a$, rounded to the nearest tenth.",
+    "answer": "-2.5",
+    "choices": [],
+    "explanation": "The transformation $y = a\\cdot f(2x)$ maps coordinates according to the rule $(x, y) \\rightarrow (\\frac{1}{2}x, ay)$. The point $(3, -4)$ maps to the new point $(\\frac{3}{2}, -4a)$. We are given that this new $y$-coordinate is equal to $10$. Therefore, we set up the linear equation $-4a = 10 \\Rightarrow a = -\\frac{10}{4} = -2.5$.",
+    "common_mistake": "Students may mistakenly set up the equation using the $x$-coordinate, or fail to include the negative sign.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Analyzing composite transformation functions with negative parameters",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The domain of $y = f(x)$ is $[-12, 6]$. The function is transformed to $y = -2f(-3x)$. If the domain of the transformed function is written as $[c, d]$, determine the value of the product $c \\cdot d$.",
+    "answer": "-8",
+    "choices": [],
+    "explanation": "The transformation $y = -2f(-3x)$ involves horizontal parameters $b = -3$. The horizontal mapping rule is $x \\rightarrow \\frac{x}{-3} = -\\frac{1}{3}x$. Applying this rule to the boundaries of the original domain $[-12, 6]$:\nLower bound becomes: $-\\frac{1}{3}(-12) = 4$.\nUpper bound becomes: $-\\frac{1}{3}(6) = -2$.\nWritten in standard interval notation, the new domain is $[-2, 4]$, so $c = -2$ and $d = 4$. The product $c \\cdot d = (-2)(4) = -8$.",
+    "common_mistake": "Students often forget that interval boundaries must be written from least to greatest, or they get confused by how the vertical parameter affects the horizontal domain (it doesn't).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Finding parameters given roots of polynomials",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "A polynomial function $y = p(x)$ has exactly three distinct $x$-intercepts at $x = -6$, $x = 2$, and $x = 4$. If a transformed function is defined as $y = p\\left(\\frac{1}{2}x\\right)$, what is the largest $x$-intercept on the new graph?",
+    "answer": "8",
+    "choices": [
+      {
+        "text": "8",
+        "is_correct": true
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      },
+      {
+        "text": "12",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The parameter inside the function argument is $b = \n\\frac{1}{2}$. This means the graph is horizontally stretched by a factor of $\\frac{1}{1/2} = 2$. The mapping for the $x$-coordinates is $x \\rightarrow 2x$. The original $x$-intercepts are multiplied by $2$, yielding new intercepts at $x = -12$, $x = 4$, and $x = 8$. The largest value among these is $8$.",
+    "common_mistake": "Students frequently multiply by the parameter $\\frac{1}{2}$ instead of its reciprocal, incorrectly identifying $x=2$ as the largest intercept.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Deducing equations from abstract functions containing fractions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "The graph of $y = f(x)$ is transformed into the graph of $3y = f(-x)$. Which mapping notation correctly shows how any point $(x, y)$ on the original graph is altered?",
+    "answer": "$(x, y) \\rightarrow \\left(-x, \\frac{1}{3}y\\right)$",
+    "choices": [
+      {
+        "text": "$(x, y) \\rightarrow \\left(-x, \\frac{1}{3}y\\right)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(x, y) \\rightarrow (-3x, -y)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(x, y) \\rightarrow \\left(-\\frac{1}{3}x, y\\right)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(x, y) \\rightarrow (-x, 3y)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "First, isolate $y$ to rewrite the equation in standard form: $y = \\frac{1}{3}f(-x)$. The vertical parameter is $a = \\frac{1}{3}$, meaning all $y$-values are multiplied by $\\frac{1}{3}$. The horizontal parameter is $b = -1$, meaning all $x$-values are multiplied by $-1$. Therefore, the coordinate mapping notation is $(x, y) \\rightarrow \\left(-x, \\frac{1}{3}y\\right)$.",
+    "common_mistake": "Students often fail to rearrange the equation for $y$ first, leading them to think the $y$-coordinate is multiplied by $3$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations of Functions",
+    "outcome_code": "RF2",
+    "skill_tested": "Synthesizing full transformation logic and domain tracking",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "A function $y = f(x)$ has a domain of $[-6, 9]$ and a range of $[-4, 16]$. A student applies a transformation to create a new function, $g(x) = -3f(2x)$. \n\na) State the coordinate mapping notation that describes this transformation.\n\nb) Algebraically determine the domain and range of the transformed function $y = g(x)$.",
+    "answer": "Mapping notation: $(x, y) \\rightarrow \\left(\\frac{1}{2}x, -3y\\right)$; Domain: $[-3, 4.5]$; Range: $[-48, 12]$",
+    "choices": [],
+    "explanation": "a) The function $g(x) = -3f(2x)$ has parameters $a = -3$ and $b = 2$. The parameter $a$ scales the $y$-coordinates by $-3$, and the parameter $b$ scales the $x$-coordinates by $\\frac{1}{b} = \\frac{1}{2}$. Thus, the mapping notation is $(x, y) \\rightarrow \\left(\\frac{1}{2}x, -3y\\right)$.\n\nb) To find the new domain, apply the horizontal mapping rule to the boundaries of the original domain $[-6, 9]$:\nNew lower bound: $\\frac{1}{2}(-6) = -3$.\nNew upper bound: $\\frac{1}{2}(9) = 4.5$.\nSo, the new domain is $[-3, 4.5]$.\n\nTo find the new range, apply the vertical mapping rule to the boundaries of the original range $[-4, 16]$:\nBound 1: $-3(-4) = 12$.\nBound 2: $-3(16) = -48$.\nSince intervals must be stated from lowest value to highest value, the new range is $[-48, 12]$.",
+    "common_mistake": "When calculating the new range, students frequently write the interval backwards as $[12, -48]$ because they don't reorder the values from least to greatest after multiplying by a negative number.",
+    "source": "ai"
+  }
+]

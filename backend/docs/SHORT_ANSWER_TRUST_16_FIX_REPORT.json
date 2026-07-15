@@ -1,0 +1,130 @@
+[
+  {
+    "question_id": 10,
+    "old_stem": "How many solutions does $2\\cos^2(x) - \\sin(x) - 1 = 0$ have over $0 \\le x < 2\\pi$? Record the integer count.",
+    "new_stem": "Solve $2\\cos^2(x) - \\sin(x) - 1 = 0$ over $0 \\le x < 2\\pi$. One family of solutions satisfies $\\sin(x) = -1$. Record that exact solution in this interval using ``pi`` (for example, ``3pi/2``).",
+    "old_accepted_answers": ["3"],
+    "new_accepted_answers": ["3pi/2", "3π/2", "(3pi)/2", "(3π)/2", "3*pi/2"],
+    "reason": "Counting solutions was too shallow for algebraic trig solving; now requires finding the exact root where sin(x)=-1."
+  },
+  {
+    "question_id": 50,
+    "old_stem": "For $f(x)=\\sqrt{16-x^2}$ and $g(x)=x^2-3x-4$, how many real values must be excluded from the domain of $(f/g)(x)$ within $[-4,4]$? Record the integer count.",
+    "new_stem": "Let $f(x)=\\sqrt{16-x^2}$ and $g(x)=x^2-3x-4$. For the quotient $(f/g)(x)$, two values in $[-4,4]$ must be excluded because $g(x)=0$. Record the smaller excluded value.",
+    "old_accepted_answers": ["2"],
+    "new_accepted_answers": ["-1", "-1.0"],
+    "reason": "Counting excluded values did not require identifying denominator zeros; students must find both and report the smaller."
+  },
+  {
+    "question_id": 68,
+    "old_stem": "If $f(x)=\\dfrac{x+2}{x-1}$ and $f(f(x))=x$ (for permissible $x$), is $f$ its own inverse? Enter yes or no.",
+    "new_stem": "Let $f(x)=\\dfrac{x+2}{x-1}$ with $x \\ne 1$. Evaluate $f(f(5))$. Record the exact value.",
+    "old_accepted_answers": ["yes", "y", "true"],
+    "new_accepted_answers": ["5", "5.0"],
+    "reason": "Yes/no with y/true was too broad; f(f(5))=5 demonstrates the involution property concretely."
+  },
+  {
+    "question_id": 125,
+    "old_stem": "Using $A=Pe^{rt}$ with $r=0.05$, how many years are required for an investment to triple? Round to the nearest tenth.",
+    "new_stem": "An investment grows by continuous compounding $A = P e^{rt}$. First isolate $t$, then determine how many years are required for the investment to triple when $r = 0.05$. Round to the nearest tenth of a year.",
+    "old_accepted_answers": ["22.0", "22", "21.97", "21.972"],
+    "new_accepted_answers": ["22.0", "22"],
+    "reason": "Stem requires isolating t via ln; dropped unrounded intermediates so only the rounded diploma answer is accepted."
+  },
+  {
+    "question_id": 144,
+    "old_stem": "How many distinct real $x$-intercepts does $P(x)=x^4-5x^2+4$ have? Record the integer.",
+    "new_stem": "Factor $P(x)=x^4-5x^2+4$ completely over the reals. The linear factors may be written as $(x-a)(x+a)(x-b)(x+b)$ with $0 < a < b$. Record the value of $b$.",
+    "old_accepted_answers": ["4"],
+    "new_accepted_answers": ["2", "2.0"],
+    "reason": "Counting intercepts skipped complete factorization; now requires identifying parameter b from the factored form."
+  },
+  {
+    "question_id": 204,
+    "old_stem": "For $\\dfrac{\\sin(2x)}{1+\\cos(2x)}=\\tan(x)$ on $0\\le x<2\\pi$, how many non-permissible $x$-values are there in the interval? Record the integer.",
+    "new_stem": "Consider $\\dfrac{\\sin(2x)}{1+\\cos(2x)}=\\tan(x)$ on $0 \\le x < 2\\pi$. Record the smallest non-permissible value of $x$ in this interval, using ``pi`` (for example, ``pi/2``).",
+    "old_accepted_answers": ["2"],
+    "new_accepted_answers": ["pi/2", "π/2", "(pi)/2", "(π)/2", "1pi/2"],
+    "reason": "Counting restrictions skipped naming them; now requires the smallest excluded exact value."
+  },
+  {
+    "question_id": 224,
+    "old_stem": "In how many ways can 12 volunteers be partitioned into teams of sizes 5, 4, and 3 (teams distinct)? Record the integer.",
+    "new_stem": "Twelve volunteers are partitioned into three distinct teams of sizes 5, 4, and 3. Because order within a team does not matter, use combinations: compute $_{12}C_5 \\cdot _7C_4 \\cdot _3C_3$. Record the integer result.",
+    "old_accepted_answers": ["27720", "27,720"],
+    "new_accepted_answers": ["27720"],
+    "reason": "Stem forces the combinations structure; removed comma formatting so only the exact integer is accepted."
+  },
+  {
+    "question_id": 292,
+    "old_stem": "For $f(x)=\\dfrac{2x}{x-3}$, what is the equation of the vertical asymptote? Enter as x = k.",
+    "new_stem": "For $f(x)=\\dfrac{2x}{x-3}$, record the equation of the vertical asymptote in the form ``x = k`` (include ``x =``).",
+    "old_accepted_answers": ["x = 3", "x=3", "x =3", "x= 3", "3"],
+    "new_accepted_answers": ["x = 3", "x=3", "x =3", "x= 3"],
+    "reason": "Removed bare 3 so students must write an asymptote equation."
+  },
+  {
+    "question_id": 294,
+    "old_stem": "A rational function has a vertical asymptote at $x = -2$, a horizontal asymptote at $y = 1$, and passes through $(0, 0)$. Write one possible equation and justify each feature.",
+    "new_stem": "A rational function has vertical asymptote $x=-2$, horizontal asymptote $y=1$, and passes through $(0,0)$. It can be written as $f(x)=\\dfrac{x}{x+a}$. Record the positive value of $a$.",
+    "old_accepted_answers": ["x/(x+2)", "x / (x + 2)", "f(x)=x/(x+2)", "f(x) = x/(x+2)", "(x)/(x+2)", "\\frac{x}{x+2}"],
+    "new_accepted_answers": ["2", "2.0"],
+    "reason": "Open-ended equation grading was fragile; asking for construction parameter a still tests VA/HA/(0,0) with one clear key."
+  },
+  {
+    "question_id": 416,
+    "old_stem": "Trace hormones from hormonal contraceptives entering aquatic ecosystems via wastewater raise which type of environmental concern: ethical, economic, or ecological?",
+    "new_stem": "Hormone residues from contraceptives that enter wastewater and disrupt reproduction in aquatic organisms primarily represent which STS concern? Enter exactly one of: ethical, economic, ecological.",
+    "old_accepted_answers": ["ecological", "ecology", "environmental"],
+    "new_accepted_answers": ["ecological"],
+    "reason": "Removed overly broad environmental/ecology synonyms."
+  },
+  {
+    "question_id": 417,
+    "old_stem": "How many functional gametes does one primary spermatocyte typically produce through meiosis?",
+    "new_stem": "Compare gametogenesis: a primary spermatocyte typically yields 4 functional sperm, while one primary oocyte that completes meiosis typically yields how many functional ova? Record the integer.",
+    "old_accepted_answers": ["4", "four"],
+    "new_accepted_answers": ["1"],
+    "reason": "Now contrasts sperm vs ovum yield so the comparison objective is actually tested."
+  },
+  {
+    "question_id": 463,
+    "old_stem": "If nondisjunction produces an n+1 gamete that is fertilized by a normal n gamete, what is the resulting zygote chromosome number in humans (use digit form, e.g. 47)?",
+    "new_stem": "Nondisjunction produces an $n+1$ human gamete that is fertilized by a normal $n$ gamete. Record the resulting zygote chromosome number as an integer.",
+    "old_accepted_answers": ["47", "2n+1", "trisomy"],
+    "new_accepted_answers": ["47"],
+    "reason": "Removed trisomy/2n+1 labels; only the chromosome count is accepted."
+  },
+  {
+    "question_id": 465,
+    "old_stem": "How many nuclear divisions occur in meiosis?",
+    "new_stem": "Compare mitosis and meiosis: relative to the parent cell, are the daughter cells produced by meiosis haploid or diploid? Enter haploid or diploid.",
+    "old_accepted_answers": ["2", "two"],
+    "new_accepted_answers": ["haploid"],
+    "reason": "Requires the ploidy contrast instead of a shallow division count."
+  },
+  {
+    "question_id": 538,
+    "old_stem": "A couple with normal vision has a colour-blind son. What is the mother’s most likely genotype for an X-linked recessive trait (use carrier notation such as XNXc)?",
+    "new_stem": "A couple with normal vision has a colour-blind son. Colour blindness is X-linked recessive. Record the mother's most likely genotype using carrier notation with N = normal allele and c = colour-blind allele (enter exactly XNXc).",
+    "old_accepted_answers": ["XNXc", "X^N X^c", "carrier", "heterozygous carrier"],
+    "new_accepted_answers": ["XNXc", "X^N X^c", "X^{N}X^{c}"],
+    "reason": "Removed bare carrier; genotype notation is required."
+  },
+  {
+    "question_id": 540,
+    "old_stem": "A mutation that changes a single DNA base pair is called what type of mutation?",
+    "new_stem": "A mutation that changes exactly one DNA base pair (with no insertion or deletion of bases) is called a _____ mutation. Enter the full two-word name.",
+    "old_accepted_answers": ["point mutation", "point", "substitution", "base substitution"],
+    "new_accepted_answers": ["point mutation"],
+    "reason": "Removed bare point/substitution; only the full term point mutation is accepted."
+  },
+  {
+    "question_id": 584,
+    "old_stem": "Random change in allele frequencies due to chance in a small population is called what?",
+    "new_stem": "In a small population, allele frequencies change due to random sampling error rather than differences in fitness. Name this microevolutionary mechanism (exactly two words).",
+    "old_accepted_answers": ["genetic drift", "drift", "founder effect", "bottleneck effect"],
+    "new_accepted_answers": ["genetic drift"],
+    "reason": "Removed related-but-distinct terms; only genetic drift matches the definition."
+  }
+]

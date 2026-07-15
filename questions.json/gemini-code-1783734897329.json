@@ -1,0 +1,264 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations",
+    "outcome_code": "RF1",
+    "skill_tested": "Horizontal and Vertical Translations of Graphs",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "The graph of the function $y = f(x)$ is translated $3$ units to the left and $4$ units down. Which of the following represents the equation of the transformed graph?",
+    "answer": "$y = f(x + 3) - 4$",
+    "choices": [
+      {
+        "text": "$y = f(x + 3) - 4$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = f(x - 3) - 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = f(x + 3) + 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = f(x - 3) + 4$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A horizontal translation of $h$ units changes the input variable from $x$ to $x - h$. For a translation of $3$ units to the left, $h = -3$, so the input becomes $x - (-3) = x + 3$. A vertical translation of $k$ units adds $k$ directly to the function output. For a translation of $4$ units down, $k = -4$. Combining these gives the transformed equation $y = f(x + 3) - 4$.",
+    "common_mistake": "Students often confuse the sign of horizontal translations, incorrectly assuming a shift to the left implies a subtraction within the input argument, leading them to choose $y = f(x - 3) - 4$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations",
+    "outcome_code": "RF3",
+    "skill_tested": "Stretches and Reflections",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "If the graph of $y = \\sqrt{x}$ is horizontally stretched by a factor of $\\frac{1}{4}$, vertically reflected about the $x$-axis, and vertically stretched by a factor of $3$, the resulting equation can be written in the form $y = a\\sqrt{bx}$. Determine the value of the product $a \\cdot b$.",
+    "answer": "-12",
+    "choices": [],
+    "explanation": "A vertical reflection about the $x$-axis means $y \\rightarrow -y$, or multiplying the function by $-1$. A vertical stretch by a factor of $3$ means multiplying the function by $3$. Combining these gives a vertical component of $a = -3$. A horizontal stretch by a factor of $\\frac{1}{4}$ means replacing $x$ with $\\frac{1}{\\text{factor}}x$, which is $\\frac{1}{1/4}x = 4x$. Thus, $b = 4$. The equation is $y = -3\\sqrt{4x}$. The product $a \\cdot b$ is $(-3) \\cdot 4 = -12$.",
+    "common_mistake": "Students often use the horizontal stretch factor directly as $b = \\frac{1}{4}$ instead of taking its reciprocal, or fail to apply the negative sign to $a$ for the vertical reflection.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Transformations",
+    "outcome_code": "RF5",
+    "skill_tested": "Inverse of a Function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Given the function $f(x) = \\frac{2x + 1}{x - 3}$, where $x \\neq 3$, determine the equation of its inverse function, $f^{-1}(x)$.",
+    "answer": "$f^{-1}(x) = \\frac{3x + 1}{x - 2}$",
+    "choices": [
+      {
+        "text": "$f^{-1}(x) = \\frac{3x + 1}{x - 2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{x - 3}{2x + 1}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{3x - 1}{x + 2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f^{-1}(x) = \\frac{2x - 1}{x + 3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the inverse function, swap $x$ and $y$ and solve for $y$: \n$x = \\frac{2y + 1}{y - 3}$\nMultiply both sides by $(y - 3)$:\n$x(y - 3) = 2y + 1$\n$xy - 3x = 2y + 1$\nRearrange terms to isolate $y$ on one side:\n$xy - 2y = 3x + 1$\nFactor out $y$:\n$y(x - 2) = 3x + 1$\nDivide by $(x - 2)$:\n$y = \\frac{3x + 1}{x - 2}$. Therefore, $f^{-1}(x) = \\frac{3x + 1}{x - 2}$.",
+    "common_mistake": "A common mistake is to simply take the reciprocal of the function, resulting in the distractor $\\frac{x - 3}{2x + 1}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "The Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Angles in Standard Position and Arc Length",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "A circle has a radius of $6\\text{ cm}$. Determine the measure of a central angle, $\\theta$, in radians, that subtends an arc length of $15\\text{ cm}$.",
+    "answer": "$2.5$",
+    "choices": [
+      {
+        "text": "$2.5$",
+        "is_correct": true
+      },
+      {
+        "text": "$0.4$",
+        "is_correct": false
+      },
+      {
+        "text": "$90$",
+        "is_correct": false
+      },
+      {
+        "text": "$4.5$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The relationship between arc length $s$, radius $r$, and central angle $\\theta$ in radians is given by the formula $s = r\\theta$. Rearranging for $\\theta$ yields $\\theta = \\frac{s}{r}$. Substituting the given values: $\\theta = \\frac{15}{6} = 2.5$ radians.",
+    "common_mistake": "Students often divide radius by arc length ($6/15 = 0.4$) instead of arc length by radius.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions",
+    "outcome_code": "T4",
+    "skill_tested": "Graphing Trigonometric Functions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "Determine the period of the trigonometric function $y = -3\\sin\\left(\\frac{\\pi}{4}(x - 2)\\right) + 5$.",
+    "answer": "8",
+    "choices": [],
+    "explanation": "The formula for the period $P$ of a sine function is $P = \\frac{2\\pi}{|b|}$, where $b$ is the horizontal stretch parameter. In this equation, $b = \\frac{\\pi}{4}$. Therefore, $P = \\frac{2\\pi}{\\pi/4} = 2\\pi \\cdot \\frac{4}{\\pi} = 8$.",
+    "common_mistake": "Students frequently mistake the horizontal shift value ($2$) or the vertical amplitude value ($3$) as contributing to the period calculation, or evaluate $\\frac{2\\pi}{\\pi/4}$ incorrectly as $\\frac{1}{2}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Solving Exponential Equations",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Solve the exponential equation $27^{x - 1} = 9^{2x + 3}$ for $x$.",
+    "answer": "$x = -9$",
+    "choices": [
+      {
+        "text": "$x = -9$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = -4$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{4}{3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Express both bases as powers of $3$: $27 = 3^3$ and $9 = 3^2$. Substitute these into the equation:\n$(3^3)^{x - 1} = (3^2)^{2x + 3}$\nApply exponent rules to multiply powers:\n$3^{3(x - 1)} = 3^{2(2x + 3)}$\n$3^{3x - 3} = 3^{4x + 6}$\nSince the bases are identical, equate the exponents:\n$3x - 3 = 4x + 6$\nSubtract $3x$ from both sides:\n$-3 = x + 6$\nSubtract $6$ from both sides:\n$x = -9$.",
+    "common_mistake": "Students often fail to distribute the exponent to all terms inside the parenthetical expressions, writing $3x - 1 = 4x + 3$ instead of $3x - 3 = 4x + 6$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Laws of Logarithms",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The expression $\\log_b\\left(\\frac{x^3}{\\sqrt{y}}\\right) - 2\\log_b(z)$ can be simplified to which single logarithmic expression?",
+    "answer": "$\\log_b\\left(\\frac{x^3}{\\sqrt{y}\\cdot z^2}\\right)$",
+    "choices": [
+      {
+        "text": "$\\log_b\\left(\\frac{x^3}{\\sqrt{y}\\cdot z^2}\\right)$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\log_b\\left(\\frac{x^3\\cdot z^2}{\\sqrt{y}}\\right)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\log_b\\left(\\frac{3x}{\\frac{1}{2}y \\cdot 2z}\\right)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\log_b\\left(\\frac{x^3}{\\sqrt{y}} - z^2\\right)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "First, use the power law of logarithms to rewrite $2\\log_b(z)$ as $\\log_b(z^2)$. The expression becomes $\\log_b\\left(\\frac{x^3}{\\sqrt{y}}\\right) - \\log_b(z^2)$. Next, use the quotient law of logarithms ($\\log_b(A) - \\log_b(B) = \\log_b\\left(\\frac{A}{B}\\right)$):\n$\\log_b\\left(\\frac{\\frac{x^3}{\\sqrt{y}}}{z^2}\\right) = \\log_b\\left(\\frac{x^3}{\\sqrt{y}\\cdot z^2}\\right)$.",
+    "common_mistake": "Students often mistakenly move $z^2$ to the numerator when combining terms because it follows a subtraction sign, or confuse power coefficients with algebraic multipliers.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations, and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PCB1",
+    "skill_tested": "Permutations with Constraints",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Determine the number of distinct 6-letter arrangements that can be made using all the letters from the word VECTOR if the vowels (E and O) must never be adjacent to each other.",
+    "answer": "480",
+    "choices": [],
+    "explanation": "First, calculate the total number of unrestricted arrangements of the 6 unique letters: $6! = 720$. Next, calculate the number of arrangements where the vowels E and O *are* adjacent. Treat (EO) as a single super-letter. This leaves 5 items to arrange: V, C, T, R, and (EO). The number of arrangements is $5! = 120$. Since the vowels can be arranged within their group as either EO or OE, multiply by $2!$: $120 \\times 2 = 240$. To find the number of arrangements where they are not adjacent, subtract the restricted arrangements from total arrangements: $720 - 240 = 480$.",
+    "common_mistake": "Students often forget to account for internal arrangements within the grouped items (forgetting to multiply by $2!$), or calculate only the arrangements where they *are* adjacent instead of subtracting from the total.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Polynomial Functions",
+    "outcome_code": "RF11",
+    "skill_tested": "Remainder and Factor Theorems",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "When the polynomial $P(x) = 2x^3 - kx^2 + 5x - 6$ is divided by $x - 2$, the remainder is $8$. Determine the value of $k$.",
+    "answer": "3",
+    "choices": [
+      {
+        "text": "3",
+        "is_correct": true
+      },
+      {
+        "text": "-3",
+        "is_correct": false
+      },
+      {
+        "text": "5",
+        "is_correct": false
+      },
+      {
+        "text": "1.5",
+        "is_correct": false
+      }
+    ],
+    "explanation": "According to the Remainder Theorem, if a polynomial $P(x)$ is divided by $x - c$, the remainder is equal to $P(c)$. Here, $c = 2$ and the remainder is $8$, so $P(2) = 8$. Substitute $x = 2$ into the polynomial expression:\n$2(2)^3 - k(2)^2 + 5(2) - 6 = 8$\n$2(8) - 4k + 10 - 6 = 8$\n$16 - 4k + 4 = 8$\n$20 - 4k = 8$\n$-4k = -12 \\Rightarrow k = 3$.",
+    "common_mistake": "Students frequently substitute $x = -2$ instead of $x = 2$ into the polynomial expression, leading to sign errors.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "outcome_code": "T6",
+    "skill_tested": "Solving Trigonometric Equations Algebraically",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "Solve the trigonometric equation $2\\cos^2(x) - \\sin(x) - 1 = 0$ algebraically over the domain $0 \\le x < 2\\pi$. State your solutions as exact values.",
+    "answer": "$x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$",
+    "choices": [],
+    "explanation": "To solve, convert all trigonometric terms to the same ratio using the Pythagorean Identity $\\cos^2(x) = 1 - \\sin^2(x)$:\n$2(1 - \\sin^2(x)) - \\sin(x) - 1 = 0$\n$2 - 2\\sin^2(x) - \\sin(x) - 1 = 0$\n$-2\\sin^2(x) - \\sin(x) + 1 = 0$\nMultiply by $-1$ to make factoring easier:\n$2\\sin^2(x) + \\sin(x) - 1 = 0$\nFactor the quadratic equation:\n$(2\\sin(x) - 1)(\\sin(x) + 1) = 0$\nSet each factor to zero:\n1) $2\\sin(x) - 1 = 0 \\Rightarrow \\sin(x) = \\frac{1}{2}$\nOver the domain $0 \\le x < 2\\pi$, $\\sin(x) = \\frac{1}{2}$ at reference angle $\\frac{\\pi}{6}$ in Quadrants I and II: $x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$.\n2) \\sin(x) + 1 = 0 \\Rightarrow \\sin(x) = -1$\nOver the domain $0 \\le x < 2\\pi$, $\\sin(x) = -1$ at $x = \\frac{3\\pi}{2}$.\nCombining solutions: $x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$.",
+    "common_mistake": "Students often forget to substitute the identity correctly, or convert $\\sin(x)$ incorrectly. Another error is neglecting one of the factors or missing solutions in the second quadrant.",
+    "source": "ai"
+  }
+]

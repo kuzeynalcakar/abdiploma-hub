@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-07-14T09:45:00+00:00",
+  "status": "COMPLETE",
+  "course": "SCI10",
+  "total_questions": 300,
+  "student_audit_findings_remaining": 0,
+  "nr_mismatches": 0,
+  "exact_duplicate_stems": 0,
+  "confirmed_fixes_applied": [
+    "243 incoming/absorbed wording",
+    "176 protein hormone factual correction",
+    "173 CLSM replaced with compound microscope",
+    "177 HIV liposome replaced with membrane model",
+    "distractor quality pass (physics/biology/climate/STS)",
+    "meta/AI leakage scrub",
+    "123 blank+? stems to diploma incomplete style"
+  ],
+  "topic_counts": {
+    "Energy and Matter in Chemical Change": 90,
+    "Energy Flow in Technological Systems": 85,
+    "Cycling of Matter in Living Systems": 85,
+    "Energy Flow in Global Systems": 40
+  },
+  "type_counts": {
+    "multiple_choice": 218,
+    "numerical_response": 82
+  },
+  "data_preservation": {
+    "user_answers": 451,
+    "other_courses_unchanged": true
+  },
+  "verdict": "COMPLETE — students would trust the bank; no confirmed answer-key errors, no SCI10 duplicates, no remaining grading ambiguity on confirmed issues."
+}

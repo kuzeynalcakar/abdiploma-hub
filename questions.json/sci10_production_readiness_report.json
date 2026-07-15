@@ -1,0 +1,109 @@
+{
+  "timestamp_utc": "2026-07-14T09:00:33.829499+00:00",
+  "status": "READY",
+  "backup": "C:\\AlbertaPrep\\backend\\backups\\albertaprep_pre_sci10_import_20260714_090033.db",
+  "json_source": "C:\\AlbertaPrep\\questions.json\\science10_questions_final.json",
+  "import_summary": {
+    "sci10_before": 300,
+    "sci10_after": 300,
+    "imported_new": 0
+  },
+  "data_preservation": {
+    "production_ids_preserved": true,
+    "preserved_courses": [
+      "BIO30",
+      "MATH30-1",
+      "CHEM30",
+      "PHYS30",
+      "MATH30-2",
+      "MATH20-1",
+      "SCI30"
+    ],
+    "user_answers": {
+      "before": 451,
+      "after": 451
+    },
+    "question_history": {
+      "before": 288,
+      "after": 288
+    },
+    "quiz_attempts": {
+      "before": 119,
+      "after": 119
+    },
+    "topic_performance": {
+      "before": 86,
+      "after": 86
+    },
+    "course_counts": {
+      "BIO30": {
+        "before": 300,
+        "after": 300
+      },
+      "MATH30-1": {
+        "before": 293,
+        "after": 293
+      },
+      "CHEM30": {
+        "before": 300,
+        "after": 300
+      },
+      "PHYS30": {
+        "before": 300,
+        "after": 300
+      },
+      "MATH30-2": {
+        "before": 300,
+        "after": 300
+      },
+      "MATH20-1": {
+        "before": 300,
+        "after": 300
+      },
+      "SCI30": {
+        "before": 300,
+        "after": 300
+      }
+    }
+  },
+  "sci10_counts": {
+    "total": 300,
+    "target": 300,
+    "by_topic": {
+      "Energy and Matter in Chemical Change": 90,
+      "Energy Flow in Technological Systems": 85,
+      "Cycling of Matter in Living Systems": 85,
+      "Energy Flow in Global Systems": 40
+    },
+    "topic_targets": {
+      "Energy and Matter in Chemical Change": 90,
+      "Energy Flow in Technological Systems": 85,
+      "Cycling of Matter in Living Systems": 85,
+      "Energy Flow in Global Systems": 40
+    },
+    "by_type": {
+      "multiple_choice": 218,
+      "numerical_response": 82
+    },
+    "type_targets": {
+      "multiple_choice": 218,
+      "numerical_response": 82
+    }
+  },
+  "api_verification": {
+    "courses_listed": true,
+    "course_question_count": 300,
+    "topic_count": 4,
+    "quiz_available_count": 300,
+    "quiz_questions_returned": 10,
+    "progress_courses": 0,
+    "progress_has_practice_streak": true,
+    "daily_practice_total": 10,
+    "daily_practice_started": 10,
+    "weakness_map_topics": 4,
+    "guest_mc_grade": true,
+    "guest_nr_grade": true,
+    "api_available": true
+  },
+  "issues": []
+}

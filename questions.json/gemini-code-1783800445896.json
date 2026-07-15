@@ -1,0 +1,526 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Converting an exponential equation to logarithmic form",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Which of the following logarithmic equations is equivalent to the exponential statement $5^3 = 125$?",
+    "answer": "$\\log_5(125) = 3$",
+    "choices": [
+      {
+        "text": "$\\log_5(125) = 3$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\log_3(125) = 5$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\log_{125}(5) = 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\log_5(3) = 125$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "By definition, the exponential statement $b^y = x$ is equivalent to the logarithmic statement $\\log_b(x) = y$. In this case, the base $b = 5$, the exponent $y = 3$, and the result $x = 125$. Therefore, $\\log_5(125) = 3$.",
+    "common_mistake": "Students often swap the positions of the exponent and the argument, incorrectly choosing $\\log_5(3) = 125$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Evaluating a basic numerical logarithm",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Evaluate the exact value of $\\log_2\\left(\\frac{1}{16}\\right)$.",
+    "answer": "$-4$",
+    "choices": [
+      {
+        "text": "$-4$",
+        "is_correct": true
+      },
+      {
+        "text": "$4$",
+        "is_correct": false
+      },
+      {
+        "text": "$-8$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{1}{4}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To evaluate $y = \\log_2\\left(\\frac{1}{16}\\right)$, rewrite it in exponential form: $2^y = \\frac{1}{16}$. Since $16 = 2^4$, the reciprocal can be written with a negative exponent as $\\frac{1}{16} = 2^{-4}$. Equating exponents gives $y = -4$.",
+    "common_mistake": "Students sometimes ignore the reciprocal fraction and evaluate $\\log_2(16) = 4$, or divide 16 by 2 to get 8.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Identifying characteristics of a basic logarithmic graph",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "Which of the following features completely describes the graph of $y = \\log_4(x)$?",
+    "answer": "$x$-intercept at $(1, 0)$ and vertical asymptote at $x = 0$",
+    "choices": [
+      {
+        "text": "$x$-intercept at $(1, 0)$ and vertical asymptote at $x = 0$",
+        "is_correct": true
+      },
+      {
+        "text": "$y$-intercept at $(0, 1)$ and horizontal asymptote at $y = 0$",
+        "is_correct": false
+      },
+      {
+        "text": "$x$-intercept at $(4, 0)$ and vertical asymptote at $x = 1$",
+        "is_correct": false
+      },
+      {
+        "text": "$x$-intercept at $(1, 0)$ and horizontal asymptote at $y = 0$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A standard logarithmic graph $y = \\log_b(x)$ where $b > 1$ has a vertical asymptote at $x = 0$ (the $y$-axis) and always passes through the point $(1, 0)$ because $\\log_b(1) = 0$.",
+    "common_mistake": "Students often confuse the features of logarithmic graphs with exponential graphs, which have $y$-intercepts at $(0, 1)$ and horizontal asymptotes at $y = 0$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Determining domain restrictions of a logarithmic function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "What is the domain of the logarithmic function $y = \\log_3(x - 6) + 2$?",
+    "answer": "$x > 6$",
+    "choices": [
+      {
+        "text": "$x > 6$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\ge 6$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\in \\mathbb{R}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x > -6$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The argument of a logarithmic function must always be strictly greater than zero. Therefore, we set up the inequality $x - 6 > 0$, which yields $x > 6$. Vertical and horizontal translations do not alter this fundamental argument constraint.",
+    "common_mistake": "Students often use '$\\ge$' instead of '$>$', forgetting that a logarithm is undefined at exactly zero.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Expanding logarithms using the product property",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "Using the laws of logarithms, which expression is equivalent to $\\log_b(5x)$?",
+    "answer": "$\\log_b(5) + \\log_b(x)$",
+    "choices": [
+      {
+        "text": "$\\log_b(5) + \\log_b(x)$",
+        "is_correct": true
+      },
+      {
+        "text": "$5\\log_b(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\log_b(5) \\cdot \\log_b(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\log_b(5) - \\log_b(x)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "According to the product law of logarithms, the logarithm of a product is equal to the sum of the logarithms of its individual factors: $\\log_b(M \\cdot N) = \\log_b(M) + \\log_b(N)$. Thus, $\\log_b(5x) = \\log_b(5) + \\log_b(x)$.",
+    "common_mistake": "Students often treat the product inside the log as multiplication outside the log, or mistake it for a power law, pulling the 5 out to the front.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Expressing a power logarithm in expanded form",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "The expression $\\log_a(x^7)$ can be written equivalently as which of the following?",
+    "answer": "$7\\log_a(x)$",
+    "choices": [
+      {
+        "text": "$7\\log_a(x)$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\log_a(7) + \\log_a(x)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(\\log_a(x))^7$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{1}{7}\\log_a(x)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The power law of logarithms states that $\\log_b(M^k) = k\\log_b(M)$. Applying this rule to $\\log_a(x^7)$ allows us to bring the exponent 7 to the front as a coefficient, resulting in $7\\log_a(x)$.",
+    "common_mistake": "Students often mistake the exponent of the argument for the exponent of the entire logarithmic term, confusing $7\\log_a(x)$ with $(\\log_a(x))^7$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving a basic single-logarithm equation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "Determine the exact solution to the equation $\\log_5(2x - 3) = 2$.",
+    "answer": "$14$",
+    "choices": [
+      {
+        "text": "$14$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{13}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$11$",
+        "is_correct": false
+      },
+      {
+        "text": "$28$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Convert the logarithmic equation to its equivalent exponential form: $5^2 = 2x - 3$. This simplifies to $25 = 2x - 3$. Adding 3 to both sides yields $28 = 2x$, which results in $x = 14$.",
+    "common_mistake": "Students often multiply the base by the right side ($5 \\cdot 2 = 10$) instead of raising the base to the power of the right side ($5^2 = 25$).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Evaluating a logarithm containing radical expressions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "Determine the exact value of the expression $\\log_3(\\sqrt{27})$. Express your answer as a decimal.",
+    "answer": "1.5",
+    "choices": [],
+    "explanation": "First, write the argument as a single base 3 power: $\\sqrt{27} = (27)^{1/2} = (3^3)^{1/2} = 3^{3/2}$. The expression becomes $\\log_3(3^{3/2})$. Using the inverse identity property $\\log_b(b^x) = x$, the value simplifies to $\\frac{3}{2} = 1.5$.",
+    "common_mistake": "Students often treat the square root as a coefficient of 2 or get confused combining the cube power of 27 with the fractional root index.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Determining the position of a vertical asymptote following horizontal shifts",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "The graph of $y = \\log_2(x)$ is horizontally translated 4 units to the left and vertically stretched by a factor of 3. Determine the equation value $c$ for the new vertical asymptote $x = c$.",
+    "answer": "-4",
+    "choices": [],
+    "explanation": "The original vertical asymptote for a base log graph is $x = 0$. A horizontal translation of 4 units to the left transforms the equation to $y = 3\\log_2(x + 4)$. This shift moves the vertical asymptote 4 units left, moving it from $x = 0$ to $x = -4$. Vertical stretches have no impact on vertical asymptotes.",
+    "common_mistake": "Students often reverse the direction of horizontal shifts, tracking it to $+4$ instead of $-4$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Applying the quotient and product laws to combine terms",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "Write the expression $2\\log_a(6) - \\log_a(4) + \\log_a(2)$ as a single logarithm in the form $\\log_a(k)$. Determine the value of the integer constant $k$.",
+    "answer": "18",
+    "choices": [],
+    "explanation": "First, apply the power law to move coefficients to exponents: $2\\log_a(6) = \\log_a(6^2) = \\log_a(36)$. The expression is now $\\log_a(36) - \\log_a(4) + \\log_a(2)$. Next, apply the quotient law to the subtraction term: $\\log_a(36/4) = \\log_a(9)$. Finally, apply the product law to the remaining addition term: $\\log_a(9 \\cdot 2) = \\log_a(18)$. Therefore, $k = 18$.",
+    "common_mistake": "Students regularly process operations from left to right without applying power laws first, or perform incorrect scalar arithmetic like $2 \\cdot 6 = 12$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving logarithmic equations requiring product law condensation",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "Determine the real solution to the equation $\\log_2(x) + \\log_2(x - 2) = 3$.",
+    "answer": "4",
+    "choices": [],
+    "explanation": "Combine the left side using the product law: $\\log_2(x(x - 2)) = 3 \\Rightarrow \\log_2(x^2 - 2x) = 3$. Convert to exponential form: $2^3 = x^2 - 2x \\Rightarrow 8 = x^2 - 2x$. Rearrange into a standard quadratic form: $x^2 - 2x - 8 = 0$. Factoring gives $(x - 4)(x + 2) = 0$, yielding solutions $x = 4$ and $x = -2$. However, we must verify both roots in the original log domains. The argument $\\log_2(x)$ requires $x > 0$, which excludes $x = -2$ as extraneous. Thus, the only valid solution is $x = 4$.",
+    "common_mistake": "Students routinely forget to check for extraneous roots, keeping the negative value, or fail to apply the product rule before dropping logs.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Using the change-of-base formula to evaluate quotients",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "Evaluate the value of the quotient expression $\\frac{\\log_5(64)}{\\log_5(4)}$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "According to the change-of-base formula, $\\frac{\\log_c(a)}{\\log_c(b)} = \\log_b(a)$. Applying this rule, the quotient simplifies directly to $\\log_4(64)$. Since $4^3 = 64$, the exact evaluation is 3.",
+    "common_mistake": "Students often try to divide the arguments inside a single logarithm, incorrectly computing $\\log_5(64/4) = \\log_5(16)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Determining a coordinate from a transformed logarithmic function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "If the point $(9, 2)$ lies on the graph of $y = \\log_3(x)$, what is the corresponding point on the graph of $y = \\log_3(3x)$?",
+    "answer": "$(3, 2)$",
+    "choices": [
+      {
+        "text": "$(3, 2)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(27, 2)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(9, 6)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(9, 3)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The change from $y = \\log_3(x)$ to $y = \\log_3(3x)$ represents a horizontal compression by a factor of $\\frac{1}{3}$. To find the new coordinates, divide the original $x$-coordinate by 3 while leaving the $y$-coordinate unchanged: $\\left(9 \\cdot \\frac{1}{3}, 2\\right) = (3, 2)$. Alternatively, using log properties: $\\log_3(3x) = \\log_3(3) + \\log_3(x) = 1 + \\log_3(x)$, which means a vertical shift up by 1 unit. Let's re-verify: if $x=3$, $\\log_3(3 \\cdot 3) = \\log_3(9) = 2$. This matches the point $(3,2)$.",
+    "common_mistake": "Students often multiply the $x$-coordinate by 3 instead of dividing, arriving at $(27, 2)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving exponential equations with non-matching bases using common logarithms",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "Which expression represents the exact solution for $x$ in the exponential equation $5^x = 4^{x+1}$?",
+    "answer": "$x = \\frac{\\log(4)}{\\log(5) - \\log(4)}$",
+    "choices": [
+      {
+        "text": "$x = \\frac{\\log(4)}{\\log(5) - \\log(4)}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = \\frac{\\log(4)}{\\log(5) + \\log(4)}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\log\\left(\\frac{4}{5}\\right)$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\frac{4}{5}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Take the common logarithm of both sides: $\\log(5^x) = \\log(4^{x+1})$. Use the power rule to pull out exponents: $x\\log(5) = (x + 1)\\log(4)$. Distribute the right side: $x\\log(5) = x\\log(4) + \\log(4)$. Isolate the $x$ terms on one side: $x\\log(5) - x\\log(4) = \\log(4)$. Factor out $x$: $x(\\log(5) - \\log(4)) = \\log(4)$. Divide to solve for $x$: $x = \\frac{\\log(4)}{\\log(5) - \\log(4)}$.",
+    "common_mistake": "Students often fail to distribute $\\log(4)$ to both terms of the binomial $(x+1)$, resulting in missing components in the final fraction denominator.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving Richter scale intensity ratio problems logarithmic applications",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "The magnitude of an earthquake is measured using the formula $M = \\log(I)$, where $I$ represents the ground intensity. If Earthquake A has a magnitude of 7.2 and Earthquake B has a magnitude of 5.2, how many times more intense was Earthquake A than Earthquake B?",
+    "answer": "$100$",
+    "choices": [
+      {
+        "text": "$100$",
+        "is_correct": true
+      },
+      {
+        "text": "$2$",
+        "is_correct": false
+      },
+      {
+        "text": "$20$",
+        "is_correct": false
+      },
+      {
+        "text": "$10^{1.38}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The difference in magnitude between the two earthquakes is $7.2 - 5.2 = 2.0$. Since the Richter scale is a base-10 logarithmic scale, a difference of $d$ units in magnitude corresponds to an intensity ratio of $10^d$. Therefore, the ratio of intensities is $10^{2.0} = 100$.",
+    "common_mistake": "Students often subtract the values and conclude that Earthquake A is 2 times more intense, or multiply the difference by 10 to get 20.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving logarithmic systems requiring multi-property condensation",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Determine the exact solution to the equation $\\log_3(x + 4) - \\log_3(x - 2) = 2$. Express your answer as a decimal value.",
+    "answer": "2.75",
+    "choices": [],
+    "explanation": "Apply the quotient law to combine the terms on the left side: $\\log_3\\left(\\frac{x + 4}{x - 2}\\right) = 2$. Convert this statement to its equivalent exponential form: $3^2 = \\frac{x + 4}{x - 2} \\Rightarrow 9 = \\frac{x + 4}{x - 2}$. Cross-multiply to eliminate the fraction denominator: $9(x - 2) = x + 4 \\Rightarrow 9x - 18 = x + 4$. Isolate $x$ by subtracting $x$ and adding 18 to respective sides: $8x = 22$. Divide by 8 to yield $x = \\frac{22}{8} = \\frac{11}{4} = 2.75$. Testing $x = 2.75$ in both original arguments ensures they remain positive, so the solution is valid.",
+    "common_mistake": "Students often incorrectly subtract the arguments inside a single log, writing $\\log_3((x+4)-(x-2)) = \\log_3(6)$, which is completely invalid.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving equations containing different logarithmic bases",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Solve the equation $\\log_4(x) + \\log_{16}(x) = 6$ for $x$.",
+    "answer": "256",
+    "choices": [],
+    "explanation": "To solve, change the base of the second log term to 4 using the change-of-base formula: $\\log_{16}(x) = \\frac{\\log_4(x)}{\\log_4(16)} = \\frac{\\log_4(x)}{2} = \\frac{1}{2}\\log_4(x)$. The equation now becomes $\\log_4(x) + \\frac{1}{2}\\log_4(x) = 6$. Combine the like terms: $\\frac{3}{2}\\log_4(x) = 6$. Multiply both sides by $\\frac{2}{3}$ to isolate the log: $\\log_4(x) = 4$. Convert to exponential form: $x = 4^4 = 256$.",
+    "common_mistake": "Students often add the bases together or treat the terms as if they already possess a common base.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF8",
+    "skill_tested": "Evaluating complex algebraic log identities under substitution",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "If $\\log_b(x) = P$ and $\\log_b(y) = Q$, which expression represents $\\log_b\\left(\\frac{b^5 x^2}{\\sqrt{y}}\\right)$ in terms of $P$ and $Q$?",
+    "answer": "$5 + 2P - \\frac{1}{2}Q$",
+    "choices": [
+      {
+        "text": "$5 + 2P - \\frac{1}{2}Q$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{10P}{\\frac{1}{2}Q}$",
+        "is_correct": false
+      },
+      {
+        "text": "$5 + 2P - 2Q$",
+        "is_correct": false
+      },
+      {
+        "text": "$5P^2 - \\sqrt{Q}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Use log laws to expand the complex expression completely: \n$$\\log_b\\left(\\frac{b^5 x^2}{\\sqrt{y}}\\right) = \\log_b(b^5) + \\log_b(x^2) - \\log_b(y^{1/2})$$\nApply the power law to pull exponents out to the front:\n$$= 5\\log_b(b) + 2\\log_b(x) - \\frac{1}{2}\\log_b(y)$$\nSince $\\log_b(b) = 1$, substitute the given values $P$ and $Q$ into the remaining pieces:\n$$= 5(1) + 2P - \\frac{1}{2}Q = 5 + 2P - \\frac{1}{2}Q$$",
+    "common_mistake": "Students often drop the first term completely, forget that $\\log_b(b^5) = 5$, or convert the square root to an incorrect exponent power of 2 instead of $\\frac{1}{2}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving quadratic-form logarithmic equations",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "Determine the complete set of valid real solutions to the equation $(\\log_2(x))^2 - 3\\log_2(x) - 4 = 0$.",
+    "answer": "$x = 16$ and $x = 0.5$",
+    "choices": [
+      {
+        "text": "$x = 16$ and $x = 0.5$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = 4$ and $x = -1$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 16$ only",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 8$ and $x = 2$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Let $u = \\log_2(x)$. Substitute $u$ into the equation to create a standard quadratic layout: $u^2 - 3u - 4 = 0$. Factoring gives $(u - 4)(u + 1) = 0$, yielding solutions $u = 4$ and $u = -1$. Substitute back $\\log_2(x)$ to solve for $x$:\nCase 1: $\\log_2(x) = 4 \\Rightarrow x = 2^4 = 16$.\nCase 2: $\\log_2(x) = -1 \\Rightarrow x = 2^{-1} = \\frac{1}{2} = 0.5$.\nBoth inputs are positive ($16 > 0$ and $0.5 > 0$), so both solutions are valid.",
+    "common_mistake": "Students regularly stop at the quadratic factors, mistakenly outputting the $u$-values ($4$ and $-1$) as the final answers, or reject $0.5$ thinking it came from a negative quadratic root.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Logarithmic Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Deriving and calculating equations from natural exponential growth context",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "An investment grows according to the continuous compounding formula $A = P\\cdot e^{rt}$, where $A$ is the final amount, $P$ is the initial principal, $r$ is the annual interest rate, and $t$ is the time in years.\n\na) Rearrange the equation to isolate the time variable $t$ explicitly using natural logarithms ($\\ln$).\n\nb) Algebraically calculate the exact number of years required for an initial investment to triple if the annual interest rate is $5\\%$ ($r = 0.05$). Round your answer to the nearest tenth of a year.",
+    "answer": "a) $t = \\frac{\\ln(A/P)}{r}$; b) $22.0$ years",
+    "choices": [],
+    "explanation": "a) Divide both sides by $P$: $\\frac{A}{P} = e^{rt}$. Take the natural logarithm of both sides to cancel out base $e$: $\\ln\\left(\\frac{A}{P}\\right) = \\ln(e^{rt}) \\Rightarrow \n\\ln\\left(\\frac{A}{P}\\right) = rt$. Divide by $r$ to isolate $t$: $t = \\frac{\\ln(A/P)}{r}$.\n\nb) For the investment to triple, the final amount $A$ must equal $3P$. The ratio $\\frac{A}{P} = \\frac{3P}{P} = 3$. Substitute this value along with $r = 0.05$ into our formula from part a):\n$$t = \\frac{\\ln(3)}{0.05}$$\nUsing a calculator: $\\ln(3) \\approx 1.09861$. Therefore, $t = \\frac{1.09861}{0.05} \\approx 21.972$ years. Rounded to the nearest tenth gives $22.0$ years.",
+    "common_mistake": "Students often make mistakes converting percentage rates into decimals, writing $0.5$ instead of $0.05$, or apply standard base-10 logs instead of matching base $e$ with natural logarithms.",
+    "source": "ai"
+  }
+]

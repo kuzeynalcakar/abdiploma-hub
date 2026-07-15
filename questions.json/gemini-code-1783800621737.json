@@ -1,0 +1,526 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Converting an angle from degrees to radians",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "Convert an angle of $240^\\circ$ into exact radian measure.",
+    "answer": "$\\frac{4\\pi}{3}$",
+    "choices": [
+      {
+        "text": "$\\frac{4\\pi}{3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{3\\pi}{4}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{5\\pi}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{7\\pi}{6}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To convert degrees to radians, multiply the degree measure by $\\frac{\\pi}{180^\\circ}$. Thus, $240^\\circ \\times \\frac{\\pi}{180^\\circ} = \\frac{240\\pi}{180} = \\frac{4\\pi}{3}$.",
+    "common_mistake": "Students often invert the conversion factor, multiplying by $\\frac{180}{\\pi}$, or make arithmetic errors when reducing the fraction.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Converting an angle from radians to degrees",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "Convert an angle of $\\frac{7\\pi}{4}$ radians into degrees.",
+    "answer": "315°",
+    "choices": [
+      {
+        "text": "315°",
+        "is_correct": true
+      },
+      {
+        "text": "135°",
+        "is_correct": false
+      },
+      {
+        "text": "225°",
+        "is_correct": false
+      },
+      {
+        "text": "330°",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To convert radians to degrees, multiply the radian measure by $\\frac{180^\\circ}{\\pi}$. Thus, $\\frac{7\\pi}{4} \\times \\frac{180^\\circ}{\\pi} = 7 \\times 45^\\circ = 315^\\circ$.",
+    "common_mistake": "Students sometimes associate $\\frac{\\pi}{4}$ with $30^\u2218$ or $60^\u2218$ instead of $45^\u2218$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Determining coterminal angles within a given domain boundary",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Which of the following angles is coterminal with $-\\frac{2\\pi}{3}$ in the domain $0 \\le \\theta < 2\\pi$?",
+    "answer": "$\\frac{4\\pi}{3}$",
+    "choices": [
+      {
+        "text": "$\\frac{4\\pi}{3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{\\pi}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{5\\pi}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{2\\pi}{3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Coterminal angles are found by adding or subtracting full rotations of $2\\pi$ radians. Adding $2\\pi$ to the given angle: $-\\frac{2\\pi}{3} + 2\\pi = -\\frac{2\\pi}{3} + \\frac{6\\pi}{3} = \\frac{4\\pi}{3}$. Since $\\frac{4\\pi}{3}$ falls within the interval $[0, 2\\pi)$, it is the correct choice.",
+    "common_mistake": "Students often add $\\pi$ instead of $2\\pi$, leading to an incorrect result of $\\frac{\\pi}{3}$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Calculating arc length using the radian formula",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "A circle has a radius of 6 cm. Determine the arc length subtended by a central angle of $\\frac{2\\pi}{3}$ radians.",
+    "answer": "$4\\pi$ cm",
+    "choices": [
+      {
+        "text": "$4\\pi$ cm",
+        "is_correct": true
+      },
+      {
+        "text": "$12\\pi$ cm",
+        "is_correct": false
+      },
+      {
+        "text": "$2\\pi$ cm",
+        "is_correct": false
+      },
+      {
+        "text": "$9\\pi$ cm",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The formula for arc length is $s = r\\theta$, where $\\theta$ is measured in radians. Substituting the values gives $s = 6 \\times \\frac{2\\pi}{3} = 4\\pi$ cm.",
+    "common_mistake": "Students sometimes multiply by the diameter instead of the radius, or use degree-based formulas directly without checking units.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Identifying the quadrant of an angle in standard position",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 50,
+    "question_text": "In which quadrant does the terminal arm of an angle of $-110^\\circ$ lie when drawn in standard position?",
+    "answer": "Quadrant III",
+    "choices": [
+      {
+        "text": "Quadrant III",
+        "is_correct": true
+      },
+      {
+        "text": "Quadrant II",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant IV",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant I",
+        "is_correct": false
+      }
+    ],
+    "explanation": "An angle of $-110^\\circ$ is measured clockwise from the positive $x$-axis. Rotating clockwise past $-90^\\circ$ (negative $y$-axis) but not as far as $-180^\\circ$ (negative $x$-axis) places the terminal arm inside Quadrant III.",
+    "common_mistake": "Students may rotate counterclockwise by mistake, which places the angle in Quadrant II.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Finding a reference angle for a given radian angle",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Determine the reference angle, $\\theta_r$, for an angle of $\\frac{5\\pi}{6}$ radians in standard position.",
+    "answer": "$\\frac{\\pi}{6}$",
+    "choices": [
+      {
+        "text": "$\\frac{\\pi}{6}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{5\\pi}{6}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\pi}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{7\\pi}{6}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The angle $\\frac{5\\pi}{6}$ terminates in Quadrant II. The reference angle is the acute angle formed with the nearest horizontal $x$-axis (which represents $\\pi$). Therefore, $\\theta_r = \\pi - \\frac{5\\pi}{6} = \\frac{\\pi}{6}$.",
+    "common_mistake": "Students often look for the complement (relative to the $y$-axis) or mistake the denominator value during calculation.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Converting a non-standard decimal radian angle into degrees",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Convert an angle of 3.5 radians to the nearest degree.",
+    "answer": "201°",
+    "choices": [
+      {
+        "text": "201°",
+        "is_correct": true
+      },
+      {
+        "text": "630°",
+        "is_correct": false
+      },
+      {
+        "text": "11°",
+        "is_correct": false
+      },
+      {
+        "text": "55°",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To convert 3.5 radians to degrees, multiply by $\\frac{180^\\circ}{\\pi}$: $\\text{Degrees} = 3.5 \\times \\frac{180^\\circ}{\\pi} \\approx 200.535^\\circ$. Rounded to the nearest degree, this equals $201^\\circ$.",
+    "common_mistake": "Students frequently look for a $\\pi$ symbol to cancel out, or multiply by $\\pi$ instead of dividing by it.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Writing a general expression for all coterminal angles in degrees",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "All angles coterminal with $-45^\\circ$ can be expressed in the form $c^\\circ + n \\cdot k^\\circ$, where $0^\\circ \\le c^\\circ < 360^\\circ$ and $n \\in \\mathbb{Z}$. Determine the value of the integer constant $k$.",
+    "answer": "360",
+    "choices": [],
+    "explanation": "Coterminal angles in degrees are generated by adding or subtracting integer multiples of a full $360^\\circ$ rotation. Therefore, the general expression is written as $c^\\circ + 360^\\circ n$, meaning $k = 360$.",
+    "common_mistake": "Students sometimes write $180$ instead of $360$, confusing coterminal periods with tangent function periods.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Calculating central angle from arc length and radius when conversion is required",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "An arc of length 15 cm is traced along the circumference of a circle with a radius of 5 cm. Determine the measure of the subtended central angle, in degrees, rounded to the nearest tenth of a degree.",
+    "answer": "171.9",
+    "choices": [],
+    "explanation": "First, find the angle in radians using $s = r\\theta$: $15 = 5\\theta \\Rightarrow \\theta = 3$ radians. Next, convert this radian value into degrees: $\\text{Degrees} = 3 \\times \\frac{180^\\circ}{\\pi} = \\frac{540^\\circ}{\\pi} \\approx 171.887^\\circ$. Rounded to the nearest tenth, this is $171.9^\\circ$.",
+    "common_mistake": "Students often assume the value 3 is already in degrees, or forget to apply the degree conversion step entirely.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Identifying coterminal boundaries in negative domains",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "Determine the value of the angle, in degrees, that is coterminal with $460^\\circ$ and satisfies the domain constraint $-360^\\circ \\le \\theta < 0^\\circ$.",
+    "answer": "-260",
+    "choices": [],
+    "explanation": "Subtract full rotations of $360^\\circ$ from $460^\\circ$ to find coterminal candidates: $460^\\circ - 360^\\circ = 100^\\circ$ (not in domain). Subtract another rotation: $100^\\circ - 360^\\circ = -260^\\circ$. Since $-260^\\circ$ satisfies the condition $-360^\\circ \\le \\theta < 0^\\circ$, this is the correct value.",
+    "common_mistake": "Students often stop after subtracting once, giving an answer of $100^\\circ$ because it is positive, ignoring the negative domain constraint.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Writing general coterminal expressions in radians",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "The general expression for all angles coterminal with $\\frac{\\pi}{4}$ can be written as $\\frac{\\pi}{4} + 2\\pi n$, where $n \\in \\mathbb{Z}$. If this expression is rewritten as a single fraction in the form $\\frac{(1 + kn)\\pi}{4}$, determine the integer value of $k$.",
+    "answer": "8",
+    "choices": [],
+    "explanation": "Find a common denominator of 4 for the terms in the expression: $\\frac{\\pi}{4} + 2\\pi n = \\frac{\\pi}{4} + \\frac{8\\pi n}{4} = \\frac{\\pi + 8\\pi n}{4} = \\frac{(1 + 8n)\\pi}{4}$. Comparing this to the given form shows that $k = 8$.",
+    "common_mistake": "Students often forget to multiply the numerator when finding a common denominator, writing 2 instead of 8.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Finding a reference angle for a negative angle outside the first rotation",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "Determine the reference angle, in degrees, for an angle of $-500^\\circ$ in standard position.",
+    "answer": "40",
+    "choices": [],
+    "explanation": "First, find a coterminal angle within $[0^\\circ, 360^\\circ)$ by adding multiples of $360^\\circ$: $-500^\\circ + 360^\\circ = -140^\\circ$, and $-140^\\circ + 360^\\circ = 220^\\circ$. An angle of $220^\\circ$ lies in Quadrant III. The reference angle is the acute angle formed with the $x$-axis: $\\theta_r = 220^\\circ - 180^\\circ = 40^\\circ$.",
+    "common_mistake": "Students may incorrectly compute $-500 + 360 = -240$, leading to an incorrect reference angle calculation.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Analyzing the linear speed of a point on a rotating wheel",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "A wheel with a radius of 0.4 meters rotates at a constant rate of 5 revolutions per second. What is the linear speed of a point on the outer edge of the wheel, in meters per second?",
+    "answer": "$4\\pi$ m/s",
+    "choices": [
+      {
+        "text": "$4\\pi$ m/s",
+        "is_correct": true
+      },
+      {
+        "text": "$2\\pi$ m/s",
+        "is_correct": false
+      },
+      {
+        "text": "$5\\pi$ m/s",
+        "is_correct": false
+      },
+      {
+        "text": "$8\\pi$ m/s",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Each revolution corresponds to an angle of $2\\pi$ radians. Therefore, an angular speed of 5 revolutions per second equals $\\omega = 5 \\times 2\\pi = 10\\pi$ radians per second. The linear speed is given by $v = r\\omega$, so $v = 0.4 \\times 10\\pi = 4\\pi$ meters per second.",
+    "common_mistake": "Students often multiply revolutions directly by the radius ($5 \\times 0.4 = 2$) without converting the rotations into radians.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Finding a reference angle for a non-standard decimal radian value",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Determine the approximate reference angle for an angle of 4.3 radians in standard position.",
+    "answer": "$4.3 - \\pi$ radians",
+    "choices": [
+      {
+        "text": "$4.3 - \\pi$ radians",
+        "is_correct": true
+      },
+      {
+        "text": "$\\pi - 4.3$ radians",
+        "is_correct": false
+      },
+      {
+        "text": "$2\\pi - 4.3$ radians",
+        "is_correct": false
+      },
+      {
+        "text": "$4.3 - \\frac{\\pi}{2}$ radians",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since $\\pi \\approx 3.14$ and $\\frac{3\\pi}{2} \\approx 4.71$, an angle of 4.3 radians lies in Quadrant III. The reference angle in Quadrant III is calculated by subtracting $\\pi$ from the given angle: $\\theta_r = 4.3 - \\pi$.",
+    "common_mistake": "Students often assume that because 4.3 contains a decimal, it must be evaluated as a Quadrant IV angle relative to $2\\pi$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Determining the signs of coordinates based on geometric constraints",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "If $\\theta$ is an angle in standard position such that $\\sec(\\theta) < 0$ and $\\cot(\\theta) > 0$, in which quadrant does the terminal arm of $\\theta$ lie?",
+    "answer": "Quadrant III",
+    "choices": [
+      {
+        "text": "Quadrant III",
+        "is_correct": true
+      },
+      {
+        "text": "Quadrant II",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant IV",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant I",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The condition $\\sec(\\theta) < 0$ means $\\cos(\\theta) < 0$, which occurs in Quadrants II and III. The condition \\(\\cot(\\theta) > 0\\) means \\(\\tan(\\theta) > 0\\), which occurs in Quadrants I and III. The intersection of these two conditions places the terminal arm in Quadrant III.",
+    "common_mistake": "Students often confuse the reciprocal relationships, assuming $\\sec(\\theta)$ aligns with $\\sin(\\theta)$ instead of $\\cos(\\theta)$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Solving for clock hand angular movement patterns",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 150,
+    "question_text": "Determine the exact number of radians turned by the minute hand of a clock during a time interval of 40 minutes. Express your answer as a positive value rounded to the nearest hundredth of a radian.",
+    "answer": "4.19",
+    "choices": [],
+    "explanation": "A minute hand completes a full rotation of $2\\pi$ radians in 60 minutes. The fraction of a rotation completed in 40 minutes is $\\frac{40}{60} = \\frac{2}{3}$. The total angle turned is $\\frac{2}{3} \\times 2\\pi = \\frac{4\\pi}{3}$ radians. Evaluating this value gives $\\frac{4\\pi}{3} \\approx 4.18879$ radians, which rounds to 4.19.",
+    "common_mistake": "Students often use 12 hours as the rotation period for the minute hand, confusing its behavior with the hour hand.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Evaluating coterminal solution counts within large domain bounds",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Determine the total number of angles coterminal with $\\frac{\\pi}{6}$ that satisfy the restricted domain $-6\\pi \\le \\theta \\le 6\\pi$.",
+    "answer": "6",
+    "choices": [],
+    "explanation": "Coterminal angles have the form $\\frac{\\pi}{6} + 2\\pi n$. We test integer values for $n$:\n- For $n = 0$: $\\frac{\\pi}{6}$ (Valid)\n- For $n = 1$: $\\frac{13\\pi}{6} \\approx 2.17\\pi$ (Valid)\n- For $n = 2$: $\\frac{25\\pi}{6} \\approx 4.17\\pi$ (Valid)\n- For $n = 3$: $\\frac{37\\pi}{6} = 6.17\\pi$ (Invalid, $> 6\\pi$)\n- For $n = -1$: $-\\frac{11\\pi}{6} \\approx -1.83\\pi$ (Valid)\n- For $n = -2$: $-\\frac{23\\pi}{6} \\approx -3.83\\pi$ (Valid)\n- For $n = -3$: $-\\frac{35\\pi}{6} \\approx -5.83\\pi$ (Valid)\n- For $n = -4$: $-\\frac{47\\pi}{6} = -7.83\\pi$ (Invalid, $< -6\\pi$)\nCounting the valid values ($n = -3, -2, -1, 0, 1, 2$) gives a total of 6 angles.",
+    "common_mistake": "Students often guess the count by dividing the total domain width by $2\\pi$ without testing the specific offset of the initial angle.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Arc length modeling involving multi-gear rotation ratios",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Two connected gears rotate together without slipping. Gear A has a radius of 12 cm and Gear B has a radius of 4 cm. If Gear A rotates through an angle of $90^\u2218$, through what radian angle does Gear B rotate?",
+    "answer": "$\\frac{3\\pi}{2}$",
+    "choices": [
+      {
+        "text": "$\\frac{3\\pi}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$\\frac{\\pi}{6}$",
+        "is_correct": false
+      },
+      {
+        "text": "$3\\pi$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{\\pi}{2}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Because the gears do not slip, a point on the edge of each gear travels the same arc length ($s_A = s_B$). Convert Gear A's rotation to radians: $\\theta_A = 90^\\circ = \\frac{\\pi}{2}$ radians. Calculate the shared arc length: $s = r_A \\theta_A = 12 \\times \\frac{\\pi}{2} = 6\\pi$ cm. Now, find Gear B's rotation angle using its radius: $s = r_B \\theta_B \\Rightarrow 6\\pi = 4\\theta_B \\Rightarrow \\theta_B = \\frac{6\\pi}{4} = \\frac{3\\pi}{2}$ radians.",
+    "common_mistake": "Students often set up an inverse relationship incorrectly, multiplying the degree value directly by the radius ratio without managing the arc length equality.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Analyzing general algebraic forms for quadrant locations",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Let $n$ be a fixed negative integer. In which quadrant does the terminal arm of the angle $\\theta = \\frac{(4n - 1)\\pi}{2}$ lie when drawn in standard position?",
+    "answer": "Negative $y$-axis (quadrantal boundary)",
+    "choices": [
+      {
+        "text": "Negative $y$-axis (quadrantal boundary)",
+        "is_correct": true
+      },
+      {
+        "text": "Quadrant III",
+        "is_correct": false
+      },
+      {
+        "text": "Positive $x$-axis (quadrantal boundary)",
+        "is_correct": false
+      },
+      {
+        "text": "Quadrant IV",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Expand the expression for the angle: $\\theta = \\frac{4n\\pi}{2} - \\frac{\\pi}{2} = 2\\pi n - \\frac{\\pi}{2}$. Since $n$ is an integer, $2\\pi n$ represents a whole number of full standard counter-clockwise or clockwise rotations, which returns to the positive $x$-axis. From there, subtracting $\\frac{\\pi}{2}$ (or rotating $90^\\circ$ clockwise) places the terminal arm along the negative $y$-axis.",
+    "common_mistake": "Students often pick a specific quadrant by ignoring the fraction components or treating the value $2\\pi n$ as a horizontal shift.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometry and the Unit Circle",
+    "outcome_code": "T1",
+    "skill_tested": "Multi-step contextual application with coordinate properties and arc metrics",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "A satellite travels in a circular orbit around a planet. The radius of the orbit is 8000 km. \n\na) If the satellite travels along an arc length of 12000 km, calculate its angular displacement, $\\theta$, in radians.\n\nb) Convert this angular displacement into degrees. Round your answer to the nearest tenth of a degree.",
+    "answer": "a) $1.5$ radians; b) $85.9^\\circ$",
+    "choices": [],
+    "explanation": "a) Use the arc length formula $s = r\\theta$: \n$12000 = 8000 \\cdot \\theta \\Rightarrow \\theta = \\frac{12000}{8000} = 1.5$ radians.\n\nb) Convert the radian value to degrees by multiplying by $\\frac{180^\\circ}{\\pi}$:\n$\\text{Degrees} = 1.5 \\times \\frac{180^\\circ}{\\pi} = \\frac{270^\\circ}{\\pi} \\approx 85.9437^\u2218$.\nRounded to the nearest tenth, the angular displacement is $85.9^\\circ$.",
+    "common_mistake": "Students sometimes invert the division order in part a), calculating $\\frac{8000}{12000} = 0.67$ radians instead of 1.5.",
+    "source": "ai"
+  }
+]

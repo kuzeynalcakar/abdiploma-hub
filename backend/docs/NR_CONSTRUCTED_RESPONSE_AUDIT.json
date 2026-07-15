@@ -1,0 +1,700 @@
+{
+  "dry_run": false,
+  "backup_path": "C:\\AlbertaPrep\\backend\\backups\\albertaprep.db.bak-nr-rewrite-20260715_051034",
+  "rewritten": 48,
+  "missing_ids": [],
+  "verify_fail": [],
+  "remaining_written_response": 0,
+  "rows": [
+    {
+      "course": "MATH30-1",
+      "question_id": 10,
+      "original_question": "Solve the trigonometric equation $2\\cos^2(x) - \\sin(x) - 1 = 0$ algebraically over the domain $0 \\le x < 2\\pi$. State your solutions as exact values.",
+      "reason_invalid": "Solve algebraically / state solutions (multi-value WR)",
+      "new_question": "How many solutions does $2\\cos^2(x) - \\sin(x) - 1 = 0$ have over $0 \\le x < 2\\pi$? Record the integer count.",
+      "accepted_answers": [
+        "3",
+        "3"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 30,
+      "original_question": "A function $y = f(x)$ has a domain of $[-6, 9]$ and a range of $[-4, 16]$. A student applies a transformation to create a new function, $g(x) = -3f(2x)$. \n\na) State the coordinate mapping notation that describes this transformation.\n\nb) Algebraically determine the domain and range of the transformed function $y = g(x)$.",
+      "reason_invalid": "Multi-part transformation WR",
+      "new_question": "If $y=f(x)$ has domain $[-6,9]$ and $g(x)=-3f(2x)$, what is the upper bound of the domain of $g$? Record as a decimal.",
+      "accepted_answers": [
+        "4.5",
+        "4.5",
+        "9/2",
+        "4.50"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 50,
+      "original_question": "Two functions are given by $f(x) = \\sqrt{16 - x^2}$ and $g(x) = x^2 - 3x - 4$.\n\na) Determine the domain of $f(x)$ and the domain of $g(x)$.\n\nb) Write the explicit equation for the quotient function $h(x) = \\left(\\frac{f}{g}\\right)(x)$ and determine its exact domain restriction set.",
+      "reason_invalid": "Multi-part domain WR",
+      "new_question": "For $f(x)=\\sqrt{16-x^2}$ and $g(x)=x^2-3x-4$, how many real values must be excluded from the domain of $(f/g)(x)$ within $[-4,4]$? Record the integer count.",
+      "accepted_answers": [
+        "2",
+        "2"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 68,
+      "original_question": "Consider the function $f(x) = \\frac{x + 2}{x - 1}$, where $x \\neq 1$.\n\na) Algebraically determine the explicit equation for the composite function $f(f(x))$. Simplify completely.\n\nb) Explain what your result from part a) implies about the geometric relationship between the graph of $f(x)$ and the line $y = x$.",
+      "reason_invalid": "Multi-part composition / inverse WR",
+      "new_question": "If $f(x)=\\dfrac{x+2}{x-1}$ and $f(f(x))=x$ (for permissible $x$), is $f$ its own inverse? Enter yes or no.",
+      "accepted_answers": [
+        "yes",
+        "yes",
+        "Yes",
+        "y",
+        "true"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 86,
+      "original_question": "Consider the function $f(x) = -\\sqrt{25 - x^2}$ defined over the domain $0 \\le x \\le 5$.\n\na) State the range of $f(x)$ over this specific domain interval.\n\nb) Algebraically determine the explicit equation for the inverse function $f^{-1}(x)$ and state its exact domain restriction.",
+      "reason_invalid": "Multi-part inverse WR",
+      "new_question": "For $f(x)=-\\sqrt{25-x^2}$ on $0\\le x\\le 5$, what is the lower bound of the range of $f$? Record the integer.",
+      "accepted_answers": [
+        "-5",
+        "-5"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 105,
+      "original_question": "An exponential equation is given by $\\left(\\frac{4}{9}\\right)^{x-3} = \\left(\\frac{27}{8}\\right)^{x+2}$.\n\na) Express both sides of the equation using a common prime base fraction.\n\nb) Algebraically solve the equation to find the exact value of $x$.",
+      "reason_invalid": "Multi-part exponential equation WR",
+      "new_question": "Solve $\\left(\\frac{4}{9}\\right)^{x-3}=\\left(\\frac{27}{8}\\right)^{x+2}$. Record the exact value of $x$.",
+      "accepted_answers": [
+        "0",
+        "0"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 125,
+      "original_question": "An investment grows according to the continuous compounding formula $A = P\\cdot e^{rt}$, where $A$ is the final amount, $P$ is the initial principal, $r$ is the annual interest rate, and $t$ is the time in years.\n\na) Rearrange the equation to isolate the time variable $t$ explicitly using natural logarithms ($\\ln$).\n\nb) Algebraically calculate the exact number of years required for an initial investment to triple if the annual interest rate is $5\\%$ ($r = 0.05$). Round your answer to the nearest tenth of a year.",
+      "reason_invalid": "Multi-part continuous growth WR",
+      "new_question": "Using $A=Pe^{rt}$ with $r=0.05$, how many years are required for an investment to triple? Round to the nearest tenth.",
+      "accepted_answers": [
+        "22.0",
+        "22.0",
+        "22",
+        "21.97",
+        "21.972"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 144,
+      "original_question": "Consider the quartic polynomial function $P(x) = x^4 - 5x^2 + 4$.\n\na) Show algebraically that both $(x - 1)$ and $(x + 2)$ are valid factors of $P(x)$.\n\nb) Factor $P(x)$ completely into linear factors and state all of its exact $x$-intercepts.",
+      "reason_invalid": "Multi-part factoring WR",
+      "new_question": "How many distinct real $x$-intercepts does $P(x)=x^4-5x^2+4$ have? Record the integer.",
+      "accepted_answers": [
+        "4",
+        "4"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 164,
+      "original_question": "A satellite travels in a circular orbit around a planet. The radius of the orbit is 8000 km. \n\na) If the satellite travels along an arc length of 12000 km, calculate its angular displacement, $\\theta$, in radians.\n\nb) Convert this angular displacement into degrees. Round your answer to the nearest tenth of a degree.",
+      "reason_invalid": "Multi-part arc angle WR",
+      "new_question": "A satellite orbit has radius $8000$ km and arc length $12000$ km. What is the angular displacement in radians?",
+      "accepted_answers": [
+        "1.5",
+        "1.5",
+        "3/2",
+        "1.50"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 184,
+      "original_question": "The depth of water, $d$ meters, at a seaport harbor varies sinusoidally with time, $t$ hours after midnight. At high tide ($t=2$), the water depth reaches its maximum of 16 meters. At the next low tide ($t=8$), the depth drops to its minimum of 4 meters.\n\na) Formulate a cosine function in the form $d(t) = a\\cos(b(t-c)) + d$ to model this behavior.\n\nb) Algebraically calculate the water depth at 5:00 AM ($t=5$).",
+      "reason_invalid": "Multi-part sinusoidal modelling WR",
+      "new_question": "Harbor depth is $16$ m at $t=2$ (high tide) and $4$ m at $t=8$ (low tide). Using the cosine model $d(t)=6\\cos\\left(\\frac{\\pi}{6}(t-2)\\right)+10$, what is the depth in metres at $t=5$?",
+      "accepted_answers": [
+        "10",
+        "10",
+        "10.0"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 204,
+      "original_question": "Consider the equation $\\frac{\\sin(2x)}{1 + \\cos(2x)} = \\tan(x)$.\n\na) State all non-permissible values for this equation within the interval $0 \\le x < 2\\pi$.\n\nb) Algebraically prove that this equation is an identity for all permissible values.",
+      "reason_invalid": "Prove identity / state restrictions WR",
+      "new_question": "For $\\dfrac{\\sin(2x)}{1+\\cos(2x)}=\\tan(x)$ on $0\\le x<2\\pi$, how many non-permissible $x$-values are there in the interval? Record the integer.",
+      "accepted_answers": [
+        "2",
+        "2"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 224,
+      "original_question": "A group of 12 volunteers is being split into three distinct working teams. Team A must have 5 members, Team B must have 4 members, and Team C must have 3 members. \n\na) Explain why combinations are used to solve this assignment problem rather than permutations.\n\nb) Algebraically calculate the total number of unique ways to partition the volunteers into these three groups.",
+      "reason_invalid": "Explain + calculate partitioning WR",
+      "new_question": "In how many ways can 12 volunteers be partitioned into teams of sizes 5, 4, and 3 (teams distinct)? Record the integer.",
+      "accepted_answers": [
+        "27720",
+        "27720",
+        "27,720"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 244,
+      "original_question": "Consider the binomial expression $\\left(2x^2 - \\frac{1}{2x}\\right)^6$.\n\na) Determine the total number of terms in this expansion.\n\nb) Algebraically find the simplified expression for the term that is independent of $x$ (the constant term).",
+      "reason_invalid": "Multi-part binomial expansion WR",
+      "new_question": "In the expansion of $\\left(2x^2-\\frac{1}{2x}\\right)^6$, what is the constant term? Record as a decimal.",
+      "accepted_answers": [
+        "3.75",
+        "3.75",
+        "15/4",
+        "3.750",
+        "15/4"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 268,
+      "original_question": "Solve $\\sqrt{x + 5} = x - 1$. Show all algebraic steps and verify each potential solution in the original equation.",
+      "reason_invalid": "Solve with verification WR",
+      "new_question": "Solve $\\sqrt{x+5}=x-1$. Record the valid solution.",
+      "accepted_answers": [
+        "4",
+        "4"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 269,
+      "original_question": "Describe the sequence of transformations that maps $y = \\sqrt{x}$ onto $y = -2\\sqrt{x + 3} - 1$. Include the starting point of the transformed graph.",
+      "reason_invalid": "Describe transformations WR",
+      "new_question": "The graph of $y=-2\\sqrt{x+3}-1$ is obtained from $y=\\sqrt{x}$. What is the $x$-coordinate of the transformed starting point?",
+      "accepted_answers": [
+        "-3",
+        "-3"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 292,
+      "original_question": "Given $f(x) = \\dfrac{2x}{x - 3}$, determine all asymptotes, intercepts, and the domain. State whether the function has any holes.",
+      "reason_invalid": "Describe asymptotes/domain WR",
+      "new_question": "For $f(x)=\\dfrac{2x}{x-3}$, what is the equation of the vertical asymptote? Enter as x = k.",
+      "accepted_answers": [
+        "x = 3",
+        "x = 3",
+        "x=3",
+        "x= 3",
+        "x =3",
+        "3"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 293,
+      "original_question": "Solve $\\dfrac{1}{x} + \\dfrac{1}{x + 2} = \\dfrac{3}{4}$. Show algebraic steps and identify any excluded values.",
+      "reason_invalid": "Solve rational equation WR (multiple solutions)",
+      "new_question": "Solve $\\dfrac{1}{x}+\\dfrac{1}{x+2}=\\dfrac{3}{4}$. Record the positive solution.",
+      "accepted_answers": [
+        "2",
+        "2"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "MATH30-1",
+      "question_id": 294,
+      "original_question": "A rational function has a vertical asymptote at $x = -2$, a horizontal asymptote at $y = 1$, and passes through $(0, 0)$. Write one possible equation and justify each feature.",
+      "reason_invalid": "Construct / justify rational function WR",
+      "new_question": "A rational function has vertical asymptote $x=-2$, horizontal asymptote $y=1$, and passes through $(0,0)$. Enter one possible equation (simplified).",
+      "accepted_answers": [
+        "x/(x+2)",
+        "x/(x+2)",
+        "x / (x + 2)",
+        "f(x)=x/(x+2)",
+        "f(x) = x/(x+2)",
+        "(x)/(x+2)",
+        "\\frac{x}{x+2}"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 354,
+      "original_question": "Explain how the human body maintains water balance on a hot day when sweating increases, referencing ADH and at least one target organ.",
+      "reason_invalid": "Explain... (requires subjective/paragraph marking)",
+      "new_question": "After heavy sweating raises blood osmolarity, which hormone increases water reabsorption in the kidney collecting ducts?",
+      "accepted_answers": [
+        "ADH",
+        "ADH",
+        "adh",
+        "antidiuretic hormone",
+        "anti-diuretic hormone",
+        "vasopressin"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 355,
+      "original_question": "Explain the events of synaptic transmission at a cholinergic synapse, from the arrival of an action potential at the presynaptic terminal to the response in the postsynaptic cell. Your answer should include at least four distinct steps.",
+      "reason_invalid": "Explain... multi-step synaptic description",
+      "new_question": "At a cholinergic synapse, which ion enters the presynaptic terminal through voltage-gated channels to trigger vesicle exocytosis of acetylcholine?",
+      "accepted_answers": [
+        "Ca2+",
+        "Ca2+",
+        "Ca^{2+}",
+        "calcium",
+        "calcium ion",
+        "calcium ions",
+        "Ca++"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 356,
+      "original_question": "Compare the sympathetic and parasympathetic divisions of the autonomic nervous system in terms of general function, one physiological effect on the heart, and one physiological effect on digestion.",
+      "reason_invalid": "Compare... autonomic divisions",
+      "new_question": "Which autonomic division is primarily responsible for fight-or-flight responses such as increased heart rate?",
+      "accepted_answers": [
+        "sympathetic",
+        "sympathetic",
+        "sympathetic nervous system",
+        "SNS",
+        "sympathetic division"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 357,
+      "original_question": "Describe how the nervous and endocrine systems work together to regulate blood glucose levels after a person eats a large carbohydrate meal. Include at least one hormone, one gland, and one nervous system component in your answer.",
+      "reason_invalid": "Describe... multi-system glucose regulation",
+      "new_question": "After a large carbohydrate meal raises blood glucose, which hormone is secreted by pancreatic beta cells to lower blood glucose?",
+      "accepted_answers": [
+        "insulin",
+        "insulin",
+        "Insulin"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 358,
+      "original_question": "Compare rod and cone cells in terms of light sensitivity, colour detection, and distribution in the retina.",
+      "reason_invalid": "Compare... rod vs cone",
+      "new_question": "Which photoreceptor cells are more sensitive in dim light and do not detect colour?",
+      "accepted_answers": [
+        "rods",
+        "rods",
+        "rod",
+        "rod cells",
+        "rod cell"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 359,
+      "original_question": "Explain how negative feedback maintains thyroid hormone levels in the body. Include the roles of the hypothalamus, pituitary, thyroid, and at least one hormone in your answer.",
+      "reason_invalid": "Explain... thyroid feedback",
+      "new_question": "Which anterior-pituitary hormone stimulates the thyroid gland to release T3 and T4?",
+      "accepted_answers": [
+        "TSH",
+        "TSH",
+        "tsh",
+        "thyroid-stimulating hormone",
+        "thyroid stimulating hormone",
+        "thyrotropin"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 360,
+      "original_question": "Explain how negative feedback regulates thyroid hormone levels. Include TRH, TSH, T3/T4, and the glands involved.",
+      "reason_invalid": "Explain... thyroid feedback",
+      "new_question": "Elevated blood T3/T4 primarily inhibits release of which hypothalamic hormone in the thyroid axis?",
+      "accepted_answers": [
+        "TRH",
+        "TRH",
+        "trh",
+        "thyrotropin-releasing hormone",
+        "thyrotropin releasing hormone"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 361,
+      "original_question": "A researcher measures pupil diameter in dim light ($6$ mm) and bright light ($2$ mm). Explain the reflex pathway responsible for the change and identify which division of the autonomic nervous system mediates the response in bright light.",
+      "reason_invalid": "Explain... pupillary reflex",
+      "new_question": "In bright light, which autonomic division mediates pupil constriction of the iris sphincter?",
+      "accepted_answers": [
+        "parasympathetic",
+        "parasympathetic",
+        "parasympathetic nervous system",
+        "PNS",
+        "parasympathetic division"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 416,
+      "original_question": "Discuss one ethical, one economic, and one ecological consideration related to the use of hormonal contraceptives in society.",
+      "reason_invalid": "Discuss... STS essay prompt",
+      "new_question": "Trace hormones from hormonal contraceptives entering aquatic ecosystems via wastewater raise which type of environmental concern: ethical, economic, or ecological?",
+      "accepted_answers": [
+        "ecological",
+        "ecological",
+        "ecology",
+        "environmental",
+        "Ecological"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 417,
+      "original_question": "Compare spermatogenesis and oogenesis in terms of timing of completion, number of functional gametes produced per meiosis, and cytoplasmic distribution.",
+      "reason_invalid": "Compare... spermatogenesis vs oogenesis",
+      "new_question": "How many functional gametes does one primary spermatocyte typically produce through meiosis?",
+      "accepted_answers": [
+        "4",
+        "4",
+        "four"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 418,
+      "original_question": "Describe the hormonal regulation of the ovarian cycle from the follicular phase through ovulation. Include the roles of FSH, estrogen, LH, and the corpus luteum.",
+      "reason_invalid": "Describe... ovarian cycle hormones",
+      "new_question": "Which hormone surge immediately triggers ovulation in the ovarian cycle?",
+      "accepted_answers": [
+        "LH",
+        "LH",
+        "lh",
+        "luteinizing hormone",
+        "luteinising hormone"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 419,
+      "original_question": "Explain why teratogen exposure during organogenesis can cause permanent birth defects while the same exposure after birth may have less severe effects.",
+      "reason_invalid": "Explain... teratogen critical periods",
+      "new_question": "During which embryonic process are organs rapidly forming, making teratogen exposure especially likely to cause permanent structural birth defects?",
+      "accepted_answers": [
+        "organogenesis",
+        "organogenesis",
+        "organogenesis period",
+        "critical period of organogenesis"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 420,
+      "original_question": "Describe hormonal changes during the luteal phase and explain what happens if fertilization does not occur.",
+      "reason_invalid": "Describe... luteal phase",
+      "new_question": "After ovulation, which temporary endocrine structure secretes progesterone to maintain the endometrium?",
+      "accepted_answers": [
+        "corpus luteum",
+        "corpus luteum",
+        "the corpus luteum",
+        "Corpus luteum"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 421,
+      "original_question": "Explain how cell differentiation and development are influenced by genetic, endocrine, and environmental factors. Provide one specific example for each factor type.",
+      "reason_invalid": "Explain... three factor types",
+      "new_question": "Which class of genes helps establish anterior–posterior body segment identity during development?",
+      "accepted_answers": [
+        "Hox genes",
+        "Hox genes",
+        "hox genes",
+        "Hox",
+        "homeobox genes",
+        "Hox gene"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 463,
+      "original_question": "Explain how nondisjunction during meiosis can lead to trisomy in a zygote. Include which division may be affected and the chromosome number in the resulting gamete.",
+      "reason_invalid": "Explain... nondisjunction/trisomy",
+      "new_question": "If nondisjunction produces an n+1 gamete that is fertilized by a normal n gamete, what is the resulting zygote chromosome number in humans (use digit form, e.g. 47)?",
+      "accepted_answers": [
+        "47",
+        "47",
+        "2n+1",
+        "trisomy"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 464,
+      "original_question": "Describe the events of prophase I of meiosis that contribute to genetic variation, naming at least two processes.",
+      "reason_invalid": "Describe... prophase I variation",
+      "new_question": "Which prophase I process exchanges DNA between non-sister chromatids of homologous chromosomes?",
+      "accepted_answers": [
+        "crossing over",
+        "crossing over",
+        "crossover",
+        "crossing-over",
+        "genetic recombination",
+        "recombination"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 465,
+      "original_question": "Compare mitosis and meiosis in terms of purpose, number of divisions, and genetic variation in daughter cells.",
+      "reason_invalid": "Compare... mitosis vs meiosis",
+      "new_question": "How many nuclear divisions occur in meiosis?",
+      "accepted_answers": [
+        "2",
+        "2",
+        "two"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 466,
+      "original_question": "Explain how a mutation in a tumour suppressor gene such as p53 can contribute to cancer development.",
+      "reason_invalid": "Explain... tumour suppressor",
+      "new_question": "Which tumour-suppressor gene normally pauses the cell cycle for DNA repair or triggers apoptosis when damage is detected?",
+      "accepted_answers": [
+        "p53",
+        "p53",
+        "TP53",
+        "tp53",
+        "P53"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 534,
+      "original_question": "A student claims a trait showing affected males passing to all daughters but no sons is X-linked dominant. Evaluate this claim using pedigree reasoning.",
+      "reason_invalid": "Evaluate... pedigree claim",
+      "new_question": "A trait where affected fathers transmit the trait to all daughters but never to sons is most consistent with which inheritance pattern?",
+      "accepted_answers": [
+        "X-linked dominant",
+        "X-linked dominant",
+        "x-linked dominant",
+        "X linked dominant",
+        "sex-linked dominant"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 535,
+      "original_question": "Describe the process of DNA replication, identifying the roles of helicase, primase, DNA polymerase, and ligase.",
+      "reason_invalid": "Describe... DNA replication enzymes",
+      "new_question": "Which enzyme unwinds the DNA double helix at the replication fork?",
+      "accepted_answers": [
+        "helicase",
+        "helicase",
+        "DNA helicase",
+        "Helicase"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 536,
+      "original_question": "Explain how CRISPR-Cas9 can be used to edit a specific gene and discuss one ethical consideration.",
+      "reason_invalid": "Explain... CRISPR plus ethics",
+      "new_question": "In CRISPR-Cas9 editing, which molecule directs Cas9 to a matching genomic DNA sequence?",
+      "accepted_answers": [
+        "guide RNA",
+        "guide RNA",
+        "gRNA",
+        "sgRNA",
+        "guide rna",
+        "Guide RNA"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 537,
+      "original_question": "Describe how a deletion of two base pairs in the middle of an open reading frame can affect the resulting protein.",
+      "reason_invalid": "Describe... frameshift effect",
+      "new_question": "Deleting two base pairs from the middle of an open reading frame typically causes which class of mutation?",
+      "accepted_answers": [
+        "frameshift",
+        "frameshift",
+        "frameshift mutation",
+        "frame-shift",
+        "frame shift"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 538,
+      "original_question": "A couple with normal vision has a colour-blind son. Explain how this pattern is consistent with X-linked recessive inheritance and state the mother's likely genotype.",
+      "reason_invalid": "Explain... X-linked colour blindness",
+      "new_question": "A couple with normal vision has a colour-blind son. What is the mother’s most likely genotype for an X-linked recessive trait (use carrier notation such as XNXc)?",
+      "accepted_answers": [
+        "XNXc",
+        "XNXc",
+        "X^N X^c",
+        "XNXC",
+        "carrier",
+        "heterozygous carrier",
+        "X^N X^c"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 539,
+      "original_question": "Explain the central dogma of molecular biology and describe what happens during each of transcription and translation in a eukaryotic cell.",
+      "reason_invalid": "Explain... central dogma",
+      "new_question": "According to the central dogma, DNA is transcribed into which molecule before proteins are made?",
+      "accepted_answers": [
+        "RNA",
+        "RNA",
+        "mRNA",
+        "rna",
+        "messenger RNA"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 540,
+      "original_question": "Distinguish between a point mutation, a frameshift mutation, and a chromosomal deletion, giving one consequence of each.",
+      "reason_invalid": "Distinguish... mutation types",
+      "new_question": "A mutation that changes a single DNA base pair is called what type of mutation?",
+      "accepted_answers": [
+        "point mutation",
+        "point mutation",
+        "point",
+        "substitution",
+        "base substitution"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 541,
+      "original_question": "Explain how gel electrophoresis and PCR could be used together to confirm whether two individuals share a specific DNA marker.",
+      "reason_invalid": "Explain... PCR + electrophoresis",
+      "new_question": "Which technique amplifies a specific DNA region using primers before fragments are compared by gel electrophoresis?",
+      "accepted_answers": [
+        "PCR",
+        "PCR",
+        "pcr",
+        "polymerase chain reaction",
+        "Polymerase Chain Reaction"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 583,
+      "original_question": "Explain how antibiotic use in agriculture can drive natural selection for antibiotic-resistant bacteria in the environment.",
+      "reason_invalid": "Explain... antibiotic selection",
+      "new_question": "Antibiotic use that kills susceptible bacteria while resistant bacteria survive and reproduce is an example of which evolutionary mechanism?",
+      "accepted_answers": [
+        "natural selection",
+        "natural selection",
+        "selection",
+        "directional selection"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 584,
+      "original_question": "Explain how gene flow, genetic drift, and natural selection can each cause allele frequency changes in a population, providing one example of each.",
+      "reason_invalid": "Explain... microevolution mechanisms",
+      "new_question": "Random change in allele frequencies due to chance in a small population is called what?",
+      "accepted_answers": [
+        "genetic drift",
+        "genetic drift",
+        "drift",
+        "founder effect",
+        "bottleneck effect"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 585,
+      "original_question": "A lake ecosystem loses its top predator due to overfishing. Predict two ecological changes that may follow and explain them using community ecology concepts.",
+      "reason_invalid": "Predict... trophic cascade essay",
+      "new_question": "Loss of a lake’s top predator leading to increases in herbivores and declines in producers is an example of which ecological concept?",
+      "accepted_answers": [
+        "trophic cascade",
+        "trophic cascade",
+        "trophic cascades",
+        "cascade",
+        "top-down control"
+      ],
+      "previous_type": "written_response"
+    },
+    {
+      "course": "BIO30",
+      "question_id": 586,
+      "original_question": "Describe three ways human activities can reduce biodiversity in Alberta ecosystems and propose one scientifically sound mitigation strategy for each.",
+      "reason_invalid": "Describe... three impacts essay",
+      "new_question": "Connecting fragmented habitat patches with strips of habitat so wildlife can move between them is an example of which mitigation strategy?",
+      "accepted_answers": [
+        "wildlife corridors",
+        "wildlife corridors",
+        "wildlife corridor",
+        "habitat corridor",
+        "habitat corridors",
+        "ecological corridors",
+        "corridors"
+      ],
+      "previous_type": "written_response"
+    }
+  ]
+}

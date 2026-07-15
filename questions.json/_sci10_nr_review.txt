@@ -1,0 +1,82 @@
+0|Energy and Matter in Che|132|What is the molar mass of (NH$_4$)$_2$SO$_4$ in g/mol? Use N = 14, H = 1, S = 32, O = 16. Express your answer as a whole number.
+1|Energy and Matter in Che|3.0|According to $N_2 + 3H_2 \rightarrow 2NH_3$, how many moles of H$_2$ are needed to produce 2.0 mol of NH$_3$? Express your answer to one decimal place.
+2|Energy and Matter in Che|7.2|A neutralization reaction releases 4500 J of heat to 150 g of water (c = 4.18 J/g·°C). What is the temperature increase in degrees Celsius? Express to one decimal place.
+3|Energy and Matter in Che|2.0|How many moles are in 88 g of CO$_2$? Use molar mass CO$_2$ = 44 g/mol. Express your answer to one decimal place.
+4|Energy and Matter in Che|2.0|How many moles are in 36.0 g of water (H$_2$O)? Use molar mass H$_2$O = 18.0 g/mol. Express your answer to one decimal place.
+5|Energy and Matter in Che|44|What is the molar mass of CO$_2$ in g/mol? Use C = 12 g/mol and O = 16 g/mol. Express your answer as a whole number.
+6|Energy and Matter in Che|1.0|How many moles are in 12.0 g of carbon? Use molar mass C = 12.0 g/mol. Express your answer to one decimal place.
+7|Energy and Matter in Che|58.5|What is the molar mass of NaCl in g/mol? Use Na = 23 g/mol and Cl = 35.5 g/mol. Express your answer to one decimal place.
+8|Energy and Matter in Che|40|What is the molar mass of MgO in g/mol? Use Mg = 24 g/mol and O = 16 g/mol. Express your answer as a whole number.
+9|Energy and Matter in Che|16|What is the molar mass of methane (CH4) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+10|Energy and Matter in Che|4180|A calorimeter contains 200 g of water (c = 4.18 J/g·°C). Temperature rises 5.0 °C. How much heat energy q in joules did the water absorb? Express to zero decimal places.
+11|Energy and Matter in Che|3.0|According to 2Na + Cl$_2$ → 2NaCl, how many moles of NaCl form from 3.0 mol of Na? Express your answer to one decimal place.
+12|Energy and Matter in Che|58.5|What is the molar mass of sodium chloride (NaCl) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+13|Energy and Matter in Che|2|What is the amount of carbon dioxide in moles when the sample has a mass of 88 g and molar mass 44 g/mol?
+14|Energy and Matter in Che|29.3|What mass of NaCl is required to obtain 0.50 mol? Use molar mass NaCl = 58.5 g/mol. Express your answer to one decimal place in grams.
+15|Energy and Matter in Che|18|What is the molar mass of water (H2O) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+16|Energy and Matter in Che|44|What is the molar mass of carbon dioxide (CO2) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+17|Energy and Matter in Che|17|What is the molar mass of ammonia (NH3) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+18|Energy and Matter in Che|4.0|How many moles of O atoms are in 2.0 mol of CO$_2$? Express your answer to one decimal place.
+19|Energy and Matter in Che|2|What is the amount of methane in moles when the sample has a mass of 32 g and molar mass 16 g/mol?
+20|Energy and Matter in Che|2|What is the amount of water in moles when the sample has a mass of 36 g and molar mass 18 g/mol?
+21|Energy and Matter in Che|74|What is the molar mass of Ca(OH)$_2$ in g/mol? Use Ca = 40 g/mol, O = 16 g/mol, H = 1 g/mol. Express your answer as a whole number.
+22|Energy and Matter in Che|100|What is the molar mass of calcium carbonate (CaCO3) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+23|Energy and Matter in Che|0.5|A sample contains $3.01 \times 10^{23}$ molecules of H$_2$O. How many moles of H$_2$O is this? Use Avogadro's number $6.02 \times 10^{23}$ mol$^{-1}$. Express your answer to one de
+24|Energy and Matter in Che|2.0|How many moles are in $1.204 \times 10^{24}$ molecules of CO$_2$? Use Avogadro's number $6.02 \times 10^{23}$ mol$^{-1}$. Express your answer to one decimal place.
+25|Energy and Matter in Che|180|What is the molar mass of glucose (C6H12O6) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+26|Energy and Matter in Che|98|What is the molar mass of sulfuric acid (H2SO4) in g/mol? Use: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35.5, Ca = 40.
+27|Energy and Matter in Che|4.0|According to $2H_2 + O_2 \rightarrow 2H_2O$, how many moles of H$_2$O are produced from 4.0 mol of H$_2$? Express your answer to one decimal place.
+28|Energy and Matter in Che|2|What is the amount of ammonia in moles when the sample has a mass of 34 g and molar mass 17 g/mol?
+29|Energy and Matter in Che|1|What is the amount of sodium chloride in moles when the sample has a mass of 58.5 g and molar mass 58.5 g/mol?
+30|Energy and Matter in Che|0.5|What is the amount of glucose in moles when the sample has a mass of 90 g and molar mass 180 g/mol?
+78|Energy Flow in Technolog|20|A light bulb converts 900 J of electrical energy into 180 J of useful light energy. What is the efficiency as a percentage? Record as an integer.
+79|Energy Flow in Technolog|16|A 2 kg object moves at 4 m/s. What is its kinetic energy in joules? Use $E_k = \frac{1}{2}mv^2$.
+80|Energy Flow in Technolog|2.5|A cart's velocity changes from 10 m/s to 30 m/s in 8 s. What is the average acceleration in m/s$^2$? Use $a = \Delta v / \Delta t$.
+81|Energy Flow in Technolog|80|A device delivers 400 J of useful energy from 500 J of total energy input. What is the efficiency as a percentage?
+82|Energy Flow in Technolog|98|A 2 kg object is raised 5 m vertically near Earth's surface. What is the gravitational potential energy in joules? Use $g = 9.8$ m/s$^2$ and $E_p = mgh$.
+83|Energy Flow in Technolog|54|A 3 kg object moves at 6 m/s. What is its kinetic energy in joules? Use $E_k = \frac{1}{2}mv^2$.
+84|Energy Flow in Technolog|5|A cart's velocity changes from 0 m/s to 20 m/s in 4 s. What is the average acceleration in m/s$^2$? Use $a = \Delta v / \Delta t$.
+85|Energy Flow in Technolog|50|A device delivers 150 J of useful energy from 300 J of total energy input. What is the efficiency as a percentage?
+86|Energy Flow in Technolog|392|A 4 kg object is raised 10 m vertically near Earth's surface. What is the gravitational potential energy in joules? Use $g = 9.8$ m/s$^2$ and $E_p = mgh$.
+87|Energy Flow in Technolog|117.6|A 4.0 kg object is lifted 3.0 m vertically above a reference level. Using $g = 9.8\ \text{m/s}^2$, calculate gravitational potential energy in joules. Record to one decimal place.
+88|Energy Flow in Technolog|600|An electric motor uses 2400 J of electrical energy and produces 1800 J of useful mechanical work. How much energy is lost to non-useful forms? Record as an integer in joules.
+89|Energy Flow in Technolog|36|A 2.0 kg object moves at 6.0 m/s. Calculate its kinetic energy in joules using $E_k = \frac{1}{2}mv^2$. Record as an integer.
+90|Energy Flow in Technolog|85.0|A compact fluorescent lamp receives 400 J of energy input and delivers 340 J of useful output. What is the efficiency as a percentage? Record to one decimal place.
+91|Energy Flow in Technolog|5.0|A cyclist accelerates uniformly from rest to 20 m/s in 4.0 s. What is the average acceleration in m/s²? Record as a decimal.
+92|Energy Flow in Technolog|18|A 4.0 kg object moves at 3.0 m/s. Calculate its kinetic energy in joules using $E_k = \frac{1}{2}mv^2$. Record as an integer.
+93|Energy Flow in Technolog|75.0|A high-efficiency furnace receives 600 J of energy input and delivers 450 J of useful output. What is the efficiency as a percentage? Record to one decimal place.
+94|Energy Flow in Technolog|35.0|A industrial conveyor motor receives 1000 J of energy input and delivers 350 J of useful output. What is the efficiency as a percentage? Record to one decimal place.
+95|Energy Flow in Technolog|-2.0|A hockey puck slows uniformly from 12 m/s to 0 m/s in 6.0 s on ice. What is the average acceleration in m/s²? Record as a decimal (include sign).
+96|Energy Flow in Technolog|40.0|A device receives 400 J of energy and produces 160 J of useful output. What is the efficiency as a percentage? Record to one decimal place.
+97|Energy Flow in Technolog|98.0|A 2.0 kg object is lifted 5.0 m vertically above a reference level. Using $g = 9.8\ \text{m/s}^2$, calculate gravitational potential energy in joules. Record to one decimal place.
+98|Energy Flow in Technolog|40.0|Checkpoint: A device receives 750 J of energy and produces 300 J of useful output. What is the efficiency as a percentage? Record to one decimal place.
+155|Cycling of Matter in Liv|3|A rectangular cell measures 2 μm × 2 μm × 2 μm. Surface area = $2(lw + lh + wh)$, volume = $lwh$. What is the surface-area-to-volume ratio rounded to one decimal?
+156|Cycling of Matter in Liv|1.5|A rectangular cell measures 4 μm × 4 μm × 4 μm. Surface area = $2(lw + lh + wh)$, volume = $lwh$. What is the surface-area-to-volume ratio rounded to one decimal?
+157|Cycling of Matter in Liv|1.5|During photosynthesis, a plant fixes 0.30 mol of CO₂ per hour. How many moles of CO₂ are fixed in 5.0 hours? Express your answer to one decimal place.
+158|Cycling of Matter in Liv|50|A microscope specimen is 0.02 mm wide and its image measures 1.0 mm wide. What is the magnification (image size ÷ actual size)?
+159|Cycling of Matter in Liv|40|A compound light microscope has an eyepiece lens of 10× and an objective lens of 4×. What is the total magnification? Record a whole number.
+160|Cycling of Matter in Liv|24.0|In a microscope field of view, 12 of 50 plant cells show plasmolysis after placing the tissue in a hypertonic salt solution. What percent of cells are plasmolyzed? Express as a dec
+161|Cycling of Matter in Liv|40|A microscope magnifies an object 400× with a 10× eyepiece. What is the objective lens magnification? Express your answer as a whole number.
+162|Cycling of Matter in Liv|100|A compound light microscope has an eyepiece lens of 10× and an objective lens of 10×. What is the total magnification? Record a whole number.
+163|Cycling of Matter in Liv|20.0|In a microscope field of view, 8 of 40 plant cells show plasmolysis after placing the tissue in a hypertonic salt solution. What percent of cells are plasmolyzed? Express as a deci
+164|Cycling of Matter in Liv|120|A leaf sample of 2 mm² contains 240 open stomata visible under the microscope. What is the stomatal density in stomata per mm²? Record a whole number.
+165|Cycling of Matter in Liv|180|A leaf sample of 1 mm² contains 180 open stomata visible under the microscope. What is the stomatal density in stomata per mm²? Record a whole number.
+166|Cycling of Matter in Liv|40|A microscope specimen is 0.05 mm wide and its image measures 2.0 mm wide. What is the magnification (image size ÷ actual size)?
+167|Cycling of Matter in Liv|800|A food chain transfers 10% of energy between trophic levels. If producers contain 8000 kJ/m², how much energy in kJ/m² is available to primary consumers? Express as a whole number.
+168|Cycling of Matter in Liv|2.00|A cube-shaped cell has edges of 3 μm. Surface area = 6 × edge² and volume = edge³. What is the surface-area-to-volume ratio? Express as a decimal rounded to two decimal places.
+169|Cycling of Matter in Liv|3.00|A cube-shaped cell has edges of 2 μm. Surface area = 6 × edge² and volume = edge³. What is the surface-area-to-volume ratio? Express as a decimal rounded to two decimal places.
+170|Cycling of Matter in Liv|5|A specimen measures 40 μm across. Under the microscope the image appears 200 μm wide. What is the magnification? Record a whole number.
+171|Cycling of Matter in Liv|4|A specimen measures 30 μm across. Under the microscope the image appears 120 μm wide. What is the magnification? Record a whole number.
+240|Energy Flow in Global Sy|84000|How much energy in joules is required to raise the temperature of 2.0 kg of water from 15 °C to 25 °C? Use c = 4200 J/(kg·°C) and Q = mcΔT. Record as an integer.
+241|Energy Flow in Global Sy|80|A climate model projects sea level rise of 3.2 mm per year. How many millimetres of rise are expected in 25 years? Express to zero decimal places.
+242|Energy Flow in Global Sy|21000|How much thermal energy in joules is required to raise the temperature of 0.5 kg of water by 10°C? Use $c = 4200$ J/(kg·°C) and $Q = mc\Delta T$.
+243|Energy Flow in Global Sy|70|A lake absorbs 1.5 × 10⁶ J of solar energy. If 4.5 × 10⁵ J is reflected, what percentage of the incoming energy was absorbed? Record as an integer.
+244|Energy Flow in Global Sy|63000|How many joules of energy are needed to warm 3.0 kg of water by 5.0 °C? Use c = 4200 J/(kg·°C). Record as an integer.
+245|Energy Flow in Global Sy|21000|Review: How much thermal energy in joules is required to raise the temperature of 1.0 kg of water by 5°C? Use $c = 4200$ J/(kg·°C) and $Q = mc\Delta T$.
+246|Energy Flow in Global Sy|18000|A 0.50 kg block of aluminum (c = 900 J/(kg·°C)) is heated from 20 °C to 60 °C. Using Q = mcΔT, what is Q in joules? Record as an integer.
+247|Energy Flow in Global Sy|50|Atmospheric CO₂ rose from 280 ppm to 420 ppm since pre-industrial times. What is the percent increase relative to the original 280 ppm? Round to the nearest whole number and record
+248|Energy Flow in Global Sy|5|A soil sample with mass 1.0 kg and c = 800 J/(kg·°C) releases 4000 J of heat while cooling. What is the temperature change ΔT in °C? Use Q = mcΔT. Record as an integer.
+249|Energy Flow in Global Sy|40|Atmospheric CO₂ rose from 380 ppm to 420 ppm over a decade. What is the increase in ppm? Express as a whole number.
+250|Energy Flow in Global Sy|15|Fresh snow reflects 85% of incoming solar radiation. What percentage is absorbed? Express your answer as a whole number.
+251|Energy Flow in Global Sy|30|Earth's average albedo is about 0.30. What percentage of incoming solar radiation is reflected back to space? Record as an integer.
+252|Energy Flow in Global Sy|60|A weather station records average temperature 12 °C for 5 days. What is the sum of daily average temperatures in degree-days (°C·days)? Express as a whole number.

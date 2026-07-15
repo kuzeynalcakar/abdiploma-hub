@@ -1,0 +1,526 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Applying the fundamental counting principle",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "A student is creating a 4-digit PIN code. If the first digit cannot be 0 and repetition of digits is allowed, how many different PIN codes can be created?",
+    "answer": "9000",
+    "choices": [
+      {
+        "text": "9000",
+        "is_correct": true
+      },
+      {
+        "text": "10000",
+        "is_correct": false
+      },
+      {
+        "text": "4536",
+        "is_correct": false
+      },
+      {
+        "text": "5040",
+        "is_correct": false
+      }
+    ],
+    "explanation": "By the fundamental counting principle, there are 9 choices for the first digit (1-9), and 10 choices for each of the remaining three digits (0-9). Total possibilities = $9 \\times 10 \\times 10 \\times 10 = 9000$.",
+    "common_mistake": "Students often assume repetition is not allowed or allow 0 to be the first digit.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Evaluating a basic permutation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 30,
+    "question_text": "Determine the number of ways to award first, second, and third place trophies among 8 competitors in a track race.",
+    "answer": "336",
+    "choices": [
+      {
+        "text": "336",
+        "is_correct": true
+      },
+      {
+        "text": "56",
+        "is_correct": false
+      },
+      {
+        "text": "40320",
+        "is_correct": false
+      },
+      {
+        "text": "24",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since the order of the trophies matters, this is a permutation: $_8P_3 = \\frac{8!}{(8-3)!} = 8 \\times 7 \\times 6 = 336$.",
+    "common_mistake": "Students may treat this as a combination, dividing by 3! and getting 56.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Evaluating a basic combination",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 35,
+    "question_text": "A committee of 4 members needs to be chosen from a group of 10 volunteers. How many unique committees can be formed?",
+    "answer": "210",
+    "choices": [
+      {
+        "text": "210",
+        "is_correct": true
+      },
+      {
+        "text": "5040",
+        "is_correct": false
+      },
+      {
+        "text": "24",
+        "is_correct": false
+      },
+      {
+        "text": "120",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since the order of members on a committee does not matter, this is a combination: $_{10}C_4 = \\frac{10!}{4!6!} = 210$.",
+    "common_mistake": "Students may use permutations ($_{10}P_4$) instead of combinations.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Permutations with identical elements",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 45,
+    "question_text": "How many distinct arrangements can be made using all the letters in the word RADAR?",
+    "answer": "30",
+    "choices": [
+      {
+        "text": "30",
+        "is_correct": true
+      },
+      {
+        "text": "120",
+        "is_correct": false
+      },
+      {
+        "text": "60",
+        "is_correct": false
+      },
+      {
+        "text": "15",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The word RADAR has 5 letters, where R appears twice and A appears twice. The number of distinct arrangements is $\\frac{5!}{2!2!} = \\frac{120}{4} = 30$.",
+    "common_mistake": "Students often forget to divide by the factorials of the repeated elements, giving 5! = 120.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Simplifying a basic factorial expression",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 40,
+    "question_text": "Simplify the expression $\\frac{(n+2)!}{(n+1)!}$.",
+    "answer": "$n + 2$",
+    "choices": [
+      {
+        "text": "$n + 2$",
+        "is_correct": true
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "$n!$",
+        "is_correct": false
+      },
+      {
+        "text": "$(n+2)(n+1)$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Expand the numerator: $\\frac{(n+2)(n+1)!}{(n+1)!} = n + 2$.",
+    "common_mistake": "Students may attempt to cancel out the variables or factorials algebraically as if they were simple multipliers.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Recognizing identical combination properties",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 30,
+    "question_text": "The value of $_{12}C_9$ is identical to which of the following expressions?",
+    "answer": "$_{12}C_3$",
+    "choices": [
+      {
+        "text": "$_{12}C_3$",
+        "is_correct": true
+      },
+      {
+        "text": "$_{12}C_4$",
+        "is_correct": false
+      },
+      {
+        "text": "$_9C_{12}$",
+        "is_correct": false
+      },
+      {
+        "text": "$_{12}P_3$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "By the symmetric property of combinations, $_nC_r = _nC_{n-r}$. Therefore, $_{12}C_9 = _{12}C_{12-9} = _{12}C_3$.",
+    "common_mistake": "Students sometimes confuse permutations with combinations or choose wrong differences.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Permutations with constraints (adjacent items)",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Five different books are placed on a shelf. If the math book and physics book must be placed side-by-side, how many arrangements are possible?",
+    "answer": "48",
+    "choices": [
+      {
+        "text": "48",
+        "is_correct": true
+      },
+      {
+        "text": "24",
+        "is_correct": false
+      },
+      {
+        "text": "120",
+        "is_correct": false
+      },
+      {
+        "text": "12",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Treat the math and physics books as a single unit. This leaves 4 items to arrange (3 other books + 1 tied unit), which can be done in $4! = 24$ ways. Within the unit, the math and physics books can switch places in $2! = 2$ ways. Total arrangements = $24 \\times 2 = 48$.",
+    "common_mistake": "Students frequently forget to arrange the items within the grouped block.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Solving a factorial equation algebraically",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "Solve the algebraic equation $\\frac{n!}{(n-2)!} = 42$ for $n$, where $n \\ge 2$.",
+    "answer": "7",
+    "choices": [],
+    "explanation": "Expand the numerator factorial: $\\frac{n(n-1)(n-2)!}{(n-2)!} = 42 \\Rightarrow n(n-1) = 42 \\Rightarrow n^2 - n - 42 = 0$. Factoring the quadratic gives $(n-7)(n+6) = 0$. Since $n$ must be a positive integer, $n = 7$.",
+    "common_mistake": "Students may misfactor or include the negative root ($n = -6$).",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Determining arrangements with positional restrictions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "Determine the number of 5-letter arrangements of the word VECTOR that begin with a vowel and end with a consonant.",
+    "answer": "96",
+    "choices": [],
+    "explanation": "The word VECTOR has 6 unique letters (Vowels: E, O; Consonants: V, C, T, R). \n- Choices for 1st position (Vowel) = 2\n- Choices for 5th position (Consonant) = 4\n- Remaining positions (2nd, 3rd, 4th) must be filled by 3 of the remaining 4 letters: $_4P_3 = 4 \\times 3 \\times 2 = 24$.\nTotal arrangements = $2 \\times 24 \\times 4 = 96$.",
+    "common_mistake": "Students often treat the middle positions as combinations rather than ordered permutations.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Multi-category combination select restrictions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "A student council committee of 5 members is to be selected from 6 boys and 5 girls. Determine the number of ways to form the committee if it must contain exactly 3 boys.",
+    "answer": "200",
+    "choices": [],
+    "explanation": "If the committee has exactly 3 boys, it must also have exactly 2 girls (since total members = 5). \n- Ways to select 3 boys from 6 = $_6C_3 = 20$\n- Ways to select 2 girls from 5 = $_5C_2 = 10$\nTotal ways = $20 \\times 10 = 200$.",
+    "common_mistake": "Students often add the combinations instead of multiplying them, or select all 5 members out of the combined pool without sub-grouping.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Arrangements with identical items and specified paths",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "A person traveling through a grid city block moves only East (E) or North (N). To get from home to school, they must travel 4 blocks East and 3 blocks North. Determine the number of unique routes possible.",
+    "answer": "35",
+    "choices": [],
+    "explanation": "Every route consists of exactly 7 steps: 4 identical E moves and 3 identical N moves. The number of arrangements is a permutation with identical elements: $\\frac{7!}{4!3!} = 35$.",
+    "common_mistake": "Students may treat this as $4 \\times 3 = 12$ or calculate $4! \\times 3!$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Solving an algebraic equation containing combinations",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Determine the value of $n$ that satisfies the equation $_nC_2 = 15$.",
+    "answer": "6",
+    "choices": [],
+    "explanation": "Expand using the formula: $\\frac{n!}{2!(n-2)!} = 15 \\Rightarrow \\frac{n(n-1)}{2} = 15 \\Rightarrow n(n-1) = 30 \\Rightarrow n^2 - n - 30 = 0$. Factoring results in $(n-6)(n+5) = 0$. Since $n$ must be positive, $n = 6$.",
+    "common_mistake": "Students often forget to divide by 2! in the denominator, solving $n(n-1)=15$ instead.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Combinations using 'at least' scenario constraints",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "A delegation of 4 researchers is chosen from 5 chemists and 4 biologists. How many different delegations can be formed if there must be at least 3 chemists?",
+    "answer": "45",
+    "choices": [
+      {
+        "text": "45",
+        "is_correct": true
+      },
+      {
+        "text": "40",
+        "is_correct": false
+      },
+      {
+        "text": "50",
+        "is_correct": false
+      },
+      {
+        "text": "126",
+        "is_correct": false
+      }
+    ],
+    "explanation": "'At least 3 chemists' means either 3 chemists (and 1 biologist) or 4 chemists (and 0 biologists).\nCase 1 (3 chemists, 1 bio) = $_5C_3 \\times _4C_1 = 10 \\times 4 = 40$\nCase 2 (4 chemists, 0 bio) = $_5C_4 \\times _4C_0 = 5 \\times 1 = 5$\nTotal = $40 + 5 = 45$.",
+    "common_mistake": "Students often calculate only one of the cases or multiply the results of the two cases together.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Distinguishing between permutation and combination applications",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 90,
+    "question_text": "Which of the following scenarios is evaluated using combinations rather than permutations?",
+    "answer": "Selecting a team of 3 doctors out of 10 to attend a medical conference.",
+    "choices": [
+      {
+        "text": "Selecting a team of 3 doctors out of 10 to attend a medical conference.",
+        "is_correct": true
+      },
+      {
+        "text": "Assigning 5 students to specific unique seats in a row.",
+        "is_correct": false
+      },
+      {
+        "text": "Creating a password using 6 distinct characters.",
+        "is_correct": false
+      },
+      {
+        "text": "Electing a President, Vice President, and Secretary from a club.",
+        "is_correct": false
+      }
+    ],
+    "explanation": "In a conference delegation, individual member roles are equal, so order does not matter (combination). Seat assignments, passwords, and executive office positions all incorporate distinct ordered roles (permutations).",
+    "common_mistake": "Students confuse equal group status selections with ordered role assignments.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Permutations with internal separation conditions",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "There are 6 people standing in line for a photo. If Alice and Bob refuse to stand directly next to each other, how many valid linear arrangements can be formed?",
+    "answer": "480",
+    "choices": [
+      {
+        "text": "480",
+        "is_correct": true
+      },
+      {
+        "text": "240",
+        "is_correct": false
+      },
+      {
+        "text": "720",
+        "is_correct": false
+      },
+      {
+        "text": "120",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Use the complementary counting method: $\\text{Valid Arrangements} = \\text{Total Arrangements} - \\text{Arrangements where they are together}$.\n- Total ways to arrange 6 people = $6! = 720$.\n- Ways where Alice and Bob are together = $5! \\times 2! = 120 \\times 2 = 240$.\n- Valid arrangements = $720 - 240 = 480$.",
+    "common_mistake": "Students often assume the opposite of side-by-side means they just calculate $4! \\times 2!$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Permutations with constraints and identical items simultaneously",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Determine the number of distinct arrangements of all letters in the word APPLES if the vowels (A and E) cannot be adjacent to each other.",
+    "answer": "240",
+    "choices": [],
+    "explanation": "First, find the total arrangements including repetitions (P occurs twice): $\\text{Total} = \\frac{6!}{2!} = 360$.\nNext, find the arrangements where the vowels A and E are adjacent. Treat (AE) as one item. There are 5 items to arrange (P,P,L,S, and AE): $\\frac{5!}{2!} = 60$. Within the vowel unit, A and E can arrange in $2! = 2$ ways: $60 \\times 2 = 120$.\nSubtract the adjacent arrangements from total: $360 - 120 = 240$.",
+    "common_mistake": "Students fail to account for the duplicate letter P when reducing the total arrangement calculations.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Combinations containing overlapping select pools and exclusions",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 150,
+    "question_text": "A basketball team of 5 players is being selected from a pool of 9 athletes. However, two of the athletes, John and Dave, have a personal conflict and cannot be on the team together. Determine the number of ways the team can be selected.",
+    "answer": "91",
+    "choices": [],
+    "explanation": "Use complementary counting: $\\text{Valid teams} = \\text{Total possible teams} - \\text{Teams containing both John and Dave}$.\n- Total teams from 9 athletes = $_9C_5 = 126$.\n- Teams containing both John and Dave requires selecting 3 more players from the remaining 7 = $_7C_3 = 35$.\n- Valid selections = $126 - 35 = 91$.",
+    "common_mistake": "Students often subtract 2 from the pool and solve $_7C_5$, missing teams where only one of the conflicting players is present.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC1",
+    "skill_tested": "Solving higher-order algebraic equations with permutation formats",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "If $_nP_4 = 8 \\cdot (_{n-1}P_3)$, determine the value of the integer $n$.",
+    "answer": "8",
+    "choices": [
+      {
+        "text": "8",
+        "is_correct": true
+      },
+      {
+        "text": "9",
+        "is_correct": false
+      },
+      {
+        "text": "7",
+        "is_correct": false
+      },
+      {
+        "text": "12",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Write out formulas: $\\frac{n!}{(n-4)!} = 8 \\cdot \\frac{(n-1)!}{(n-1-3)!} \\Rightarrow \\frac{n!}{(n-4)!} = 8 \\cdot \\frac{(n-1)!}{(n-4)!}$. Multiply both sides by $(n-4)!$ to clear denominators: $n! = 8 \\cdot (n-1)!$. Expand $n!$ as $n \\cdot (n-1)!$: $n \\cdot (n-1)! = 8 \\cdot (n-1)!$. Dividing by $(n-1)!$ yields $n = 8$.",
+    "common_mistake": "Students find the algebraic adjustments with offset variables confusing and commit division tracking errors.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Geometric applications of combination selection methods",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "There are 10 points marked on a plane. Exactly 4 of these points lie along a single straight line, but no other three points are collinear. How many unique triangles can be formed by connecting any three points?",
+    "answer": "116",
+    "choices": [
+      {
+        "text": "116",
+        "is_correct": true
+      },
+      {
+        "text": "120",
+        "is_correct": false
+      },
+      {
+        "text": "96",
+        "is_correct": false
+      },
+      {
+        "text": "114",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Three non-collinear points are needed to form a triangle. \n- Total ways to pick 3 points from 10 = $_{10}C_3 = 120$.\n- Triangles cannot be formed if all 3 points are chosen from the 4 collinear points: $_4C_3 = 4$.\n- Valid triangles = $120 - 4 = 116$.",
+    "common_mistake": "Students assume no triangles can be made using *any* of the 4 collinear points, ignoring combinations where only 1 or 2 collinear points are mixed with external points.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Permutations, Combinations and Binomial Theorem",
+    "topic": "Permutations and Combinations",
+    "outcome_code": "PC2",
+    "skill_tested": "Multi-step subset partitioning logic",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "A group of 12 volunteers is being split into three distinct working teams. Team A must have 5 members, Team B must have 4 members, and Team C must have 3 members. \n\na) Explain why combinations are used to solve this assignment problem rather than permutations.\n\nb) Algebraically calculate the total number of unique ways to partition the volunteers into these three groups.",
+    "answer": "a) Order within each working team does not matter; b) 27720",
+    "choices": [],
+    "explanation": "a) Combinations are used because the members inside a specific team hold equal standing; changing the internal selection sequence of members does not alter the composition of the team.\n\nb) Calculate the sequential selections:\n- Step 1: Choose 5 members for Team A out of 12 = $_{12}C_5 = 792$.\n- Step 2: Choose 4 members for Team B out of the remaining 7 volunteers = $_7C_4 = 35$.\n- Step 3: Choose 3 members for Team C out of the remaining 3 volunteers = $_3C_3 = 1$.\nUsing the fundamental counting principle, multiply the independent selection steps: $792 \\times 35 \\times 1 = 27720$.",
+    "common_mistake": "Students often reuse the full pool of 12 for every team selection stage ($_{12}C_5 \\times _{12}C_4 \\times _{12}C_3$), failing to decrement the pool size as volunteers are assigned.",
+    "source": "ai"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "issues": 0,
+  "report": {
+    "schema_errors": [],
+    "missing_metadata": [],
+    "duplicate_texts": [],
+    "duplicate_explanations": [],
+    "duplicate_calculations": [],
+    "duplicate_distractors": [],
+    "duplicate_answer_patterns": [],
+    "invalid_outcome_codes": [],
+    "invalid_skills": [],
+    "invalid_explanations": [],
+    "mc_key_errors": [],
+    "nr_numeric_errors": [],
+    "nr_calc_errors": []
+  },
+  "fix_rounds": {
+    "rounds": [
+      {
+        "round": 1,
+        "issues_before": 26,
+        "fixes": {
+          "mc_keys_fixed": 0,
+          "nr_keys_fixed": 0,
+          "explanations_deduped": 0,
+          "skills_deduped": 0,
+          "explanations_enriched": 0,
+          "calc_stems_diversified": 18,
+          "answer_pattern_stems_diversified": 3,
+          "nr_recalc_pass": 0,
+          "distractors_diversified": 13
+        },
+        "issues_after": 1,
+        "status": "retry"
+      },
+      {
+        "round": 2,
+        "issues_before": 1,
+        "fixes": {
+          "mc_keys_fixed": 0,
+          "nr_keys_fixed": 0,
+          "explanations_deduped": 0,
+          "skills_deduped": 0,
+          "explanations_enriched": 0,
+          "distractors_diversified": 1
+        },
+        "issues_after": 0,
+        "status": "clean"
+      }
+    ]
+  }
+}

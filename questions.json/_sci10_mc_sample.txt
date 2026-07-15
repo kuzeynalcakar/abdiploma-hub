@@ -1,0 +1,365 @@
+--- 31 ---
+A student analyzes lab data showing mass increased when magnesium ribbon was burned in a crucible with the lid on. The best interpretation is that?
+CORRECT: oxygen from air combined with magnesium to form magnesium oxide
+WRONG: atoms were created during heating | the balance measured neutron mass only | magnesium decomposed into lighter elements
+EXPL: Mass gain in a closed system indicates reactant mass (O$_2$) was added from the air.
+--- 34 ---
+The pH of a neutral solution at room temperature is approximately?
+CORRECT: 7
+WRONG: 0 — a misconception from another Energy and Matter in Chemical Change concept | an unrelated process outside Energy and Matter in Chemical Change | a reversed cause-and-effect relationship in Energy and Matter in Chemical Change
+EXPL: Pure water at 25°C has pH 7, indicating equal H⁺ and OH⁻ concentrations.
+--- 37 ---
+$2H_2O_2 \rightarrow 2H_2O + O_2$ is best classified as?
+CORRECT: decomposition
+WRONG: formation (synthesis) | single replacement | double replacement
+EXPL: One reactant breaks into two or more products — decomposition.
+--- 40 ---
+Which observation is evidence that a chemical change has occurred?
+CORRECT: a new gas is produced that was not present in the reactants
+WRONG: iron filings are separated from sand with a magnet | water evaporates from a puddle on hot pavement | salt dissolves and disappears in water with stirring
+EXPL: Gas formation from reactants indicates new substances have been created.
+--- 43 ---
+The atomic number of an element equals the number of _______?
+CORRECT: protons in each atom of that element
+WRONG: neutrons only | electrons in every ion | molecules in one mole
+EXPL: Atomic number uniquely identifies an element by its proton count.
+--- 46 ---
+The correct name for K$_2$SO$_4$ is _______?
+CORRECT: potassium sulfate
+WRONG: potassium sulfide | dipotassium sulfur tetroxide | potassium(I) sulfate
+EXPL: K$^+$ and SO$_4^{2-}$ combine in a 2:1 ratio; no Roman numerals are needed for potassium.
+--- 49 ---
+A neutral atom of magnesium-24 has 12 protons. How many neutrons does it contain?
+CORRECT: 12
+WRONG: 24 — a misconception from another Energy and Matter in Chemical Change concept | 12 electrons only with zero neutrons | a reversed cause-and-effect relationship in Energy and Matter in Chemical Change
+EXPL: Mass number 24 minus 12 protons gives 12 neutrons.
+--- 52 ---
+A solution with pH 3 is _______?
+CORRECT: acidic
+WRONG: a true statement that does not answer this specific stem | a reversed cause-and-effect relationship in Energy and Matter in Chemical Change | devoid of all ions
+EXPL: pH below 7 indicates acidic conditions at standard temperature.
+--- 55 ---
+Which particle is gained or lost when an atom becomes a positive ion?
+CORRECT: electron
+WRONG: proton (positively charged particle in nucleus) | neutron (neutral particle in nucleus) | a reversed cause-and-effect relationship in Energy and Matter in Chemical Change
+EXPL: Cations form when atoms lose one or more electrons.
+--- 58 ---
+The carbonate ion has the formula?
+CORRECT: CO$_3^{2-}$
+WRONG: terminology from a different Science 10 unit | HCO$_3^{2-}$ | a true statement that does not answer this specific stem
+EXPL: Carbonate is CO$_3^{2-}$; bicarbonate (hydrogen carbonate) is HCO$_3^-$.
+--- 61 ---
+Lavoisier's law of conservation of mass states that in a closed system?
+CORRECT: the total mass of reactants equals the total mass of products
+WRONG: mass is always lost as heat energy | atoms can be created during chemical reactions | the number of molecules always increases
+EXPL: Atoms are rearranged in chemical reactions but not created or destroyed.
+--- 64 ---
+The correct IUPAC name for NaCl is _______?
+CORRECT: sodium chloride
+WRONG: sodium monochloride | sodium(I) chloride | natrium chlorine
+EXPL: Ionic compounds are named with the metal cation followed by the non-metal anion with -ide ending.
+--- 67 ---
+A synthesis reaction is characterized by _______?
+CORRECT: two or more reactants combining to form a single product
+WRONG: one reactant splitting into two or more products | an element replacing another in a compound | an exchange of ions between two compounds
+EXPL: A + B → AB represents synthesis (combination).
+--- 70 ---
+An exothermic neutralization reaction between an acid and a base is characterized by _______?
+CORRECT: a temperature increase in the solution as energy is released to the surroundings
+WRONG: a permanent decrease in total mass of atoms in the calorimeter | absorption of heat causing the solution to cool steadily | no energy transfer between reactants and surroundings
+EXPL: Exothermic reactions release thermal energy, often detected as warming in calorimetry.
+--- 73 ---
+Before mixing an acid and a base in a lab, a Science 10 student consults WHMIS labels to _______?
+CORRECT: determine required personal protective equipment and safe handling steps
+WRONG: calculate the exact enthalpy change without calorimetry | predict every product without reading the equation | skip ventilation requirements entirely
+EXPL: Safe lab practice requires hazard assessment before handling reactive chemicals.
+--- 76 ---
+A chemical inventory list before a lab investigation is used primarily to _______?
+CORRECT: record quantities and identities of reactants and products for safety and analysis
+WRONG: replace the need for balanced chemical equations entirely | determine the colour of flame tests without reading labels | calculate Earth's albedo from classroom chemicals
+EXPL: Inventories track substances used, supporting safe disposal and stoichiometric planning.
+--- 100 ---
+The law of conservation of energy states that in an isolated system?
+CORRECT: total energy remains constant although it may change form
+WRONG: useful energy always increases with each conversion | energy can be created from nothing during conversion | thermal energy cannot be produced in any process
+EXPL: Energy is neither created nor destroyed; it transforms among forms.
+--- 103 ---
+Windmills used historically for grinding grain converted?
+CORRECT: kinetic energy of moving air to mechanical rotation of millstones
+WRONG: nuclear energy in blades to chemical energy in flour only | gravitational energy of clouds to electrical energy directly | thermal energy of stones to wind with no moving parts
+EXPL: Wind turns blades; mechanical linkage drives grinding stones.
+--- 106 ---
+The development of the automobile depended on efficient conversion of _______?
+CORRECT: chemical energy in fuel to mechanical energy for wheels
+WRONG: gravitational energy in tires to nuclear energy in axles | only static electric charge in the frame | thermal energy in air to permanent magnetism in glass
+EXPL: Internal combustion converts fuel chemical energy to mechanical motion.
+--- 109 ---
+Gravitational potential energy depends on _______?
+CORRECT: mass, gravitational field strength, and vertical height
+WRONG: only the colour of the object | the horizontal distance travelled along a flat road | the age of the object in years
+EXPL: $E_p = mgh$ links mass, $g$, and height above a reference level.
+--- 112 ---
+An athlete accelerates from rest to 8.0 m/s in 4.0 s. The average acceleration is _______?
+CORRECT: 2.0 m/s²
+WRONG: a true statement that does not answer this specific stem | a reversed cause-and-effect relationship in Energy Flow in Technological Systems | terminology from a different Science 10 unit
+EXPL: '2.0 m/s²' is correct because it matches calculating average acceleration from velocity change for outcome B2.6k. The other options reflect common misconceptions within Energy Flow in Technological Systems.
+--- 115 ---
+Power is defined as?
+CORRECT: the rate at which energy is transferred or transformed
+WRONG: the total energy stored in an object at rest | mass times velocity only | displacement divided by force
+EXPL: Power = energy transfer / time; unit is the watt (J/s).
+--- 118 ---
+A single fixed pulley changes?
+CORRECT: the direction of the applied force without changing ideal mechanical advantage
+WRONG: both force magnitude and direction while doubling energy output | only the mass of the load attached | gravitational field strength at the ceiling
+EXPL: A fixed pulley redirects force; ideal MA ≈ 1.
+--- 121 ---
+Which observation provides direct evidence that energy is present in a system?
+CORRECT: a measurable increase in temperature after friction between surfaces
+WRONG: a change in the number of protons in an atom's nucleus | the permanent disappearance of mass from the universe | complete absence of any particle motion at all times
+EXPL: Energy transfers often appear as temperature changes, motion, or deformation.
+--- 124 ---
+Acceleration is defined as?
+CORRECT: the rate of change of velocity
+WRONG: distance divided by time without regard to direction | mass times gravitational field strength only | total energy divided by work done
+EXPL: $a = \Delta v / \Delta t$ for constant acceleration in one dimension.
+--- 127 ---
+A student walks $40\ \text{m}$ east, then $30\ \text{m}$ north from the same starting point. The magnitude of the displacement is closest to _______?
+CORRECT: $50\ \text{m}$
+WRONG: $70\ \text{m}$ | $10\ \text{m}$ | $1200\ \text{m}$
+EXPL: Displacement magnitude: $\sqrt{40^2 + 30^2} = 50\ \text{m}$ by Pythagorean theorem.
+--- 130 ---
+At constant velocity on a level frictionless surface, the net force on an object is _______?
+CORRECT: zero
+WRONG: equal to the object's weight always | equal to mass times velocity | increasing continuously
+EXPL: Newton's first law: no net force means no acceleration at constant velocity.
+--- 133 ---
+Cogeneration at a power plant improves overall efficiency by _______?
+CORRECT: using waste heat from electricity generation for building or industrial heating
+WRONG: releasing all waste heat directly to the atmosphere deliberately | burning more fuel without capturing any thermal output | eliminating the generator entirely
+EXPL: Combined heat and power captures energy that would otherwise be wasted.
+--- 136 ---
+Gravitational potential energy is zero when _______?
+CORRECT: a reference level is chosen where height is defined as zero
+WRONG: an object is always at Earth's core regardless of reference | mass equals zero in all cases | velocity is exactly zero only
+EXPL: Potential energy depends on relative height; reference level is arbitrary but must be consistent.
+--- 139 ---
+Before thermodynamics was formalized, engineers measured machine performance using concepts such as _______?
+CORRECT: duty, horsepower, and fuel consumption per unit of work
+WRONG: quarks and leptons in piston assemblies | DNA base pairing in boiler tubes | magnetic monopoles in flywheels
+EXPL: Operational measures preceded abstract laws; performance was tracked practically.
+--- 142 ---
+Nuclear energy in a fission reactor is ultimately converted to electrical energy through _______?
+CORRECT: thermal energy heating steam that drives a turbine connected to a generator
+WRONG: direct emission of visible light into transmission lines only | gravitational collapse of the reactor building | chemical combustion of uranium metal in open air
+EXPL: Fission heats water/steam; mechanical rotation of turbines produces electricity.
+--- 145 ---
+When a stretched spring is released and launches a cart, energy is converted from _______?
+CORRECT: elastic potential energy to kinetic energy
+WRONG: kinetic energy to nuclear binding energy exclusively | thermal energy to chemical energy with no mechanical change | gravitational potential energy to light with no motion
+EXPL: Stored spring energy becomes motion energy of the cart.
+--- 148 ---
+Thermal energy in a substance is most closely associated with _______?
+CORRECT: random motion and vibration of particles
+WRONG: only the gravitational height of the bulk material | the net velocity of the entire object in one direction only | permanent loss of all internal particle motion
+EXPL: Temperature reflects average kinetic energy of particles in random motion.
+--- 151 ---
+Two displacement vectors of equal magnitude at $90^\circ$ to each other combine to give a resultant with magnitude?
+CORRECT: $\sqrt{2}$ times the magnitude of either vector
+WRONG: exactly equal to the magnitude of one vector always | zero because vectors always cancel | twice the magnitude in all cases regardless of angle
+EXPL: Perpendicular vectors: $R = \sqrt{A^2 + B^2} = \sqrt{2}\,A$ when $A = B$.
+--- 154 ---
+A natural gas furnace rated 80% efficient delivers 8.0 MJ of useful heat from an input of _______?
+CORRECT: 10 MJ
+WRONG: terminology from a different Science 10 unit | a related misconception from another Energy Flow in Technological Systems concept | 8.0 MJ input with 10 MJ output
+EXPL: Useful output = efficiency × input; 0.80 × 10 MJ = 8.0 MJ, so input was 10 MJ.
+--- 174 ---
+Boysen-Jensen demonstrated that phototropic signals?
+CORRECT: could pass through agar but not through mica barriers
+WRONG: travel only as light waves through the stem | require stomata to open before bending occurs | are identical to xylem sap under all conditions
+EXPL: Permeable agar allowed signal diffusion; impermeable mica blocked it, supporting chemical messenger.
+--- 177 ---
+Liposomes used to deliver HIV drugs to cells rely on membrane principles because they _______?
+CORRECT: fuse with or merge into cell membranes to release medication inside target cells
+WRONG: convert all cell walls into chloroplasts on contact | prevent any diffusion across membranes permanently | require spontaneous generation of new cells
+EXPL: Liposome bilayers mimic cell membranes, enabling targeted drug delivery via fusion or endocytosis.
+--- 180 ---
+A cell is considered an open system because it?
+CORRECT: continuously exchanges matter and energy with its surroundings
+WRONG: is completely isolated from environmental changes | never releases waste products | stores all nutrients permanently without turnover
+EXPL: Open systems take in nutrients, release wastes, and transfer energy through metabolic pathways.
+--- 183 ---
+A red blood cell placed in distilled water will swell and may lyse because _______?
+CORRECT: water enters the cell by osmosis toward the higher solute concentration inside
+WRONG: salt leaves the cell by active transport only | the membrane becomes completely impermeable to water | distilled water has a lower water concentration than the cytoplasm
+EXPL: Distilled water is hypotonic; water enters until the membrane ruptures.
+--- 186 ---
+DNA and gene mapping research relates to cell biology because it?
+CORRECT: helps explain how genetic instructions in the nucleus control cell functions
+WRONG: proves that cells can form from non-living chemicals in air | shows that plant cells lack mitochondria | demonstrates that diffusion requires ATP in all cases
+EXPL: Gene mapping links nuclear DNA to proteins and processes carried out by organelles.
+--- 189 ---
+The Golgi apparatus modifies and packages substances primarily for _______?
+CORRECT: secretion from the cell or delivery to other organelles
+WRONG: ATP synthesis through the electron transport chain | splitting water during the light reactions | replicating circular prokaryotic DNA
+EXPL: Golgi receives vesicles from ER, processes contents, and ships them in new vesicles.
+--- 192 ---
+The invention of the electron microscope most significantly improved cell study by _______?
+CORRECT: revealing ultrastructural details of organelles not visible with light microscopy
+WRONG: eliminating the need for staining techniques | allowing observation of living cells at low magnification only | proving that prokaryotes have nuclei
+EXPL: Electron microscopes use electron beams to resolve structures such as ribosomes and ER at nanometre scale.
+--- 195 ---
+Flat, thin red blood cells are adapted for _______?
+CORRECT: maximizing surface area for gas exchange relative to cell volume
+WRONG: storing large quantities of chlorophyll | anchoring plants in rocky soil | producing cellulose for cell walls
+EXPL: Biconcave disc shape increases SA:V for efficient O₂ and CO₂ diffusion.
+--- 198 ---
+Cheese making uses osmosis when _______?
+CORRECT: salt draws moisture out of curds, inhibiting bacterial spoilage
+WRONG: lactose spontaneously converts into cellulose cell walls | mitochondria in milk perform photosynthesis | active transport pumps air into solid cheese
+EXPL: Salting creates hypertonic conditions that remove water from curds and microbes.
+--- 201 ---
+Louis Pasteur's swan-neck flask experiments supported cell theory by demonstrating that?
+CORRECT: microorganisms do not spontaneously appear in sterile broth when contamination is prevented
+WRONG: all life requires sunlight for energy | cells contain a nucleus in every organism | DNA carries genetic information
+EXPL: Pasteur showed broth remained sterile unless exposed to airborne microbes, refuting spontaneous generation.
+--- 204 ---
+Equilibrium in diffusion across a membrane is reached when _______?
+CORRECT: net movement of particles in all directions is balanced
+WRONG: all particles stop moving completely | active transport pumps reverse direction permanently | the membrane becomes thicker
+EXPL: At equilibrium, random motion continues but there is no net change in concentration.
+--- 207 ---
+In photosynthesis, the light-dependent reactions produce?
+CORRECT: ATP and NADPH used in the Calvin cycle
+WRONG: glucose directly with no intermediate carriers | only carbon dioxide as the main energy-rich product | oxygen consumed to build chlorophyll exclusively
+EXPL: Light reactions split water, release O₂, and generate ATP/NADPH.
+--- 210 ---
+Endocytosis allows a cell to _______?
+CORRECT: take in large particles or liquids by engulfing them with the membrane
+WRONG: release wastes by passive diffusion only | replicate DNA without using the nucleus | photosynthesize using external chloroplasts
+EXPL: Endocytosis forms vesicles that bring materials into the cytoplasm.
+--- 213 ---
+A trophic pyramid with a broad producer base and narrow top carnivore level illustrates?
+CORRECT: energy loss between levels limits the number of top predators supported
+WRONG: energy is created anew at each higher trophic level | decomposers receive more energy than producers always | all energy remains available with no metabolic cost
+EXPL: Roughly 90% of energy is lost as heat between trophic transfers.
+--- 216 ---
+The cohesion of water molecules contributes to _______?
+CORRECT: upward movement of water in xylem through transpiration pull
+WRONG: active pumping of water by mitochondria in roots | diffusion of carbon dioxide through stomata only | synthesis of proteins on ribosomes
+EXPL: Hydrogen bonding between water molecules helps maintain continuous columns in xylem.
+--- 219 ---
+Uneven distribution of auxin on the shaded side of a shoot causes?
+CORRECT: greater cell elongation on the shaded side, bending the shoot toward light
+WRONG: immediate closure of all stomata on the illuminated side | conversion of xylem into phloem tissue | plasmolysis of all palisade cells
+EXPL: Auxin promotes elongation; higher concentration on shaded side creates asymmetric growth.
+--- 222 ---
+Bioaccumulation of a persistent pesticide in a lake ecosystem means _______?
+CORRECT: concentration increases in organisms at higher trophic levels over time
+WRONG: the pesticide dissolves instantly and harms only producers once | top predators always have lower toxin levels than phytoplankton | matter is destroyed so nutrients cannot cycle
+EXPL: Fat-soluble toxins magnify along food chains.
+--- 225 ---
+Desalination by reverse osmosis uses pressure to _______?
+CORRECT: force water through a membrane while leaving dissolved salts behind
+WRONG: increase salt concentration in drinking water | destroy all membranes in seawater | convert salt ions directly into glucose
+EXPL: Applied pressure overcomes osmotic pressure, allowing pure water to pass the filter.
+--- 228 ---
+Enzymes speed up metabolic reactions by _______?
+CORRECT: lowering the activation energy required for the reaction to proceed
+WRONG: increasing the overall energy released so it violates conservation | being consumed completely in every catalytic cycle | raising activation energy to make reactions slower
+EXPL: Catalysts provide alternative pathways with lower activation barriers.
+--- 231 ---
+Each enzyme is specific largely because _______?
+CORRECT: its active site shape complements a particular substrate
+WRONG: it catalyzes every biochemical reaction in the cell equally | it denatures at all temperatures above 0 °C instantly | it stores sunlight as permanent chemical bonds only
+EXPL: Lock-and-key or induced-fit models explain substrate selectivity.
+--- 234 ---
+Ribosomes function in all living cells to _______?
+CORRECT: synthesize proteins by assembling amino acids
+WRONG: replicate DNA during interphase only in plants | photosynthesize glucose using sunlight | transport water in xylem vessels
+EXPL: Ribosomes translate mRNA into polypeptide chains.
+--- 237 ---
+Cellular respiration in aerobic organisms releases stored energy by _______?
+CORRECT: breaking down glucose with oxygen to produce ATP, CO₂, and water
+WRONG: building glucose from CO₂ without any oxygen present | converting ATP permanently into light in the cytoplasm only | storing oxygen in cell walls for future photosynthesis
+EXPL: Aerobic respiration oxidizes glucose: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP.
+--- 253 ---
+Methane (CH₄) is considered a potent greenhouse gas because it?
+CORRECT: absorbs outgoing infrared radiation effectively despite lower atmospheric concentration than CO₂
+WRONG: reflects all incoming ultraviolet radiation back to space | replaces oxygen in the stratosphere entirely | has no interaction with electromagnetic radiation
+EXPL: Methane molecules absorb infrared wavelengths strongly; per molecule it has a higher warming potential than CO₂ over short time scales.
+--- 256 ---
+Solar energy absorbed at the equator compared with polar regions is greater because _______?
+CORRECT: sunlight strikes equatorial surfaces at a more direct angle year-round
+WRONG: the equator is always closer to the Sun by millions of kilometres daily | polar ice eliminates all incoming radiation completely | Earth's core heats the equator exclusively
+EXPL: Higher solar angle concentrates energy per unit area at low latitudes.
+--- 259 ---
+Two objects at the same temperature may contain different amounts of thermal energy if they have _______?
+CORRECT: different masses or different specific heat capacities
+WRONG: identical chemical formulas always | the same colour and shape only | zero kinetic energy in all particles
+EXPL: Thermal energy depends on mass, specific heat, and temperature: Q = mcΔT for a given change.
+--- 262 ---
+Net radiation surplus at low latitudes compared to high latitudes drives?
+CORRECT: global circulation of atmosphere and oceans redistributing thermal energy
+WRONG: complete cessation of all wind patterns globally | equal temperature at every latitude always | elimination of seasonal variation everywhere
+EXPL: Unequal heating creates pressure and density differences that drive circulation systems.
+--- 265 ---
+Hadley cells in the atmosphere circulate air by _______?
+CORRECT: rising warm air at the equator and sinking cooler air near about 30° latitude
+WRONG: pulling air exclusively from the North Pole to the equator only at night | eliminating all horizontal wind near the surface globally | converting water vapour into ozone at the tropopause only
+EXPL: Convective loops redistribute heat from equator toward subtropics.
+--- 268 ---
+Positive feedback in climate systems occurs when _______?
+CORRECT: a warming change triggers processes that cause additional warming
+WRONG: every change automatically cancels itself to zero effect always | cooling leads immediately to further cooling through unrelated factors only | feedbacks eliminate the greenhouse effect entirely
+EXPL: Example: melting ice reduces albedo, absorbing more sunlight and warming further.
+--- 271 ---
+As latitude increases from the equator toward the poles, terrestrial biomes generally shift from _______?
+CORRECT: tropical forest toward temperate forest, grassland, and tundra
+WRONG: desert toward tropical rainforest only | tundra toward equatorial savanna without change in temperature | marine biome toward desert with no precipitation change
+EXPL: Lower average solar angle and cooler temperatures at high latitudes support different biome types than the equator.
+--- 274 ---
+El Niño conditions in the equatorial Pacific often lead to _______?
+CORRECT: weakened trade winds and warm surface water shifting eastward, altering global weather
+WRONG: permanent freezing of all tropical oceans year-round | complete stop of the water cycle over continents | removal of all greenhouse gases from the atmosphere
+EXPL: El Niño rearranges Pacific heat distribution, affecting precipitation patterns worldwide.
+--- 277 ---
+Ammonium nitrate is used in fertilizers because it supplies plants with _______?
+CORRECT: nitrogen in a soluble ionic form
+WRONG: inert noble gases for root growth | metallic copper for chlorophyll synthesis | pure carbon dioxide dissolved as a gas only
+EXPL: Ammonium and nitrate ions provide bioavailable nitrogen for plant proteins and growth.
+--- 280 ---
+An Aboriginal perspective on energy use in technological systems may emphasize?
+CORRECT: using natural resources responsibly and avoiding waste out of stewardship for the land
+WRONG: maximizing resource extraction without any limits always | rejecting all technology regardless of context | ignoring environmental consequences of energy choices
+EXPL: Alberta curriculum includes stewardship and judicious resource use in STS outcomes.
+--- 283 ---
+From an environmental STS perspective, inefficient energy conversions matter because they _______?
+CORRECT: increase fuel consumption and greenhouse gas emissions for the same useful output
+WRONG: eliminate all waste heat from ecosystems permanently | have no connection to natural resource use | guarantee 100% useful work in all devices
+EXPL: Lower efficiency means more fuel burned and more environmental impact per task.
+--- 286 ---
+Satellite monitoring of atmospheric gases illustrates that scientific understanding of climate is _______?
+CORRECT: built from collected evidence and revised as new data become available
+WRONG: fixed permanently after a single experiment | based only on opinions without measurement | unrelated to technology or international cooperation
+EXPL: Modern climate science relies on long-term instrumental records and satellites, reflecting how science uses evidence over time.
+--- 289 ---
+A student plans to test whether heating copper metal in air changes its mass. The independent variable in this investigation is _______?
+CORRECT: whether the copper is heated in air or left unheated
+WRONG: the final colour of the copper sample | the balance used to measure mass | the chemical formula of copper oxide formed
+EXPL: The independent variable is the condition deliberately changed by the investigator.
+--- 292 ---
+A $60\ \text{kg}$ skier descends $10\ \text{m}$ vertically. Neglecting friction, the speed at the bottom is closest to (use $g = 9.8\ \text{m/s}^2$, energy conservation $mgh = \frac{1}{2}mv^2$)?
+CORRECT: $14\ \text{m/s}$
+WRONG: $5\ \text{m/s}$ | $98\ \text{m/s}$ | $1.4\ \text{m/s}$
+EXPL: $v = \sqrt{2gh} = \sqrt{2(9.8)(10)} \approx 14\ \text{m/s}$; mass cancels.
+--- 295 ---
+Which formula correctly represents aluminum sulfate?
+CORRECT: Al$_2$(SO$_4$)$_3$
+WRONG: a related misconception from another Energy and Matter in Chemical Change concept | Al$_2$SO$_4$ | Al(SO$_4$)$_2$
+EXPL: Al$^{3+}$ and SO$_4^{2-}$ require two aluminum ions and three sulfate ions for charge balance.
+--- 298 ---
+Carrying a heavy backpack horizontally at constant speed at shoulder height results in _______?
+CORRECT: no work done by the upward support force on the pack (force perpendicular to motion)
+WRONG: large positive work because the pack moves a long distance | negative work because gravity pulls downward | work equal to mass times horizontal distance only
+EXPL: Vertical support force is perpendicular to horizontal displacement, so W = 0.

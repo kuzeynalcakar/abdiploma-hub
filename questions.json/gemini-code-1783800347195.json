@@ -1,0 +1,533 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Identifying characteristics of exponential decay from a function equation",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Which of the following exponential functions represents a decreasing curve (exponential decay) for all real values of $x$?",
+    "answer": "$y = 5\\left(\\frac{2}{3}\\right)^x$",
+    "choices": [
+      {
+        "text": "$y = 5\\left(\\frac{2}{3}\\right)^x$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = 2(3)^x$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 0.4\\left(\\frac{7}{5}\\right)^x$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = -3(4)^x$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "An exponential function in the form $y = ab^x$ (where $a > 0$) represents exponential decay if the base $b$ satisfies $0 < b < 1$. For $y = 5(2/3)^x$, the base is $2/3$, which is between 0 and 1, indicating a decreasing function.",
+    "common_mistake": "Students sometimes confuse the vertical stretch factor $a$ with the base $b$, or think that a fraction base like $7/5$ means decay even though $7/5 > 1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Identifying the horizontal asymptote of an exponential function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Determine the equation of the horizontal asymptote for the graph of the function $y = 3^{x-2} - 5$.",
+    "answer": "$y = -5$",
+    "choices": [
+      {
+        "text": "$y = -5$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = 0$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = -2$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The base exponential graph $y = b^x$ has a horizontal asymptote at $y = 0$. A vertical translation downward by 5 units shifts the entire graph, including its asymptote, down by 5 units, resulting in the line $y = -5$.",
+    "common_mistake": "Students often mistake horizontal translations for vertical ones, selecting $y=-2$, or write a vertical line equation $x=2$ instead.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Determining the y-intercept of a transformed exponential graph",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70,
+    "question_text": "What is the $y$-intercept of the graph of $y = -2(4)^x + 7$?",
+    "answer": "$5$",
+    "choices": [
+      {
+        "text": "$5$",
+        "is_correct": true
+      },
+      {
+        "text": "$7$",
+        "is_correct": false
+      },
+      {
+        "text": "$-1$",
+        "is_correct": false
+      },
+      {
+        "text": "$0$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "To find the $y$-intercept of any function, substitute $x = 0$ into the equation: $y = -2(4)^0 + 7$. Since $4^0 = 1$, this simplifies to $y = -2(1) + 7 = 5$.",
+    "common_mistake": "Students frequently evaluate $4^0$ as $0$, leading to $y = -2(0) + 7 = 7$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving a basic exponential equation with common bases",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "Solve the exponential equation $2^{3x-1} = 32$.",
+    "answer": "$2$",
+    "choices": [
+      {
+        "text": "$2$",
+        "is_correct": true
+      },
+      {
+        "text": "$11$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{11}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{5}{3}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Rewrite 32 as a power of 2: $32 = 2^5$. The equation becomes $2^{3x-1} = 2^5$. Since the bases are identical, equate the exponents: $3x - 1 = 5$. Adding 1 gives $3x = 6$, so $x = 2$.",
+    "common_mistake": "Students sometimes mistake 32 as $2^6$ or incorrectly divide 32 by 2.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Identifying the domain and range of an exponential function",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 60,
+    "question_text": "Which statement correctly describes the domain and range of the function $y = 6^x + 4$?",
+    "answer": "Domain: $x \\in \\mathbb{R}$; Range: $y > 4$",
+    "choices": [
+      {
+        "text": "Domain: $x \\in \\mathbb{R}$; Range: $y > 4$",
+        "is_correct": true
+      },
+      {
+        "text": "Domain: $x > 0$; Range: $y > 4$",
+        "is_correct": false
+      },
+      {
+        "text": "Domain: $x \\in \\mathbb{R}$; Range: $y \\in \\mathbb{R}$",
+        "is_correct": false
+      },
+      {
+        "text": "Domain: $x \\in \\mathbb{R}$; Range: $y \\ge 4$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Exponential functions of the form $y = b^x + k$ are defined for all real values of $x$. Since $6^x$ is strictly greater than 0 for all real numbers, $6^x + 4$ must be strictly greater than 4. Thus, the range is $y > 4$.",
+    "common_mistake": "Students often use '$\\ge$' instead of '$>$', forgetting that an exponential function approaches but never touches its horizontal asymptote.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving an exponential equation with fraction bases",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90,
+    "question_text": "Determine the solution to the equation $\\left(\\frac{1}{3}\\right)^x = 27^{x-2}$.",
+    "answer": "$\\frac{3}{2}$",
+    "choices": [
+      {
+        "text": "$\\frac{3}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{1}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$2$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Express both sides with a base of 3: $\\left(\\frac{1}{3}\\right)^x = (3^{-1})^x = 3^{-x}$. Similarly, $27^{x-2} = (3^3)^{x-2} = 3^{3x-6}$. Equating the exponents gives $-x = 3x - 6$. Adding $x$ and 6 to respective sides yields $6 = 4x$, so $x = \\frac{6}{4} = \\frac{3}{2}$.",
+    "common_mistake": "Students often forget to distribute the exponent 3 to both terms of $(x-2)$, writing $3x-2$ instead of $3x-6$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Evaluating an exponential value from a simple context",
+    "question_type": "Multiple Choice",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80,
+    "question_text": "A culture initially contains 200 bacteria and doubles every hour. The number of bacteria, $N$, after $t$ hours is modeled by $N = 200(2)^t$. How many bacteria are present after 4 hours?",
+    "answer": "$3200$",
+    "choices": [
+      {
+        "text": "$3200$",
+        "is_correct": true
+      },
+      {
+        "text": "$1600$",
+        "is_correct": false
+      },
+      {
+        "text": "$4000$",
+        "is_correct": false
+      },
+      {
+        "text": "$800$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Substitute $t = 4$ into the model equation: $N = 200(2)^4 = 200(16) = 3200$.",
+    "common_mistake": "Students sometimes multiply 200 by 2 before evaluating the exponent, calculating $(400)^4$, which is incorrect order of operations.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Extracting parameters from an exponential graph",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "The graph of an exponential function $y = a \\cdot b^x$ passes through the points $(0, 4)$ and $(2, 36)$, where $b > 0$. Determine the value of the base $b$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Using the point $(0, 4)$, we substitute $x=0$ and $y=4$: $4 = a \\cdot b^0 \\Rightarrow a = 4$. Now use the second point $(2, 36)$ and $a=4$: $36 = 4 \\cdot b^2$. Divide by 4 to get $9 = b^2$. Taking the square root gives $b = 3$ (since $b > 0$).",
+    "common_mistake": "Students sometimes confuse the values of $a$ and $b$, or forget to divide by $a$ before taking the square root.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving exponential equations by equating composite prime bases",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130,
+    "question_text": "Solve the equation $9^{x+1} = 27^{x-1}$ for $x$.",
+    "answer": "5",
+    "choices": [],
+    "explanation": "Express both bases as powers of 3: $9 = 3^2$ and $27 = 3^3$. The equation becomes $(3^2)^{x+1} = (3^3)^{x-1} \\Rightarrow 3^{2x+2} = 3^{3x-3}$. Equating the exponents: $2x + 2 = 3x - 3$. Subtract $2x$ and add 3 to both sides to isolate $x$, yielding $x = 5$.",
+    "common_mistake": "Students often multiply the bases by the exponents directly without changing to a common prime base, or fail to distribute across binomial exponents.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Analyzing exponential vertical and horizontal translations",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "The graph of $y = 5^x$ is translated 3 units to the left and 4 units down. The equation of the transformed graph can be written in the form $y = 5^{x-h} + k$. Determine the value of the product $h \\cdot k$.",
+    "answer": "12",
+    "choices": [],
+    "explanation": "A horizontal translation of 3 units left replaces $x$ with $x + 3$. Comparing $x + 3$ to $x - h$ shows that $h = -3$. A vertical translation 4 units down sets $k = -4$. The product is $h \\cdot k = (-3) \\cdot (-4) = 12$.",
+    "common_mistake": "Students frequently get the sign of $h$ wrong, incorrectly identifying $h = 3$ instead of $-3$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Setting up and calculating half-life application values",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "A radioactive substance has a half-life of 12 years. If an initial sample contains 80 grams, determine the mass of the sample remaining after 36 years, in grams.",
+    "answer": "10",
+    "choices": [],
+    "explanation": "The half-life model is $A = A_0(0.5)^{t/h}$. Substituting the given values: $A_0 = 80$, $h = 12$, and $t = 36$. This yields $A = 80(0.5)^{36/12} = 80(0.5)^3 = 80(0.125) = 10$ grams.",
+    "common_mistake": "Students often multiply $t$ and $h$ instead of dividing, or confuse the half-life period with the total elapsed time.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving exponential equations where one side has a radical base",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 140,
+    "question_text": "Determine the exact solution to the exponential equation $4^{2x-5} = \\sqrt{8}$. Express your answer as a decimal value.",
+    "answer": "2.875",
+    "choices": [],
+    "explanation": "Convert both sides to base 2. Since $4 = 2^2$, the left side becomes $(2^2)^{2x-5} = 2^{4x-10}$. Since $8 = 2^3$, the right side becomes $\\sqrt{2^3} = (2^3)^{1/2} = 2^{3/2}$. Equating the exponents yields $4x - 10 = 1.5 \\Rightarrow 4x = 11.5 \\Rightarrow x = \\frac{11.5}{4} = 2.875$.",
+    "common_mistake": "Students often treat $\\sqrt{8}$ as $8^{1/2}$ but fail to correctly convert 8 to base 2, or make arithmetic errors with fractions.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Applying reflections and stretches to exponential graphs",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110,
+    "question_text": "If the graph of $y = 2^x$ is vertically stretched by a factor of 3 and reflected in the $x$-axis, what is the resulting equation?",
+    "answer": "$y = -3(2)^x$",
+    "choices": [
+      {
+        "text": "$y = -3(2)^x$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = (-6)^x$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 3(-2)^x$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = -2^{3x}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "A vertical stretch by a factor of 3 scales the outputs by 3, yielding $3(2)^x$. A reflection in the $x$-axis negates the entire function expression, resulting in $y = -3(2)^x$.",
+    "common_mistake": "Students frequently multiply the stretch factor into the base, arriving at $(-6)^x$, which violates the order of operations.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving equations with reciprocal exponential structures",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120,
+    "question_text": "Determine the solution to the equation $5^{x^2-3} = \\frac{1}{25}$.",
+    "answer": "$x = \\pm 1$",
+    "choices": [
+      {
+        "text": "$x = \\pm 1$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = 1$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = \\pm 5$",
+        "is_correct": false
+      },
+      {
+        "text": "No real solution",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Rewrite $\\frac{1}{25}$ as $25^{-1} = (5^2)^{-1} = 5^{-2}$. Equating exponents gives $x^2 - 3 = -2$. Adding 3 to both sides yields $x^2 = 1$, which gives $x = \\pm 1$.",
+    "common_mistake": "Students often forget the negative sign when converting fractions to negative exponents, or miss the negative root when solving $x^2 = 1$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Deducing the base of an exponential function from a contextual table",
+    "question_type": "Multiple Choice",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100,
+    "question_text": "An investment grows according to the data table below:\n\n\\begin{tabular}{|c|c|}\n\\hline\nEnd of Year ($t$) & Value ($V$)\\\\\n\\hline\n2 & \\$1210$\\\\\n3 & \\$1331$\\\\\n4 & \\$1464.10$\\\\\n\\hline\n\\end{tabular}\n\nIf the growth is modeled by $V = a(b)^t$, what is the exact growth factor $b$?",
+    "answer": "$1.10$",
+    "choices": [
+      {
+        "text": "$1.10$",
+        "is_correct": true
+      },
+      {
+        "text": "$1.21$",
+        "is_correct": false
+      },
+      {
+        "text": "$0.10$",
+        "is_correct": false
+      },
+      {
+        "text": "$1.11$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "Since the time increments by 1 year each row, the base $b$ represents the ratio of consecutive terms: $b = \\frac{1331}{1210} = 1.10$. Verification with the next interval confirms $\\frac{1464.10}{1331} = 1.10$.",
+    "common_mistake": "Students sometimes subtract the values to look for a linear difference instead of a common geometric ratio.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving quadratic-form exponential equations (substitution method)",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "Determine the real solution to the exponential equation $2^{2x} - 10(2^x) + 16 = 0$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Let $u = 2^x$. Then the equation can be rewritten as a quadratic equation: $u^2 - 10u + 16 = 0$. Factoring this quadratic gives $(u - 8)(u - 2) = 0$, which yields $u = 8$ or $u = 2$. Now substitute back $2^x$: \nCase 1: $2^x = 8 \\Rightarrow 2^x = 2^3 \\Rightarrow x = 3$.\nCase 2: $2^x = 2 \\Rightarrow 2^x = 2^1 \\Rightarrow x = 1$.\nWait, there are two solutions! Let's check the wording. If there are multiple solutions, let's adjust the coefficients so only one solution yields a valid real root or ask for the largest solution. Let's make it so only one branch works by introducing a negative term. Alternatively, let's change the question text to find the largest solution.",
+    "question_text": "Determine the largest real solution to the exponential equation $2^{2x} - 10(2^x) + 16 = 0$.",
+    "answer": "3",
+    "choices": [],
+    "explanation": "Let $u = 2^x$, giving $u^2 - 10u + 16 = 0$. Factoring gives $(u - 8)(u - 2) = 0$, so $u = 8$ or $u = 2$. Substituting back $2^x$: $2^x = 8 \\Rightarrow x = 3$, and $2^x = 2 \\Rightarrow x = 1$. The largest solution is 3.",
+    "common_mistake": "Students often stop after finding the quadratic roots $u=8$ and $u=2$, forgetting to solve for the actual exponent $x$.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Solving exponential systems with non-matching linear coefficients",
+    "question_type": "Numerical Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 170,
+    "question_text": "Solve the equation $8^{x-1} = \\left(\\frac{1}{4}\\right)^{x^2}$ for the positive value of $x$. Express your answer as a decimal.",
+    "answer": "0.5",
+    "choices": [],
+    "explanation": "Convert both expressions to base 2: $(2^3)^{x-1} = (2^{-2})^{x^2} \\Rightarrow 2^{3x-3} = 2^{-2x^2}$. Equating the exponents results in a quadratic equation: $3x - 3 = -2x^2 \\Rightarrow 2x^2 + 3x - 3 = 0$. Let's choose better values to guarantee nice factorable rational roots.\nLet's try $8^x = \\left(\\frac{1}{4}\\right)^{x^2-2} \\Rightarrow 3x = -2(x^2 - 2) = -2x^2 + 4 \\Rightarrow 2x^2 + 3x - 4 = 0$ (not nicely factorable).\nLet's try: $2^{3(x-1)} = 2^{-2x^2} \\Rightarrow 2x^2 + 3x - 3 = 0$.\nLet's reconstruct with intended roots: let positive root be $x = 0.5 = 1/2$. \nIf $x = 1/2$, let's choose a factorable quadratic like $2x^2 + x - 1 = 0 \\Rightarrow (2x - 1)(x + 1) = 0$. \nThen the exponent equation should be $x - 1 = -2x^2 \\Rightarrow 2x^2 + x - 1 = 0$. \nTo get $x-1$ from base 2, let the left side be $2^{x-1}$. To get $-2x^2$ from base 4, the right side can be $(1/4)^{x^2} = 2^{-2x^2}$. \nLet's verify: $2^{x-1} = (1/4)^{x^2} \\Rightarrow x - 1 = -2x^2 \\Rightarrow 2x^2 + x - 1 = 0 \\Rightarrow (2x-1)(x+1) = 0$. The positive root is $x = 0.5$. Let's update the question body with these functions.",
+    "question_text": "Solve the equation $2^{x-1} = \\left(\\frac{1}{4}\\right)^{x^2}$ for the positive value of $x$. Express your answer as a decimal.",
+    "answer": "0.5",
+    "choices": [],
+    "explanation": "Convert to common base 2: $2^{x-1} = (2^{-2})^{x^2} \\Rightarrow 2^{x-1} = 2^{-2x^2}$. Equating the exponents gives $x - 1 = -2x^2 \\Rightarrow 2x^2 + x - 1 = 0$. Factoring the quadratic yields $(2x - 1)(x + 1) = 0$. The roots are $x = 0.5$ and $x = -1$. The positive solution is 0.5.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF9",
+    "skill_tested": "Analyzing composite domain parameters containing rational exponents",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160,
+    "question_text": "Consider the function $y = 3^{\\sqrt{x-2}} + 5$. What is the exact range of this function?",
+    "answer": "$y \\ge 6$",
+    "choices": [
+      {
+        "text": "$y \\ge 6$",
+        "is_correct": true
+      },
+      {
+        "text": "$y > 5$",
+        "is_correct": false
+      },
+      {
+        "text": "$y \\ge 5$",
+        "is_correct": false
+      },
+      {
+        "text": "$y \\in \\mathbb{R}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The domain requires $x - 2 \\ge 0 \\Rightarrow x \\ge 2$. The minimum value of the exponent occurs at $x = 2$, where $\\sqrt{2-2} = 0$. Substituting this minimum exponent back into the function gives $y = 3^0 + 5 = 1 + 5 = 6$. Since the square root function increases without bound for $x > 2$, the exponent increases, meaning the function values grow upwards from 6. Thus, the range is $y \\ge 6$.",
+    "common_mistake": "Students often assume the range must simply be $y > 5$ based on the horizontal asymptote rule for basic exponential equations, neglecting the restriction imposed by the square root index.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Advanced context modeling involving changing time units",
+    "question_type": "Multiple Choice",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180,
+    "question_text": "A population of insects triples every 4 days. If the initial population is $P_0$, which of the following expressions represents the insect population after $h$ hours?",
+    "answer": "$P = P_0(3)^{\\frac{h}{96}}$",
+    "choices": [
+      {
+        "text": "$P = P_0(3)^{\\frac{h}{96}}$",
+        "is_correct": true
+      },
+      {
+        "text": "$P = P_0(3)^{\\frac{h}{4}}$",
+        "is_correct": false
+      },
+      {
+        "text": "$P = P_0(3)^{24h}$",
+        "is_correct": false
+      },
+      {
+        "text": "$P = P_0(3)^{\\frac{4h}{24}}$",
+        "is_correct": false
+      }
+    ],
+    "explanation": "The standard growth model based on days ($t$) is $P = P_0(3)^{t/4}$. To convert the formula to hours ($h$), we use the relationship that $t = \\frac{h}{24}$ since there are 24 hours in a day. Substituting this into the exponent yields $\\frac{h/24}{4} = \\frac{h}{96}$. Therefore, the correct model is $P = P_0(3)^{\\frac{h}{96}}$.",
+    "common_mistake": "Students often multiply by 24 instead of dividing, or substitute 4 directly without doing a unit conversion from days to hours.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "topic": "Exponential Functions",
+    "outcome_code": "RF10",
+    "skill_tested": "Analyzing exponential equations with multi-step fractional bases",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "An exponential equation is given by $\\left(\\frac{4}{9}\\right)^{x-3} = \\left(\\frac{27}{8}\\right)^{x+2}$.\n\na) Express both sides of the equation using a common prime base fraction.\n\nb) Algebraically solve the equation to find the exact value of $x$.",
+    "answer": "a) $\\left(\\frac{2}{3}\\right)^{2(x-3)} = \\left(\\frac{2}{3}\\right)^{-3(x+2)}$; b) $x = 0$",
+    "choices": [],
+    "explanation": "a) Observe that $\\frac{4}{9} = \\left(\\frac{2}{3}\\right)^2$. Also, $\\frac{27}{8} = \\left(\\frac{3}{2}\\right)^3 = \\left(\\frac{2}{3}\\right)^{-3}$. Substituting these into the equation gives:\n$$\\left[\\left(\\frac{2}{3}\\right)^2\\right]^{x-3} = \\left[\\left(\\frac{2}{3}\\right)^{-3}\\right]^{x+2} \\Rightarrow \\left(\\frac{2}{3}\\right)^{2x-6} = \\left(\\frac{2}{3}\\right)^{-3x-6}$$\n\nb) Equate the exponents since the bases are identical:\n$$2x - 6 = -3x - 6$$\nAdd $3x$ to both sides:\n$$5x - 6 = -6$$\nAdd 6 to both sides:\n$$5x = 0 \\Rightarrow x = 0$$",
+    "common_mistake": "Students regularly overlook that $\\frac{27}{8}$ is the reciprocal of the base $\\frac{2}{3}$ cubed, missing the negative sign in the exponent.",
+    "source": "ai"
+  }
+]

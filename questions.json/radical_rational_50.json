@@ -1,0 +1,1312 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$[5, \\infty)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(-\\infty, 5]$",
+        "is_correct": false
+      },
+      {
+        "text": "$(5, \\infty)$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\mathbb{R}$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the domain of $f(x) = \\sqrt{x - 5}$ in interval notation?",
+    "answer": "$[5, \\infty)$",
+    "explanation": "The expression under the square root must satisfy $x - 5 \\ge 0$, so $x \\ge 5$. In interval notation the domain is $[5, \\infty)$.",
+    "common_mistake": "Students sometimes reverse the inequality and write $(-\\infty, 5]$ or forget that the endpoint is included.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Determining domain of a square root function",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 75
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$(-\\infty, 3]$",
+        "is_correct": true
+      },
+      {
+        "text": "$[0, \\infty)$",
+        "is_correct": false
+      },
+      {
+        "text": "$[3, \\infty)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(-\\infty, \\infty)$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the range of $g(x) = -\\sqrt{x} + 3$?",
+    "answer": "$(-\\infty, 3]$",
+    "explanation": "The square root outputs values in $[0, \\infty)$. After multiplying by $-1$ and adding $3$, outputs satisfy $y \\le 3$, so the range is $(-\\infty, 3]$.",
+    "common_mistake": "Students may forget the reflection and report $[3, \\infty)$.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Determining range after vertical reflection and translation",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$y = \\sqrt{x - 4} - 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = \\sqrt{x + 4} - 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\sqrt{x - 4} + 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\sqrt{x} - 6$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which equation represents the graph of $y = \\sqrt{x}$ shifted $4$ units right and $2$ units down?",
+    "answer": "$y = \\sqrt{x - 4} - 2$",
+    "explanation": "A right shift of $4$ replaces $x$ with $x - 4$, and a downward shift of $2$ subtracts $2$ from the output: $y = \\sqrt{x - 4} - 2$.",
+    "common_mistake": "A right shift is often written incorrectly as $x + 4$ inside the radical.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Writing radical functions after horizontal and vertical translations",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "A horizontal shift $1$ unit left and a vertical stretch by a factor of $2$",
+        "is_correct": true
+      },
+      {
+        "text": "A horizontal shift $1$ unit right and a vertical stretch by a factor of $2$",
+        "is_correct": false
+      },
+      {
+        "text": "A horizontal shift $1$ unit left and a vertical compression by a factor of $\\frac{1}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "A vertical shift $1$ unit up and a horizontal stretch by a factor of $2$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "The graph of $y = 2\\sqrt{x + 1}$ is obtained from $y = \\sqrt{x}$ by which transformations?",
+    "answer": "A horizontal shift $1$ unit left and a vertical stretch by a factor of $2$",
+    "explanation": "Replacing $x$ with $x + 1$ shifts the graph $1$ unit left. The coefficient $2$ outside the radical stretches the graph vertically by a factor of $2$.",
+    "common_mistake": "Students confuse left/right shifts and vertical stretch factors.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Identifying transformations of radical functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$5$",
+        "is_correct": true
+      },
+      {
+        "text": "$3$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\frac{5}{3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$17$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Solve $\\sqrt{3x + 1} = 4$. Which value of $x$ satisfies the equation?",
+    "answer": "$5$",
+    "explanation": "Squaring both sides gives $3x + 1 = 16$, so $3x = 15$ and $x = 5$. Checking: $\\sqrt{16} = 4$, which is valid.",
+    "common_mistake": "Students may square incorrectly as $3x + 1 = 4$ and get $x = 1$, or forget to isolate before squaring.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solving a basic radical equation by squaring both sides",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$0$",
+        "is_correct": true
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      },
+      {
+        "text": "$2$",
+        "is_correct": false
+      },
+      {
+        "text": "Infinitely many",
+        "is_correct": false
+      }
+    ],
+    "question_text": "How many real solutions does the equation $\\sqrt{x + 2} = -1$ have?",
+    "answer": "$0$",
+    "explanation": "A principal square root cannot equal a negative number. Therefore the equation has no real solutions.",
+    "common_mistake": "Students may square both sides and find $x = -1$ without checking that the original equation is impossible.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Recognizing impossible radical equations",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$(4, 0)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(0, 4)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(8, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(2, 0)$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the $x$-intercept of $f(x) = \\sqrt{2x - 8}$?",
+    "answer": "$(4, 0)$",
+    "explanation": "Set $f(x) = 0$: $\\sqrt{2x - 8} = 0$ implies $2x - 8 = 0$, so $x = 4$. The intercept is $(4, 0)$.",
+    "common_mistake": "Students may set $2x - 8 = 4$ instead of $0$, or confuse $x$- and $y$-intercepts.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Finding x-intercepts of radical functions",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 100
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$f(x) = \\sqrt{x + 3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$f(x) = \\sqrt{x - 3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f(x) = \\sqrt{-x + 3}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f(x) = \\sqrt{3x}$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which function has domain $x \\ge -3$?",
+    "answer": "$f(x) = \\sqrt{x + 3}$",
+    "explanation": "Require $x + 3 \\ge 0$, giving $x \\ge -3$. Only $f(x) = \\sqrt{x + 3}$ satisfies this.",
+    "common_mistake": "Students may choose $\\sqrt{x - 3}$, which requires $x \\ge 3$.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Matching radical functions to stated domains",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 75
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$(9, -5)$",
+        "is_correct": true
+      },
+      {
+        "text": "$(9, 5)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(-9, 5)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(9, 3)$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "The point $(9, 5)$ lies on $y = \\sqrt{x - 4} + 1$. After the transformation $y = -\\sqrt{x - 4} + 1$, where does the corresponding point move?",
+    "answer": "$(9, -5)$",
+    "explanation": "The transformation reflects the graph across the $x$-axis, mapping $(x, y)$ to $(x, -y)$. Thus $(9, 5)$ becomes $(9, -5)$.",
+    "common_mistake": "Students may reflect across the $y$-axis instead, changing the $x$-coordinate.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Applying vertical reflection to points on radical graphs",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 95
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x = 3$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = -1$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 1$",
+        "is_correct": false
+      },
+      {
+        "text": "No real solutions",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Solve $\\sqrt{2x + 3} = x$. Which value of $x$ is a valid solution?",
+    "answer": "$x = 3$",
+    "explanation": "Squaring gives $2x + 3 = x^2$, or $x^2 - 2x - 3 = 0$, which factors as $(x - 3)(x + 1) = 0$. Checking: $x = 3$ gives $\\sqrt{9} = 3$ (valid); $x = -1$ gives $\\sqrt{1} = 1 \\ne -1$ (extraneous).",
+    "common_mistake": "Students often accept both algebraic roots after squaring without checking in the original equation.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solving radical equations with extraneous roots",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "A square-root curve starting near $(1, 4)$, opening downward and to the right, with vertical compression",
+        "is_correct": true
+      },
+      {
+        "text": "A square-root curve starting near $(-1, 4)$, opening upward and to the right",
+        "is_correct": false
+      },
+      {
+        "text": "A parabola with vertex $(1, 4)$ opening downward",
+        "is_correct": false
+      },
+      {
+        "text": "A square-root curve starting near $(1, 4)$, opening upward and to the right",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which graph could represent $y = -\\frac{1}{2}\\sqrt{x - 1} + 4$?",
+    "answer": "A square-root curve starting near $(1, 4)$, opening downward and to the right, with vertical compression",
+    "explanation": "The term $\\sqrt{x - 1}$ starts at $x = 1$. The negative coefficient reflects the graph vertically and compresses it by $\\frac{1}{2}$. The $+4$ shifts it up to begin near $(1, 4)$ with a decreasing trend.",
+    "common_mistake": "Students may ignore the negative coefficient and sketch an increasing radical graph.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Analyzing combined transformations of radical functions",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 150
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$5$",
+        "is_correct": true
+      },
+      {
+        "text": "$3$",
+        "is_correct": false
+      },
+      {
+        "text": "$\\sqrt{6}$",
+        "is_correct": false
+      },
+      {
+        "text": "$9$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "If $f(x) = \\sqrt{x}$ and $g(x) = f(x - 2) + 3$, what is $g(6)$?",
+    "answer": "$5$",
+    "explanation": "Compute $g(6) = f(6 - 2) + 3 = f(4) + 3 = \\sqrt{4} + 3 = 2 + 3 = 5$.",
+    "common_mistake": "Students may evaluate $f(6)$ instead of $f(4)$.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Evaluating transformed radical functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 70
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$7$",
+        "is_correct": true
+      },
+      {
+        "text": "$2$",
+        "is_correct": false
+      },
+      {
+        "text": "$0$",
+        "is_correct": false
+      },
+      {
+        "text": "$9$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the minimum value of $h(x) = \\sqrt{x - 2} + 7$ on its domain?",
+    "answer": "$7$",
+    "explanation": "On the domain $x \\ge 2$, the smallest radicand is $0$ when $x = 2$, giving $h(2) = 0 + 7 = 7$.",
+    "common_mistake": "Students may report the domain endpoint $x = 2$ as the minimum value instead of the output.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Finding minimum output values of translated radical functions",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 90
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x \\le \\frac{5}{2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\ge \\frac{5}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\le -\\frac{5}{2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\ge 0$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which restriction on $x$ is required for $\\sqrt{5 - 2x}$ to be defined?",
+    "answer": "$x \\le \\frac{5}{2}$",
+    "explanation": "Require $5 - 2x \\ge 0$, so $2x \\le 5$ and $x \\le \\frac{5}{2}$.",
+    "common_mistake": "Students may reverse the inequality direction.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Determining domain restrictions from radicands",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 85
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$y = \\sqrt{-x} + 3$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = -\\sqrt{x} + 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\sqrt{x} + 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\sqrt{x - 3}$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "The graph of $y = \\sqrt{x}$ is reflected in the $y$-axis and then shifted $3$ units up. Which equation matches the result?",
+    "answer": "$y = \\sqrt{-x} + 3$",
+    "explanation": "A reflection in the $y$-axis replaces $x$ with $-x$, giving $y = \\sqrt{-x}$. A shift up $3$ adds $3$: $y = \\sqrt{-x} + 3$.",
+    "common_mistake": "Students confuse reflection in the $y$-axis with reflection in the $x$-axis.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Combining reflection and translation of radical functions",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 130
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "For $f(x) = \\sqrt{x + 9}$, determine the $x$-coordinate of the $x$-intercept.",
+    "answer": "-9",
+    "explanation": "Set $\\sqrt{x + 9} = 0$. Then $x + 9 = 0$, so $x = -9$.",
+    "common_mistake": "Students may answer $9$ by forgetting the sign when solving $x + 9 = 0$.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Finding x-intercepts of radical functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 80
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Evaluate $f(10)$ if $f(x) = 3\\sqrt{x - 1} - 2$.",
+    "answer": "7",
+    "explanation": "Substitute $x = 10$: $f(10) = 3\\sqrt{9} - 2 = 3(3) - 2 = 7$.",
+    "common_mistake": "Students may compute $\\sqrt{10 - 1}$ incorrectly or forget the final subtraction.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Evaluating radical functions at a given input",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 75
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Solve $\\sqrt{2x - 3} = 5$. State the value of $x$.",
+    "answer": "14",
+    "explanation": "Square both sides: $2x - 3 = 25$, so $2x = 28$ and $x = 14$. Check: $\\sqrt{25} = 5$.",
+    "common_mistake": "Students may add $3$ before squaring or divide by $2$ too early.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solving radical equations",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "The graph of $y = a\\sqrt{x - 2}$ passes through $(6, 4)$. Determine the value of $a$.",
+    "answer": "2",
+    "explanation": "Substitute the point: $4 = a\\sqrt{6 - 2} = a\\sqrt{4} = 2a$. Solve $2a = 4$ to get $a = 2$.",
+    "common_mistake": "Students may divide by $4$ instead of $2$ after taking the square root.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Determining stretch factors from points on radical graphs",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Solve $\\sqrt{x + 7} = x + 1$. Enter the valid solution for $x$.",
+    "answer": "2",
+    "explanation": "Square: $x + 7 = (x + 1)^2 = x^2 + 2x + 1$. Rearrange to $x^2 + x - 6 = 0$, giving $x = 2$ or $x = -3$. Check: $x = 2$ gives $\\sqrt{9} = 3$ (valid); $x = -3$ gives $\\sqrt{4} = -2$ (invalid).",
+    "common_mistake": "Students often include the extraneous root $x = -3$.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solving radical equations and rejecting extraneous roots",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "For $g(x) = -\\sqrt{x} + 6$, determine the $y$-coordinate of the endpoint of the graph on its domain.",
+    "answer": "6",
+    "explanation": "The domain starts at $x = 0$, where $g(0) = -\\sqrt{0} + 6 = 6$. The endpoint has $y$-coordinate $6$.",
+    "common_mistake": "Students may give the $x$-coordinate $0$ instead of the $y$-coordinate.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Identifying endpoints of radical graphs",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 85
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "If $\\sqrt{4x + 1} = 9$, determine the value of $x$.",
+    "answer": "20",
+    "explanation": "Square: $4x + 1 = 81$, so $4x = 80$ and $x = 20$.",
+    "common_mistake": "Students may subtract $1$ incorrectly or divide by $4$ prematurely.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solving linear radical equations",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "The graph of $y = \\sqrt{x + 4}$ begins at its endpoint. Determine the $x$-coordinate of this endpoint.",
+    "answer": "-4",
+    "explanation": "Require $x + 4 \\ge 0$. The graph starts when the radicand is $0$, at $x = -4$.",
+    "common_mistake": "Students may answer $4$ by ignoring the sign in the radicand shift.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Identifying starting points of radical graphs",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 75
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Written Response",
+    "choices": [],
+    "question_text": "Solve $\\sqrt{x + 5} = x - 1$. Show all algebraic steps and verify each potential solution in the original equation.",
+    "answer": "$x = 4$",
+    "explanation": "Solution guide: square both sides to obtain $x + 5 = (x - 1)^2$. Expand and rearrange to a quadratic, factor, then test each root in the original radical equation. Only $x = 4$ satisfies $\\sqrt{9} = 3$.",
+    "common_mistake": "Accepting $x = -1$ after squaring without checking that $\\sqrt{4} \\neq -2$.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Solving radical equations with verification",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Written Response",
+    "choices": [],
+    "question_text": "Describe the sequence of transformations that maps $y = \\sqrt{x}$ onto $y = -2\\sqrt{x + 3} - 1$. Include the starting point of the transformed graph.",
+    "answer": "Left 3, vertical stretch by 2, reflection in x-axis, down 1; starting point $(-3, -1)$",
+    "explanation": "Rubric: identify horizontal shift ($x \\to x + 3$), vertical stretch (factor $2$), reflection (negative coefficient), vertical translation ($-1$), and correct transformed starting point $(-3, -1)$.",
+    "common_mistake": "Listing transformations in an order that does not match the equation, or giving the wrong starting point.",
+    "source": "ai",
+    "topic": "Radical Functions",
+    "outcome_code": "RF12",
+    "skill_tested": "Describing transformations of radical functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 240
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x = 4$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = -4$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 4$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the vertical asymptote of $f(x) = \\dfrac{3}{x - 4}$?",
+    "answer": "$x = 4$",
+    "explanation": "A vertical asymptote occurs where the denominator is zero (and the factor does not cancel): $x - 4 = 0$ gives $x = 4$.",
+    "common_mistake": "Students may set the numerator equal to zero or confuse vertical and horizontal asymptotes.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Identifying vertical asymptotes of rational functions",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$y = 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = 1$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = -5$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 0$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the horizontal asymptote of $g(x) = \\dfrac{2x + 1}{x - 5}$?",
+    "answer": "$y = 2$",
+    "explanation": "Degrees of numerator and denominator are equal, so the horizontal asymptote is the ratio of leading coefficients: $\\frac{2}{1} = 2$.",
+    "common_mistake": "Students may use the constant term of the numerator instead of the leading coefficient.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Determining horizontal asymptotes when degrees are equal",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "There is a hole at $x = 1$ and a simplified form $h(x) = x + 1$ for $x \\ne 1$",
+        "is_correct": true
+      },
+      {
+        "text": "There is a vertical asymptote at $x = 1$ only",
+        "is_correct": false
+      },
+      {
+        "text": "The function is undefined for all real $x$",
+        "is_correct": false
+      },
+      {
+        "text": "The horizontal asymptote is $y = 1$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "For $h(x) = \\dfrac{x^2 - 1}{x - 1}$, which statement is true?",
+    "answer": "There is a hole at $x = 1$ and a simplified form $h(x) = x + 1$ for $x \\ne 1$",
+    "explanation": "Factor numerator: $x^2 - 1 = (x - 1)(x + 1)$. The common factor cancels, creating a hole at $x = 1$, not a vertical asymptote.",
+    "common_mistake": "Students may cancel incorrectly and still claim a vertical asymptote remains.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Distinguishing holes from vertical asymptotes",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x \\ne 3$ and $x \\ne -3$",
+        "is_correct": true
+      },
+      {
+        "text": "$x \\ne 9$",
+        "is_correct": false
+      },
+      {
+        "text": "$x \\ge 3$",
+        "is_correct": false
+      },
+      {
+        "text": "All real numbers",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the domain of $f(x) = \\dfrac{5}{x^2 - 9}$?",
+    "answer": "$x \\ne 3$ and $x \\ne -3$",
+    "explanation": "Exclude values that make the denominator zero: $x^2 - 9 = 0$ gives $x = \\pm 3$.",
+    "common_mistake": "Students may exclude only $x = 3$ and forget $x = -3$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Determining domain of rational functions",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 75
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$f(x) = \\dfrac{4x + 1}{x^2 + 2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$f(x) = \\dfrac{x^2 + 1}{2x}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f(x) = \\dfrac{3x}{x + 1}$",
+        "is_correct": false
+      },
+      {
+        "text": "$f(x) = \\dfrac{x^2}{x^2 - 1}$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which function has a horizontal asymptote of $y = 0$?",
+    "answer": "$f(x) = \\dfrac{4x + 1}{x^2 + 2}$",
+    "explanation": "When the denominator degree is greater than the numerator degree, the horizontal asymptote is $y = 0$.",
+    "common_mistake": "Students may choose equal-degree examples where $y \\ne 0$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Identifying horizontal asymptotes from degrees",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 95
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x = 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = -2$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 5$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 0$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Solve $\\dfrac{2}{x} = \\dfrac{5}{x + 3}$ for $x$.",
+    "answer": "$x = 2$",
+    "explanation": "Cross-multiply: $2(x + 3) = 5x$, so $2x + 6 = 5x$ and $x = 2$. Check that $x \\ne 0$.",
+    "common_mistake": "Students may forget to exclude $x = 0$ from the domain or make sign errors.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Solving simple rational equations",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 120
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$y = \\dfrac{1}{x - 2}$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = \\dfrac{1}{x + 2}$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\dfrac{1}{x} - 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\dfrac{1}{x - 2} + 2$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "The graph of $y = \\dfrac{1}{x}$ is shifted $2$ units right. Which equation represents the transformed graph?",
+    "answer": "$y = \\dfrac{1}{x - 2}$",
+    "explanation": "A right shift replaces $x$ with $x - 2$ in the denominator: $y = \\dfrac{1}{x - 2}$.",
+    "common_mistake": "Students may write $x + 2$ for a right shift.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Writing reciprocal functions after horizontal translation",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 80
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$(0, -\\frac{3}{2})$",
+        "is_correct": true
+      },
+      {
+        "text": "$(0, 3)$",
+        "is_correct": false
+      },
+      {
+        "text": "$(-4, 0)$",
+        "is_correct": false
+      },
+      {
+        "text": "There is no $y$-intercept",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the $y$-intercept of $f(x) = \\dfrac{3x - 6}{x + 4}$?",
+    "answer": "$(0, -\\frac{3}{2})$",
+    "explanation": "Evaluate at $x = 0$: $f(0) = \\frac{-6}{4} = -\\frac{3}{2}$, so the intercept is $(0, -\\frac{3}{2})$.",
+    "common_mistake": "Students may confuse the $x$-value that makes the denominator zero with a $y$-intercept.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Finding intercepts of rational functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x - 3$",
+        "is_correct": true
+      },
+      {
+        "text": "$x + 3$",
+        "is_correct": false
+      },
+      {
+        "text": "$x - 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$x^2 - 3$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which expression is equivalent to $\\dfrac{x^2 - 5x + 6}{x - 2}$ for $x \\ne 2$?",
+    "answer": "$x - 3$",
+    "explanation": "Factor the numerator: $(x - 2)(x - 3)$. Cancel $x - 2$ to get $x - 3$.",
+    "common_mistake": "Students may factor incorrectly as $(x + 2)(x + 3)$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Simplifying rational expressions by factoring",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 110
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$2$",
+        "is_correct": true
+      },
+      {
+        "text": "$1$",
+        "is_correct": false
+      },
+      {
+        "text": "$0$",
+        "is_correct": false
+      },
+      {
+        "text": "$4$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "For $f(x) = \\dfrac{x + 1}{x^2 - 4}$, how many vertical asymptotes does the graph have?",
+    "answer": "$2$",
+    "explanation": "Factor denominator $x^2 - 4 = (x - 2)(x + 2)$. No common factors cancel with the numerator, so there are vertical asymptotes at $x = 2$ and $x = -2$.",
+    "common_mistake": "Students may count only one factor or include a hole that does not exist.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Counting vertical asymptotes",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 115
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x = 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = 1$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = -2$",
+        "is_correct": false
+      },
+      {
+        "text": "No solution",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Solve $\\dfrac{x}{x - 1} = 2$. Which value is a valid solution?",
+    "answer": "$x = 2$",
+    "explanation": "Multiply both sides by $x - 1$ (with $x \\ne 1$): $x = 2(x - 1)$, so $x = 2x - 2$ and $x = 2$.",
+    "common_mistake": "Students may accept $x = 1$, which is excluded from the domain.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Solving rational equations with domain restrictions",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 150
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "A reciprocal graph with vertical asymptote $x = -1$, horizontal asymptote $y = 3$, reflected across the $x$-axis",
+        "is_correct": true
+      },
+      {
+        "text": "A reciprocal graph with vertical asymptote $x = 1$, horizontal asymptote $y = -3$",
+        "is_correct": false
+      },
+      {
+        "text": "A parabola opening downward with vertex $(-1, 3)$",
+        "is_correct": false
+      },
+      {
+        "text": "A reciprocal graph with vertical asymptote $x = -1$, horizontal asymptote $y = -3$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which graph description matches $y = \\dfrac{-2}{x + 1} + 3$?",
+    "answer": "A reciprocal graph with vertical asymptote $x = -1$, horizontal asymptote $y = 3$, reflected across the $x$-axis",
+    "explanation": "The denominator $x + 1$ gives a vertical asymptote at $x = -1$. The negative coefficient reflects the graph, and adding $3$ shifts the horizontal asymptote to $y = 3$.",
+    "common_mistake": "Students may ignore the vertical translation effect on the horizontal asymptote.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Analyzing transformed reciprocal functions",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 160
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$y = \\dfrac{7}{3}$",
+        "is_correct": true
+      },
+      {
+        "text": "$y = 7$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = 0$",
+        "is_correct": false
+      },
+      {
+        "text": "$y = \\dfrac{1}{4}$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "What is the horizontal asymptote of $p(x) = \\dfrac{7x^2 + 1}{3x^2 - x + 4}$?",
+    "answer": "$y = \\dfrac{7}{3}$",
+    "explanation": "Equal degrees in numerator and denominator give a horizontal asymptote at the ratio of leading coefficients $\\frac{7}{3}$.",
+    "common_mistake": "Students may use constant terms instead of leading coefficients.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Determining horizontal asymptotes for quadratic-over-quadratic functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 100
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x - 2$",
+        "is_correct": true
+      },
+      {
+        "text": "$x + 2$",
+        "is_correct": false
+      },
+      {
+        "text": "$x - 4$",
+        "is_correct": false
+      },
+      {
+        "text": "$x^2 - 2$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "The function $f(x) = \\dfrac{x^2 - 4x + 4}{x - 2}$ simplifies to which expression for $x \\ne 2$?",
+    "answer": "$x - 2$",
+    "explanation": "Numerator factors as $(x - 2)^2$. Cancel one factor of $x - 2$ to obtain $x - 2$.",
+    "common_mistake": "Students may cancel both factors and incorrectly conclude the function is constant.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Simplifying rational expressions with repeated factors",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 90
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Multiple Choice",
+    "choices": [
+      {
+        "text": "$x = 2$ and $x = -3$",
+        "is_correct": true
+      },
+      {
+        "text": "$x = -5$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 3$ and $x = -2$",
+        "is_correct": false
+      },
+      {
+        "text": "$x = 6$",
+        "is_correct": false
+      }
+    ],
+    "question_text": "Which value of $x$ must be excluded from the domain of $g(x) = \\dfrac{x + 5}{x^2 + x - 6}$?",
+    "answer": "$x = 2$ and $x = -3$",
+    "explanation": "Factor denominator: $x^2 + x - 6 = (x + 3)(x - 2)$. Exclude $x = -3$ and $x = 2$.",
+    "common_mistake": "Students may factor incorrectly or exclude only one root.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Finding domain exclusions by factoring denominators",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 140
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Determine the $x$-coordinate of the vertical asymptote of $f(x) = \\dfrac{6}{x + 5}$.",
+    "answer": "-5",
+    "explanation": "Set the denominator equal to zero: $x + 5 = 0$, so $x = -5$.",
+    "common_mistake": "Students may answer $5$ by dropping the negative sign.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Finding vertical asymptotes",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 70
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "For $h(x) = \\dfrac{4x}{x + 2}$, determine the horizontal asymptote value $y = k$.",
+    "answer": "4",
+    "explanation": "Degrees are equal, so $k$ is the ratio of leading coefficients $\\frac{4}{1} = 4$.",
+    "common_mistake": "Students may answer $2$ from the denominator constant.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Determining horizontal asymptotes",
+    "difficulty": "Easy",
+    "estimated_time_seconds": 80
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Solve $\\dfrac{3}{x - 1} = 2$ for $x$.",
+    "answer": "2.5",
+    "explanation": "Multiply: $3 = 2(x - 1) = 2x - 2$, so $2x = 5$ and $x = 2.5$.",
+    "common_mistake": "Students may distribute incorrectly as $3 = 2x - 1$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Solving rational equations",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 120
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "For $f(x) = \\dfrac{x^2 - 9}{x - 3}$, the hole occurs at $x = 3$. Determine the $y$-coordinate of the hole.",
+    "answer": "6",
+    "explanation": "Simplify to $x + 3$ for $x \\ne 3$. The hole is at $(3, 6)$, so the $y$-coordinate is $6$.",
+    "common_mistake": "Students may answer $3$ or $0$ by confusing coordinates.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Finding coordinates of holes in rational graphs",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 130
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Solve $\\dfrac{6}{x + 1} = x + 2$. Enter the smaller valid solution for $x$.",
+    "answer": "-4",
+    "explanation": "Multiply by $x + 1$ (with $x \\ne -1$): $6 = (x + 1)(x + 2) = x^2 + 3x + 2$. Rearrange to $x^2 + 3x - 4 = 0$, or $(x + 4)(x - 1) = 0$. Both $x = 1$ and $x = -4$ satisfy the original equation; the smaller is $-4$.",
+    "common_mistake": "Students may give only the positive root or forget that $x = -1$ is excluded.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Solving rational equations leading to quadratics",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 180
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Evaluate $f(0)$ for $f(x) = \\dfrac{2x - 5}{x + 3}$. Express your answer as a decimal.",
+    "answer": "-1.667",
+    "explanation": "Substitute $x = 0$: $f(0) = \\frac{-5}{3} \\approx -1.667$.",
+    "common_mistake": "Students may invert the fraction or use $x = -3$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Evaluating rational functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 75
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Numerical Response",
+    "choices": [],
+    "question_text": "Solve $\\dfrac{x + 4}{x - 1} = 3$ for $x$.",
+    "answer": "3.5",
+    "explanation": "Cross-multiply or multiply both sides: $x + 4 = 3(x - 1) = 3x - 3$. Then $7 = 2x$ and $x = 3.5$.",
+    "common_mistake": "Students may distribute the $3$ incorrectly as $3x - 1$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Solving linear rational equations",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 115
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Written Response",
+    "choices": [],
+    "question_text": "Given $f(x) = \\dfrac{2x}{x - 3}$, determine all asymptotes, intercepts, and the domain. State whether the function has any holes.",
+    "answer": "VA: $x = 3$; HA: $y = 2$; Domain: $x \\ne 3$; x-int: $(0,0)$; y-int: $(0,0)$; no holes",
+    "explanation": "Rubric: identify vertical asymptote from denominator zero with no cancellation; horizontal asymptote from equal degrees; domain exclusion; intercepts by substitution; confirm no common factors for holes.",
+    "common_mistake": "Claiming a hole at $x = 3$ or giving the wrong horizontal asymptote.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Analyzing key characteristics of rational functions",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 300
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Written Response",
+    "choices": [],
+    "question_text": "Solve $\\dfrac{1}{x} + \\dfrac{1}{x + 2} = \\dfrac{3}{4}$. Show algebraic steps and identify any excluded values.",
+    "answer": "$x = 2$ and $x = -\\dfrac{4}{3}$",
+    "explanation": "Rubric: exclude $x \\ne 0, -2$; multiply through by $4x(x + 2)$ or use a common denominator to obtain $3x^2 - 2x - 8 = 0$; solve to get $x = 2$ and $x = -\\frac{4}{3}$; verify both in the original equation.",
+    "common_mistake": "Failing to exclude domain values or not checking solutions after clearing denominators.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF14",
+    "skill_tested": "Solving rational equations with multiple terms",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 360
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Relations and Functions",
+    "question_type": "Written Response",
+    "choices": [],
+    "question_text": "A rational function has a vertical asymptote at $x = -2$, a horizontal asymptote at $y = 1$, and passes through $(0, 0)$. Write one possible equation and justify each feature.",
+    "answer": "Example: $f(x) = \\dfrac{x}{x + 2}$",
+    "explanation": "Rubric: denominator zero at $x = -2$; equal-degree numerator and denominator with matching leading coefficients for $y = 1$; substitution confirms $(0,0)$.",
+    "common_mistake": "Using unequal degrees, which changes the horizontal asymptote away from $y = 1$.",
+    "source": "ai",
+    "topic": "Rational Functions",
+    "outcome_code": "RF13",
+    "skill_tested": "Constructing rational functions from characteristics",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 360
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "course_code": "MATH30-1",
+    "topic": "Logarithms",
+    "question_text": "Solve for x: log3(x) = 4",
+    "question_type": "multiple_choice",
+    "difficulty": "medium",
+    "source": "ai",
+    "explanation": "log3(x) = 4 means x = 3^4 = 81.",
+    "choices": [
+      { "text": "12", "is_correct": false },
+      { "text": "64", "is_correct": false },
+      { "text": "81", "is_correct": true },
+      { "text": "243", "is_correct": false }
+    ]
+  },
+  {
+    "course_code": "BIO30",
+    "topic": "Cell Biology",
+    "question_text": "What is the primary function of ribosomes?",
+    "difficulty": "easy",
+    "explanation": "Ribosomes synthesize proteins by translating mRNA.",
+    "choices": [
+      { "text": "Protein synthesis", "is_correct": true },
+      { "text": "Lipid storage", "is_correct": false },
+      { "text": "DNA replication", "is_correct": false },
+      { "text": "Waste breakdown", "is_correct": false }
+    ]
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Functions and Graphs",
+    "outcome_code": "T4",
+    "skill_tested": "Graphing Trigonometric Functions",
+    "question_type": "Numerical Response",
+    "difficulty": "Medium",
+    "estimated_time_seconds": 150,
+    "question_text": "Determine the period of y = sin(pi/4 x).",
+    "answer": "8",
+    "choices": [],
+    "explanation": "Period = 2*pi / (pi/4) = 8.",
+    "common_mistake": "Using the amplitude instead of the b parameter.",
+    "source": "ai"
+  },
+  {
+    "course_code": "MATH30-1",
+    "unit": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "outcome_code": "T5",
+    "skill_tested": "Solving Trigonometric Equations Algebraically",
+    "question_type": "Written Response",
+    "difficulty": "Hard",
+    "estimated_time_seconds": 300,
+    "question_text": "Solve 2cos^2(x) - sin(x) - 1 = 0 over 0 <= x < 2*pi. State exact values.",
+    "answer": "x = pi/6, 5pi/6, 3pi/2",
+    "choices": [],
+    "explanation": "Solution guide / rubric: substitute cos^2(x) = 1 - sin^2(x), factor the resulting quadratic (2sin(x) - 1)(sin(x) + 1) = 0, then solve each factor over the domain.",
+    "common_mistake": "Missing the second-quadrant solution 5pi/6.",
+    "source": "ai"
+  }
+]
